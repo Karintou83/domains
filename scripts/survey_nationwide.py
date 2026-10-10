@@ -34,6 +34,9 @@ ENDPOINT = "https://query.wikidata.org/sparql"
 # 連絡先は GitHub の URL のみ(公開リポジトリに個人のメールアドレスを残さないため)。
 UA = "domains-survey/0.1 (https://github.com/Karintou83/domains; read-only research script)"
 PAUSE = 3                      # 秒。連続リクエストを避ける(wdlib.sparql と同じ値)
+# 1回に問い合わせる件数。1分に1回の制限下では回数がそのまま所要時間になるので、80 より大きくして回数を減らす。
+# どれも VALUES で QID を並べるだけの軽いクエリなので、200 件でもタイムアウトしにくい。
+CHUNK = 200
 KINSEI = "Q24887524"           # 近世大名。build_data.py の position_class と同じ
 POSITION_CLASS = "Q114962596"  # 藩主職の P31。build_data.py の SPARQL と同じ
 FEMALE = "Q6581072"
@@ -71,19 +74,28 @@ def chunks(seq, n):
         yield seq[i:i + n]
 
 
+# Wikimedia が WDQS の障害対応として「1分に1回」の制限をかけることがある(429 と Retry-After で知らせてくる)。
+# 制限は回避せずに守る: 429 を一度受けたら、以後の間隔を LIMITED_PAUSE に延ばし、取り直しも1分以上空ける。
+LIMITED_PAUSE = 65
+_pause = [PAUSE]
+
+
 def sparql(query):
     url = ENDPOINT + "?" + urllib.parse.urlencode({"query": query, "format": "json"})
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    for wait in (5, 20, 60, 120):
+    for attempt in range(10):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 rows = json.load(r)["results"]["bindings"]
-            time.sleep(PAUSE)
+            time.sleep(_pause[0])
             return [{k: v["value"] for k, v in row.items()} for row in rows]
         except urllib.error.HTTPError as e:
             if e.code not in (429, 500, 502, 503, 504):
                 raise
-            print(f"  HTTP {e.code}: {wait}秒待ってリトライ")
+            if e.code == 429:
+                _pause[0] = LIMITED_PAUSE
+            wait = 70 if e.code == 429 else (5, 20, 60, 120)[min(attempt, 3)]
+            print(f"  HTTP {e.code}: {wait}秒待ってリトライ", flush=True)
             time.sleep(wait)
     raise RuntimeError("リトライ上限に達しました")
 
@@ -101,7 +113,7 @@ def cached(name, producer):
         return []
     rows = producer()
     p.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"[fetch] {name}: {len(rows)}")
+    print(f"[fetch] {name}: {len(rows)}", flush=True)
     return rows
 
 
@@ -137,7 +149,7 @@ SELECT ?item ?label ?cls ?clsLabel WHERE {{
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""))
     classes = province_classes(samples)
-    print("旧国のクラス(見本全員に共通する P31):", classes)
+    print("旧国のクラス(見本に付いている P31):", classes, flush=True)
     if not classes:
         sys.exit("旧国のクラスを決められません。province_samples.json を確認してください")
     cls_vals = values(classes)
@@ -153,7 +165,7 @@ SELECT DISTINCT ?prov ?provLabel WHERE {{
     #   seat:   本拠地(P159、城・陣屋)の P131 を上にたどって旧国に届く
     def prov_rows(kind, pattern):
         rows = []
-        for ch in chunks(domains, 80):
+        for ch in chunks(domains, CHUNK):
             rows += sparql(f"""
 SELECT ?domain ?prop ?prov WHERE {{
   VALUES ?domain {{ {values(ch)} }} VALUES ?c {{ {cls_vals} }}
@@ -172,14 +184,14 @@ SELECT ?domain ?prop ?prov WHERE {{
   ?domain wdt:P159 ?seat . ?seat wdt:P131/wdt:P131* ?prov . BIND("P159/P131+" AS ?prop)"""))
 
     # P131 の直接の値と、その種類(都道府県・市町村など)。旧国でない値の扱いを考える材料。
-    cached("domain_p131.json", lambda: [r for ch in chunks(domains, 80) for r in sparql(f"""
+    cached("domain_p131.json", lambda: [r for ch in chunks(domains, CHUNK) for r in sparql(f"""
 SELECT ?domain ?loc ?locLabel ?type ?typeLabel WHERE {{
   VALUES ?domain {{ {values(ch)} }}
   ?domain wdt:P131 ?loc . OPTIONAL {{ ?loc wdt:P31 ?type }}
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}""")])
     # 本拠地(P159)・行政中心地(P36)とその座標。旧国が決まらない藩を座標や所在市町村で補う案の材料。
-    cached("domain_seats.json", lambda: [r for ch in chunks(domains, 80) for r in sparql(f"""
+    cached("domain_seats.json", lambda: [r for ch in chunks(domains, CHUNK) for r in sparql(f"""
 SELECT ?domain ?prop ?seat ?seatLabel ?coord ?loc ?locLabel WHERE {{
   VALUES ?domain {{ {values(ch)} }} VALUES ?p {{ wdt:P159 wdt:P36 }}
   ?domain ?p ?seat . BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop)
@@ -196,7 +208,7 @@ SELECT ?domain ?prop ?seat ?seatLabel ?coord ?loc ?locLabel WHERE {{
             if not todo:
                 break
             queried |= set(todo)
-            gen_rows = [r for ch in chunks(todo, 80) for r in sparql(f"""
+            gen_rows = [r for ch in chunks(todo, CHUNK) for r in sparql(f"""
 SELECT ?person ?father ?via WHERE {{
   VALUES ?person {{ {values(ch)} }}
   {{ ?person wdt:P22 ?father . BIND("P22" AS ?via) }}
@@ -206,25 +218,16 @@ SELECT ?person ?father ?via WHERE {{
                 r["gen"] = g + 1
             rows += gen_rows
             frontier = {qid(r["father"]) for r in gen_rows}
-            print(f"  ancestors gen{g + 1}: queried={len(todo)} rows={len(gen_rows)}")
+            print(f"  ancestors gen{g + 1}: queried={len(todo)} rows={len(gen_rows)}", flush=True)
         return rows
     cached("ancestors.json", ancestors)
 
 
 def province_classes(samples):
-    by_item = defaultdict(set)
-    for r in samples:
-        by_item[r["label"]].add(qid(r["cls"]))
-    found = [s for s in PROVINCE_SAMPLES if by_item.get(s)]
-    if not found:
-        return []
-    # 古代の国(陸奥・出羽…)と明治の国(陸前・渡島…)でクラスが違う可能性があるので、
-    # 共通部分が空なら、2つ以上の見本に付いているクラスを採る。
-    common = set.intersection(*(by_item[s] for s in found))
-    if common:
-        return sorted(common)
-    cnt = Counter(c for s in found for c in by_item[s])
-    return sorted(c for c, n in cnt.items() if n >= 2)
+    """見本の旧国に付いている P31 をすべて採る。
+    共通部分だけを採ると漏れが出る: 実データでは令制国は Q860290 だが、明治の北海道の国(渡島国など)は
+    Q1541735「北海道の旧国名」で表されていて、共通するクラスが無いため。"""
+    return sorted({qid(r["cls"]) for r in samples})
 
 
 # ---------------------------------------------------------------------------- 集計
