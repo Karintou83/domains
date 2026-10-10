@@ -53,16 +53,21 @@ _limited = [False]
 
 def _get(url, timeout=120):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    for attempt in range(12):
+    for attempt in range(20):
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             if e.code not in (429, 500, 502, 503, 504):
                 raise
+            wait = (5, 20, 60, 120)[min(attempt, 3)]
             if e.code == 429:
+                # サーバーが Retry-After で示した秒数を守る(最低70秒、長すぎる値は20分で打ち切って取り直す)。
                 _limited[0] = True
-            wait = 70 if e.code == 429 else (5, 20, 60, 120)[min(attempt, 3)]
+                try:
+                    wait = min(max(70, int(e.headers.get("Retry-After") or 0)), 1200)
+                except ValueError:
+                    wait = 70
             print(f"  HTTP {e.code}: {wait}秒待ってリトライ", flush=True)
             time.sleep(wait)
     raise RuntimeError("リトライ上限に達しました: " + url[:120])

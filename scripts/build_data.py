@@ -173,11 +173,12 @@ ANCESTOR_GENS = int(CONFIG.get("ancestor_generations", 5))
 
 
 def q_p39_extra(position):
-    """extra_positions(征夷大将軍)の在任。列は Q_P39 と同じにして、build で同じように扱えるようにする。"""
+    """extra_positions(征夷大将軍)の在任。列は Q_P39 と同じにして、build で同じように扱えるようにする。
+    役職は ps:P39 に直接書く(BIND で先に ?pos を決めると、WDQS がすべての P39 声明を走査して重くなるため)。"""
     return f"""
 SELECT ?st ?person ?personLabel ?pos ?start ?end ?prev ?next ?clan ?clanLabel WHERE {{
+  ?person p:P39 ?st . ?st ps:P39 wd:{position} .
   BIND(wd:{position} AS ?pos)
-  ?person p:P39 ?st . ?st ps:P39 ?pos .
   OPTIONAL {{ ?st pq:P580 ?start }}  OPTIONAL {{ ?st pq:P582 ?end }}
   OPTIONAL {{ ?st pq:P1365 ?prev }}  OPTIONAL {{ ?st pq:P1366 ?next }}
   OPTIONAL {{ ?person wdt:P53 ?clan }}
