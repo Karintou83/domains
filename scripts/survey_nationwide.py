@@ -9,13 +9,13 @@
   2. 藩項目に旧国が入っているか。どのプロパティで、何割の藩か。値が都道府県・市町村の場合の内訳
   3. 旧国が決まらない藩の一覧(補い方を考える材料: P131 の値、座標)
   4. 祖先8世代を含めたときの人数 → lords.json などのサイズの見積もり
-  5. 親藩の候補: 徳川家康の子孫(実父の系統 / 母を経由する系統を区別)が藩主になった藩
+  (親藩の候補の洗い出しは、方針を保留にしたため外した。必要になったら git の履歴から戻せる)
 
 作りの方針(touhoku-domains の explore_*.py と同じ):
   - 標準ライブラリだけ。1クエリごとに待つ(PAUSE)。人物・藩のリストは分割(chunks)して問い合わせる。
   - 生の結果は data/raw/survey/ に保存し、あるファイルは再取得しない(問い合わせを増やさないため)。
-  - QID を記憶で決め打ちしない。旧国のクラスは「陸奥国」などのラベルから実データで求め、
-    徳川家康の QID もラベルで引いて確かめる(記憶違いがそのまま調査結果の誤りになるため)。
+  - QID を記憶で決め打ちしない。旧国のクラスは「陸奥国」などのラベルから実データで求める
+    (記憶違いがそのまま調査結果の誤りになるため)。
   - Wikidata は読むだけ。
 """
 import argparse
@@ -38,13 +38,12 @@ KINSEI = "Q24887524"           # 近世大名。build_data.py の position_class
 POSITION_CLASS = "Q114962596"  # 藩主職の P31。build_data.py の SPARQL と同じ
 FEMALE = "Q6581072"
 ANCESTOR_GENS = 8
-DESCENT_GENS = 14              # 家康(1543生)から幕末まで実際は 10〜11 世代。余裕を見て 14 で打ち切る
 
 # 旧国クラスを求めるための見本。ラベルで引き、全員に共通する P31 を旧国のクラスとみなす。
 # 明治の分割後の国(陸前・羽前・渡島)も入れて、同じクラスで表されているかも確かめる。
 PROVINCE_SAMPLES = ["陸奥国", "出羽国", "武蔵国", "薩摩国", "山城国", "陸前国", "羽前国", "渡島国"]
 
-# ---- 地方の区分(案)。フェーズ0の報告で地方別の数字を出すためだけに使う。----
+# ---- 地方の区分(ユーザー確認済み: 伊勢・伊賀・志摩は近畿、若狭は北陸、対馬・壱岐は九州)。フェーズ0の報告で地方別の数字を出すためだけに使う。----
 # 確定したら、フェーズ1で config.json の province_to_region(旧国の QID → 地方)に移す。
 # ここでラベルを使うのは、まだ旧国の QID を確かめていないため。
 REGION_DRAFT = {
@@ -211,35 +210,6 @@ SELECT ?person ?father ?via WHERE {{
         return rows
     cached("ancestors.json", ancestors)
 
-    # 徳川家康: ラベルで引いて、人間(Q5)であることを確かめる。
-    ie = cached("ieyasu.json", lambda: sparql("""
-SELECT ?item ?birth WHERE { ?item rdfs:label "徳川家康"@ja ; wdt:P31 wd:Q5 . OPTIONAL { ?item wdt:P569 ?birth } }"""))
-    if len(ie) < 1:
-        sys.exit("徳川家康の項目が見つかりません")
-    root = qid(ie[0]["item"])
-
-    # 家康の子孫を世代ごとに下へたどる。P40(親→子)と、子の P22(父)・P25(母)の両方から拾う。
-    # 性別も取り、「実父の系統だけで届く」か「母(娘)を経由して届く」かを区別できるようにする
-    # (鷹司松平家のように母方でつながる家を、候補として落とさず、かつ区別して示すため)。
-    def descendants():
-        rows, seen, frontier = [], {root}, [root]
-        for g in range(DESCENT_GENS):
-            if not frontier:
-                break
-            gen_rows = [r for ch in chunks(frontier, 80) for r in sparql(f"""
-SELECT ?parent ?child ?g WHERE {{
-  VALUES ?parent {{ {values(ch)} }}
-  {{ ?parent wdt:P40 ?child }} UNION {{ ?child wdt:P22 ?parent }} UNION {{ ?child wdt:P25 ?parent }}
-  OPTIONAL {{ ?child wdt:P21 ?g }}
-}}""")]
-            rows += gen_rows
-            nxt = {qid(r["child"]) for r in gen_rows} - seen
-            seen |= nxt
-            frontier = sorted(nxt)
-            print(f"  descendants gen{g + 1}: new={len(nxt)}")
-        return rows
-    cached("ieyasu_descendants.json", descendants)
-
 
 def province_classes(samples):
     by_item = defaultdict(set)
@@ -372,55 +342,11 @@ def analyze():
         "tenures_json_MB": round(report["totals"]["tenures"] * 255 / 1e6, 2),
         "domains_json_MB": round(len(domain_name) * 352 / 1e6, 2)}
 
-    # --- 5. 親藩の候補(家康の子孫が藩主になった藩)。確定はユーザーが config で行う。
-    ie = load("ieyasu.json")
-    root = qid(ie[0]["item"]) if ie else None
-    desc = load("ieyasu_descendants.json")
-    gender = {}
-    kids = defaultdict(set)
-    for r in desc:
-        p, c = qid(r["parent"]), qid(r["child"])
-        kids[p].add(c)
-        if r.get("g"):
-            gender[c] = qid(r["g"])
-    male_line, any_line = set(), set()
-    if root:
-        # 実父の系統: 女性を親として通らない。母方を含む系統: 誰でも通る。
-        stack = [root]
-        male_line.add(root)
-        while stack:
-            p = stack.pop()
-            if gender.get(p) == FEMALE:
-                continue
-            for c in kids.get(p, ()):
-                if c not in male_line:
-                    male_line.add(c)
-                    stack.append(c)
-        stack = [root]
-        any_line.add(root)
-        while stack:
-            p = stack.pop()
-            for c in kids.get(p, ()):
-                if c not in any_line:
-                    any_line.add(c)
-                    stack.append(c)
-    cands = []
-    for d in domain_name:
-        lords = person_by_dom.get(d, set())
-        m, a = lords & male_line, lords & any_line
-        if a:
-            cands.append({"id": d, "name": domain_name[d], "province": first_prov(d), "lords": len(lords),
-                          "male_line_lords": len(m), "via_female_only_lords": len(a - m),
-                          "share": round(len(a) / len(lords), 2)})
-    cands.sort(key=lambda c: (-c["share"], c["name"] or ""))
-    report["shinpan_candidates"] = {"ieyasu": root, "descendants_male_line": len(male_line),
-                                    "descendants_any_line": len(any_line), "domains": cands}
-
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(json.dumps({k: v for k, v in report.items() if k not in ("unresolved", "shinpan_candidates", "by_province")},
+    print(json.dumps({k: v for k, v in report.items() if k not in ("unresolved", "by_province")},
                      ensure_ascii=False, indent=1))
-    print(f"旧国不明: {report['unresolved']['count']} 藩 / 親藩候補: {len(cands)} 藩 → 詳細は {OUT / 'report.json'}")
+    print(f"旧国不明: {report['unresolved']['count']} 藩 → 詳細は {OUT / 'report.json'}")
 
 
 if __name__ == "__main__":
