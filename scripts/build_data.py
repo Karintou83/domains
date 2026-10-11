@@ -780,6 +780,34 @@ def build():
             warn("info", "p22_without_p40", parent, f"{labels_of.get(child)} の実父 {labels_of.get(parent)} 側に P40 がありません")
         relations.append({"id": f"blood:{parent}:{child}", "source": parent, "target": child, "type": "blood",
                           "flags": flags})
+    # 実父子の循環(A の父が B、B の父が A など)は Wikidata 側の誤りで、どちらが正しいか判断できない。
+    # 階層レイアウト(dagre)は循環を扱えないので、循環をつくる線はすべて描かず、関わる人物を警告に残す(隠さない方針)。
+    kids = defaultdict(list)
+    for e in relations:
+        kids[e["source"]].append(e["target"])
+    color, cyc_edges = {}, set()
+
+    def visit(u, stack):
+        color[u] = 1
+        stack.append(u)
+        for v in kids.get(u, ()):
+            if color.get(v) == 1:
+                path = stack[stack.index(v):] + [v]
+                cyc_edges.update(zip(path, path[1:]))
+            elif v not in color:
+                visit(v, stack)
+        stack.pop()
+        color[u] = 2
+    sys.setrecursionlimit(max(10000, sys.getrecursionlimit()))
+    for u in sorted(kids):
+        if u not in color:
+            visit(u, [])
+    if cyc_edges:
+        relations = [e for e in relations if (e["source"], e["target"]) not in cyc_edges]
+        for a in sorted({x for ed in cyc_edges for x in ed}):
+            warn("warn", "father_cycle", a, f"{labels_of.get(a)}: 実父(P22/P40)が循環しています("
+                 + "、".join(f"{labels_of.get(x)}→{labels_of.get(y)}" for x, y in sorted(cyc_edges) if a in (x, y))
+                 + ")。Wikidata 側の誤りと考えられるため、この線は描いていません")
     blood_parents = defaultdict(list)
     for e in relations:
         blood_parents[e["target"]].append(e["source"])
