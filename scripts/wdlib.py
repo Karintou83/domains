@@ -3,6 +3,7 @@
 ここに共通化する理由: SPARQL のリトライ・User-Agent・キャッシュの規約を1か所に集めておくと、
 「節度あるリクエスト数」というルールを全スクリプトで同じように守れるため。
 """
+import http.client
 import json
 import re
 import time
@@ -57,6 +58,13 @@ def _get(url, timeout=120):
         try:
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.load(r)
+        except (http.client.IncompleteRead, ConnectionError, TimeoutError) as e:
+            # WDQS はクエリが時間切れになると、200 を返したあとで応答の途中で接続を切ることがある(IncompleteRead)。
+            # 回線の一時的な切断も同じ扱いにして、少し待って取り直す。何度も続くなら、クエリの分割を細かくする。
+            wait = (5, 20, 60, 120)[min(attempt, 3)]
+            print(f"  {type(e).__name__}(応答が途中で切れました): {wait}秒待ってリトライ", flush=True)
+            time.sleep(wait)
+            continue
         except urllib.error.HTTPError as e:
             if e.code not in (429, 500, 502, 503, 504):
                 raise
@@ -69,6 +77,11 @@ def _get(url, timeout=120):
                 except ValueError:
                     wait = 70
             print(f"  HTTP {e.code}: {wait}秒待ってリトライ", flush=True)
+            time.sleep(wait)
+        except urllib.error.URLError as e:
+            # HTTP の応答が無い接続の失敗(名前解決・接続拒否など)。一時的なことが多いので取り直す。
+            wait = (5, 20, 60, 120)[min(attempt, 3)]
+            print(f"  接続エラー({e.reason}): {wait}秒待ってリトライ", flush=True)
             time.sleep(wait)
     raise RuntimeError("リトライ上限に達しました: " + url[:120])
 

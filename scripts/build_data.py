@@ -194,21 +194,33 @@ def extra_row_ok(r):
     return bool(e) and y is not None and e.get("year_from", -9999) <= y <= e.get("year_to", 9999)
 
 
-def q_domain_provinces(ids):
-    """藩 → 旧国。3通りの経路を1回で取り、kind で区別する(調査 survey_nationwide.py と同じ経路)。
-      direct: 藩項目の文の値が旧国(実データでは P131 がほとんど。P1001・P361 もある)
-      p131:   藩項目の P131 を上にたどって旧国に届く
-      seat:   本拠地(P159、城・陣屋)の P131 を上にたどって旧国に届く。旧国が複数ある藩で「城のある国」を選ぶのに使う"""
+# 藩 → 旧国。3通りの経路を別々のクエリで取り、kind で区別する(調査 survey_nationwide.py と同じ経路)。
+#   direct: 藩項目の文の値が旧国(実データでは P131 がほとんど。P1001・P361 もある)
+#   p131:   藩項目の P131 を上にたどって旧国に届く
+#   seat:   本拠地(P159、城・陣屋)の P131 を上にたどって旧国に届く。旧国が複数ある藩で「城のある国」を選ぶのに使う
+# 1つのクエリに UNION でまとめると、P131 をたどる部分が重く WDQS の時間切れ(応答の途中切断)になったため分けた。
+PROVINCE_PATTERNS = {
+    "direct": '''?domain ?p ?prov . FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
+  BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop)''',
+    "p131": '''?domain wdt:P131/wdt:P131* ?prov . BIND("P131+" AS ?prop)''',
+    "seat": '''?domain wdt:P159 ?seat . ?seat wdt:P131/wdt:P131* ?prov . BIND("P159/P131+" AS ?prop)''',
+}
+
+
+def domain_provinces(ids):
     cls = " ".join(f"wd:{c}" for c in PROVINCE_CLASSES)
-    return f"""
-SELECT ?domain ?kind ?prop ?prov WHERE {{
+    rows = []
+    for kind, pattern in PROVINCE_PATTERNS.items():
+        part = sparql(f"""
+SELECT ?domain ?prop ?prov WHERE {{
   VALUES ?domain {{ {" ".join(f"wd:{i}" for i in ids)} }} VALUES ?c {{ {cls} }}
-  {{ ?domain ?p ?prov . FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
-     BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop) BIND("direct" AS ?kind) }}
-  UNION {{ ?domain wdt:P131/wdt:P131* ?prov . BIND("P131+" AS ?prop) BIND("p131" AS ?kind) }}
-  UNION {{ ?domain wdt:P159 ?seat . ?seat wdt:P131/wdt:P131* ?prov . BIND("P159/P131+" AS ?prop) BIND("seat" AS ?kind) }}
+  {pattern}
   ?prov wdt:P31 ?c .
-}}"""
+}}""")
+        for r in part:
+            r["kind"] = kind
+        rows += part
+    return rows
 
 
 def q_coords(ids):
@@ -239,12 +251,13 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
   VALUES ?cls {{ {" ".join(f"wd:{c}" for c in PROVINCE_CLASSES)} }} ?prov wdt:P31 ?cls .
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""))
-    cached_by_id("domain_provinces.json", domains, lambda ch: sparql(q_domain_provinces(ch)), 200, key="domain")
+    cached_by_id("domain_provinces.json", domains, domain_provinces, 100, key="domain")
     seats = sorted({v["seat"] for v in CONFIG.get("seat_overrides", {}).values()})
     cached_by_id("seat_overrides.json", seats, lambda ch: sparql(q_coords(ch)), 200, key="item")
 
+    # 分割の大きさ(何件ずつ問い合わせるか)は touhoku-domains と同じ。大きくすると時間切れ(応答の途中切断)になりやすい。
     # 親族(実父・子・養子関係)。人物の QID ごとにキャッシュする(cached_by_id の説明を参照)。
-    fam = cached_by_id("family.json", persons, lambda ch: sparql(q_family(ch)), 100, key="person")
+    fam = cached_by_id("family.json", persons, lambda ch: sparql(q_family(ch)), 60, key="person")
 
     # 実父を ANCESTOR_GENS 世代さかのぼる(養子は無視)。世代ごとに「まだ父を問い合わせていない人」だけを問い合わせる。
     # 問い合わせ済みかどうかは ancestors.json の done に人物ごとに控えるので、藩主が増えたときや
@@ -253,7 +266,7 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
     for g in range(ANCESTOR_GENS):
         if not frontier:
             break
-        rows = cached_by_id("ancestors.json", frontier, lambda ch: sparql(q_parents(ch)), 200, key="person")
+        rows = cached_by_id("ancestors.json", frontier, lambda ch: sparql(q_parents(ch)), 100, key="person")
         anc += rows
         frontier = {qid(r["father"]) for r in rows} - seen
         seen |= frontier
@@ -261,8 +274,8 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
     fathers = sorted({qid(r["other"]) for r in fam if r["kind"] == "P22"} | {qid(r["father"]) for r in anc})
     outside = [f for f in fathers if f not in set(persons)]
     meta_ids = sorted(set(persons) | set(fathers) | set(domains) | {e["domain"] for e in EXTRA_POSITIONS.values()})
-    cached_by_id("meta.json", meta_ids, lambda ch: sparql(q_meta(ch)), 150, key="item")
-    cached_by_id("outside_children.json", outside, lambda ch: sparql(q_children(ch)), 150, key="parent")
+    cached_by_id("meta.json", meta_ids, lambda ch: sparql(q_meta(ch)), 80, key="item")
+    cached_by_id("outside_children.json", outside, lambda ch: sparql(q_children(ch)), 60, key="parent")
 
     rels = sorted({qid(r["rel"]) for r in fam if r["kind"] == "P1038" and r.get("rel")})
 
@@ -279,8 +292,8 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
     # ここで作者とライセンスを取得して JSON に残す。
     people = sorted(set(persons) | set(fathers))
     # 性別(P21): 「実父」として拾った人物に母が混ざっていないかを確かめるため(P40 は母の項目にもある)。
-    cached_by_id("gender.json", people, lambda ch: sparql(q_gender(ch)), 300, key="item")
-    imgs = cached_by_id("images.json", people, lambda ch: sparql(q_images(ch)), 200, key="item")
+    cached_by_id("gender.json", people, lambda ch: sparql(q_gender(ch)), 150, key="item")
+    imgs = cached_by_id("images.json", people, lambda ch: sparql(q_images(ch)), 80, key="item")
     files = sorted({commons_file_name(r["img"]) for r in imgs})
 
     def commons_meta(ch):
