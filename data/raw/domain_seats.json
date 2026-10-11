@@ -1,0 +1,1199 @@
+[
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067720",
+  "seat": "http://www.wikidata.org/entity/Q17139",
+  "coord": "Point(140.102583333 39.719888888)",
+  "seatLabel": "秋田市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1062072",
+  "seat": "http://www.wikidata.org/entity/Q11751",
+  "coord": "Point(136.906388888 35.181388888)",
+  "seatLabel": "名古屋市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1062072",
+  "seat": "http://www.wikidata.org/entity/Q11751",
+  "coord": "Point(136.90641 35.18147)",
+  "seatLabel": "名古屋市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q839406",
+  "seat": "http://www.wikidata.org/entity/Q26406",
+  "coord": "Point(134.940277777 34.682777777)",
+  "seatLabel": "明石市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q839406",
+  "seat": "http://www.wikidata.org/entity/Q26406",
+  "coord": "Point(134.997222222 34.643138888)",
+  "seatLabel": "明石市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q208766",
+  "seat": "http://www.wikidata.org/entity/Q26600",
+  "coord": "Point(130.401722222 33.590138888)",
+  "seatLabel": "福岡市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1062182",
+  "seat": "http://www.wikidata.org/entity/Q46747",
+  "coord": "Point(140.869416666 38.268222222)",
+  "seatLabel": "仙台市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1146904",
+  "seat": "http://www.wikidata.org/entity/Q204249",
+  "coord": "Point(140.47125 36.365833333)",
+  "seatLabel": "水戸市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909294",
+  "seat": "http://www.wikidata.org/entity/Q161176",
+  "coord": "Point(140.474722222 37.760805555)",
+  "seatLabel": "福島市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q7884927",
+  "seat": "http://www.wikidata.org/entity/Q191914",
+  "coord": "Point(141.488388888 40.512277777)",
+  "seatLabel": "八戸市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q2975995",
+  "seat": "http://www.wikidata.org/entity/Q209766",
+  "coord": "Point(130.300833333 33.2635)",
+  "seatLabel": "佐賀市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q908769",
+  "seat": "http://www.wikidata.org/entity/Q205526",
+  "coord": "Point(140.339611111 38.255416666)",
+  "seatLabel": "山形市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1017072",
+  "seat": "http://www.wikidata.org/entity/Q207321",
+  "coord": "Point(133.048527777 35.468111111)",
+  "seatLabel": "松江市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q903555",
+  "seat": "http://www.wikidata.org/entity/Q194087",
+  "coord": "Point(140.463833333 40.603111111)",
+  "seatLabel": "弘前市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1194248",
+  "seat": "http://www.wikidata.org/entity/Q199889",
+  "coord": "Point(130.707861111 32.803)",
+  "seatLabel": "熊本市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1042087",
+  "seat": "http://www.wikidata.org/entity/Q200022",
+  "coord": "Point(132.765638888 33.839166666)",
+  "seatLabel": "松山市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1042087",
+  "seat": "http://www.wikidata.org/entity/Q200022",
+  "coord": "Point(132.76574 33.83916)",
+  "seatLabel": "松山市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q908854",
+  "seat": "http://www.wikidata.org/entity/Q200077",
+  "coord": "Point(141.1545 39.702083333)",
+  "seatLabel": "盛岡市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q908854",
+  "seat": "http://www.wikidata.org/entity/Q200077",
+  "coord": "Point(141.26915 39.74546)",
+  "seatLabel": "盛岡市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1036915",
+  "seat": "http://www.wikidata.org/entity/Q200707",
+  "coord": "Point(134.046611111 34.342805555)",
+  "seatLabel": "高松市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1069187",
+  "seat": "http://www.wikidata.org/entity/Q200747",
+  "coord": "Point(135.17075 34.230361111)",
+  "seatLabel": "和歌山市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863486",
+  "seat": "http://www.wikidata.org/entity/Q201613",
+  "coord": "Point(139.063444444 36.3895)",
+  "seatLabel": "前橋市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q903537",
+  "seat": "http://www.wikidata.org/entity/Q201618",
+  "coord": "Point(136.219583333 36.064055555)",
+  "seatLabel": "福井市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q4389944",
+  "seat": "http://www.wikidata.org/entity/Q237699",
+  "coord": "Point(139.92975 37.494833333)",
+  "seatLabel": "会津若松市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1037917",
+  "seat": "http://www.wikidata.org/entity/Q385779",
+  "coord": "Point(140.378444444 38.362111111)",
+  "seatLabel": "天童市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q426826",
+  "seat": "http://www.wikidata.org/entity/Q320934",
+  "coord": "Point(130.508333333 33.31925)",
+  "seatLabel": "久留米市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034453",
+  "seat": "http://www.wikidata.org/entity/Q328601",
+  "coord": "Point(129.486944444 33.315833333)",
+  "seatLabel": "平戸市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034453",
+  "seat": "http://www.wikidata.org/entity/Q328601",
+  "coord": "Point(129.553722222 33.368055555)",
+  "seatLabel": "平戸市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q908992",
+  "seat": "http://www.wikidata.org/entity/Q390817",
+  "coord": "Point(141.126583333 38.934722222)",
+  "seatLabel": "一関市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1062196",
+  "seat": "http://www.wikidata.org/entity/Q424813",
+  "coord": "Point(134.390333333 34.754972222)",
+  "seatLabel": "赤穂市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034439",
+  "seat": "http://www.wikidata.org/entity/Q432055",
+  "coord": "Point(132.139166666 34.828055555)",
+  "seatLabel": "浜田市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034439",
+  "seat": "http://www.wikidata.org/entity/Q432055",
+  "coord": "Point(132.079833333 34.899222222)",
+  "seatLabel": "浜田市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909548",
+  "seat": "http://www.wikidata.org/entity/Q461020",
+  "coord": "Point(132.997777777 34.066166666)",
+  "seatLabel": "今治市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1140943",
+  "seat": "http://www.wikidata.org/entity/Q516373",
+  "coord": "Point(130.875194444 33.883416666)",
+  "seatLabel": "小倉市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863262",
+  "seat": "http://www.wikidata.org/entity/Q518203",
+  "coord": "Point(140.870166666 38.104277777)",
+  "seatLabel": "岩沼市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q2887780",
+  "seat": "http://www.wikidata.org/entity/Q496472",
+  "coord": "Point(136.683666666 35.062194444)",
+  "seatLabel": "桑名市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q910993",
+  "seat": "http://www.wikidata.org/entity/Q498011",
+  "coord": "Point(140.223944444 35.723472222)",
+  "seatLabel": "佐倉市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034574",
+  "seat": "http://www.wikidata.org/entity/Q585630",
+  "coord": "Point(130.405805555 33.163055555)",
+  "seatLabel": "柳川市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q2212226",
+  "seat": "http://www.wikidata.org/entity/Q633945",
+  "coord": "Point(133.181166666 33.919555555)",
+  "seatLabel": "西条市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034464",
+  "seat": "http://www.wikidata.org/entity/Q684494",
+  "coord": "Point(130.098583333 33.103833333)",
+  "seatLabel": "鹿島市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909007",
+  "seat": "http://www.wikidata.org/entity/Q685491",
+  "coord": "Point(140.431166666 37.584861111)",
+  "seatLabel": "二本松市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067555",
+  "seat": "http://www.wikidata.org/entity/Q750587",
+  "coord": "Point(140.210916666 37.126305555)",
+  "seatLabel": "白河市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1037948",
+  "seat": "http://www.wikidata.org/entity/Q734378",
+  "coord": "Point(140.116666666 37.922222222)",
+  "seatLabel": "米沢市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q847303",
+  "seat": "http://www.wikidata.org/entity/Q734416",
+  "coord": "Point(139.808333333 38.585)",
+  "seatLabel": "鶴岡市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q847303",
+  "seat": "http://www.wikidata.org/entity/Q734416",
+  "coord": "Point(139.826666666 38.727222222)",
+  "seatLabel": "鶴岡市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q743925",
+  "seat": "http://www.wikidata.org/entity/Q738275",
+  "coord": "Point(129.96825 33.450083333)",
+  "seatLabel": "唐津市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10856411",
+  "seat": "http://www.wikidata.org/entity/Q772103",
+  "coord": "Point(140.189083333 38.00275)",
+  "seatLabel": "高畠町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192230",
+  "seat": "http://www.wikidata.org/entity/Q845792",
+  "coord": "Point(131.80525 33.126111111)",
+  "seatLabel": "臼杵市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863371",
+  "seat": "http://www.wikidata.org/entity/Q847546",
+  "coord": "Point(131.776111111 32.886111111)",
+  "seatLabel": "佐伯市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863371",
+  "seat": "http://www.wikidata.org/entity/Q847546",
+  "coord": "Point(131.9 32.959722222)",
+  "seatLabel": "佐伯市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067706",
+  "seat": "http://www.wikidata.org/entity/Q847594",
+  "coord": "Point(130.37025 32.788138888)",
+  "seatLabel": "島原市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034474",
+  "seat": "http://www.wikidata.org/entity/Q850359",
+  "coord": "Point(131.616138888 33.417)",
+  "seatLabel": "杵築市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192275",
+  "seat": "http://www.wikidata.org/entity/Q850508",
+  "coord": "Point(131.397777777 32.973611111)",
+  "seatLabel": "竹田市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863441",
+  "seat": "http://www.wikidata.org/entity/Q653389",
+  "coord": "Point(131.664888888 32.582277777)",
+  "seatLabel": "延岡市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q847265",
+  "seat": "http://www.wikidata.org/entity/Q840603",
+  "coord": "Point(140.301638888 38.765027777)",
+  "seatLabel": "新庄市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1058224",
+  "seat": "http://www.wikidata.org/entity/Q841125",
+  "coord": "Point(134.004472222 35.069111111)",
+  "seatLabel": "津山市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034450",
+  "seat": "http://www.wikidata.org/entity/Q819658",
+  "coord": "Point(140.287222222 36.190833333)",
+  "seatLabel": "石岡市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q5369221",
+  "seat": "http://www.wikidata.org/entity/Q857208",
+  "coord": "Point(137.862666666 37.039027777)",
+  "seatLabel": "糸魚川市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863417",
+  "seat": "http://www.wikidata.org/entity/Q857281",
+  "coord": "Point(131.446972222 33.556222222)",
+  "seatLabel": "豊後高田市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1893606",
+  "seat": "http://www.wikidata.org/entity/Q861221",
+  "coord": "Point(131.188277777 33.598305555)",
+  "seatLabel": "中津市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034413",
+  "seat": "http://www.wikidata.org/entity/Q861262",
+  "coord": "Point(130.659777777 32.688)",
+  "seatLabel": "宇土市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034455",
+  "seat": "http://www.wikidata.org/entity/Q861292",
+  "coord": "Point(130.762472222 32.210027777)",
+  "seatLabel": "人吉市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q12162070",
+  "seat": "http://www.wikidata.org/entity/Q861296",
+  "coord": "Point(130.729666666 33.744138888)",
+  "seatLabel": "直方市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034399",
+  "seat": "http://www.wikidata.org/entity/Q877227",
+  "coord": "Point(130.216805555 33.273666666)",
+  "seatLabel": "小城市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863530",
+  "seat": "http://www.wikidata.org/entity/Q994765",
+  "coord": "Point(138.988944444 36.254166666)",
+  "seatLabel": "吉井町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192267",
+  "seat": "http://www.wikidata.org/entity/Q1184795",
+  "coord": "Point(131.532361111 33.369416666)",
+  "seatLabel": "日出町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034504",
+  "seat": "http://www.wikidata.org/entity/Q1184816",
+  "coord": "Point(131.1515 33.283194444)",
+  "seatLabel": "玖珠町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909259",
+  "seat": "http://www.wikidata.org/entity/Q1155858",
+  "coord": "Point(140.379583333 37.029861111)",
+  "seatLabel": "棚倉町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034437",
+  "seat": "http://www.wikidata.org/entity/Q1156366",
+  "coord": "Point(128.840805555 32.695555555)",
+  "seatLabel": "福江市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10855332",
+  "seat": "http://www.wikidata.org/entity/Q1205184",
+  "coord": "Point(140.520722222 37.854666666)",
+  "seatLabel": "桑折町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863276",
+  "seat": "http://www.wikidata.org/entity/Q1205700",
+  "coord": "Point(140.412861111 37.080972222)",
+  "seatLabel": "浅川町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034541",
+  "seat": "http://www.wikidata.org/entity/Q1206737",
+  "coord": "Point(131.503333333 32.128)",
+  "seatLabel": "高鍋町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q843911",
+  "seat": "http://www.wikidata.org/entity/Q1348269",
+  "coord": "Point(140.493222222 37.440555555)",
+  "seatLabel": "三春町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q7884520",
+  "seat": "http://www.wikidata.org/entity/Q1349448",
+  "coord": "Point(141.157944444 40.744694444)",
+  "seatLabel": "七戸町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q18669712",
+  "seat": "http://www.wikidata.org/entity/Q1374364",
+  "coord": "Point(140.110333333 41.429944444)",
+  "seatLabel": "松前町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q12681092",
+  "seat": "http://www.wikidata.org/entity/Q5770731",
+  "coord": "Point(133.172444444 35.365277777)",
+  "seatLabel": "広瀬町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863527",
+  "seat": "http://www.wikidata.org/entity/Q6788186",
+  "coord": "Point(136.298833333 36.09225)",
+  "seatLabel": "松岡町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863544",
+  "seat": "http://www.wikidata.org/entity/Q8048219",
+  "coord": "Point(140.601361111 37.845527777)",
+  "seatLabel": "梁川町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10855954",
+  "seat": "http://www.wikidata.org/entity/Q6958641",
+  "coord": "Point(136.698777777 35.088138888)",
+  "seatLabel": "長島町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1038319",
+  "seat": "http://www.wikidata.org/entity/Q8192325",
+  "coord": "Point(140.048833333 39.385805555)",
+  "seatLabel": "本荘市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067698",
+  "seat": "http://www.wikidata.org/entity/Q11410123",
+  "coord": "Point(129.287527777 34.202638888)",
+  "seatLabel": "厳原町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q910006",
+  "seat": "http://www.wikidata.org/entity/Q11450061",
+  "coord": "Point(140.413388888 37.325222222)",
+  "seatLabel": "守山町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863437",
+  "seat": "http://www.wikidata.org/entity/Q11456909",
+  "coord": "Point(130.035833333 32.518444444)",
+  "seatLabel": "富岡町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1073012",
+  "seat": "http://www.wikidata.org/entity/Q11476128",
+  "coord": "Point(135.061 35.624166666)",
+  "seatLabel": "峰山町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q843782",
+  "seat": "http://www.wikidata.org/entity/Q11481920",
+  "coord": "Point(140.88768056 37.05041944)",
+  "seatLabel": "平地区",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q7883935",
+  "seat": "http://www.wikidata.org/entity/Q11547247",
+  "coord": "Point(133.27775 35.356138888)",
+  "seatLabel": "母里村",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q17224733",
+  "seat": "http://www.wikidata.org/entity/Q11633159",
+  "coord": "Point(130.937253 33.326983)",
+  "seatLabel": "豆田町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10855960",
+  "seat": "http://www.wikidata.org/entity/Q11653370",
+  "coord": "Point(140.377111111 38.458083333)",
+  "seatLabel": "長瀞村",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192240",
+  "seat": "http://www.wikidata.org/entity/Q11666105",
+  "coord": "Point(131.352797 31.627825)",
+  "seatLabel": "飫肥",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034548",
+  "seat": "http://www.wikidata.org/entity/Q11666971",
+  "coord": "Point(139.542057 36.244841)",
+  "seatLabel": "館林町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q839422",
+  "seat": "http://www.wikidata.org/entity/Q11672106",
+  "coord": "Point(138.236027777 37.147861111)",
+  "seatLabel": "高田市",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034539",
+  "seat": "http://www.wikidata.org/entity/Q11673269",
+  "coord": "Point(136.636611111 35.220472222)",
+  "seatLabel": "高須町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863325",
+  "seat": "http://www.wikidata.org/entity/Q17176798",
+  "coord": "Point(136.487694444 35.980555555)",
+  "seatLabel": "大野町",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q676187",
+  "seat": "http://www.wikidata.org/entity/Q110961720",
+  "coord": "Point(130.554611111 31.598486111)",
+  "seatLabel": "鹿児島城下",
+  "prop": "P36"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1017072",
+  "seat": "http://www.wikidata.org/entity/Q151776",
+  "coord": "Point(133.050555555 35.474977777)",
+  "seatLabel": "松江城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q908854",
+  "seat": "http://www.wikidata.org/entity/Q251650",
+  "coord": "Point(141.150111 39.699947)",
+  "seatLabel": "盛岡城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q903555",
+  "seat": "http://www.wikidata.org/entity/Q328582",
+  "coord": "Point(140.463805555 40.608036111)",
+  "seatLabel": "弘前城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067555",
+  "seat": "http://www.wikidata.org/entity/Q522630",
+  "coord": "Point(140.213583 37.132624)",
+  "seatLabel": "白河小峰城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1140943",
+  "seat": "http://www.wikidata.org/entity/Q581644",
+  "coord": "Point(130.874256 33.884444)",
+  "seatLabel": "小倉城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1062182",
+  "seat": "http://www.wikidata.org/entity/Q598621",
+  "coord": "Point(140.856156 38.252478)",
+  "seatLabel": "仙台城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909007",
+  "seat": "http://www.wikidata.org/entity/Q593054",
+  "coord": "Point(140.427986 37.599642)",
+  "seatLabel": "二本松城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1062196",
+  "seat": "http://www.wikidata.org/entity/Q601598",
+  "coord": "Point(134.388983 34.745669)",
+  "seatLabel": "赤穂城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1194248",
+  "seat": "http://www.wikidata.org/entity/Q613355",
+  "coord": "Point(130.705972222 32.806063888)",
+  "seatLabel": "熊本城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1062072",
+  "seat": "http://www.wikidata.org/entity/Q648629",
+  "coord": "Point(136.898611111 35.185555555)",
+  "seatLabel": "名古屋城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1036915",
+  "seat": "http://www.wikidata.org/entity/Q670725",
+  "coord": "Point(134.052 34.3504)",
+  "seatLabel": "高松城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1058224",
+  "seat": "http://www.wikidata.org/entity/Q767818",
+  "coord": "Point(134.004952777 35.062769444)",
+  "seatLabel": "津山城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192240",
+  "seat": "http://www.wikidata.org/entity/Q844044",
+  "coord": "Point(131.35 31.6291)",
+  "seatLabel": "飫肥城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q847283",
+  "seat": "http://www.wikidata.org/entity/Q847251",
+  "coord": "Point(140.27611111 38.1575)",
+  "seatLabel": "上山城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1146904",
+  "seat": "http://www.wikidata.org/entity/Q848997",
+  "coord": "Point(140.47833333 36.37277778)",
+  "seatLabel": "水戸城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1042087",
+  "seat": "http://www.wikidata.org/entity/Q981357",
+  "coord": "Point(132.765722 33.845539)",
+  "seatLabel": "松山城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q7884927",
+  "seat": "http://www.wikidata.org/entity/Q994058",
+  "coord": "Point(141.48786111 40.51475)",
+  "seatLabel": "八戸城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067713",
+  "seat": "http://www.wikidata.org/entity/Q1028562",
+  "coord": "Point(129.95777778 32.89694444)",
+  "seatLabel": "玖島城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067706",
+  "seat": "http://www.wikidata.org/entity/Q1026929",
+  "coord": "Point(130.252801 32.659953)",
+  "seatLabel": "日野江城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q2975995",
+  "seat": "http://www.wikidata.org/entity/Q1071095",
+  "coord": "Point(130.302153 33.245744)",
+  "seatLabel": "佐賀城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q676187",
+  "seat": "http://www.wikidata.org/entity/Q1066957",
+  "coord": "Point(130.554611 31.598485)",
+  "seatLabel": "鹿児島城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q743925",
+  "seat": "http://www.wikidata.org/entity/Q1073585",
+  "coord": "Point(129.978194 33.453539)",
+  "seatLabel": "唐津城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034465",
+  "seat": "http://www.wikidata.org/entity/Q1073688",
+  "coord": "Point(139.491503 35.924514)",
+  "seatLabel": "川越城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q903537",
+  "seat": "http://www.wikidata.org/entity/Q1073692",
+  "coord": "Point(136.2209 36.065456)",
+  "seatLabel": "福井城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909548",
+  "seat": "http://www.wikidata.org/entity/Q1071856",
+  "coord": "Point(133.006806 34.063336)",
+  "seatLabel": "今治城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863325",
+  "seat": "http://www.wikidata.org/entity/Q1072530",
+  "coord": "Point(136.483042 35.986588)",
+  "seatLabel": "大野城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034441",
+  "seat": "http://www.wikidata.org/entity/Q1142070",
+  "coord": "Point(131.611417 33.24013)",
+  "seatLabel": "府内城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q208766",
+  "seat": "http://www.wikidata.org/entity/Q1143944",
+  "coord": "Point(130.383103 33.584381)",
+  "seatLabel": "福岡城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q18669712",
+  "seat": "http://www.wikidata.org/entity/Q1143974",
+  "coord": "Point(140.108389 41.429833)",
+  "seatLabel": "松前城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1069187",
+  "seat": "http://www.wikidata.org/entity/Q1151269",
+  "coord": "Point(135.172 34.2276)",
+  "seatLabel": "和歌山城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q839406",
+  "seat": "http://www.wikidata.org/entity/Q1151831",
+  "coord": "Point(134.99166667 34.6525)",
+  "seatLabel": "明石城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034453",
+  "seat": "http://www.wikidata.org/entity/Q1191029",
+  "coord": "Point(129.55752 33.36868)",
+  "seatLabel": "平戸城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067706",
+  "seat": "http://www.wikidata.org/entity/Q1322463",
+  "coord": "Point(130.367222222 32.789161111)",
+  "seatLabel": "島原城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q4389944",
+  "seat": "http://www.wikidata.org/entity/Q1365061",
+  "coord": "Point(139.929722222 37.487777777)",
+  "seatLabel": "若松城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192230",
+  "seat": "http://www.wikidata.org/entity/Q2968355",
+  "coord": "Point(131.804 33.1218)",
+  "seatLabel": "臼杵城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192267",
+  "seat": "http://www.wikidata.org/entity/Q2969402",
+  "coord": "Point(131.531668 33.366807)",
+  "seatLabel": "日出城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034521",
+  "seat": "http://www.wikidata.org/entity/Q2970671",
+  "coord": "Point(139.78016944 36.09676111)",
+  "seatLabel": "関宿城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034521",
+  "seat": "http://www.wikidata.org/entity/Q2970671",
+  "coord": "Point(139.7828 36.10064)",
+  "seatLabel": "関宿城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863437",
+  "seat": "http://www.wikidata.org/entity/Q2970819",
+  "coord": "Point(130.032 32.5289)",
+  "seatLabel": "富岡城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067720",
+  "seat": "http://www.wikidata.org/entity/Q6133648",
+  "coord": "Point(140.12324167 39.72348056)",
+  "seatLabel": "久保田城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q2212226",
+  "seat": "http://www.wikidata.org/entity/Q11628737",
+  "coord": "Point(133.178666666 33.920194444)",
+  "seatLabel": "西条陣屋",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q12077489",
+  "seat": "http://www.wikidata.org/entity/Q11595107",
+  "coord": "Point(130.69555556 33.46555556)",
+  "seatLabel": "秋月城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1067698",
+  "seat": "http://www.wikidata.org/entity/Q10854965",
+  "coord": "Point(129.286111 34.204194)",
+  "seatLabel": "金石城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q2887780",
+  "seat": "http://www.wikidata.org/entity/Q10855542",
+  "coord": "Point(136.69872222 35.064625)",
+  "seatLabel": "桑名城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q839422",
+  "seat": "http://www.wikidata.org/entity/Q10856387",
+  "coord": "Point(138.25583333 37.11)",
+  "seatLabel": "高田城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1893606",
+  "seat": "http://www.wikidata.org/entity/Q10875792",
+  "coord": "Point(131.186422 33.606633)",
+  "seatLabel": "中津城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863486",
+  "seat": "http://www.wikidata.org/entity/Q10898917",
+  "coord": "Point(139.062 36.3924)",
+  "seatLabel": "前橋城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034504",
+  "seat": "http://www.wikidata.org/entity/Q10359310",
+  "coord": "Point(131.156667 33.303056)",
+  "seatLabel": "森陣屋",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q8192275",
+  "seat": "http://www.wikidata.org/entity/Q8010033",
+  "coord": "Point(131.40806944 32.96921667)",
+  "seatLabel": "岡城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034455",
+  "seat": "http://www.wikidata.org/entity/Q8011484",
+  "coord": "Point(130.76649167 32.21108333)",
+  "seatLabel": "人吉城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q910993",
+  "seat": "http://www.wikidata.org/entity/Q8014937",
+  "coord": "Point(140.216717 35.721989)",
+  "seatLabel": "佐倉城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q426826",
+  "seat": "http://www.wikidata.org/entity/Q8342364",
+  "coord": "Point(130.507772222 33.328425)",
+  "seatLabel": "久留米城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1037948",
+  "seat": "http://www.wikidata.org/entity/Q11262656",
+  "coord": "Point(140.105 37.9096)",
+  "seatLabel": "米沢城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034439",
+  "seat": "http://www.wikidata.org/entity/Q11284269",
+  "coord": "Point(132.073325 34.902908333)",
+  "seatLabel": "浜田城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909294",
+  "seat": "http://www.wikidata.org/entity/Q11288319",
+  "coord": "Point(140.48555556 37.75055556)",
+  "seatLabel": "福島城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q7884520",
+  "seat": "http://www.wikidata.org/entity/Q11353531",
+  "coord": "Point(141.14901892 40.69808666)",
+  "seatLabel": "七戸城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q843911",
+  "seat": "http://www.wikidata.org/entity/Q11355537",
+  "coord": "Point(140.4965 37.442555555)",
+  "seatLabel": "三春城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863371",
+  "seat": "http://www.wikidata.org/entity/Q11382803",
+  "coord": "Point(131.88981944 32.96023056)",
+  "seatLabel": "佐伯城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863373",
+  "seat": "http://www.wikidata.org/entity/Q11383098",
+  "coord": "Point(131.423833 32.047833)",
+  "seatLabel": "佐土原城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863441",
+  "seat": "http://www.wikidata.org/entity/Q11486526",
+  "coord": "Point(131.66297222 32.58055556)",
+  "seatLabel": "延岡城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q847265",
+  "seat": "http://www.wikidata.org/entity/Q11502191",
+  "coord": "Point(140.294 38.767)",
+  "seatLabel": "新庄城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q1038319",
+  "seat": "http://www.wikidata.org/entity/Q11520771",
+  "coord": "Point(140.04747222 39.38485833)",
+  "seatLabel": "本荘城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034474",
+  "seat": "http://www.wikidata.org/entity/Q11528831",
+  "coord": "Point(131.62766667 33.41474722)",
+  "seatLabel": "杵築城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10863527",
+  "seat": "http://www.wikidata.org/entity/Q11530079",
+  "coord": "Point(136.297083333 36.0935)",
+  "seatLabel": "松岡館",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034574",
+  "seat": "http://www.wikidata.org/entity/Q11534275",
+  "coord": "Point(130.400833333 33.160722222)",
+  "seatLabel": "柳川城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q909259",
+  "seat": "http://www.wikidata.org/entity/Q11538997",
+  "coord": "Point(140.38563611 37.02969167)",
+  "seatLabel": "棚倉城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q17224733",
+  "seat": "http://www.wikidata.org/entity/Q11549997",
+  "coord": "Point(130.93618889 33.3323)",
+  "seatLabel": "永山城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q844079",
+  "seat": "http://www.wikidata.org/entity/Q11582470",
+  "coord": "Point(140.914313888 37.798036111)",
+  "seatLabel": "相馬中村城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034437",
+  "seat": "http://www.wikidata.org/entity/Q11586952",
+  "coord": "Point(128.846528 32.693472)",
+  "seatLabel": "石田城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q843782",
+  "seat": "http://www.wikidata.org/entity/Q11587869",
+  "coord": "Point(140.89091667 37.059125)",
+  "seatLabel": "磐城平城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q10855954",
+  "seat": "http://www.wikidata.org/entity/Q11652257",
+  "coord": "Point(136.69780556 35.09291667)",
+  "seatLabel": "長島城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034548",
+  "seat": "http://www.wikidata.org/entity/Q11666959",
+  "coord": "Point(139.541 36.2442)",
+  "seatLabel": "館林城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034541",
+  "seat": "http://www.wikidata.org/entity/Q11673177",
+  "coord": "Point(131.50093333 32.12356111)",
+  "seatLabel": "高鍋城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q847303",
+  "seat": "http://www.wikidata.org/entity/Q11675874",
+  "coord": "Point(139.82455278 38.72873889)",
+  "seatLabel": "鶴ヶ岡城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q3034464",
+  "seat": "http://www.wikidata.org/entity/Q11677106",
+  "coord": "Point(130.09333333 33.10277778)",
+  "seatLabel": "鹿島城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q908769",
+  "seat": "http://www.wikidata.org/entity/Q15604669",
+  "coord": "Point(140.328055555 38.255555555)",
+  "seatLabel": "山形城",
+  "prop": "P159"
+ },
+ {
+  "domain": "http://www.wikidata.org/entity/Q18669712",
+  "seat": "http://www.wikidata.org/entity/Q17211493",
+  "coord": "Point(140.34325 41.87952778)",
+  "seatLabel": "館城",
+  "prop": "P159"
+ }
+]
