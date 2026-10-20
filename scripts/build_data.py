@@ -30,6 +30,7 @@ import re
 import urllib.parse
 from html.parser import HTMLParser
 
+import report_issues
 from wdlib import (COMMONS_API, DATA, RAW, ROOT, api, cached, cached_by_id, chunks, dump, parse_point, qid, sparql,
                    year)
 
@@ -1228,6 +1229,7 @@ def build():
     update_readme(meta_out, sum(1 for d in domains.values() if not d.get("coord")),
                   len({w["subject"] for w in warnings if w["kind"] == "multiple_fathers" and w["subject"] in lords}),
                   sum(1 for e in relations if e["type"] != "blood"))
+    report_issues.main()                 # docs/wikidata_issues.md(Wikidata 側で直すとよい点の一覧)も作り直す
     print(f"domains={len(domains)} lords={len(lords)} tenures={len(tenures)} relations={len(relations)}")
     print("氏の出所:", dict(nclan), "/ 名前推定の自己採点:", infer_stats)
     print("地方別:", {k: v["domains"] for k, v in by_region.items()})

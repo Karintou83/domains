@@ -63,6 +63,7 @@ python scripts/validate.py              # 生成した JSON の整合性チェ�
 |---|---|
 | `build_data.py` | 取得(fetch)と変換(build)。変換はネットワークなしで何度でも再実行できる |
 | `validate.py` | `data/*.json` の検査。error があれば終了コード 1 |
+| `report_issues.py` | Wikidata 側で直すとよい点の一覧 `docs/wikidata_issues.md` を `data/warnings.json` から作る。`build_data.py` の最後に自動で呼ばれる |
 | `wdlib.py` | SPARQL・API の呼び出し、リトライ、キャッシュの共通部品 |
 | `fetch_kyukoku.py` | 旧国境(CODH「旧国・旧郡境界データセット」)を取得して `data/kyukoku.geojson` を作る。**任意・未実行**(下の「出典・ライセンス」を参照) |
 | `survey_nationwide.py` | 全国版にする前の調査(規模・旧国の入り方・祖先込みのサイズ)。サイトの生成には使いません |
