@@ -125,3 +125,14 @@ ul.lords { list-style:none; margin:.3rem 0; padding:0; font-size:.84rem; } ul.lo
 [hidden] { display:none !important; }
 /* 全体の系図は人物を丸で描くので、凡例の見本も丸にする */
 .round-nodes .legend .box, .round-nodes .legend .box.img { width:15px; height:15px; border-radius:50%; }
+/* トップページの地方別の表 */
+.regions { margin-top:2.6rem; }
+.regions h3 { font-family:var(--serif); font-size:1.05rem; letter-spacing:.12em; color:var(--indigo); margin:0 0 .6rem; }
+.table { width:100%; border-collapse:collapse; background:var(--card); border:1px solid var(--line); border-radius:var(--radius); font-size:.86rem; box-shadow:var(--shadow); }
+.table th, .table td { padding:.45rem .8rem; border-bottom:1px solid var(--line); text-align:right; }
+.table th[scope=row], .table thead th:first-child { text-align:left; font-family:var(--serif); font-weight:600; }
+.table thead th { font-size:.76rem; color:var(--muted); font-weight:600; letter-spacing:.08em; }
+.table td:last-child, .table thead th:last-child { text-align:left; }
+.table tr.total th, .table tr.total td { border-bottom:none; font-weight:700; }
+/* 藩の色の凡例: 地方の見出しは段組をまたいで置く */
+.legend.domains .region-head { column-span:all; margin:.6rem 0 .2rem; font-family:var(--serif); font-weight:700; color:var(--vermilion); letter-spacing:.1em; }

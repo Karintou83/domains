@@ -1,11 +1,11 @@
 /* 藩別の家系図(tree.html)と全体の家系図(all.html)で共有する、見た目と詳細パネル・氏の強調・検索。 */
 (function (root) {
-  const { el, wikipediaUrl, wikidataUrl, CLAN_SOURCE_LABEL } = Tohoku;
+  const { el, wikipediaUrl, wikidataUrl, CLAN_SOURCE_LABEL, domainsByRegion, provinceName } = Han;
 
   const INK = "#2a2622", EDGE = "#a39a86", VERMILION = "#b43a2c", INDIGO = "#223a5e", GOLD = "#a8801f";
 
   // Cytoscape のスタイル。色は data(fill)/data(border) から読む(藩ごとの色はモデル側で決める)。
-  // 外部の大名家は灰色+破線、氏が確定のノードは金、推定のノードは薄い金の破線、要確認は朱の二重枠。
+  // 藩主でない人物(実父・祖先)は灰色+破線、氏が確定のノードは金、推定のノードは薄い金の破線、要確認は朱の二重枠。
   function style(opts) {
     const taxi = !(opts && opts.curved);
     // round: 人物を丸で描く(全体の系図用)。丸の中に「藩・代+名前」は収まらないので、名前は丸の下に出す。
@@ -31,7 +31,7 @@
         "background-position-y": "0%", "background-image-crossorigin": "null", "background-clip": "node",
         "text-valign": "bottom", "text-margin-y": 6, "text-background-color": "#fffdf8", "text-background-opacity": 0.85,
         "text-background-padding": 2, "text-background-shape": "roundrectangle" } },
-      { selector: "node[?external]", style: { "border-style": "dashed", "color": "#555" } },
+      { selector: "node[?nonRuler]", style: { "border-style": "dashed", "color": "#555" } },
       { selector: "node[hidden > 0]", style: { "border-width": 3 } },
       { selector: "node[?warn]", style: { "border-width": 3.5, "border-style": "double", "border-color": VERMILION } },
       { selector: "node.hl", style: { "background-color": "#f4d98a", "border-color": GOLD, "border-width": 3, "border-style": "solid" } },
@@ -58,13 +58,28 @@
     });
   }
 
-  function fillDomainSelect(model, data, select, withNone) {
+  // 藩の選択欄。地方ごとの optgroup に分け、藩名に旧国を添える(同名・似た名の藩を見分けるため)。
+  // region を渡すと、その地方の藩だけにする(全体の系図・地図で地方を選んだとき)。
+  function fillDomainSelect(model, data, select, withNone, region) {
+    const keep = select.value;
+    select.replaceChildren();
     if (withNone) select.append(el("option", { value: "", text: "(なし)" }));
-    const groups = { tohoku: el("optgroup", { label: "東北" }), external: el("optgroup", { label: "外部(東北外の実父の家)" }) };
-    data.domains.slice().sort((a, b) => a.name.localeCompare(b.name, "ja")).forEach((d) => {
-      groups[d.scope === "tohoku" ? "tohoku" : "external"].append(el("option", { value: d.id, text: d.name }));
+    domainsByRegion(data).forEach((g) => {
+      if (region && g.region !== region) return;
+      const og = el("optgroup", { label: g.region + "(" + g.domains.length + ")" });
+      g.domains.forEach((d) => {
+        const prov = provinceName(d);
+        og.append(el("option", { value: d.id, text: d.name + (prov ? "(" + prov + ")" : "") }));
+      });
+      select.append(og);
     });
-    select.append(groups.tohoku, groups.external);
+    if ([...select.options].some((o) => o.value === keep)) select.value = keep;
+  }
+
+  // 地方の選択欄。先頭は「全国」(値は空)。各地方に藩の数を添える。
+  function fillRegionSelect(data, select) {
+    select.append(el("option", { value: "", text: "全国(" + data.domains.length + "藩)" }));
+    domainsByRegion(data).forEach((g) => select.append(el("option", { value: g.region, text: g.region + "(" + g.domains.length + "藩)" })));
   }
 
   // 氏・藩による強調。強調に当たらないノードは薄くする。
@@ -75,8 +90,7 @@
     cy.nodes().forEach((n) => {
       const id = n.id();
       const okClan = !clan || n.data("clanIds").includes(clan);
-      const t = model.primaryTenure(id);
-      const okDom = !dom || (t && t.domain === dom);
+      const okDom = !dom || model.ruledDomain(id, dom);   // その藩に在任したことがある人(転封で入った藩主も含む)
       if (okClan && okDom) {
         n.addClass(clan ? (n.data("clanSource") === "wikidata" ? "hl" : "hl-inferred") : "hl-domain");
       } else n.addClass("dim");
@@ -97,7 +111,7 @@
       return el("p", { class: "sub" }, ["画像あり(ライセンスを確認できないため表示していません): ",
         el("a", { href: page, target: "_blank", rel: "noopener", text: "Wikimedia Commons" })]);
     }
-    const img = el("img", { src: Tohoku.imageUrl(im, 240),
+    const img = el("img", { src: Han.imageUrl(im, 240),
                             alt: l.name + "の画像", loading: "lazy" });
     const fig = el("figure", { class: "portrait" }, [
       el("a", { href: page, target: "_blank", rel: "noopener" }, [img]),
@@ -117,7 +131,10 @@
       ? el("a", { href: wikipediaUrl(l.wikipedia), target: "_blank", rel: "noopener", text: l.name })
       : el("span", { text: l.name });
     box.append(el("h3", { class: "person" }, [title]));
-    box.append(el("p", { class: "sub", text: l.gen_label || (l.external ? "東北外の大名家(外部)" : "藩主以外") }));
+    box.append(el("p", { class: "sub", text: l.gen_label || "藩主以外(藩主の実父・祖先)" }));
+    const t = model.primaryTenure(id);
+    const d = t && model.domains.get(t.domain);
+    if (d) box.append(el("p", { class: "sub", text: [d.region, provinceName(d)].filter(Boolean).join(" ・ ") }));
     if (l.image) box.append(imageBlock(l));
 
     const clanText = l.clans.length
@@ -152,7 +169,7 @@
     input.addEventListener("input", () => {
       list.replaceChildren();
       model.search(input.value, 12).forEach((l) => {
-        const label = l.name + (l.gen_label ? " — " + l.gen_label : "") + (l.external ? "(外部)" : "");
+        const label = l.name + (l.gen_label ? " — " + l.gen_label : "(藩主以外)");
         list.append(el("li", {}, [el("button", { type: "button", class: "result", text: label, onclick: () => onPick(l) })]));
       });
     });
@@ -166,5 +183,5 @@
     return has;
   }
 
-  root.Tohoku.GraphUI = { syncAdoptionUI, style, fillClanSelect, fillDomainSelect, applyHighlight, renderInfo, bindSearch, imageBlock };
+  root.Han.GraphUI = { syncAdoptionUI, style, fillClanSelect, fillDomainSelect, fillRegionSelect, applyHighlight, renderInfo, bindSearch, imageBlock };
 })(window);

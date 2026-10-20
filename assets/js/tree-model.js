@@ -17,7 +17,8 @@
     });
     return out;
   }
-  const EXTERNAL_COLOR = { fill: "#efede8", border: "#9a968c", head: "#6a665c" };
+  // 藩主でない人物(藩主の実父・祖先)の色。どの藩の色とも紛れない灰色にする。
+  const NON_RULER_COLOR = { fill: "#efede8", border: "#9a968c", head: "#6a665c" };
 
   function build(data) {
     const lords = new Map(data.lords.map((l) => [l.id, l]));
@@ -59,44 +60,47 @@
         .filter((id) => lords.has(id) && !seen.has(id) && seen.add(id));
     }
 
-    // 人物の「主たる藩」: 東北の藩の在任のうち最も早いもの。無ければ(外部の藩を含め)最も早い在任。
-    // 色分けと、全体系図でどのブロックに置くかを決める基準になる。
+    // 人物の「主たる藩」(primary_domain: 最も早い在任の藩)はビルド時に決めてある。ここではその藩での最初の在任を返す。
+    // 色分け、藩での強調、他ページへのリンク先の基準になる。
     function primaryTenure(id) {
-      const ts = (tenuresByLord.get(id) || []).filter((t) => domains.has(t.domain));
-      if (!ts.length) return null;
-      const tohoku = ts.filter((t) => domains.get(t.domain).scope === "tohoku");
-      const pool = tohoku.length ? tohoku : ts;
-      return pool.slice().sort((a, b) => (a.start || 9999) - (b.start || 9999) || (a.ord || 0) - (b.ord || 0))[0];
+      const l = lords.get(id);
+      const dom = l && l.primary_domain;
+      if (!dom || !domains.has(dom)) return null;
+      const ts = (tenuresByLord.get(id) || []).filter((t) => t.domain === dom);
+      return ts.slice().sort((a, b) => (a.start || 9999) - (b.start || 9999) || (a.ord || 0) - (b.ord || 0))[0] || null;
+    }
+    function ruledDomain(id, domainId) { return (tenuresByLord.get(id) || []).some((t) => t.domain === domainId); }
+    function isRuler(id) { const l = lords.get(id); return !!(l && l.has_tenure); }
+    // 人物の地方 = 主たる藩の地方。藩主でない人物は null(どの地方にも属させない)。
+    function regionOfLord(id) {
+      const l = lords.get(id);
+      const d = l && l.primary_domain && domains.get(l.primary_domain);
+      return d ? (d.region || null) : null;
     }
     function colorOf(id) {
       const t = primaryTenure(id);
-      const l = lords.get(id);
-      if (!t || (l && l.external)) return EXTERNAL_COLOR;
-      return colors.get(t.domain) || EXTERNAL_COLOR;
+      if (!t) return NON_RULER_COLOR;
+      return colors.get(t.domain) || NON_RULER_COLOR;
     }
 
     function neighbors(id, opts) {
-      const hideExternal = !!(opts && opts.hideExternal);
       const bloodOnly = !!(opts && opts.bloodOnly);
       const out = new Set();
       [...(parents.get(id) || []), ...(children.get(id) || [])].forEach((n) => {
         if (bloodOnly && n.edge.type !== "blood") return;
-        const l = lords.get(n.id);
-        if (l && !(hideExternal && l.external)) out.add(n.id);
+        if (lords.has(n.id)) out.add(n.id);
       });
       return out;
     }
 
     // 実父をたどる(養子関係は無視)。ids の人物から gens 世代前まで、blood の辺だけをさかのぼった人物の集合を返す。
-    function ancestors(ids, gens, opts) {
-      const hideExternal = !!(opts && opts.hideExternal);
+    function ancestors(ids, gens) {
       const out = new Set();
       let frontier = [...ids];
-      for (let g = 0; g < gens; g++) {
+      for (let g = 0; g < gens && frontier.length; g++) {
         const next = [];
         frontier.forEach((id) => (parents.get(id) || []).forEach((p) => {
-          const l = lords.get(p.id);
-          if (p.edge.type !== "blood" || !l || (hideExternal && l.external) || out.has(p.id)) return;
+          if (p.edge.type !== "blood" || !lords.has(p.id) || out.has(p.id)) return;
           out.add(p.id); next.push(p.id);
         }));
         frontier = next;
@@ -110,7 +114,7 @@
     // 藩別ページのラベル: 「藩・代」+名前(在任期間は載せない)
     function nodeLabel(l, hiddenCount) {
       let text = l.gen_label ? l.gen_label.split("・").join("\n") + "\n" + l.name : l.name;
-      if (!l.has_tenure) text += "\n(" + (l.external ? "外部" : "藩主以外") + ")";
+      if (!l.has_tenure) text += "\n(藩主以外)";
       if (hasWarn(l.id)) text += " ⚠";
       if (hiddenCount > 0) text += "\n[+" + hiddenCount + "]";
       return text;
@@ -128,7 +132,7 @@
     function baseData(l, opts) {
       const c = colorOf(l.id);
       const img = opts && opts.images ? thumbUrl(l) : null;
-      const d = { id: l.id, external: l.external, warn: hasWarn(l.id), fill: c.fill, border: c.border,
+      const d = { id: l.id, nonRuler: !l.has_tenure, warn: hasWarn(l.id), fill: c.fill, border: c.border,
                   clanIds: l.clans.map((x) => x.id), clanSource: l.clan_source || "none", hasImg: !!img };
       if (img) d.img = img;
       return d;
@@ -143,7 +147,7 @@
       const nodes = [];
       visible.forEach((id) => {
         const l = lords.get(id);
-        if (!l || (opts && opts.hideExternal && l.external)) return;
+        if (!l) return;
         const hidden = [...neighbors(id, opts)].filter((n) => !visible.has(n)).length;
         nodes.push({ group: "nodes", data: Object.assign(baseData(l, opts), { label: nodeLabel(l, hidden), hidden }) });
       });
@@ -156,9 +160,8 @@
     // 血縁・養子でつながった人の集まり(連結成分 connected component)を求める。
     // dagre をそのまま全体にかけると、つながりのない一族が横一列に並んで極端に横長になる。
     // そこで一族ごとに階層レイアウトを作り、あとで2次元に敷き詰める(packRects)ために使う。
-    function components(idSet, opts) {
-      const hideExternal = !!(opts && opts.hideExternal);
-      const ids = [...idSet].filter((id) => lords.has(id) && !(hideExternal && lords.get(id).external));
+    function components(idSet) {
+      const ids = [...idSet].filter((id) => lords.has(id));
       const inSet = new Set(ids);
       const seen = new Set();
       const out = [];
@@ -194,9 +197,20 @@
       return { positions: out, width, height: y + rowH };
     }
 
-    // 全体表示のラベル(「藩・代」+名前)。展開用の [+N] は付けない。
-    function allElements(opts) {
-      return elements(new Set(data.lords.map((l) => l.id)), opts);
+    // 全体表示用。ids を省くと全員。
+    function allElements(opts, ids) {
+      return elements(ids || new Set(data.lords.map((l) => l.id)), opts);
+    }
+
+    // 地方で絞り込むときに描く人物: その地方の藩に一度でも在任した藩主と、その実父の系統(祖先)。
+    // 一族(連結成分)を丸ごと残すと、遠い祖先を介して全国の家がつながった大きな一族が、どの地方を選んでも入ってしまう。
+    // 祖先だけを足せば、藩主から上へのつながりは切れず、他地方の無関係な分家は入らない。
+    function idsInRegion(region) {
+      if (!region) return new Set(data.lords.map((l) => l.id));
+      const rulers = new Set();
+      data.tenures.forEach((t) => { const d = domains.get(t.domain); if (d && d.region === region && lords.has(t.lord)) rulers.add(t.lord); });
+      ancestors([...rulers], Infinity).forEach((id) => rulers.add(id));
+      return rulers;
     }
 
     function search(query, limit) {
@@ -206,10 +220,11 @@
     }
 
     return { thumbUrl, lords, domains, colors, tenuresByLord, tenuresByDomain, parents, children, clans, holders, neighbors,
-             warningsFor, ancestors, nodeLabel, elements, allElements, components, packRects, primaryTenure, search };
+             warningsFor, ancestors, nodeLabel, elements, allElements, components, idsInRegion, packRects, primaryTenure,
+             isRuler, ruledDomain, regionOfLord, search };
   }
 
-  const api = { build, EXTERNAL_COLOR };
+  const api = { build, NON_RULER_COLOR };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
   else root.TreeModel = api;
 })(typeof window !== "undefined" ? window : globalThis);

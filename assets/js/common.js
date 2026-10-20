@@ -1,4 +1,4 @@
-/* 家系図ページ・地図ページで共有する部品。グローバル名前空間 Tohoku に載せる。
+/* 家系図ページ・地図ページで共有する部品。グローバル名前空間 Han に載せる。
    ES modules ではなく単純な <script> にしている理由: file:// ではなく http サーバ経由でも、
    GitHub Pages でも、ビルド工程なしでそのまま動くようにするため。 */
 (function (root) {
@@ -39,6 +39,24 @@
     return "https://commons.wikimedia.org/wiki/Special:FilePath/" + encodeURIComponent(im.file) + "?width=" + (width || 240);
   }
 
+  // 地方の並び順は config.json の regions(meta.json に写してある)に従う。画面ごとに順序を持たないため。
+  // 旧国が分からない藩(region が null)は最後に「地方不明」としてまとめる。
+  const UNKNOWN_REGION = "地方不明";
+  function regionOf(d) { return d.region || UNKNOWN_REGION; }
+  function regionsOf(data) {
+    const order = ((data.meta && data.meta.regions) || []).slice();
+    data.domains.forEach((d) => { if (!order.includes(regionOf(d))) order.push(regionOf(d)); });
+    return order.filter((r) => data.domains.some((d) => regionOf(d) === r));
+  }
+  // [{region, domains}]。地方の中は藩名の五十音順(藩名で探すことが多いので、旧国順より見つけやすい)。
+  function domainsByRegion(data) {
+    return regionsOf(data).map((region) => ({
+      region,
+      domains: data.domains.filter((d) => regionOf(d) === region).sort((a, b) => a.name.localeCompare(b.name, "ja")),
+    }));
+  }
+  function provinceName(d) { return d.province && d.province.name ? d.province.name : ""; }
+
   function el(tag, attrs, children) {
     const node = document.createElement(tag);
     Object.entries(attrs || {}).forEach(([k, v]) => {
@@ -58,7 +76,8 @@
     console.error(message);
   }
 
-  root.Tohoku = Object.assign(root.Tohoku || {}, {
+  root.Han = Object.assign(root.Han || {}, {
     loadData, imageUrl, wikipediaUrl, wikidataUrl, CLAN_SOURCE_LABEL, el, showError,
+    UNKNOWN_REGION, regionOf, regionsOf, domainsByRegion, provinceName,
   });
 })(typeof window !== "undefined" ? window : globalThis);

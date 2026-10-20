@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>地図 | 東北諸藩 藩主データ</title>
+<title>地図 | 全国諸藩 藩主データ</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -14,7 +14,7 @@
 </head>
 <body class="app">
 <header class="site">
-  <h1><a href="index.html">東北諸藩 藩主データ</a></h1>
+  <h1><a href="index.html">全国諸藩 藩主データ</a></h1>
   <nav><a href="index.html">トップ</a><a href="tree.html">藩別の家系図</a><a href="all.html">全体の系図</a><a href="map.html" aria-current="page">地図</a></nav>
 </header>
 <div id="error" class="error" role="alert" hidden></div>
@@ -31,8 +31,8 @@
         <label class="sub">速さ <select id="speed" aria-label="再生の速さ"><option value="3">ゆっくり(3年/秒)</option><option value="8" selected>ふつう(8年/秒)</option><option value="20">はやい(20年/秒)</option></select></label>
       </div>
       <p id="summary" class="sub"></p>
-      <label class="check"><input type="checkbox" id="showFaces" checked> 藩主の肖像をマーカーに表示</label>
-      <label class="check"><input type="checkbox" id="showExternal"> 東北外の藩も表示(実父の出身家)</label>
+      <label class="field">地方<select id="region"></select></label>
+      <label class="check"><input type="checkbox" id="showFaces" checked> 藩主の肖像をマーカーに表示(拡大時)</label>
     </section>
     <section class="card">
       <h2>藩主の氏で色分け</h2>

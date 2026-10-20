@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>全体の系図 | 東北諸藩 藩主データ</title>
+<title>全体の系図 | 全国諸藩 藩主データ</title>
 <link rel="stylesheet" href="assets/css/style.css">
 <!-- 表示ライブラリはバージョン固定で読み込む。cytoscape-dagre は dagre を先に読み込む必要がある。 -->
 <script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
@@ -12,7 +12,7 @@
 </head>
 <body class="app round-nodes">
 <header class="site">
-  <h1><a href="index.html">東北諸藩 藩主データ</a></h1>
+  <h1><a href="index.html">全国諸藩 藩主データ</a></h1>
   <nav><a href="index.html">トップ</a><a href="tree.html">藩別の家系図</a><a href="all.html" aria-current="page">全体の系図</a><a href="map.html">地図</a></nav>
 </header>
 <div id="error" class="error" role="alert" hidden></div>
@@ -20,8 +20,8 @@
   <aside class="side">
     <section class="card">
       <h2>全体の系図</h2>
-      <p class="sub">東北諸藩の全員を1つのグラフにしています。実父子<span data-adoption>・養子</span>の線でつながった一族ごとにまとめ、全体に敷き詰めています。人物をクリックすると、その人と親族だけが濃くなります。</p>
-      <label class="check"><input type="checkbox" id="hideExternal"> 東北外の大名家を隠す</label>
+      <p class="sub">全国の藩主と、その実父の系統の全員を1つのグラフにしています。実父子<span data-adoption>・養子</span>の線でつながった一族ごとにまとめ、全体に敷き詰めています。人物をクリックすると、その人と親族だけが濃くなります。</p>
+      <label class="field">地方(その地方の藩主と、その実父の系統を表示)<select id="region"></select></label>
       <label class="check"><input type="checkbox" id="showImages" checked> 肖像を表示</label>
       <div class="row"><button type="button" class="btn" id="fit">全体を表示</button></div>
       <p id="count" class="sub"></p>
@@ -34,7 +34,7 @@
     </section>
     <section class="card">
       <h2>名前で探す</h2>
-      <label class="field"><input type="search" id="q" placeholder="例: 伊達政宗" autocomplete="off"></label>
+      <label class="field"><input type="search" id="q" placeholder="例: 細川忠興" autocomplete="off"></label>
       <ul id="results" class="results"></ul>
     </section>
     <details class="card" open><summary>凡例</summary>
@@ -42,7 +42,7 @@
         <li><span class="swatch solid"></span>実親子(実線)</li>
         <li data-adoption><span class="swatch dotted"></span>養子(点線・矢印は養親→養子)</li>
         <li data-adoption><span class="swatch dashed"></span>婿養子(破線)</li>
-        <li><span class="box ext"></span>東北外の大名家(灰色・破線)</li>
+        <li><span class="box ext"></span>藩主でない人物(藩主の実父・祖先。灰色・破線)</li>
         <li><span class="box hl"></span>氏が確定(Wikidata)</li>
         <li><span class="box hli"></span>氏は推定(名前・実父から)</li>
         <li><span class="box warn"></span>⚠ データ上の要確認あり(朱の二重枠)</li>

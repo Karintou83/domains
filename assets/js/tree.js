@@ -1,12 +1,12 @@
 /* 藩別の家系図ページ。Cytoscape.js + dagre(階層レイアウト hierarchical layout)。 */
 (function () {
-  const { el, showError } = Tohoku;
-  const UI = Tohoku.GraphUI;
+  const { el, showError, provinceName } = Han;
+  const UI = Han.GraphUI;
   let model, data, cy;
   const visible = new Set();
-  const state = { domainId: null, hideExternal: false };
+  const state = { domainId: null };
   // 表示オプション: 養子関係を出さない(既定)と、blood の辺だけを使う。
-  function opts() { return { hideExternal: state.hideExternal, bloodOnly: !$("showAdoption").checked, images: $("showImages").checked }; }
+  function opts() { return { bloodOnly: !$("showAdoption").checked, images: $("showImages").checked }; }
   const $ = (id) => document.getElementById(id);
 
   function layout() {
@@ -39,7 +39,7 @@
     addIds(model.holders(domainId));
     // 実父をたどって N 世代前まで加える(養子は無視)。藩主が他家から入った場合も、実父の家が見える。
     const gens = +$("gens").value;
-    if (gens > 0) model.ancestors([...visible], gens, { hideExternal: state.hideExternal }).forEach((id) => visible.add(id));
+    if (gens > 0) model.ancestors([...visible], gens).forEach((id) => visible.add(id));
     redraw();
     renderDomainInfo();
     syncUrl();
@@ -75,10 +75,10 @@
     const box = $("domainInfo");
     box.replaceChildren();
     if (!d) return;
-    const bits = [];
+    const bits = [[d.region, provinceName(d)].filter(Boolean).join(" ")];
     if (d.first_year || d.last_year) bits.push((d.first_year || "?") + "–" + (d.last_year || "?") + " 年");
     if (d.coord && d.coord.precision !== "exact") bits.push("座標は概略/仮置き");
-    box.append(el("p", { class: "sub", text: bits.join(" ・ ") }));
+    box.append(el("p", { class: "sub", text: bits.filter(Boolean).join(" ・ ") }));
     const ids = new Set([d.id, ...d.positions]);
     const ws = data.warnings.filter((w) => ids.has(w.subject));
     if (ws.length) {
@@ -97,7 +97,7 @@
   }
 
   async function init() {
-    try { data = await Tohoku.loadData("data/"); } catch (err) { showError(String(err)); return; }
+    try { data = await Han.loadData("data/"); } catch (err) { showError(String(err)); return; }
     if (typeof cytoscape === "undefined") { showError("Cytoscape.js を読み込めませんでした(ネットワークを確認してください)。"); return; }
     model = TreeModel.build(data);
     UI.syncAdoptionUI(data);
@@ -114,18 +114,17 @@
     $("clan").addEventListener("change", highlight);
     $("gens").addEventListener("change", () => showDomain(state.domainId));
     $("showAdoption").addEventListener("change", () => showDomain(state.domainId));
-    $("hideExternal").addEventListener("change", (ev) => { state.hideExternal = ev.target.checked; redraw(); });
     $("showImages").addEventListener("change", redraw);
     UI.bindSearch(model, $("q"), $("results"), (l) => {
       visible.add(l.id);
-      if (state.hideExternal && l.external) { state.hideExternal = false; $("hideExternal").checked = false; }
       redraw();
       select(l.id, true);
     });
     $("clanAdd").addEventListener("click", () => {
       const c = model.clans.get($("clan").value);
       if (!c) return;
-      c.members.forEach((id) => { const l = model.lords.get(id); if (l && !l.external) visible.add(id); });
+      // 全国では同じ氏の人物が多いので、藩主だけを加える(実父・祖先までは広げない)。
+      c.members.forEach((id) => { if (model.isRuler(id)) visible.add(id); });
       redraw();
     });
     $("reset").addEventListener("click", () => showDomain(state.domainId));
