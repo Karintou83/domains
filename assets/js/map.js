@@ -8,8 +8,9 @@
     branch: "仮置き: 本藩の陣屋の近くに置いています(実際の位置ではありません)",
     seat_override: "所在地を城に固定しています(config.json の seat_overrides)",
   };
-  // 肖像マーカーを出す最小の拡大率。全国を見渡す縮尺では 44px の肖像が重なり合って、藩の位置も色も読めなくなるため。
-  const FACE_MIN_ZOOM = 7;
+  // 肖像マーカーの大きさ(px)を縮尺で変える。全国を見渡す縮尺で 44px のままだと重なり合って藩の位置も色も読めないが、
+  // 出さないと全体を映したときに肖像が見えなくなるので、小さくして出す。
+  function faceSize(zoom) { return zoom <= 5 ? 22 : zoom === 6 ? 30 : 44; }
 
   function init() {
     loadData().then(start).catch((e) => showError("データの読み込みに失敗しました: " + e.message));
@@ -60,7 +61,7 @@
       const pts = placeable.filter(visible).map((d) => [d.coord.lat, d.coord.lon]);
       if (pts.length) map.fitBounds(pts, { padding: [30, 30], maxZoom: 9 });
     }
-    function facesOn() { return state.showFaces && map.getZoom() >= FACE_MIN_ZOOM; }
+    function facesOn() { return state.showFaces; }
 
     function paint() {
       const y = state.year;
@@ -91,22 +92,22 @@
       });
       $("yearLabel").textContent = y + "年";
       renderLegend(present);
-      $("summary").textContent = (state.region || "全国") + "で、この年に存在する藩: " + (holders + gaps) + "(うち在任者データなし " + gaps + ")"
-        + (state.showFaces && !facesOn() ? "。肖像は拡大すると表示します" : "");
+      $("summary").textContent = (state.region || "全国") + "で、この年に存在する藩: " + (holders + gaps) + "(うち在任者データなし " + gaps + ")";
       if (state.selected) renderDetail(state.selected);
     }
 
     function dropFace(id) { const f = faces.get(id); if (f && map.hasLayer(f)) map.removeLayer(f); }
     function showFace(d, lord, color, opacity) {
       let f = faces.get(d.id);
-      const key = lord.id + "|" + color.border + "|" + (d.id === state.selected);
+      const size = faceSize(map.getZoom());
+      const key = lord.id + "|" + color.border + "|" + (d.id === state.selected) + "|" + size;
       if (!f || faceKey.get(d.id) !== key) {
         if (f && map.hasLayer(f)) map.removeLayer(f);
-        const icon = L.divIcon({ className: "face-icon", iconSize: [44, 44], iconAnchor: [22, 22],
-          html: '<span style="background-image:url(\'' + thumb(lord) + '\');--c:' + color.border + '"></span>' });
+        const icon = L.divIcon({ className: "face-icon", iconSize: [size, size], iconAnchor: [size / 2, size / 2],
+          html: '<span style="background-image:url(\'' + thumb(lord) + '\');--c:' + color.border + ";--s:" + size + "px;--b:" + (size < 40 ? 2 : 3) + 'px"></span>' });
         f = L.marker([d.coord.lat, d.coord.lon], { icon, keyboard: false, zIndexOffset: d.id === state.selected ? 1000 : 0 });
         f.on("click", () => select(d.id));
-        f.bindTooltip(d.name + " " + lord.name, { direction: "top", offset: [0, -20] });
+        f.bindTooltip(d.name + " " + lord.name, { direction: "top", offset: [0, -size / 2 - 2] });
         faces.set(d.id, f); faceKey.set(d.id, key);
       }
       if (!map.hasLayer(f)) f.addTo(map);
@@ -130,7 +131,27 @@
       });
     }
 
-    function select(id) { state.selected = id; paint(); }
+    function select(id) {
+      state.selected = id;
+      paint();
+      if (isFull()) showPopup(id);
+    }
+
+    // 全画面のあいだは右の詳細欄が見えないので、藩名・その年の藩主・リンクを吹き出しで出す。
+    function showPopup(id) {
+      const d = M.domains.get(id);
+      if (!d || !d.coord) return;
+      const st = M.stateAt(id, state.year);
+      const box = el("div", {}, [el("b", { text: d.name }), el("div", { class: "sub", text: [regionOf(d), provinceName(d)].filter(Boolean).join(" ・ ") })]);
+      if (st.status === "holder") {
+        const l = M.lords.get(st.tenure.lord), c = M.clanOf(l.id);
+        box.append(el("div", {}, [state.year + "年: ", lordLink(l, st.tenure), c ? "(" + c.name + ")" : ""]));
+      } else if (st.status === "gap") {
+        box.append(el("div", { class: "sub", text: state.year + "年の在任者はデータにありません" }));
+      }
+      box.append(el("div", {}, [el("a", { href: "tree.html?domain=" + encodeURIComponent(id), text: "家系図" })]));
+      L.popup({ offset: [0, -8], autoPan: true }).setLatLng([d.coord.lat, d.coord.lon]).setContent(box).openOn(map);
+    }
 
     function renderDetail(id) {
       const d = M.domains.get(id), box = $("detail"); box.textContent = "";
@@ -215,9 +236,55 @@
       if (state.selected && !visible(M.domains.get(state.selected))) state.selected = null;
       renderMissing(); fitRegion(); paint(); syncUrl();
     });
-    // 拡大率をまたいだときだけ描き直す(肖像の出し入れ)。毎回の zoomend で描き直すと、再生中に重くなるため。
+    // 肖像の大きさが変わる拡大率をまたいだときだけ描き直す。毎回の zoomend で描き直すと、再生中に重くなるため。
     let lastFaces = null;
-    map.on("zoomend", () => { if (facesOn() !== lastFaces) { lastFaces = facesOn(); paint(); } });
+    map.on("zoomend", () => { const k = faceSize(map.getZoom()); if (k !== lastFaces) { lastFaces = k; paint(); } });
+
+    // ---------- 全画面表示 ----------
+    // 地図の枠(#mapWrap)ごと画面いっぱいにする。ブラウザの Fullscreen API を使い、使えない環境(iPhone の Safari など)では
+    // 枠を画面に固定する CSS(.map-full)で代用する。全画面のあいだは、年の操作欄を地図の上に移して操作できるようにする。
+    const wrap = $("mapWrap"), overlay = $("mapOverlay"), yearCard = $("yearCard");
+    const yearHome = yearCard.parentNode, yearNext = yearCard.nextSibling;
+    const canFs = !!(wrap.requestFullscreen && document.fullscreenEnabled);
+    function isFull() { return document.fullscreenElement === wrap || wrap.classList.contains("map-full"); }
+    function onFullChange() {
+      const full = isFull();
+      if (full) { overlay.append(yearCard); overlay.hidden = false; }
+      else { yearHome.insertBefore(yearCard, yearNext); overlay.hidden = true; map.closePopup(); }
+      fsBtn.textContent = full ? "✕" : "⛶";
+      fsBtn.title = full ? "全画面表示を終える(Esc)" : "地図を全画面で表示";
+      fsBtn.setAttribute("aria-label", fsBtn.title);
+      map.invalidateSize();
+      if (full) fitRegion();
+    }
+    function toggleFull() {
+      if (canFs) {
+        if (document.fullscreenElement) document.exitFullscreen();
+        else wrap.requestFullscreen().catch(() => { wrap.classList.add("map-full"); onFullChange(); });
+      } else {
+        wrap.classList.toggle("map-full");
+        onFullChange();
+      }
+    }
+    const FsControl = L.Control.extend({
+      options: { position: "topleft" },
+      onAdd() {
+        const div = L.DomUtil.create("div", "leaflet-bar");
+        const a = L.DomUtil.create("a", "fs-btn", div);
+        a.href = "#"; a.setAttribute("role", "button");
+        L.DomEvent.disableClickPropagation(div);
+        L.DomEvent.on(a, "click", (e) => { L.DomEvent.preventDefault(e); toggleFull(); });
+        return div;
+      },
+    });
+    let fsBtn;
+    map.addControl(new FsControl());
+    fsBtn = wrap.querySelector(".fs-btn");
+    document.addEventListener("fullscreenchange", onFullChange);
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && wrap.classList.contains("map-full")) { wrap.classList.remove("map-full"); onFullChange(); }
+    });
+    onFullChange();
     function syncUrl() {
       const p = new URLSearchParams(location.search);
       if (state.region) p.set("region", state.region); else p.delete("region");
@@ -259,7 +326,7 @@
     })();
     slider.value = state.year;
     renderMissing();
-    lastFaces = facesOn();
+    lastFaces = faceSize(map.getZoom());
     paint();
 
     // 肖像の先読み: 再生中に藩主が替わるたび画像を取りに行くと、表示が遅れる。

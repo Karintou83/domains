@@ -92,7 +92,18 @@ h4 { margin:.9rem 0 .25rem; font-family:var(--serif); font-size:.82rem; letter-s
 .credit-list b { display:block; font-family:var(--serif); font-size:.98rem; letter-spacing:.04em; }
 
 /* 地図ページ */
-#map.canvas { min-height:60vh; z-index:0; background:var(--paper2); }
+/* 地図の枠。全画面表示ではこの枠を画面いっぱいにする(Fullscreen API、使えないブラウザでは .map-full で代用) */
+.map-wrap { position:relative; min-height:60vh; z-index:0; background:var(--paper2); padding:0; overflow:hidden; }
+.map-wrap #map { position:absolute; inset:0; background:var(--paper2); border-radius:inherit; }
+.map-wrap:fullscreen { border-radius:0; border:none; }
+.map-wrap.map-full { position:fixed; inset:0; z-index:2000; border-radius:0; border:none; min-height:0; }
+/* 全画面のあいだ、年の操作欄を地図の右上に重ねる */
+.map-overlay { position:absolute; top:3.6rem; right:.7rem; z-index:1000; width:min(300px, calc(100% - 4.5rem)); max-height:calc(100% - 5rem); overflow:auto; }
+.map-overlay .card { background:rgba(255,252,245,.94); backdrop-filter:blur(2px); }
+.fs-btn { font-size:1.05rem; line-height:30px; text-align:center; cursor:pointer; }
+/* 全画面で藩をクリックしたときの吹き出し */
+.leaflet-popup-content { font-family:var(--sans); font-size:.82rem; line-height:1.55; margin:.6rem .8rem; }
+.leaflet-popup-content b { font-family:var(--serif); font-size:.95rem; }
 .leaflet-container { background:var(--paper2); font-family:var(--sans); }
 .leaflet-tile-pane { filter:sepia(.18) saturate(.85) contrast(.97); }
 .leaflet-overlay-pane path { filter:drop-shadow(0 1px 1.5px rgba(40,30,10,.35)); }
@@ -114,7 +125,7 @@ ul.lords { list-style:none; margin:.3rem 0; padding:0; font-size:.84rem; } ul.lo
 #detail h3 { margin:.1rem 0 .4rem; font-family:var(--serif); font-size:1.25rem; letter-spacing:.08em; } #detail h4 { margin:.9rem 0 .25rem; }
 .warn-note { color:var(--vermilion); font-size:.85rem; }
 /* 顔写真マーカー: 白い縁の円形。外側のリングが氏の色(--c) */
-.face-icon span { display:block; width:44px; height:44px; border-radius:50%; border:3px solid #fff; background-size:cover; background-position:center top; background-color:#fff; box-shadow:0 0 0 2.5px var(--c,#777), 0 3px 8px rgba(30,20,0,.4); }
+.face-icon span { display:block; width:var(--s,44px); height:var(--s,44px); border-radius:50%; border:var(--b,3px) solid #fff; background-size:cover; background-position:center top; background-color:#fff; box-shadow:0 0 0 2.5px var(--c,#777), 0 3px 8px rgba(30,20,0,.4); }
 .playrow { display:flex; align-items:center; justify-content:space-between; gap:.5rem; margin:.3rem 0 .2rem; }
 .playrow .btn.play { margin:0; min-width:5.6rem; background:var(--vermilion); border-color:var(--vermilion); color:#fff; }
 .playrow .btn.play:hover { background:#8f2c20; border-color:#8f2c20; }
