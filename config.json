@@ -628,6 +628,16 @@
       "note": "徳川将軍。江戸として武蔵国とする(ユーザーの判断)"
     }
   },
+  "_comment_district_to_province": "郡 → 旧国の対応表。藩の所在地(P131)が郡で、Wikidata から旧国が決まらないときに使う(Wikidata の郡の項目は今の都道府県にしかつながっておらず、旧国にたどれないため)。表に無い郡は warnings の province_district_unlisted で知らせる。初期値の7郡は Claude が一般的な対応として記入したもので、出典での確認は未了(各郡の日本語版 Wikipedia などで確認すること)。",
+  "district_to_province": {
+    "Q11431107": {"name": "多賀郡", "province": "Q1055353"},
+    "Q1143717": {"name": "夷隅郡", "province": "Q1055394"},
+    "Q11498435": {"name": "揖東郡", "province": "Q1047523"},
+    "Q11553459": {"name": "河内郡(常陸国)", "province": "Q1055353"},
+    "Q1933120": {"name": "加東郡", "province": "Q1047523"},
+    "Q5617095": {"name": "郡上郡", "province": "Q864156"},
+    "Q5765974": {"name": "新治郡", "province": "Q1055353"}
+  },
   "_comment_province_overrides": "Wikidata から旧国が決まらない藩・旧国が複数ある藩の旧国(藩の QID → 旧国の QID)。Wikidata 側が埋まれば validate/build が「不要」と知らせる。",
   "seat_overrides": {
     "Q205662": {

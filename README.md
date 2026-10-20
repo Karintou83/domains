@@ -79,6 +79,7 @@ python scripts/validate.py              # 生成した JSON の整合性チェ�
 | `regions` | 地方の並び順(画面の選択欄・トップページの表の順) |
 | `province_to_region` | 旧国(QID)→ 名前と地方。表に無い旧国の藩は「地方不明」になり、`warnings.json` に残る |
 | `province_overrides` | Wikidata から旧国が決まらない藩、旧国が複数ある藩の旧国(藩の QID → 旧国の QID と根拠)。Wikidata 側に同じ旧国が入ったら警告で知らせる(指定を外せる) |
+| `district_to_province` | 郡 → 旧国の対応表。藩の所在地(P131)が郡で、Wikidata から旧国が決まらないときに使う(Wikidata の郡の項目は今の都道府県にしかつながっておらず、旧国にたどれないため)。表に無い郡は警告(`province_district_unlisted`)で知らせる。初期値の7郡は一般的な対応として記入したもので、出典での確認は未了 |
 | `seat_overrides` | 地図上の位置を城に固定する藩。御三卿(田安・一橋)と江戸幕府を江戸城(Q865913)に置く |
 | `include_adoption` | 養子関係の線を出力するか。`false`(出さない)/ `true`(すべて)/ `"roots"`(実父がデータに無い人に限り、養親からの線を出す)。現在は `"roots"` |
 | `ancestor_generations` | 藩主の実父を何世代さかのぼって取得するか。現在は `8`。増やして `build_data.py` を実行すると、足りない世代だけを追加で取得する |
@@ -93,7 +94,7 @@ python scripts/validate.py              # 生成した JSON の整合性チェ�
 
 | ファイル | 内容 |
 |---|---|
-| `domains.json` | 藩。座標(出所 `source` と精度 `precision` 付き)、旧国 `province`(QID と名前)と出所 `province_source`(`wikidata_direct` / `wikidata_p131` / `wikidata_seat` / `config`)、地方 `region`(不明なら `null`)、在任データ上の最初と最後の年 |
+| `domains.json` | 藩。座標(出所 `source` と精度 `precision` 付き)、旧国 `province`(QID と名前)と出所 `province_source`(`wikidata_direct` / `wikidata_p131` / `wikidata_seat` / `config` / `config_district`)、地方 `region`(不明なら `null`)、在任データ上の最初と最後の年 |
 | `lords.json` | 人物。主たる藩 `primary_domain`(最も早い在任の藩)、日本語版 Wikipedia の記事名、氏(出所 `clan_source` 付き)、肖像(ファイル名・作者・ライセンス) |
 | `tenures.json` | 在任(人物 × 藩 × 開始年・終了年・代数)。地図の年代スライダーの元 |
 | `relations.json` | 家系の線。現在は `blood`(実父 → 子)のみ |
@@ -123,7 +124,7 @@ python scripts/validate.py              # 生成した JSON の整合性チェ�
 ## 分かっている限界
 
 - **収録している藩は、Wikidata に藩主の役職(近世大名 Q24887524 の下位クラスで、ラベルが「〇〇藩主」のもの)と在任(P39)が入っている藩だけです。** 江戸時代のすべての藩を網羅しているとは限りません。地方ごとの数(冒頭の表)の多い少ないは、藩の実数ではなく Wikidata の整備状況を反映していることがあります。トップページにも同じ注意を載せています。
-- **地方不明**の藩は、旧国が Wikidata から決まらなかった藩です(藩の項目に旧国も所在地(P131)も無い、など)。`config.json` の `province_overrides` で旧国を指定すると、地方に振り分けられます。
+- **地方不明**の藩は、旧国が決まらなかった藩です(藩の項目に旧国も所在地(P131)も無い、所在地が対応表に無い郡や今の市町村だけ、など)。旧国は、藩の文の値 → 所在地(P131)・一部(P361)をたどる → 本部所在地(P159)の所在地をたどる → `config.json` の郡の対応表(`district_to_province`)の順に探します。`province_overrides` で藩ごとに旧国を指定することもできます。
 - 氏が Wikidata(P53)にある人物は一部で、多くは名前からの推定です(冒頭の「氏の出所」)。推定の精度は、氏が分かっている人物で試した一致率で示しています。松平のように同じ名字で家が分かれるものは区別できません。
 - 座標の無い藩は地図に出ません(地図ページで一覧にしています)。
 - 地図で「在任者データなし」と出る期間には、Wikidata の入力漏れのほかに、その藩が実際に存在しなかった期間(廃藩や幕領の期間)も含まれます。この2つはまだ区別していません。

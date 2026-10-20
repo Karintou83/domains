@@ -239,9 +239,20 @@ def extra_row_ok(r):
 PROVINCE_PATTERNS = {
     "direct": '''?domain ?p ?prov . FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
   BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop)''',
-    "p131": '''?domain wdt:P131/wdt:P131* ?prov . BIND("P131+" AS ?prop)''',
-    "seat": '''?domain wdt:P159 ?seat . ?seat wdt:P131/wdt:P131* ?prov . BIND("P159/P131+" AS ?prop)''',
+    # 上へは P131(所在地)と P361(一部)の両方でたどる。郡の項目に「〇〇国の一部」(P361)が入っている場合も拾うため。
+    "p131": '''?domain wdt:P131/(wdt:P131|wdt:P361)* ?prov . BIND("P131+" AS ?prop)''',
+    "seat": '''?domain wdt:P159 ?seat . ?seat (wdt:P131|wdt:P361)+ ?prov . BIND("P159/P131+" AS ?prop)''',
 }
+
+
+def q_locations(ids):
+    """藩の所在地(P131)の値。郡なら config.json の district_to_province で旧国を補うために使う。"""
+    vals = " ".join(f"wd:{i}" for i in ids)
+    return f"""
+SELECT ?domain ?loc ?locLabel WHERE {{
+  VALUES ?domain {{ {vals} }} ?domain wdt:P131 ?loc .
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
+}}"""
 
 
 def domain_provinces(ids):
@@ -289,6 +300,7 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""))
     cached_by_id("domain_provinces.json", domains, domain_provinces, 100, key="domain")
+    cached_by_id("domain_locations.json", domains, lambda ch: sparql(q_locations(ch)), 100, key="domain")
     seats = sorted({v["seat"] for v in CONFIG.get("seat_overrides", {}).values()})
     cached_by_id("seat_overrides.json", seats, lambda ch: sparql(q_coords(ch)), 200, key="item")
 
@@ -592,6 +604,12 @@ def build():
         if r["kind"] == "direct":
             props[qid(r["domain"])].add(r["prop"])
     overrides = CONFIG.get("province_overrides", {})
+    districts = CONFIG.get("district_to_province", {})
+    locs, loc_label = defaultdict(set), {}
+    for r in load("domain_locations.json", []):
+        locs[qid(r["domain"])].add(qid(r["loc"]))
+        loc_label[qid(r["loc"])] = r.get("locLabel")
+    unlisted_districts = defaultdict(list)   # 旧国が決まらない藩の所在地(郡など)→ 藩名。まとめて1件の警告にする
 
     def prov_name(q):
         return (p2r.get(q) or {}).get("name") or prov_label.get(q) or q
@@ -627,8 +645,20 @@ def build():
                          f"城のある国を Wikidata から決められないため{prov_name(chosen)}を仮に採っています"
                          "(config.json の province_overrides で指定してください)")
         if chosen is None:
+            # 藩の所在地(P131)が郡なら、config.json の district_to_province(郡 → 旧国)で補う。
+            hits = sorted({districts[g]["province"] for g in locs.get(d, ()) if g in districts})
+            if len(hits) == 1:
+                chosen, source = hits[0], "config_district"
+            elif len(hits) > 1:
+                warn("warn", "province_district_multiple", d, f"{dom['name']}: 所在地の郡が複数の旧国にまたがります"
+                     f"({'・'.join(map(prov_name, hits))})。config.json の province_overrides で指定してください")
+        if chosen is None:
+            unlisted = [g for g in sorted(locs.get(d, ())) if g not in districts and g not in p2r]
+            for g in unlisted:
+                unlisted_districts[g].append(dom["name"])
             warn("warn", "province_missing", d, f"{dom['name']}: 旧国を決められません(Wikidata に旧国が無く、"
-                 "config.json の province_overrides にもありません)。地方不明として表示します")
+                 "config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
+                 + (f"。所在地: {'・'.join(loc_label.get(g) or g for g in unlisted)}" if unlisted else ""))
         dom["province"] = {"id": chosen, "name": prov_name(chosen)} if chosen else None
         dom["province_source"] = source
         if source and source.startswith("wikidata_direct"):
@@ -638,6 +668,13 @@ def build():
             warn("warn", "province_no_region", d, f"{dom['name']}: 旧国 {prov_name(chosen)} ({chosen}) が"
                  " config.json の province_to_region にありません。地方不明として表示します")
         dom["region"] = region
+    for g, names in sorted(unlisted_districts.items()):
+        warn("info", "province_district_unlisted", g, f"所在地 {loc_label.get(g) or g}({g})の旧国を config.json の "
+             f"district_to_province に指定すると、{'・'.join(names)}を地方に振り分けられます")
+    for g, v in districts.items():
+        if v.get("province") not in p2r:
+            warn("warn", "district_bad_province", g, f"config.json の district_to_province: {v.get('name') or g} の旧国 "
+                 f"{v.get('province')} が province_to_region にありません")
 
     # 新田藩(固有の領地・陣屋を持たない分家藩)は、本藩の陣屋の近くに仮置きする(config.json の branch_domains)。
     # 本藩と完全に同じ座標だと地図上でマーカーが重なって見えなくなるので、約1.3km ずつずらす。

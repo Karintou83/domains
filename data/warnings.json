@@ -2985,223 +2985,223 @@
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10856274",
-  "message": "西江原藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "西江原藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863231",
-  "message": "下総飯田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "下総飯田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863294",
-  "message": "阿保藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "阿保藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863297",
-  "message": "上有知藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "上有知藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863313",
-  "message": "大多喜新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "大多喜新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863329",
-  "message": "小野藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "小野藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863356",
-  "message": "郡上藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "郡上藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863364",
-  "message": "下総三浦藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "下総三浦藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863374",
-  "message": "佐野藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "佐野藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863382",
-  "message": "大聖寺新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "大聖寺新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863388",
-  "message": "志筑藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "志筑藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863389",
-  "message": "播磨新宮藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "播磨新宮藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863439",
-  "message": "常陸古渡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "常陸古渡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863453",
-  "message": "林田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "林田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863492",
-  "message": "常陸松岡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "常陸松岡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863493",
-  "message": "平福藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "平福藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863507",
-  "message": "深谷藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "深谷藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q10863539",
-  "message": "山崎藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "山崎藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q109356827",
-  "message": "吉永藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "吉永藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q109356835",
-  "message": "多度津藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "多度津藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q109357353",
-  "message": "新谷藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "新谷藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q109358278",
-  "message": "児島藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "児島藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q109359691",
-  "message": "三次藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "三次藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q109359721",
-  "message": "広島新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "広島新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q109570669",
-  "message": "久居藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "久居藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q114397604",
-  "message": "伊予吉田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "伊予吉田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q12162100",
-  "message": "土佐新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "土佐新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q123110957",
-  "message": "生坂藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "生坂藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q123110960",
-  "message": "鴨方藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "鴨方藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q12589487",
-  "message": "山城長岡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "山城長岡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q12626275",
-  "message": "彦根新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "彦根新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q16282184",
-  "message": "高島藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "高島藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q18710354",
-  "message": "中村藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "中村藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q3034389",
-  "message": "伊勢亀山藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "伊勢亀山藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q3034411",
-  "message": "大浜藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "大浜藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q3034502",
-  "message": "六浦藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "六浦藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
   "kind": "province_missing",
   "subject": "Q613073",
-  "message": "清末藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+  "message": "清末藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
