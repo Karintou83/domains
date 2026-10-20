@@ -430,6 +430,38 @@ def is_son_in_law(qid_, labels=None):
     return p1039_role(qid_) == "son_in_law"
 
 
+README_STATS = re.compile(r"(<!-- stats:start[^>]*-->\n).*?(<!-- stats:end -->)", re.S)
+
+
+def update_readme(meta, n_no_coord, n_multi_father, n_adoption):
+    """README の冒頭の「現在のデータ」(stats:start〜stats:end の間)を、今回の生成結果で書き換える。
+    データを取り直すたびに README の数字が古くなるのを防ぐため。目印が無ければ何もしない。"""
+    path = ROOT / "README.md"
+    if not path.exists():
+        return
+    c, br, cs = meta["counts"], meta["by_region"], meta["clan_source"]
+    sc = meta.get("clan_inference_selfcheck") or {}
+    lines = [f"現在のデータ({meta['generated_at'][:10]} 生成): 藩 {c['domains']}、人物 {c['lords']}(うち藩主 {c['rulers']})、"
+             f"在任 {c['tenures']}、家系の線 {c['relations']}(うち養子の線 {n_adoption})。", "",
+             "| 地方 | 藩 | 藩主 | 在任 |", "|---|---:|---:|---:|"]
+    for r in meta["regions"] + ["unknown"]:
+        v = br.get(r)
+        if v and v["domains"]:
+            lines.append(f"| {'地方不明' if r == 'unknown' else r} | {v['domains']} | {v['lords']} | {v['tenures']} |")
+    lines += ["", f"藩主の数は、その地方の藩に一度でも在任した人数です(転封で複数の地方に数える人がいるので、合計は {c['rulers']} より多くなります)。"
+              "関東には江戸幕府(徳川将軍15代)と御三卿を含みます。", "",
+              f"- 氏の出所: Wikidata {cs.get('wikidata', 0)} 人 / 名前から推定 {cs.get('inferred_name', 0)} 人 / "
+              f"実父から継承 {cs.get('inherited_father', 0)} 人 / 不明 {cs.get('none', 0)} 人"
+              + (f"(名前からの推定を、氏が分かっている人物で試すと {sc['evaluated']} 人中 {sc['correct']} 人が一致)" if sc.get("evaluated") else ""),
+              f"- 座標が無く地図に出ない藩: {n_no_coord}",
+              f"- 実父が2人以上登録されている人物(Wikidata 側の食い違い): {n_multi_father}",
+              f"- 家系図から省いた祖先(どの藩主の系統とも合流しない祖先): {meta.get('ancestors_pruned', 0)} 人", ""]
+    text = path.read_text(encoding="utf-8")
+    new = README_STATS.sub(lambda m: m.group(1) + "\n".join(lines) + "\n" + m.group(2), text, count=1)
+    if new != text:
+        path.write_text(new, encoding="utf-8")
+
+
 def build():
     warnings = []
 
@@ -1120,7 +1152,7 @@ def build():
     dump("relations.json", sorted(relations, key=lambda e: e["id"]))
     warnings.sort(key=lambda w: ({"error": 0, "warn": 1, "info": 2}[w["level"]], w["kind"], w["subject"]))
     dump("warnings.json", warnings)
-    dump("meta.json", {
+    meta_out = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
         "counts": {"domains": len(domains), "lords": len(lords), "tenures": len(tenures), "relations": len(relations),
@@ -1138,7 +1170,11 @@ def build():
         "adoption_roots": adoption_roots_stats,
         "ancestor_generations": ANCESTOR_GENS,
         "ancestor_keep_generations": KEEP, "ancestors_pruned": pruned,
-    })
+    }
+    dump("meta.json", meta_out)
+    update_readme(meta_out, sum(1 for d in domains.values() if not d.get("coord")),
+                  len({w["subject"] for w in warnings if w["kind"] == "multiple_fathers" and w["subject"] in lords}),
+                  sum(1 for e in relations if e["type"] != "blood"))
     print(f"domains={len(domains)} lords={len(lords)} tenures={len(tenures)} relations={len(relations)}")
     print("氏の出所:", dict(nclan), "/ 名前推定の自己採点:", infer_stats)
     print("地方別:", {k: v["domains"] for k, v in by_region.items()})
