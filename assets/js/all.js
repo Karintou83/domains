@@ -87,7 +87,8 @@
     state.mode = "family"; state.island = id;
     cy.style(UI.style({ round: true }));
     cy.elements().remove();
-    cy.add(model.elements(new Set(isl.members), { images: $("showImages").checked, bloodOnly: true }));
+    // 養子の線も描く(ビルドで出しているのは、実父が分からない人と養親をつなぐ線だけ。点線・破線で実父子と区別する)。
+    cy.add(model.elements(new Set(isl.members), { images: $("showImages").checked, bloodOnly: false }));
     try {
       cy.layout({ name: "dagre", rankDir: "TB", nodeSep: 22, rankSep: 70, nodeDimensionsIncludeLabels: true, animate: false, fit: false }).run();
     } catch (err) {
