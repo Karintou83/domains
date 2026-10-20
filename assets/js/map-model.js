@@ -56,5 +56,5 @@
 
   const api = { build, NO_CLAN };
   if (typeof module !== "undefined" && module.exports) module.exports = api;
-  root.Tohoku = Object.assign(root.Tohoku || {}, { MapModel: api });
+  root.Han = Object.assign(root.Han || {}, { MapModel: api });
 })(typeof window !== "undefined" ? window : globalThis);

@@ -1,14 +1,13 @@
-/* 全体の家系図ページ: 東北諸藩の全員を1つのグラフとして表示する。
+/* 全体の家系図ページ: 全国の藩主と実父の系統の全員を1つのグラフとして表示する(地方で絞り込める)。
    dagre を全体に一度かけると、つながりのない一族が横一列に並んで極端に横長になるため、
    「一族(連結成分)ごとに階層レイアウト → 全体を2次元に敷き詰める」という2段階で配置する。 */
 (function () {
-  const { el, showError } = Tohoku;
-  const UI = Tohoku.GraphUI;
+  const { el, showError, domainsByRegion } = Han;
+  const UI = Han.GraphUI;
   let model, data, cy;
   const $ = (id) => document.getElementById(id);
 
-  function layoutAll(hideExternal) {
-    const comps = model.components(new Set(data.lords.map((l) => l.id)), { hideExternal });
+  function layoutAll(comps) {
     const placed = [];
     // 1) 一族ごとに dagre で階層レイアウトし、外接矩形を測る
     comps.forEach((ids) => {
@@ -39,13 +38,43 @@
   function highlight() { UI.applyHighlight(cy, model, { clanId: $("clan").value, domainId: $("domain").value }); }
 
   function redraw() {
-    const hideExternal = $("hideExternal").checked;
+    const ids = model.idsInRegion($("region").value);
+    const comps = model.components(ids);
     cy.elements().remove();
-    cy.add(model.allElements({ hideExternal, images: $("showImages").checked }));
-    const n = layoutAll(hideExternal);
+    cy.add(model.allElements({ images: $("showImages").checked }, ids));
+    const n = layoutAll(comps);
     cy.fit(cy.elements(), 30);
     highlight();
     $("count").textContent = cy.nodes().length + " 人 / " + cy.edges().length + " 本 / " + n + " 組の一族";
+  }
+
+  // 地方を変えたら、藩の選択欄と藩の色の凡例もその地方に合わせる。
+  function onRegion() {
+    const region = $("region").value;
+    UI.fillDomainSelect(model, data, $("domain"), true, region);
+    renderDomainLegend(region);
+    redraw();
+    syncUrl();
+  }
+
+  function renderDomainLegend(region) {
+    const legend = $("domainLegend");
+    legend.replaceChildren();
+    domainsByRegion(data).forEach((g) => {
+      if (region && g.region !== region) return;
+      legend.append(el("li", { class: "region-head", text: g.region }));
+      g.domains.forEach((d) => {
+        const c = model.colors.get(d.id);
+        legend.append(el("li", {}, [el("span", { class: "chip", style: "background:" + c.fill + ";border-color:" + c.border }), d.name]));
+      });
+    });
+  }
+
+  function syncUrl(focus) {
+    const p = new URLSearchParams();
+    if ($("region").value) p.set("region", $("region").value);
+    if (focus) p.set("lord", focus);
+    history.replaceState(null, "", "?" + p.toString());
   }
 
   // 選んだ人物とその直接の親族以外を薄くして、つながりを追いやすくする
@@ -63,7 +92,7 @@
       links: [{ text: "藩別の家系図で見る", href: "tree.html?" + (t ? "domain=" + encodeURIComponent(t.domain) + "&" : "") + "lord=" + encodeURIComponent(l.id) },
              ].concat(t ? [{ text: "地図で見る", href: "map.html?lord=" + encodeURIComponent(l.id) }] : []),
     });
-    history.replaceState(null, "", "?lord=" + encodeURIComponent(id));
+    syncUrl(id);
   }
 
   function clearFocus() {
@@ -73,11 +102,11 @@
   }
 
   async function init() {
-    try { data = await Tohoku.loadData("data/"); } catch (err) { showError(String(err)); return; }
+    try { data = await Han.loadData("data/"); } catch (err) { showError(String(err)); return; }
     if (typeof cytoscape === "undefined") { showError("Cytoscape.js を読み込めませんでした(ネットワークを確認してください)。"); return; }
     model = TreeModel.build(data);
     UI.syncAdoptionUI(data);
-    UI.fillDomainSelect(model, data, $("domain"), true);
+    UI.fillRegionSelect(data, $("region"));
     UI.fillClanSelect(model, $("clan"));
 
     // 辺は曲線(bezier)にする。一族の中は階層で整うが、一族をまたぐ線は無いので taxi でも良いが、
@@ -91,28 +120,31 @@
     $("domain").addEventListener("change", () => {
       highlight();
       const dom = $("domain").value;
-      const hit = cy.nodes().filter((n) => { const t = model.primaryTenure(n.id()); return t && t.domain === dom; });
+      const hit = cy.nodes().filter((n) => model.ruledDomain(n.id(), dom));
       if (dom && !hit.empty()) cy.fit(hit, 60);
     });
-    $("hideExternal").addEventListener("change", redraw);
+    $("region").addEventListener("change", onRegion);
     $("showImages").addEventListener("change", redraw);
     $("fit").addEventListener("click", () => cy.fit(cy.elements(), 30));
     UI.bindSearch(model, $("q"), $("results"), (l) => {
-      if ($("hideExternal").checked && l.external) { $("hideExternal").checked = false; redraw(); }
+      // 絞り込み中の地方に居ない人物を選んだら、全国表示に戻してから選ぶ。
+      if (cy.getElementById(l.id).empty()) { $("region").value = ""; onRegion(); }
       focusNode(l.id);
       cy.center(cy.getElementById(l.id));
     });
 
-    // 凡例: 藩の色
-    const legend = $("domainLegend");
-    data.domains.filter((d) => d.scope === "tohoku").sort((a, b) => a.name.localeCompare(b.name, "ja")).forEach((d) => {
-      const c = model.colors.get(d.id);
-      legend.append(el("li", {}, [el("span", { class: "chip", style: "background:" + c.fill + ";border-color:" + c.border }), d.name]));
-    });
-
-    redraw();
-    const focus = new URLSearchParams(location.search).get("lord");
-    if (focus && model.lords.has(focus)) { focusNode(focus); cy.center(cy.getElementById(focus)); cy.zoom(0.9); }
+    // URL: ?region=地方名 / ?lord=人物のQID。人物の指定があり地方の指定が無ければ、その人の地方に絞る
+    // (全国 1900 人余りを一度に描くより速く、その人の周りも見やすい)。
+    const p = new URLSearchParams(location.search);
+    const focus = model.lords.has(p.get("lord")) ? p.get("lord") : null;
+    let region = p.get("region") || (focus && model.regionOfLord(focus)) || "";
+    if (![...$("region").options].some((o) => o.value === region)) region = "";
+    $("region").value = region;
+    onRegion();
+    if (focus) {
+      if (cy.getElementById(focus).empty()) { $("region").value = ""; onRegion(); }
+      focusNode(focus); cy.center(cy.getElementById(focus)); cy.zoom(0.9);
+    }
     $("generated").textContent = (data.meta && data.meta.generated_at) ? "データ生成: " + data.meta.generated_at.slice(0, 10) : "";
   }
 

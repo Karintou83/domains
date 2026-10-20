@@ -1,24 +1,27 @@
 /* 地図ページ。Leaflet で藩の陣屋(城)位置にマーカーを置き、年スライダーで藩主の氏による色分けを切り替える。 */
 (function () {
-  const { el, loadData, showError, wikipediaUrl, wikidataUrl, CLAN_SOURCE_LABEL } = Tohoku;
+  const { el, loadData, showError, wikipediaUrl, wikidataUrl, CLAN_SOURCE_LABEL, regionOf, provinceName } = Han;
   const $ = (id) => document.getElementById(id);
   const PRECISION_LABEL = {
     exact: "藩の所在地の座標(Wikidata P625 または 城・陣屋)",
     approx: "概略位置: 藩の所在地(市町村)の座標で、陣屋の位置ではありません",
     branch: "仮置き: 本藩の陣屋の近くに置いています(実際の位置ではありません)",
+    seat_override: "所在地を城に固定しています(config.json の seat_overrides)",
   };
+  // 肖像マーカーを出す最小の拡大率。全国を見渡す縮尺では 44px の肖像が重なり合って、藩の位置も色も読めなくなるため。
+  const FACE_MIN_ZOOM = 7;
 
   function init() {
     loadData().then(start).catch((e) => showError("データの読み込みに失敗しました: " + e.message));
   }
 
   function start(data) {
-    const M = Tohoku.MapModel.build(data);
+    const M = Han.MapModel.build(data);
     const [Y0, Y1] = [1590, 1871];
-    const state = { year: 1750, showExternal: false, showFaces: true, clan: "", selected: null };
-    const thumb = (l) => Tohoku.imageUrl(l.image, 240);
+    const state = { year: 1750, region: "", showFaces: true, clan: "", selected: null };
+    const thumb = (l) => Han.imageUrl(l.image, 240);
 
-    const map = L.map("map", { zoomControl: true }).setView([39.2, 140.6], 7);
+    const map = L.map("map", { zoomControl: true }).setView([36.5, 137.5], 5);
     // 地図タイル(国土地理院)。既定は文字のない「白地図」。出典の表示が必要なので attribution に必ず入れる。
     // 白地図タイルのズームは 5–14。淡色地図は地名が多いので、必要なときだけ切り替える。
     const GSI = '<a href="https://maps.gsi.go.jp/development/ichiran.html" target="_blank" rel="noopener">国土地理院</a>';
@@ -51,7 +54,13 @@
       markers.set(d.id, m);
     });
 
-    function visible(d) { return d.scope === "tohoku" || state.showExternal; }
+    function visible(d) { return !state.region || regionOf(d) === state.region; }
+    // 表示中の地方の藩がすべて収まるように寄せる(全国なら日本全体)。
+    function fitRegion() {
+      const pts = placeable.filter(visible).map((d) => [d.coord.lat, d.coord.lon]);
+      if (pts.length) map.fitBounds(pts, { padding: [30, 30], maxZoom: 9 });
+    }
+    function facesOn() { return state.showFaces && map.getZoom() >= FACE_MIN_ZOOM; }
 
     function paint() {
       const y = state.year;
@@ -77,12 +86,13 @@
         if (d.id === state.selected) m.bringToFront();
         // 顔写真: 在任者に表示可能な画像があれば、円形の肖像アイコンを重ねる(縁の色は氏の色)。
         const face = st.status === "holder" ? M.lords.get(st.tenure.lord) : null;
-        if (state.showFaces && face && face.image && face.image.display) showFace(d, face, color, opacity);
+        if (facesOn() && face && face.image && face.image.display) showFace(d, face, color, opacity);
         else dropFace(d.id);
       });
       $("yearLabel").textContent = y + "年";
       renderLegend(present);
-      $("summary").textContent = "この年に存在する藩(表示中): " + (holders + gaps) + "(うち在任者データなし " + gaps + ")";
+      $("summary").textContent = (state.region || "全国") + "で、この年に存在する藩: " + (holders + gaps) + "(うち在任者データなし " + gaps + ")"
+        + (state.showFaces && !facesOn() ? "。肖像は拡大すると表示します" : "");
       if (state.selected) renderDetail(state.selected);
     }
 
@@ -126,13 +136,14 @@
       const d = M.domains.get(id), box = $("detail"); box.textContent = "";
       const st = M.stateAt(id, state.year);
       box.append(el("h3", {}, [d.wikipedia ? el("a", { href: wikipediaUrl(d.wikipedia), target: "_blank", rel: "noopener", text: d.name }) : d.name]));
+      box.append(el("p", { class: "sub", text: [regionOf(d), provinceName(d)].filter(Boolean).join(" ・ ") }));
       // 座標のない藩も ?domain= で選べるので、その場合は地図に出せない理由を示す。
       box.append(d.coord
         ? el("p", { class: "sub", text: PRECISION_LABEL[d.coord.precision] + (d.coord.source_label ? "(" + d.coord.source_label + ")" : "") })
         : el("p", { class: "warn-note", text: "この藩は座標のデータがないため、地図上には表示していません。" }));
       if (st.status === "holder") {
         const l = M.lords.get(st.tenure.lord), c = M.clanOf(l.id);
-        if (l.image) box.append(Tohoku.GraphUI.imageBlock(l));
+        if (l.image) box.append(Han.GraphUI.imageBlock(l));
         box.append(el("p", {}, [el("b", { text: state.year + "年の藩主: " }), lordLink(l, st.tenure),
           c ? el("span", { class: "sub", text: "(" + c.name + (c.source !== "wikidata" ? "・" + (CLAN_SOURCE_LABEL[c.source] || "推定") : "") + (c.multiple ? "・複数の氏あり" : "") + ")" }) : el("span", { class: "sub", text: "(氏の情報なし)" })]));
         if (st.others.length) box.append(el("p", { class: "sub", text: "この年に交代: 前任 " + st.others.map((t) => M.lords.get(t.lord).name).join("、") }));
@@ -156,11 +167,15 @@
       return el("a", { href: "tree.html?domain=" + encodeURIComponent(t.domain) + "&lord=" + encodeURIComponent(l.id), text: l.name });
     }
 
-    // 座標を持たない藩は地図に出せないので、隠さずに一覧する。
-    const missing = data.domains.filter((d) => !d.coord && d.scope === "tohoku").sort((a, b) => a.name.localeCompare(b.name, "ja"));
-    $("missingCount").textContent = missing.length;
-    missing.forEach((d) => $("missing").append(el("li", {}, [el("a", { href: "tree.html?domain=" + encodeURIComponent(d.id), text: d.name }),
-      el("span", { class: "sub", text: " " + (d.first_year || "?") + "–" + (d.last_year || "?") })])));
+    // 座標を持たない藩は地図に出せないので、隠さずに一覧する(表示中の地方の分だけ)。
+    function renderMissing() {
+      const missing = data.domains.filter((d) => !d.coord && visible(d))
+        .sort((a, b) => Han.regionsOf(data).indexOf(regionOf(a)) - Han.regionsOf(data).indexOf(regionOf(b)) || a.name.localeCompare(b.name, "ja"));
+      $("missingCount").textContent = missing.length;
+      $("missing").replaceChildren(...missing.map((d) => el("li", {}, [el("a", { href: "tree.html?domain=" + encodeURIComponent(d.id), text: d.name }),
+        el("span", { class: "sub", text: " " + (state.region ? "" : regionOf(d) + " ") + (d.first_year || "?") + "–" + (d.last_year || "?") })])));
+    }
+    Han.GraphUI.fillRegionSelect(data, $("region"));
 
     const slider = $("year");
     slider.min = Y0; slider.max = Y1; slider.value = state.year;
@@ -195,10 +210,22 @@
       if (e.code === "Space" && !/^(INPUT|SELECT|TEXTAREA|BUTTON)$/.test(document.activeElement.tagName)) { e.preventDefault(); setPlaying(!timer); }
     });
     $("showFaces").addEventListener("change", (e) => { state.showFaces = e.target.checked; paint(); });
-    $("showExternal").addEventListener("change", (e) => { state.showExternal = e.target.checked; paint(); });
+    $("region").addEventListener("change", (e) => {
+      state.region = e.target.value;
+      if (state.selected && !visible(M.domains.get(state.selected))) state.selected = null;
+      renderMissing(); fitRegion(); paint(); syncUrl();
+    });
+    // 拡大率をまたいだときだけ描き直す(肖像の出し入れ)。毎回の zoomend で描き直すと、再生中に重くなるため。
+    let lastFaces = null;
+    map.on("zoomend", () => { if (facesOn() !== lastFaces) { lastFaces = facesOn(); paint(); } });
+    function syncUrl() {
+      const p = new URLSearchParams(location.search);
+      if (state.region) p.set("region", state.region); else p.delete("region");
+      history.replaceState(null, "", "?" + p.toString());
+    }
     $("clearClan").addEventListener("click", () => { state.clan = ""; paint(); });
 
-    // URL の指定を反映する: ?domain=藩のQID / ?lord=人物のQID / ?year=年。
+    // URL の指定を反映する: ?region=地方名 / ?domain=藩のQID / ?lord=人物のQID / ?year=年。
     // 家系図ページの「地図で見る」「この藩を地図で見る」から来たときに、その藩を選び、その人が藩主だった年に合わせる。
     (function applyUrl() {
       const p = new URLSearchParams(location.search);
@@ -206,10 +233,12 @@
       let domId = p.get("domain");
       let year = parseInt(p.get("year"), 10);          // 指定が無ければ NaN
       const lord = M.lords.get(p.get("lord"));
+      const region = p.get("region");
+      if (region && [...$("region").options].some((o) => o.value === region)) { state.region = region; $("region").value = region; }
       if (lord) {
-        // その人の在任のうち、地図に出せる(座標がある)東北の藩を優先し、その中で最も早いものを選ぶ。
+        // その人の在任のうち、地図に出せる(座標がある)藩を優先し、その中で最も早いものを選ぶ。
         const ts = data.tenures.filter((t) => t.lord === lord.id && M.domains.has(t.domain) && (!domId || t.domain === domId));
-        const rank = (t) => { const d = M.domains.get(t.domain); return (d.coord ? 0 : 2) + (d.scope === "tohoku" ? 0 : 1); };
+        const rank = (t) => (M.domains.get(t.domain).coord ? 0 : 1);
         ts.sort((a, b) => rank(a) - rank(b) || (a.start || 9999) - (b.start || 9999));
         if (ts.length) {
           domId = ts[0].domain;
@@ -220,14 +249,17 @@
       }
       if (!isNaN(year)) state.year = clamp(year);
       const d = M.domains.get(domId);
-      if (!d) return;
+      if (!d) { fitRegion(); return; }
       // 年の指定が無く、既定の年にその藩の藩主がいないときは、その藩の最初の年に合わせる(藩が地図に出るように)。
       if (isNaN(year) && M.stateAt(d.id, state.year).status !== "holder" && d.first_year) state.year = clamp(d.first_year);
-      if (d.scope !== "tohoku") { state.showExternal = true; $("showExternal").checked = true; }
+      // 選んだ藩が絞り込み中の地方に無ければ、絞り込みを外す(藩を地図に出すため)。
+      if (!visible(d)) { state.region = ""; $("region").value = ""; }
       state.selected = d.id;
-      if (d.coord) map.setView([d.coord.lat, d.coord.lon], 9);
+      if (d.coord) map.setView([d.coord.lat, d.coord.lon], 9); else fitRegion();
     })();
     slider.value = state.year;
+    renderMissing();
+    lastFaces = facesOn();
     paint();
 
     // 肖像の先読み: 再生中に藩主が替わるたび画像を取りに行くと、表示が遅れる。
