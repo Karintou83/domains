@@ -20,8 +20,13 @@
   <aside class="side">
     <section class="card">
       <h2>全体の系図</h2>
-      <p class="sub">全国の藩主と、その実父の系統の全員を1つのグラフにしています。実父子<span data-adoption>・養子</span>の線でつながった一族ごとにまとめ、全体に敷き詰めています。人物をクリックすると、その人と親族だけが濃くなります。</p>
-      <label class="field">地方(その地方の藩主と、その実父の系統を表示)<select id="region"></select></label>
+      <p class="sub" id="islandsHelp">実父子<span data-adoption>・養子</span>の線でつながった一族を「島」として、代表者1人のアイコンで並べています。代表者は、家系図の一番上の世代にいる藩主です。アイコンの大きさは島の人数を表します(面積が人数に比例)。クリックすると、その島の全員を家系図で表示します。</p>
+      <div id="islandInfo" hidden>
+        <p id="islandTitle" class="island-title"></p>
+        <button type="button" class="btn" id="back">← 島の一覧に戻る</button>
+        <p class="sub">人物をクリックすると、その人と親族だけが濃くなります。</p>
+      </div>
+      <label class="field">地方(その地方の藩主がいる島だけを表示)<select id="region"></select></label>
       <label class="check"><input type="checkbox" id="showImages" checked> 肖像を表示</label>
       <div class="row"><button type="button" class="btn" id="fit">全体を表示</button></div>
       <p id="count" class="sub"></p>
@@ -34,6 +39,7 @@
     </section>
     <section class="card">
       <h2>名前で探す</h2>
+      <p class="sub">選ぶと、その人の島を開いて、その人に寄せます。</p>
       <label class="field"><input type="search" id="q" placeholder="例: 細川忠興" autocomplete="off"></label>
       <ul id="results" class="results"></ul>
     </section>
@@ -53,7 +59,7 @@
     <details class="card"><summary>藩の色</summary><ul id="domainLegend" class="legend domains"></ul></details>
   </aside>
   <section id="cy" class="canvas" aria-label="全体の系図"></section>
-  <aside class="side info"><section class="card"><h2>詳細</h2><div id="info"><p class="sub">人物をクリックすると、その人と親族だけが濃く表示されます。</p></div></section></aside>
+  <aside class="side info"><section class="card"><h2>詳細</h2><div id="info"><p class="sub">島(アイコン)をクリックすると、その島の全員を家系図で表示します。</p></div></section></aside>
 </main>
 <footer class="site">
   データ: <a href="https://www.wikidata.org/" target="_blank" rel="noopener">Wikidata</a>(CC0)。人物名のリンクは日本語版Wikipedia。
