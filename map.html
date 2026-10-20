@@ -20,7 +20,7 @@
 <div id="error" class="error" role="alert" hidden></div>
 <main>
   <aside class="side">
-    <section class="card">
+    <section class="card" id="yearCard">
       <h2>年</h2>
       <div class="yearrow"><button type="button" class="btn" data-step="-10" aria-label="10年戻る">−10</button><button type="button" class="btn" data-step="-1" aria-label="1年戻る">−1</button>
         <strong id="yearLabel"></strong>
@@ -32,7 +32,7 @@
       </div>
       <p id="summary" class="sub"></p>
       <label class="field">地方<select id="region"></select></label>
-      <label class="check"><input type="checkbox" id="showFaces" checked> 藩主の肖像をマーカーに表示(拡大時)</label>
+      <label class="check"><input type="checkbox" id="showFaces" checked> 藩主の肖像をマーカーに表示</label>
     </section>
     <section class="card">
       <h2>藩主の氏で色分け</h2>
@@ -45,7 +45,11 @@
       <ul id="missing" class="lords"></ul>
     </details>
   </aside>
-  <div id="map" class="canvas"></div>
+  <!-- 全画面表示では、この枠ごと画面いっぱいにする。年の操作欄(#yearCard)は全画面のあいだだけ #mapOverlay に移す。 -->
+  <div id="mapWrap" class="canvas map-wrap">
+    <div id="map"></div>
+    <div id="mapOverlay" class="map-overlay" hidden></div>
+  </div>
   <aside class="side"><section class="card" id="detail"><p class="sub">マーカーをクリックすると、その藩の歴代藩主を表示します。</p></section></aside>
 </main>
 <footer class="site">
