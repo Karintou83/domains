@@ -45,9 +45,18 @@ FEMALE = "Q6581072"                          # 性別(P21) = 女性。系図に�
 # 列名は、最初の調査(explore_*.py)で保存した data/raw/*.json と同じにしてある。
 # → 調査で取得済みのファイルをそのまま再利用でき、取得リクエストを増やさずに済む。
 # ----------------------------------------------------------------------------
+# 藩主職の選び方: 上位クラス(P279)が近世大名で、日本語ラベルが「〇〇藩主」のもの。
+# 以前は P31 = Q114962596 も条件にしていたが、P31 の入れ方は職によってまちまちなので、ラベルで選ぶ。
+# 近世大名の下位クラスには「〇〇藩主」以外(大名家の当主など)もあり得るので、ラベルの末尾で藩主職に限る。
+# config の include_positions(御三卿の当主職)は、ラベルが「〇〇当主」で P279 も揃っていないため、QID で直接加える。
+INCLUDE_POSITIONS = CONFIG.get("include_positions", {})
+POS_FILTER = f"""{{ ?pos wdt:P279 wd:{KINSEI} ; rdfs:label ?posJa .
+    FILTER(LANG(?posJa) = "ja" && STRENDS(?posJa, "藩主")) }}
+  UNION {{ VALUES ?pos {{ {" ".join(f"wd:{q}" for q in INCLUDE_POSITIONS)} }} }}"""
+
 Q_POSITIONS = f"""
 SELECT ?pos ?posLabel ?p279 ?domain ?domainLabel ?back ?coord WHERE {{
-  ?pos wdt:P31 wd:Q114962596 ; wdt:P279 wd:{KINSEI} .
+  {POS_FILTER}
   BIND(wd:{KINSEI} AS ?p279)
   OPTIONAL {{ ?pos wdt:P2389 ?domain .
              OPTIONAL {{ ?domain wdt:P2388 ?back }}
@@ -58,7 +67,8 @@ SELECT ?pos ?posLabel ?p279 ?domain ?domainLabel ?back ?coord WHERE {{
 # 座標の取得元は P159(本拠地=城・陣屋) と P36(首都=市町村) に限る(実データで使われていたのはこの2つ)。
 Q_SEATS = f"""
 SELECT ?domain ?prop ?seat ?seatLabel ?coord WHERE {{
-  ?pos wdt:P31 wd:Q114962596 ; wdt:P279 wd:{KINSEI} ; wdt:P2389 ?domain .
+  {POS_FILTER}
+  ?pos wdt:P2389 ?domain .
   VALUES ?p {{ wdt:P159 wdt:P36 }}
   ?domain ?p ?seat . ?seat wdt:P625 ?coord .
   BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop)
@@ -68,7 +78,7 @@ SELECT ?domain ?prop ?seat ?seatLabel ?coord WHERE {{
 # 在任は statement ノード(p:/ps:/pq:)で取る。修飾子(年・前任・後任)は声明に付いているため。
 Q_P39 = f"""
 SELECT ?st ?person ?personLabel ?pos ?start ?end ?prev ?next ?clan ?clanLabel WHERE {{
-  ?pos wdt:P31 wd:Q114962596 ; wdt:P279 wd:{KINSEI} .
+  {POS_FILTER}
   ?person p:P39 ?st . ?st ps:P39 ?pos .
   OPTIONAL {{ ?st pq:P580 ?start }}  OPTIONAL {{ ?st pq:P582 ?end }}
   OPTIONAL {{ ?st pq:P1365 ?prev }}  OPTIONAL {{ ?st pq:P1366 ?next }}
@@ -78,7 +88,7 @@ SELECT ?st ?person ?personLabel ?pos ?start ?end ?prev ?next ?clan ?clanLabel WH
 
 Q_P1308 = f"""
 SELECT ?st ?pos ?person ?ord ?start ?end WHERE {{
-  ?pos wdt:P31 wd:Q114962596 ; wdt:P279 wd:{KINSEI} .
+  {POS_FILTER}
   ?pos p:P1308 ?st . ?st ps:P1308 ?person .
   OPTIONAL {{ ?st pq:P1545 ?ord }}
   OPTIONAL {{ ?st pq:P580 ?start }}  OPTIONAL {{ ?st pq:P582 ?end }}

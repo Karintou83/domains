@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-11T02:02:05+00:00",
+ "generated_at": "2026-10-20T12:12:22+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
-  "domains": 130,
-  "lords": 1946,
-  "tenures": 1374,
-  "relations": 1762,
-  "rulers": 1271,
+  "domains": 496,
+  "lords": 4422,
+  "tenures": 4040,
+  "relations": 3807,
+  "rulers": 3416,
   "warnings": {
-   "warn": 54,
-   "info": 57
+   "warn": 538,
+   "info": 215
   }
  },
  "regions": [
@@ -29,34 +29,34 @@
    "tenures": 429
   },
   "関東": {
-   "domains": 12,
-   "lords": 170,
-   "tenures": 180
+   "domains": 127,
+   "lords": 812,
+   "tenures": 909
   },
   "北陸": {
-   "domains": 6,
-   "lords": 58,
-   "tenures": 61
+   "domains": 36,
+   "lords": 271,
+   "tenures": 285
   },
   "東海・甲信": {
-   "domains": 2,
-   "lords": 31,
-   "tenures": 33
+   "domains": 72,
+   "lords": 497,
+   "tenures": 537
   },
   "近畿": {
-   "domains": 6,
-   "lords": 95,
-   "tenures": 95
+   "domains": 83,
+   "lords": 716,
+   "tenures": 754
   },
   "中国": {
-   "domains": 6,
-   "lords": 63,
-   "tenures": 64
+   "domains": 35,
+   "lords": 300,
+   "tenures": 314
   },
   "四国": {
-   "domains": 4,
-   "lords": 55,
-   "tenures": 55
+   "domains": 12,
+   "lords": 120,
+   "tenures": 121
   },
   "九州": {
    "domains": 41,
@@ -64,38 +64,49 @@
    "tenures": 457
   },
   "unknown": {
-   "domains": 0,
-   "lords": 0,
-   "tenures": 0
+   "domains": 37,
+   "lords": 232,
+   "tenures": 234
   }
  },
  "province_source": {
-  "wikidata_direct": 83,
-  "config": 40,
-  "wikidata_p131": 7
+  "wikidata_direct": 392,
+  "none": 37,
+  "wikidata_p131": 26,
+  "config": 41
  },
  "clan_source": {
-  "inferred_name": 1229,
-  "wikidata": 275,
-  "none": 434,
-  "inherited_father": 8
+  "inferred_name": 2792,
+  "wikidata": 456,
+  "none": 1161,
+  "inherited_father": 13
  },
  "clan_inference_selfcheck": {
-  "evaluated": 275,
-  "correct": 180
+  "evaluated": 456,
+  "correct": 246
  },
  "p1038_skipped_non_adoption": {
+  "Q12160962": 5,
+  "Q4994791": 1,
+  "Q9238344": 10,
   "Q20746702": 1,
-  "Q9238344": 4,
-  "Q15224724": 5,
-  "Q76557": 3,
+  "Q2914212": 1,
+  "Q19756330": 1,
   "Q11572068": 5,
-  "Q11666901": 12,
-  "Q10291472": 3,
+  "Q76557": 4,
+  "Q11666901": 14,
+  "Q15224724": 6,
+  "Q3238556": 1,
+  "Q10291472": 4,
   "Q3972282": 1,
+  "Q15657883": 2,
   "Q31819505": 1,
   "Q2096646": 1,
-  "Q167918": 2
+  "Q402152": 2,
+  "Q183905": 1,
+  "Q13184390": 1,
+  "Q167918": 2,
+  "Q11921506": 1
  },
  "p1039_roles": {
   "Q10291472": {
@@ -110,12 +121,28 @@
    "label": "義理の親族関係",
    "role": "other"
   },
+  "Q11921506": {
+   "label": "孫（男性）",
+   "role": "other"
+  },
+  "Q12160962": {
+   "label": "妻の父",
+   "role": "other"
+  },
+  "Q13184390": {
+   "label": "義兄弟",
+   "role": "other"
+  },
   "Q13204680": {
    "label": "義父",
    "role": "parent"
   },
   "Q15224724": {
    "label": "甥",
+   "role": "other"
+  },
+  "Q15657883": {
+   "label": "息子の息子",
    "role": "other"
   },
   "Q167918": {
@@ -125,6 +152,14 @@
   "Q180472": {
    "label": "養子縁組",
    "role": "child"
+  },
+  "Q183905": {
+   "label": "子孫",
+   "role": "other"
+  },
+  "Q19756330": {
+   "label": "孫（女性）",
+   "role": "other"
   },
   "Q20746702": {
    "label": "継兄弟",
@@ -150,8 +185,16 @@
    "label": "養子",
    "role": "child"
   },
+  "Q2914212": {
+   "label": "義兄弟",
+   "role": "other"
+  },
   "Q31819505": {
    "label": "従兄弟",
+   "role": "other"
+  },
+  "Q3238556": {
+   "label": "義姉妹",
    "role": "other"
   },
   "Q3752578": {
@@ -160,6 +203,14 @@
   },
   "Q3972282": {
    "label": "兄",
+   "role": "other"
+  },
+  "Q402152": {
+   "label": "先祖",
+   "role": "other"
+  },
+  "Q4994791": {
+   "label": "外祖父",
    "role": "other"
   },
   "Q61740757": {
@@ -191,7 +242,7 @@
  "excluded": {
   "female": 0,
   "parent_gender_unknown": 1,
-  "adoption_edges": 436
+  "adoption_edges": 983
  },
  "include_adoption": false,
  "ancestor_generations": 8

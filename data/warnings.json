@@ -2,8 +2,74 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q1045052",
+  "message": "岡田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q1073005",
+  "message": "麻田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10854976",
+  "message": "上総苅谷藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10854996",
+  "message": "上里見藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10855037",
+  "message": "川成島藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10855055",
+  "message": "葛野藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10855066",
+  "message": "片野藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10855302",
+  "message": "小張藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q10855529",
   "message": "窪田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10855751",
+  "message": "菊間藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10855946",
+  "message": "長峰藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10856274",
+  "message": "西江原藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -14,8 +80,140 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q10856335",
+  "message": "玉取藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10856390",
+  "message": "高森藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10856398",
+  "message": "高柳藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863231",
+  "message": "下総飯田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863235",
+  "message": "伊保藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863238",
+  "message": "伊勢岩手藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863241",
+  "message": "伊勢崎藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863256",
+  "message": "安志藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863257",
+  "message": "安房三枝藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863260",
+  "message": "岩村田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863263",
+  "message": "岩滝藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863264",
+  "message": "揖斐藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863265",
+  "message": "板橋藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863278",
+  "message": "潤井戸藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q10863280",
   "message": "石川藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863285",
+  "message": "赤沼藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863289",
+  "message": "足守藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863290",
+  "message": "近江宮川藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863292",
+  "message": "近江小室藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863293",
+  "message": "近江高島藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863294",
+  "message": "阿保藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863295",
+  "message": "青柳藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863296",
+  "message": "麻生藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -26,14 +224,260 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q10863323",
+  "message": "大輪藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863326",
+  "message": "奥仁科藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863338",
+  "message": "栗原藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863339",
+  "message": "櫛羅藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863353",
+  "message": "興留藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863364",
+  "message": "下総三浦藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863368",
+  "message": "下野上田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863369",
+  "message": "下野富田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863375",
+  "message": "信濃中村藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863382",
+  "message": "大聖寺新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863383",
+  "message": "小久保藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863393",
+  "message": "木本藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863400",
+  "message": "篠塚藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863402",
+  "message": "芝村藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863403",
+  "message": "蔵王堂藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863408",
+  "message": "高井藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863409",
+  "message": "高井野藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863414",
+  "message": "高徳藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863420",
+  "message": "摂津中島藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863430",
+  "message": "八田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q10863431",
   "message": "出羽丸岡藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q10863433",
+  "message": "原市藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863435",
+  "message": "埴科藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863438",
+  "message": "布市藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863449",
+  "message": "徳美藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863457",
+  "message": "能登下村藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863462",
+  "message": "西谷藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863464",
+  "message": "遠江久野藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863466",
+  "message": "那波藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863467",
+  "message": "那須藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863469",
+  "message": "野村藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863472",
+  "message": "陶器藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863477",
+  "message": "三河中島藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863479",
+  "message": "三草藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863484",
+  "message": "保内藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863489",
+  "message": "堀江藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863501",
+  "message": "松長藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863502",
+  "message": "武蔵小室藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863516",
+  "message": "美濃脇坂藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863517",
+  "message": "美濃長谷川藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863523",
+  "message": "美濃高松藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q10863528",
   "message": "陸奥下村藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863529",
+  "message": "八木藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -50,8 +494,44 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q10863545",
+  "message": "矢作藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q10863546",
   "message": "矢島藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q10863553",
+  "message": "谷田部藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q109356827",
+  "message": "吉永藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q109356835",
+  "message": "多度津藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q109357353",
+  "message": "新谷藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q109358278",
+  "message": "児島藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -62,14 +542,62 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q109359691",
+  "message": "三次藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q109359721",
+  "message": "広島新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q111655770",
   "message": "下手渡藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q114397604",
+  "message": "伊予吉田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q11490464",
+  "message": "徳野藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q11533304",
+  "message": "林藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q11557068",
+  "message": "浅尾藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q12111537",
   "message": "小倉新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q12161918",
+  "message": "阿波富田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q12162100",
+  "message": "土佐新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -86,8 +614,32 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q123110957",
+  "message": "生坂藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q123110960",
+  "message": "鴨方藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q123150770",
   "message": "鶴田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q12589487",
+  "message": "山城長岡藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q12626275",
+  "message": "彦根新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -122,8 +674,62 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q141732613",
+  "message": "野本藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q141732683",
+  "message": "東方藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q141732887",
+  "message": "松山新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q141733522",
+  "message": "松江新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q141737697",
+  "message": "下松藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q141737724",
+  "message": "美作宮川藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q141737782",
+  "message": "鳥取新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q141737862",
+  "message": "鳥取新田藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q16180027",
   "message": "斗南藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q16282184",
+  "message": "高島藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -140,14 +746,98 @@
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q3034383",
+  "message": "青野藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034384",
+  "message": "安房勝山藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034406",
+  "message": "生実藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034431",
+  "message": "大聖寺藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034436",
+  "message": "伯太藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034442",
+  "message": "花房藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q3034444",
   "message": "蓮池藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
   "kind": "coord_missing",
+  "subject": "Q3034458",
+  "message": "加納藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034477",
+  "message": "黒羽藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034503",
+  "message": "長尾藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034506",
+  "message": "七日市藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034514",
+  "message": "庭瀬藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q3034517",
+  "message": "鯖江藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
   "subject": "Q3034528",
   "message": "常陸宍戸藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q30925922",
+  "message": "清富藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
+ },
+ {
+  "level": "warn",
+  "kind": "coord_missing",
+  "subject": "Q369285",
+  "message": "五井藩: 座標を取得できません(藩P625・城P159・P36のいずれも無し)"
  },
  {
   "level": "warn",
@@ -176,12 +866,320 @@
  {
   "level": "warn",
   "kind": "domain_position_mismatch",
+  "subject": "Q123997456",
+  "message": "鹿奴藩: 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141737845'] / 藩→役職: ['Q141733594'])",
+  "positions": [
+   "Q141737845"
+  ],
+  "back": [
+   "Q141733594"
+  ]
+ },
+ {
+  "level": "warn",
+  "kind": "domain_position_mismatch",
+  "subject": "Q141732613",
+  "message": "野本藩: 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141732701'] / 藩→役職: [])",
+  "positions": [
+   "Q141732701"
+  ],
+  "back": []
+ },
+ {
+  "level": "warn",
+  "kind": "domain_position_mismatch",
+  "subject": "Q141732683",
+  "message": "東方藩: 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141732700'] / 藩→役職: [])",
+  "positions": [
+   "Q141732700"
+  ],
+  "back": []
+ },
+ {
+  "level": "warn",
+  "kind": "domain_position_mismatch",
   "subject": "Q3034399",
   "message": "小城藩: 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141529979'] / 藩→役職: [])",
   "positions": [
    "Q141529979"
   ],
   "back": []
+ },
+ {
+  "level": "warn",
+  "kind": "lord_female",
+  "subject": "Q11473877",
+  "message": "岡部長住: 藩主ですが性別(P21)が女性です(藩主なので系図には残しています)"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_female",
+  "subject": "Q11530348",
+  "message": "松平信書: 藩主ですが性別(P21)が女性です(藩主なので系図には残しています)"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10518200",
+  "message": "黒田直純: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10521064",
+  "message": "本多正永: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10522675",
+  "message": "本多正憲: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10522845",
+  "message": "本多正矩: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10523842",
+  "message": "三宅康保: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10523862",
+  "message": "三宅康友: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10523924",
+  "message": "三宅康明: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10523993",
+  "message": "三宅康直: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524017",
+  "message": "三宅康貞: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524107",
+  "message": "土井利与: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524135",
+  "message": "土井利久: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524243",
+  "message": "土井利則: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524284",
+  "message": "土井利厚: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524711",
+  "message": "土井利見: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524806",
+  "message": "土井利重: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10524872",
+  "message": "土井利隆: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10525069",
+  "message": "三浦正次: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565386",
+  "message": "水野勝任: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565390",
+  "message": "水野勝前: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565391",
+  "message": "水野勝剛: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565393",
+  "message": "水野勝愛: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565397",
+  "message": "水野勝起: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565447",
+  "message": "阿部正簡: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565452",
+  "message": "阿部正能: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565461",
+  "message": "阿部正身: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565479",
+  "message": "水野勝庸: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565483",
+  "message": "水野勝進: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565518",
+  "message": "水野忠定: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565540",
+  "message": "水野忠昭: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565556",
+  "message": "水野忠興: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565559",
+  "message": "水野忠見: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565561",
+  "message": "水野忠輝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565563",
+  "message": "水野忠辰: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565566",
+  "message": "水野忠韶: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565571",
+  "message": "水野重上: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565576",
+  "message": "水野重期: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565588",
+  "message": "堀直哉: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10565602",
+  "message": "水野元綱: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10729330",
+  "message": "松平勝全: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10729332",
+  "message": "松平勝升: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10729334",
+  "message": "松平勝尹: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10729338",
+  "message": "松平勝房: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10729347",
+  "message": "柳生俊平: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10729395",
+  "message": "森川俊民: 実父(P22)がありません"
  },
  {
   "level": "warn",
@@ -192,14 +1190,578 @@
  {
   "level": "warn",
   "kind": "lord_no_father",
-  "subject": "Q10860025",
-  "message": "小笠原吉次: 実父(P22)がありません"
+  "subject": "Q10860072",
+  "message": "本庄道堅: 実父(P22)がありません"
  },
  {
   "level": "warn",
   "kind": "lord_no_father",
-  "subject": "Q10860114",
-  "message": "牧野成春: 実父(P22)がありません"
+  "subject": "Q10860133",
+  "message": "牧野貞勝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10860149",
+  "message": "牧野貞直: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862106",
+  "message": "戸田忠位: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862107",
+  "message": "戸田忠余: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862109",
+  "message": "戸田忠友: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862111",
+  "message": "戸田忠喬: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862112",
+  "message": "戸田忠囿: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862116",
+  "message": "戸田忠延: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862120",
+  "message": "戸田忠時: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862122",
+  "message": "戸田忠温: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862129",
+  "message": "戸田忠翰: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862132",
+  "message": "戸田忠至: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q10862134",
+  "message": "戸田忠言: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11068358",
+  "message": "屋代忠位: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11068367",
+  "message": "屋代忠興: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11069792",
+  "message": "松平忠之: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11161327",
+  "message": "井伊直朝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11161337",
+  "message": "井伊直武: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11356580",
+  "message": "三浦重成: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364056",
+  "message": "中山信宝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364059",
+  "message": "中山信徴: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364060",
+  "message": "中山信情: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364062",
+  "message": "中山信成: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364063",
+  "message": "中山信政: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364064",
+  "message": "中山信敏: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364065",
+  "message": "中山信昌: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364067",
+  "message": "中山信治: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11364069",
+  "message": "中山信順: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373020",
+  "message": "井上政清: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373021",
+  "message": "井上政蔽: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373063",
+  "message": "井上正之: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373068",
+  "message": "井上正健: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373069",
+  "message": "井上正兼: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373072",
+  "message": "井上正和: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373079",
+  "message": "井上正広: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373080",
+  "message": "井上正建: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373081",
+  "message": "井上正意: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373082",
+  "message": "井上正敦: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373083",
+  "message": "井上正棠: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373085",
+  "message": "井上正森: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373086",
+  "message": "井上正民: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373091",
+  "message": "井上正紀: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11373094",
+  "message": "井上正辰: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11382701",
+  "message": "佐久間安次: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11382702",
+  "message": "佐久間安長: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11394304",
+  "message": "内田正信: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11394307",
+  "message": "内田正学: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11394308",
+  "message": "内田正容: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11394312",
+  "message": "内田正純: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11394315",
+  "message": "内田正肥: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11397416",
+  "message": "前田利以: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11397422",
+  "message": "前田利和 (七日市藩主): 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11397434",
+  "message": "前田利慶: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11397444",
+  "message": "前田利理: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11397455",
+  "message": "前田利英: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11397460",
+  "message": "前田利豁: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11398747",
+  "message": "加納久慎: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11419181",
+  "message": "喜多見重政: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11419250",
+  "message": "喜連川宜氏: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11419251",
+  "message": "喜連川尊信: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11419257",
+  "message": "喜連川氏春: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11419258",
+  "message": "喜連川氏連: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11419260",
+  "message": "喜連川煕氏: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423370",
+  "message": "土岐定吉: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423371",
+  "message": "土岐定富: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423373",
+  "message": "土岐定経: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423407",
+  "message": "土岐頼寛: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423408",
+  "message": "土岐頼功: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423409",
+  "message": "土岐頼寧: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423411",
+  "message": "土岐頼布: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423416",
+  "message": "土岐頼煕: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11423550",
+  "message": "土方雄豊: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427205",
+  "message": "堀之美: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427207",
+  "message": "堀之敏: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427644",
+  "message": "堀田正民: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427646",
+  "message": "堀田正穀: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427649",
+  "message": "堀田正誠: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427656",
+  "message": "堀田正養: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427680",
+  "message": "堀直佑: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427685",
+  "message": "堀直喜: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427686",
+  "message": "堀直堅: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427690",
+  "message": "堀直央 (椎谷藩主): 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427692",
+  "message": "堀直宣: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427696",
+  "message": "堀直寛: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427703",
+  "message": "堀直旧: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427708",
+  "message": "堀直武: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427714",
+  "message": "堀直皓: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427715",
+  "message": "堀直興: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427718",
+  "message": "堀直著: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427720",
+  "message": "堀直輝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427722",
+  "message": "堀直郷: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427750",
+  "message": "堀著朝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427757",
+  "message": "堀親庸: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427760",
+  "message": "堀親民: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11427811",
+  "message": "堀通周: 実父(P22)がありません"
  },
  {
   "level": "warn",
@@ -210,8 +1772,854 @@
  {
   "level": "warn",
   "kind": "lord_no_father",
-  "subject": "Q11490349",
-  "message": "徳永寿昌: 実父(P22)がありません"
+  "subject": "Q11431968",
+  "message": "大久保忠喜: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11431982",
+  "message": "大久保忠胤: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11431985",
+  "message": "大久保忠順: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11437058",
+  "message": "大河内輝声: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11437876",
+  "message": "大田原光清: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11437878",
+  "message": "大田原友清: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11437887",
+  "message": "大田原広清: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11437890",
+  "message": "大田原愛清: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11437895",
+  "message": "大田原清信: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11437899",
+  "message": "大田原純清: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11451584",
+  "message": "安部信享: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11451585",
+  "message": "安部信任: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11451586",
+  "message": "安部信允: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11451591",
+  "message": "安部信古: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11451592",
+  "message": "安部信峯: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11451594",
+  "message": "安部信平: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11451596",
+  "message": "安部信盛: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11465652",
+  "message": "屋代忠正: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11473877",
+  "message": "岡部長住: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11473878",
+  "message": "岡部長修: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11480545",
+  "message": "市橋信直: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11480556",
+  "message": "市橋直挙: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11480569",
+  "message": "市橋長昭: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11495562",
+  "message": "成瀬正典: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11495569",
+  "message": "成瀬正幸: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11502209",
+  "message": "新庄直ハツ: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11502211",
+  "message": "新庄直侯: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11502217",
+  "message": "新庄直敬: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11502222",
+  "message": "新庄直祐: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11502223",
+  "message": "新庄直計: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11520069",
+  "message": "本多正武: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11520310",
+  "message": "本庄道利: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11520312",
+  "message": "本庄道昌: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11520893",
+  "message": "本郷泰固: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11522938",
+  "message": "村上頼勝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11530449",
+  "message": "松平忠誠 (武蔵国忍藩主): 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11530597",
+  "message": "松平輝徳: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11530598",
+  "message": "松平輝承: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11530616",
+  "message": "松平重利: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11530622",
+  "message": "松平重治: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534365",
+  "message": "柳沢保卓: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534376",
+  "message": "柳沢信有: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534386",
+  "message": "柳沢光被: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534420",
+  "message": "柳沢里世: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534423",
+  "message": "柳沢里旭: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534508",
+  "message": "柳生俊則: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534512",
+  "message": "柳生俊方: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534514",
+  "message": "柳生俊章: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11534524",
+  "message": "柳生宗在: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11537542",
+  "message": "桑山重晴: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11539594",
+  "message": "森川俊令: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11539597",
+  "message": "森川俊孝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11539599",
+  "message": "森川俊徳: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11539600",
+  "message": "森川俊方: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11539603",
+  "message": "森川俊胤: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11539604",
+  "message": "森川俊知: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11539644",
+  "message": "森川重俊: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11540572",
+  "message": "植村恒朝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11549385",
+  "message": "水野忠順: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11549747",
+  "message": "永井尚備: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11549795",
+  "message": "永井直哉: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11549798",
+  "message": "永井直壮: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11549810",
+  "message": "永井直矢: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11569866",
+  "message": "片桐為次: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11569867",
+  "message": "片桐為元: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11569877",
+  "message": "片桐貞信: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11569878",
+  "message": "片桐貞中: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11569879",
+  "message": "片桐貞利: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11569880",
+  "message": "片桐貞彰: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11569884",
+  "message": "片桐貞照: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11586317",
+  "message": "石川総弾: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11586325",
+  "message": "石川総般: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11586328",
+  "message": "石川総貨: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11596533",
+  "message": "稲垣長茂: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11596948",
+  "message": "稲葉正巳: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11596951",
+  "message": "稲葉正明: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11603995",
+  "message": "米倉昌尹: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11603996",
+  "message": "米倉昌明: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11603997",
+  "message": "米倉昌照: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11608282",
+  "message": "織田信就: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11642019",
+  "message": "遠山友随: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644092",
+  "message": "酒井忠藎: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644111",
+  "message": "酒井忠告: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644112",
+  "message": "酒井忠哲: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644126",
+  "message": "酒井忠寧: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644129",
+  "message": "酒井忠強: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644130",
+  "message": "酒井忠彰: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644132",
+  "message": "酒井忠恒 (伊勢崎藩主): 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644157",
+  "message": "酒井忠経: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11644167",
+  "message": "酒井忠良: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11670089",
+  "message": "高木正善: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11670091",
+  "message": "高木正坦: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11670099",
+  "message": "高木正恒: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11670105",
+  "message": "高木正直: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11674900",
+  "message": "鳥居忠威: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11674901",
+  "message": "鳥居忠宝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11674903",
+  "message": "鳥居忠意: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11674904",
+  "message": "鳥居忠挙: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11674907",
+  "message": "鳥居忠瞭: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11678642",
+  "message": "黒田直亨: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11678645",
+  "message": "黒田直和: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11678650",
+  "message": "黒田直温: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11678653",
+  "message": "黒田直邦: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11678654",
+  "message": "黒田直養: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q11678655",
+  "message": "黒田直静: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q141734620",
+  "message": "蒔田定英: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q141734621",
+  "message": "蒔田定安: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q141734622",
+  "message": "蒔田定祥: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q141734623",
+  "message": "蒔田定邦: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q141734625",
+  "message": "蒔田定庸: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q141734627",
+  "message": "蒔田広運: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q15934258",
+  "message": "根津信政: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q16482495",
+  "message": "根津信直: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q3151480",
+  "message": "井上正巳: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q4352879",
+  "message": "高力清長: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q4666449",
+  "message": "阿部忠秋: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q4803532",
+  "message": "浅野長勲: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q528010",
+  "message": "内田正良: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q5892559",
+  "message": "本多正訥: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q6013277",
+  "message": "稲葉正盛: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q6013298",
+  "message": "稲葉正武: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q6013303",
+  "message": "稲葉正善: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q6636035",
+  "message": "柳生俊能: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q6637937",
+  "message": "片桐貞篤: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q6638010",
+  "message": "中山信守: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q6958350",
+  "message": "永井直勝: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7222435",
+  "message": "大岡忠光: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7222469",
+  "message": "大岡忠固: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7222498",
+  "message": "大岡忠恕: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7222539",
+  "message": "大岡忠正: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7222546",
+  "message": "大岡忠烈: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7400591",
+  "message": "岡部長職: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7480624",
+  "message": "鳥居忠文: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q7813576",
+  "message": "土岐頼稔: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q798628",
+  "message": "土井利位: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q8054926",
+  "message": "米倉昌晴: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q8054929",
+  "message": "米倉昌寿: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q8054932",
+  "message": "米倉昌由: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q8054935",
+  "message": "米倉里矩: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "lord_no_father",
+  "subject": "Q8081567",
+  "message": "大久保忠愨: 実父(P22)がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q10565523",
+  "message": "水野忠寛: 実父が複数あります(水野忠鼎、水野忠紹)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q10729488",
+  "message": "松平乗穏: 実父が複数あります(松平盈乗、馬込興承)"
  },
  {
   "level": "warn",
@@ -228,8 +2636,32 @@
  {
   "level": "warn",
   "kind": "multiple_fathers",
+  "subject": "Q109122992",
+  "message": "稲葉通兼: 実父が複数あります(稲葉通高、河野通春)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
   "subject": "Q110249784",
   "message": "林政秀: 実父が複数あります(林通政 (織田信長の家臣)、林通政 (駿河守))"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11069279",
+  "message": "青山成重: 実父が複数あります(服部正信、青山忠重)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11069924",
+  "message": "池田輝名: 実父が複数あります(松平忠順、池田喜生)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q110816643",
+  "message": "井伊忠直: 実父が複数あります(井伊景直、井伊成直)"
  },
  {
   "level": "warn",
@@ -240,8 +2672,56 @@
  {
   "level": "warn",
   "kind": "multiple_fathers",
+  "subject": "Q11245090",
+  "message": "別所吉治: 実父が複数あります(別所重宗、別所長治)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11368647",
+  "message": "丹羽氏明: 実父が複数あります(一色氏宗、丹羽氏純)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11432526",
+  "message": "大内持盛: 実父が複数あります(大内弘世、大内義弘)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11432530",
+  "message": "大内教幸: 実父が複数あります(大内持盛、大内盛見)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
   "subject": "Q11445780",
   "message": "奥平昌邁: 実父が複数あります(伊達宗敦、伊達宗城)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11459502",
+  "message": "小堀政峯: 実父が複数あります(小堀政恒、小堀政養)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11522794",
+  "message": "村上忠勝: 実父が複数あります(戸田勝隆、戸田内記)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11539646",
+  "message": "森川重信: 実父が複数あります(森川重名、森川重政)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11551920",
+  "message": "池田政恭: 実父が複数あります(池田政弼、池田治政)"
  },
  {
   "level": "warn",
@@ -252,8 +2732,62 @@
  {
   "level": "warn",
   "kind": "multiple_fathers",
+  "subject": "Q11605992",
+  "message": "細川興隆: 実父が複数あります(細川興元、細川興昌)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11608249",
+  "message": "織田久長: 実父が複数あります(織田常松、織田常竹、勝久 織田)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11608277",
+  "message": "織田信定: 実父が複数あります(織田敏定、織田良信)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11608367",
+  "message": "織田常松: 実父が複数あります(織田常勝、藤原将広)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11608368",
+  "message": "織田常竹: 実父が複数あります(織田常勝、藤原将広)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11608420",
+  "message": "織田良信: 実父が複数あります(織田敏信、織田敏定)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
   "subject": "Q11619293",
   "message": "菅沼定則: 実父が複数あります(菅沼定忠 (菅沼定信の子)、菅沼定成 (菅沼定忠の子))"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11627721",
+  "message": "西尾吉次: 実父が複数あります(吉良持広、西尾信光)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11636811",
+  "message": "足利義明: 実父が複数あります(足利政氏、足利義晴)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q11644642",
+  "message": "里見実堯: 実父が複数あります(里見成義、里見義実)"
  },
  {
   "level": "warn",
@@ -276,6 +2810,12 @@
  {
   "level": "warn",
   "kind": "multiple_fathers",
+  "subject": "Q6378611",
+  "message": "加藤泰秋: 実父が複数あります(加藤泰幹、加藤泰祉)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
   "subject": "Q672741",
   "message": "德川家達: 実父が複数あります(徳川家茂、徳川慶頼)"
  },
@@ -290,6 +2830,12 @@
   "kind": "multiple_fathers",
   "subject": "Q6993673",
   "message": "松平頼純: 実父が複数あります(徳川頼宣、father of 松平頼純)"
+ },
+ {
+  "level": "warn",
+  "kind": "multiple_fathers",
+  "subject": "Q8081574",
+  "message": "大久保忠礼: 実父が複数あります(大久保教義、松平頼恕)"
  },
  {
   "level": "warn",
@@ -311,6 +2857,102 @@
  },
  {
   "level": "warn",
+  "kind": "p22_without_p40",
+  "subject": "Q11397460",
+  "message": "前田利昭 の実父が 前田利豁 ですが、父側に P40 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p22_without_p40",
+  "subject": "Q11516784",
+  "message": "三浦朗次 の実父が 有馬徳純 ですが、父側に P40 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p22_without_p40",
+  "subject": "Q8054926",
+  "message": "米倉昌賢 の実父が 米倉昌晴 ですが、父側に P40 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q11161255",
+  "message": "井伊直幸: 彦根藩主 の在任年が P39=1755–1789 / P1308=1754–1755 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q11364059",
+  "message": "中山信徴: 常陸松岡藩主 の在任年が P39=1861–1871 / P1308=1861–1868 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q11413061",
+  "message": "吉川経幹: 岩国藩主 の在任年が P39=1844–1868 / P1308=1868–1868 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q11551873",
+  "message": "池田徳定: 鳥取新田藩主 の在任年が P39=1862–1869 / P1308=1862–1870 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q11562165",
+  "message": "渡辺基綱: 伯太藩主 の在任年が P39=1698–1728 / P1308=1698–1727 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q11605976",
+  "message": "細川興元: 谷田部藩主 の在任年が P39=1610–1616 / P1308=1616–1619 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q11621238",
+  "message": "蒔田広孝: 浅尾藩主 の在任年が P39=1858–1863 / P1308=1863–1871 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q5994900",
+  "message": "井伊直勝: 彦根藩主 の在任年が P39=1608–1615 / P1308=1606–1615 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p39_p1308_mismatch",
+  "subject": "Q7447188",
+  "message": "関一政: 黒坂藩主 の在任年が P39=1610–1618 / P1308=1611–1618 で食い違います(要文献確認)"
+ },
+ {
+  "level": "warn",
+  "kind": "p40_without_p22",
+  "subject": "Q10565523",
+  "message": "水野忠鼎 の子として P40 にありますが、水野忠寛 側に P22 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p40_without_p22",
+  "subject": "Q11069279",
+  "message": "青山忠重 の子として P40 にありますが、青山成重 側に P22 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p40_without_p22",
+  "subject": "Q11245090",
+  "message": "別所長治 の子として P40 にありますが、別所吉治 側に P22 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p40_without_p22",
+  "subject": "Q11437891",
+  "message": "大田原晴川 の子として P40 にありますが、大田原扶清 側に P22 がありません"
+ },
+ {
+  "level": "warn",
   "kind": "p40_without_p22",
   "subject": "Q11445780",
   "message": "伊達宗敦 の子として P40 にありますが、奥平昌邁 側に P22 がありません"
@@ -318,8 +2960,284 @@
  {
   "level": "warn",
   "kind": "p40_without_p22",
+  "subject": "Q11605992",
+  "message": "細川興元 の子として P40 にありますが、細川興隆 側に P22 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p40_without_p22",
+  "subject": "Q6378611",
+  "message": "加藤泰祉 の子として P40 にありますが、加藤泰秋 側に P22 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "p40_without_p22",
   "subject": "Q672741",
   "message": "徳川家茂 の子として P40 にありますが、德川家達 側に P22 がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10856274",
+  "message": "西江原藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863231",
+  "message": "下総飯田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863294",
+  "message": "阿保藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863297",
+  "message": "上有知藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863313",
+  "message": "大多喜新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863329",
+  "message": "小野藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863356",
+  "message": "郡上藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863364",
+  "message": "下総三浦藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863374",
+  "message": "佐野藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863382",
+  "message": "大聖寺新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863388",
+  "message": "志筑藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863389",
+  "message": "播磨新宮藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863439",
+  "message": "常陸古渡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863453",
+  "message": "林田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863492",
+  "message": "常陸松岡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863493",
+  "message": "平福藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863507",
+  "message": "深谷藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q10863539",
+  "message": "山崎藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q109356827",
+  "message": "吉永藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q109356835",
+  "message": "多度津藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q109357353",
+  "message": "新谷藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q109358278",
+  "message": "児島藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q109359691",
+  "message": "三次藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q109359721",
+  "message": "広島新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q109570669",
+  "message": "久居藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q114397604",
+  "message": "伊予吉田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q12162100",
+  "message": "土佐新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q123110957",
+  "message": "生坂藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q123110960",
+  "message": "鴨方藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q12589487",
+  "message": "山城長岡藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q12626275",
+  "message": "彦根新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q16282184",
+  "message": "高島藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q18710354",
+  "message": "中村藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q3034389",
+  "message": "伊勢亀山藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q3034411",
+  "message": "大浜藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q3034502",
+  "message": "六浦藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_missing",
+  "subject": "Q613073",
+  "message": "清末藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides にもありません)。地方不明として表示します"
+ },
+ {
+  "level": "warn",
+  "kind": "province_multiple",
+  "subject": "Q3034400",
+  "message": "奥殿藩: 旧国が複数あり(信濃国・三河国)、城のある国を Wikidata から決められないため信濃国を仮に採っています(config.json の province_overrides で指定してください)"
+ },
+ {
+  "level": "warn",
+  "kind": "province_multiple",
+  "subject": "Q3034557",
+  "message": "徳島藩: 旧国が複数あり(淡路国・阿波国)、城のある国を Wikidata から決められないため淡路国を仮に採っています(config.json の province_overrides で指定してください)"
+ },
+ {
+  "level": "warn",
+  "kind": "province_multiple",
+  "subject": "Q905521",
+  "message": "鳥取藩: 旧国が複数あり(伯耆国・因幡国)、城のある国を Wikidata から決められないため伯耆国を仮に採っています(config.json の province_overrides で指定してください)"
+ },
+ {
+  "level": "warn",
+  "kind": "tenure_no_start",
+  "subject": "Q11636757",
+  "message": "足利国朝: 喜連川藩主 の開始年がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "tenure_no_start",
+  "subject": "Q16482486",
+  "message": "根津政次: 上野豊岡藩主 の開始年がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "tenure_no_start",
+  "subject": "Q16482495",
+  "message": "根津信直: 上野豊岡藩主 の開始年がありません"
+ },
+ {
+  "level": "warn",
+  "kind": "tenure_no_start",
+  "subject": "Q6448558",
+  "message": "朽木元綱: 朽木藩主 の開始年がありません"
  },
  {
   "level": "warn",
@@ -330,14 +3248,38 @@
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q1004240",
+  "message": "豊岡藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q1037917",
   "message": "天童藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q1040575",
+  "message": "請西藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q1073012",
   "message": "峰山藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q1073712",
+  "message": "狭山藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10855065",
+  "message": "柿岡藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -354,8 +3296,38 @@
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q10856234",
+  "message": "額田藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q10856411",
   "message": "高畠藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863232",
+  "message": "井伊谷藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863237",
+  "message": "伊勢上野藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863251",
+  "message": "大網藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863253",
+  "message": "姉崎藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -366,8 +3338,278 @@
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q10863266",
+  "message": "板鼻藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863274",
+  "message": "江戸崎藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q10863276",
   "message": "浅川藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863279",
+  "message": "牛久藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863281",
+  "message": "石戸藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863282",
+  "message": "綾部藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863284",
+  "message": "茨木藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863287",
+  "message": "足利藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863288",
+  "message": "足助藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863298",
+  "message": "上総八幡藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863299",
+  "message": "上野豊岡藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863301",
+  "message": "久喜藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863302",
+  "message": "倉吉藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863303",
+  "message": "勝浦藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863304",
+  "message": "喜多見藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863306",
+  "message": "喜連川藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863307",
+  "message": "堅田藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863313",
+  "message": "大多喜新田藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863315",
+  "message": "大宮藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863318",
+  "message": "大田原藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863328",
+  "message": "小山藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863329",
+  "message": "小野藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863332",
+  "message": "岡部藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863333",
+  "message": "川之江藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863335",
+  "message": "掛塚藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863336",
+  "message": "朽木藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863341",
+  "message": "清水藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863358",
+  "message": "雲出藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863359",
+  "message": "鹿沼藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863362",
+  "message": "三条藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863365",
+  "message": "下総山崎藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863366",
+  "message": "下総山川藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863377",
+  "message": "園部藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863381",
+  "message": "坂木藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863386",
+  "message": "小松藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863387",
+  "message": "御所藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863388",
+  "message": "志筑藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863389",
+  "message": "播磨新宮藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863390",
+  "message": "新城藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863392",
+  "message": "曾我野藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863396",
+  "message": "沢海藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863399",
+  "message": "竜田藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863401",
+  "message": "総社藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863406",
+  "message": "重原藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863407",
+  "message": "関藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863416",
+  "message": "高滝藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -378,8 +3620,218 @@
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q10863422",
+  "message": "丹南藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863425",
+  "message": "仁正寺藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863436",
+  "message": "多良藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863439",
+  "message": "常陸古渡藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863450",
+  "message": "成羽藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863452",
+  "message": "東条藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863453",
+  "message": "林田藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863460",
+  "message": "西方藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863461",
+  "message": "西端藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863463",
+  "message": "谷川藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863470",
+  "message": "長沼藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863473",
+  "message": "鶴舞藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863474",
+  "message": "三上藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863475",
+  "message": "三日月藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863487",
+  "message": "吹上藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863488",
+  "message": "味舌藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863491",
+  "message": "常陸北条藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863494",
+  "message": "御牧藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863495",
+  "message": "本庄藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863496",
+  "message": "村岡藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863505",
+  "message": "深溝藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863507",
+  "message": "深谷藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863508",
+  "message": "百首藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863509",
+  "message": "皆川藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863510",
+  "message": "真壁藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863511",
+  "message": "福本藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863526",
+  "message": "藤井藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q10863530",
   "message": "吉井藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863534",
+  "message": "大和五条藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863535",
+  "message": "大和新庄藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863537",
+  "message": "山上藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863538",
+  "message": "山家藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863542",
+  "message": "柳生藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863551",
+  "message": "谷村藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q10863554",
+  "message": "龍ヶ崎藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q11583112",
+  "message": "真岡藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -390,14 +3842,50 @@
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q123997456",
+  "message": "鹿奴藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q12681092",
   "message": "広瀬藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q18710354",
+  "message": "中村藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q2399563",
+  "message": "多胡藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q3034399",
   "message": "小城藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034402",
+  "message": "小見川藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034407",
+  "message": "宇陀松山藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034411",
+  "message": "大浜藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -414,8 +3902,104 @@
  {
   "level": "info",
   "kind": "coord_approx",
+  "subject": "Q3034454",
+  "message": "北条藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034467",
+  "message": "騎西藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034472",
+  "message": "菰野藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034502",
+  "message": "六浦藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034507",
+  "message": "新見藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034525",
+  "message": "下妻藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034537",
+  "message": "高岡藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034540",
+  "message": "高富藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034545",
+  "message": "館山藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034553",
+  "message": "鶴牧藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q3034568",
+  "message": "柳本藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q591239",
+  "message": "鳩ヶ谷藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q613073",
+  "message": "清末藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q661116",
+  "message": "甲府藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
   "subject": "Q7883935",
   "message": "母里藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q839263",
+  "message": "岩国藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q903518",
+  "message": "徳山藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -428,6 +4012,18 @@
   "kind": "coord_approx",
   "subject": "Q910006",
   "message": "守山藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q994102",
+  "message": "宇和島藩: 市町村(P36)の座標で代用した概略位置です"
+ },
+ {
+  "level": "info",
+  "kind": "coord_approx",
+  "subject": "Q997403",
+  "message": "大溝藩: 市町村(P36)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -456,6 +4052,12 @@
  {
   "level": "info",
   "kind": "coord_seat_override",
+  "subject": "Q11560958",
+  "message": "清水徳川家: config.json の seat_overrides により 江戸城 の位置に置いています"
+ },
+ {
+  "level": "info",
+  "kind": "coord_seat_override",
   "subject": "Q11576489",
   "message": "田安徳川家: config.json の seat_overrides により 江戸城 の位置に置いています"
  },
@@ -470,6 +4072,18 @@
   "kind": "domain_duplicate_name",
   "subject": "Q10863417",
   "message": "同名の藩項目が複数あります: 高田藩"
+ },
+ {
+  "level": "info",
+  "kind": "domain_duplicate_name",
+  "subject": "Q141737782",
+  "message": "同名の藩項目が複数あります: 鳥取新田藩"
+ },
+ {
+  "level": "info",
+  "kind": "domain_duplicate_name",
+  "subject": "Q141737862",
+  "message": "同名の藩項目が複数あります: 鳥取新田藩"
  },
  {
   "level": "info",
@@ -497,6 +4111,146 @@
  },
  {
   "level": "info",
+  "kind": "image_license_unclear",
+  "subject": "Q6739716",
+  "message": "牧野忠雅: 画像 Toku fig03.jpg はライセンスを確認できないため、画像を表示せずリンクのみにしています"
+ },
+ {
+  "level": "info",
+  "kind": "image_license_unclear",
+  "subject": "Q8081583",
+  "message": "大久保忠真: 画像 Ōkubo Tadazane.gif はライセンスを確認できないため、画像を表示せずリンクのみにしています"
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q10517629",
+  "message": "本多助実: 飯山藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1858,
+    1867
+   ],
+   [
+    1869,
+    1871
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11161221",
+  "message": "井伊直定: 彦根藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1735,
+    1754
+   ],
+   [
+    1754,
+    1755
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11161411",
+  "message": "井伊直興: 彦根藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1676,
+    1701
+   ],
+   [
+    1710,
+    1714
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11445771",
+  "message": "奥平忠昌: 宇都宮藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1614,
+    1619
+   ],
+   [
+    1622,
+    1668
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11459092",
+  "message": "小出吉英: 出石藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1604,
+    1613
+   ],
+   [
+    1619,
+    1666
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11467507",
+  "message": "山口重政: 牛久藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1600,
+    1613
+   ],
+   [
+    1628,
+    1635
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11519978",
+  "message": "本多俊次: 膳所藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1621,
+    1621
+   ],
+   [
+    1651,
+    1664
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11532527",
+  "message": "板倉重治: 伊勢亀山藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1709,
+    1710
+   ],
+   [
+    1717,
+    1724
+   ]
+  ]
+ },
+ {
+  "level": "info",
   "kind": "multiple_stints",
   "subject": "Q287657",
   "message": "徳川慶喜: 一橋徳川家当主 に在任声明が2件(再任、または重複入力)",
@@ -508,6 +4262,70 @@
    [
     1862,
     1866
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q3181445",
+  "message": "土屋政直: 土浦藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1679,
+    1682
+   ],
+   [
+    1687,
+    1719
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q399755",
+  "message": "松平直矩: 姫路藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1648,
+    1649
+   ],
+   [
+    1667,
+    1682
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q6788065",
+  "message": "松平資訓: 浜松藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1723,
+    1729
+   ],
+   [
+    1749,
+    1752
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q7402766",
+  "message": "酒井忠義: 小浜藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1834,
+    1862
+   ],
+   [
+    1868,
+    1870
    ]
   ]
  },
@@ -531,7 +4349,7 @@
   "level": "info",
   "kind": "p1039_skipped",
   "subject": "Q10291472",
-  "message": "P1038の関係 Q10291472(弟) 3件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+  "message": "P1038の関係 Q10291472(弟) 4件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
@@ -543,19 +4361,55 @@
   "level": "info",
   "kind": "p1039_skipped",
   "subject": "Q11666901",
-  "message": "P1038の関係 Q11666901(義理の親族関係) 12件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+  "message": "P1038の関係 Q11666901(義理の親族関係) 14件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q11921506",
+  "message": "P1038の関係 Q11921506(孫（男性）) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q12160962",
+  "message": "P1038の関係 Q12160962(妻の父) 5件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q13184390",
+  "message": "P1038の関係 Q13184390(義兄弟) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
   "kind": "p1039_skipped",
   "subject": "Q15224724",
-  "message": "P1038の関係 Q15224724(甥) 5件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+  "message": "P1038の関係 Q15224724(甥) 6件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q15657883",
+  "message": "P1038の関係 Q15657883(息子の息子) 2件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
   "kind": "p1039_skipped",
   "subject": "Q167918",
   "message": "P1038の関係 Q167918(祖父母) 2件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q183905",
+  "message": "P1038の関係 Q183905(子孫) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q19756330",
+  "message": "P1038の関係 Q19756330(孫（女性）) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
@@ -572,8 +4426,20 @@
  {
   "level": "info",
   "kind": "p1039_skipped",
+  "subject": "Q2914212",
+  "message": "P1038の関係 Q2914212(義兄弟) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
   "subject": "Q31819505",
   "message": "P1038の関係 Q31819505(従兄弟) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q3238556",
+  "message": "P1038の関係 Q3238556(義姉妹) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
@@ -584,14 +4450,26 @@
  {
   "level": "info",
   "kind": "p1039_skipped",
+  "subject": "Q402152",
+  "message": "P1038の関係 Q402152(先祖) 2件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q4994791",
+  "message": "P1038の関係 Q4994791(外祖父) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
   "subject": "Q76557",
-  "message": "P1038の関係 Q76557(おじ) 3件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+  "message": "P1038の関係 Q76557(おじ) 4件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
   "kind": "p1039_skipped",
   "subject": "Q9238344",
-  "message": "P1038の関係 Q9238344(祖父) 4件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+  "message": "P1038の関係 Q9238344(祖父) 10件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
@@ -608,6 +4486,12 @@
  {
   "level": "info",
   "kind": "p1308_count_mismatch",
+  "subject": "Q10729485",
+  "message": "松平乗真: 奥殿藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
   "subject": "Q10791086",
   "message": "松平康福: 浜田藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
@@ -620,6 +4504,18 @@
  {
   "level": "info",
   "kind": "p1308_count_mismatch",
+  "subject": "Q11161221",
+  "message": "井伊直定: 彦根藩主 の在任声明数が P39=2 / P1308=1 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q11161255",
+  "message": "井伊直幸: 彦根藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
   "subject": "Q11239138",
   "message": "松平忠弘: 山形藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
@@ -628,6 +4524,42 @@
   "kind": "p1308_count_mismatch",
   "subject": "Q11239141",
   "message": "松平武元: 館林藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q11364059",
+  "message": "中山信徴: 常陸松岡藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q11364064",
+  "message": "中山信敏: 常陸松岡藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q11413061",
+  "message": "吉川経幹: 岩国藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q11502219",
+  "message": "新庄直時: 麻生藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q11530604",
+  "message": "松平輝貞: 高崎藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q11621238",
+  "message": "蒔田広孝: 浅尾藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
  {
   "level": "info",
@@ -656,8 +4588,14 @@
  {
   "level": "info",
   "kind": "p1308_count_mismatch",
-  "subject": "Q8012981",
-  "message": "阿部正静: 白河藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+  "subject": "Q6788054",
+  "message": "大給恒: 奥殿藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q6998037",
+  "message": "中山信敬: 常陸松岡藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
  {
   "level": "info",
@@ -668,14 +4606,26 @@
  {
   "level": "info",
   "kind": "p1308_count_mismatch",
+  "subject": "Q8012981",
+  "message": "阿部正静: 白河藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
+  "subject": "Q8081736",
+  "message": "太田資美: 松尾藩主 の在任声明数が P39=1 / P1308=2 で異なります"
+ },
+ {
+  "level": "info",
+  "kind": "p1308_count_mismatch",
   "subject": "Q8514326",
   "message": "松前章広: 松前藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
  {
   "level": "info",
   "kind": "p22_without_p40",
-  "subject": "Q141640432",
-  "message": "松平康納 の実父 康雄 松平 側に P40 がありません"
+  "subject": "Q11459507",
+  "message": "小堀政峯 の実父 小堀政養 側に P40 がありません"
  },
  {
   "level": "info",
@@ -685,8 +4635,44 @@
  },
  {
   "level": "info",
+  "kind": "p22_without_p40",
+  "subject": "Q29410909",
+  "message": "藤堂高英 の実父 藤堂高清 側に P40 がありません"
+ },
+ {
+  "level": "info",
   "kind": "parent_gender_unknown",
   "subject": "Q141641625",
   "message": "中村吉兵衛: 性別(P21)がなく、子1人には別に実父(P22)がいるため、実父として扱っていません(母の可能性)"
+ },
+ {
+  "level": "info",
+  "kind": "position_no_holders",
+  "subject": "Q141732700",
+  "message": "東方藩主: P39の在任者がいません(P1308側には在任者あり)"
+ },
+ {
+  "level": "info",
+  "kind": "position_no_holders",
+  "subject": "Q141732701",
+  "message": "野本藩主: P39の在任者がいません(P1308側には在任者あり)"
+ },
+ {
+  "level": "info",
+  "kind": "seat_ambiguous",
+  "subject": "Q1040575",
+  "message": "請西藩: 座標候補が複数あり先頭を採用 (真舟村, 木更津市)"
+ },
+ {
+  "level": "info",
+  "kind": "seat_ambiguous",
+  "subject": "Q10863297",
+  "message": "上有知藩: 座標候補が複数あり先頭を採用 (小倉山城, 鉈尾山城)"
+ },
+ {
+  "level": "info",
+  "kind": "seat_ambiguous",
+  "subject": "Q10863374",
+  "message": "佐野藩: 座標候補が複数あり先頭を採用 (佐野城, 佐野陣屋)"
  }
 ]
