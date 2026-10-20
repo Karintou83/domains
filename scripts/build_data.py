@@ -64,14 +64,23 @@ SELECT ?pos ?posLabel ?p279 ?domain ?domainLabel ?back ?coord WHERE {{
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""
 
-# 座標の取得元は P159(本拠地=城・陣屋) と P36(首都=市町村) に限る(実データで使われていたのはこの2つ)。
+# 座標の取得元(prop 列で区別する。使う順番と精度は build の SEAT_SOURCES)。
+#   P159       本部所在地(城・陣屋)の項目の座標
+#   P159q      本部所在地の文に付いた座標(修飾子 P625)
+#   P159/P131  本部所在地(城・陣屋)の所在地(市町村など)の座標。城・陣屋の項目に座標が無いときの概略
+#   P36        首都(市町村)の座標
+#   P131       藩の所在地(郡・市町村)の座標。令制国は国の中心で粗すぎ、同じ国の藩が1点に重なるので使わない
 Q_SEATS = f"""
 SELECT ?domain ?prop ?seat ?seatLabel ?coord WHERE {{
   {POS_FILTER}
   ?pos wdt:P2389 ?domain .
-  VALUES ?p {{ wdt:P159 wdt:P36 }}
-  ?domain ?p ?seat . ?seat wdt:P625 ?coord .
-  BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop)
+  {{ VALUES ?p {{ wdt:P159 wdt:P36 }} ?domain ?p ?seat . ?seat wdt:P625 ?coord .
+     BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop) }}
+  UNION {{ ?domain p:P159 ?st . ?st ps:P159 ?seat ; pq:P625 ?coord . BIND("P159q" AS ?prop) }}
+  UNION {{ ?domain wdt:P159 ?hq . ?hq wdt:P131 ?seat . ?seat wdt:P625 ?coord . BIND("P159/P131" AS ?prop) }}
+  UNION {{ ?domain wdt:P131 ?seat . ?seat wdt:P625 ?coord .
+           FILTER NOT EXISTS {{ VALUES ?pc {{ {" ".join(f"wd:{c}" for c in PROVINCE_CLASSES)} }} ?seat wdt:P31 ?pc }}
+           BIND("P131" AS ?prop) }}
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""
 
@@ -430,6 +439,11 @@ def is_son_in_law(qid_, labels=None):
     return p1039_role(qid_) == "son_in_law"
 
 
+# 座標の取得元(Q_SEATS の prop)を使う順番と精度。exact = 城・陣屋そのものの位置 / approx = 所在地の市町村・郡などで代用
+SEAT_SOURCES = (("P159", "exact"), ("P159q", "exact"), ("P159/P131", "approx"), ("P36", "approx"), ("P131", "approx"))
+SEAT_SOURCE_LABEL = {"P159": "本部所在地", "P159q": "本部所在地の文の座標", "P159/P131": "本部所在地(城・陣屋)の所在地",
+                     "P36": "首都", "P131": "藩の所在地"}
+
 README_STATS = re.compile(r"(<!-- stats:start[^>]*-->\n).*?(<!-- stats:end -->)", re.S)
 
 
@@ -506,10 +520,11 @@ def build():
         if names[dom["name"]] > 1:
             warn("info", "domain_duplicate_name", d, f"同名の藩項目が複数あります: {dom['name']}")
 
-    # 座標: 藩P625 → 城(P159) → 市町村(P36, 概略)
+    # 座標: 藩P625 → 本部所在地(P159)の城・陣屋 → その文の座標 → 城・陣屋の所在地(概略) → 首都(P36, 概略)
+    #       → 藩の所在地の郡・市町村(P131, 概略)。どこから取ったかは coord.source に残し、画面に出す。
     seats = defaultdict(dict)
     for r in load("domain_seats.json", []):
-        if r["prop"] not in ("P159", "P36"):
+        if r["prop"] not in dict(SEAT_SOURCES):
             continue
         pt = parse_point(r["coord"])
         if pt:
@@ -521,7 +536,7 @@ def build():
             coord = {"lat": dom["p625"][0], "lon": dom["p625"][1], "source": "P625", "source_item": d,
                      "precision": "exact"}
         else:
-            for prop, precision in (("P159", "exact"), ("P36", "approx")):
+            for prop, precision in SEAT_SOURCES:
                 cands = sorted((s for s in seats.get(d, {}).items() if s[0][0] == prop), key=lambda s: s[0][1])
                 if not cands:
                     continue
@@ -533,10 +548,11 @@ def build():
                 coord = {"lat": pt[0], "lon": pt[1], "source": prop, "source_item": sid, "source_label": slabel,
                          "precision": precision}
                 if precision == "approx":
-                    warn("info", "coord_approx", d, f"{dom['name']}: 市町村(P36)の座標で代用した概略位置です")
+                    warn("info", "coord_approx", d, f"{dom['name']}: {SEAT_SOURCE_LABEL[prop]}({slabel})の座標で代用した概略位置です")
                 break
         if coord is None:
-            warn("warn", "coord_missing", d, f"{dom['name']}: 座標を取得できません(藩P625・城P159・P36のいずれも無し)")
+            warn("warn", "coord_missing", d, f"{dom['name']}: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、"
+                 "所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)")
         else:
             coord["lat"], coord["lon"] = round(coord["lat"], 5), round(coord["lon"], 5)
         dom["coord"] = coord
