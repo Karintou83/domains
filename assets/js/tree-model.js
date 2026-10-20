@@ -156,10 +156,8 @@
       return nodes.concat(edges);
     }
 
-    // ---------- 全体系図(1本の巨大グラフ) ----------
-    // 血縁・養子でつながった人の集まり(連結成分 connected component)を求める。
-    // dagre をそのまま全体にかけると、つながりのない一族が横一列に並んで極端に横長になる。
-    // そこで一族ごとに階層レイアウトを作り、あとで2次元に敷き詰める(packRects)ために使う。
+    // ---------- 全体の系図(島の一覧) ----------
+    // 実父子の線でつながった人の集まり(連結成分 connected component)を「島」と呼ぶ。大きい島を先頭に返す。
     function components(idSet) {
       const ids = [...idSet].filter((id) => lords.has(id));
       const inSet = new Set(ids);
@@ -178,39 +176,89 @@
         }
         out.push(comp);
       });
-      return out.sort((a, b) => b.length - a.length);   // 大きい一族を先頭に置く
+      return out.sort((a, b) => b.length - a.length);
     }
 
-    // 矩形を段(shelf)に左から詰めていく簡易パッキング。戻り値は各矩形の左上座標。
-    // 厳密な最小面積は求めない(速く・結果が予測しやすいことを優先)。
-    function packRects(rects, rowWidth, gap) {
-      gap = gap === undefined ? 40 : gap;
-      const width = Math.max(rowWidth || 0, ...rects.map((r) => r.w));
-      const out = [];
-      let x = 0, y = 0, rowH = 0;
-      rects.forEach((r) => {
-        if (x > 0 && x + r.w > width) { x = 0; y += rowH + gap; rowH = 0; }
-        out.push({ id: r.id, x, y });
-        x += r.w + gap;
-        rowH = Math.max(rowH, r.h);
+    // 世代の段: 島全体で共通の段数(家系図で上から何段目か)。実父は子の1段上、子は実父の1段下として、
+    // 島の誰か1人から線をたどって順に決め、最後に最上段を 0 にそろえる。
+    // 「その人の上に何代の祖先が記録されているか」で数えると、祖先が未入力の藩主がどこにいても最上段に見えてしまうため。
+    // 実父が2人いるなど段が食い違う箇所は、先に決まった段を優先する(要確認として warnings に出ているもの)。
+    function ranks(comp) {
+      const inComp = new Set(comp);
+      const rank = new Map([[comp[0], 0]]);
+      const queue = [comp[0]];
+      while (queue.length) {
+        const x = queue.shift();
+        const r = rank.get(x);
+        (parents.get(x) || []).forEach((p) => { if (inComp.has(p.id) && !rank.has(p.id)) { rank.set(p.id, r - 1); queue.push(p.id); } });
+        (children.get(x) || []).forEach((c) => { if (inComp.has(c.id) && !rank.has(c.id)) { rank.set(c.id, r + 1); queue.push(c.id); } });
+      }
+      const min = Math.min(...rank.values());
+      rank.forEach((v, k) => rank.set(k, v - min));
+      return rank;
+    }
+
+    function firstStart(id) {
+      return Math.min(...(tenuresByLord.get(id) || []).map((t) => t.start || 9999), 9999);
+    }
+
+    // 島の中で、その人から実子・孫…とたどれる人数(島の外の人は数えない)。
+    function descendantCount(id, inComp) {
+      const seen = new Set();
+      const stack = [id];
+      while (stack.length) {
+        const x = stack.pop();
+        (children.get(x) || []).forEach((c) => { if (inComp.has(c.id) && !seen.has(c.id)) { seen.add(c.id); stack.push(c.id); } });
+      }
+      return seen.size;
+    }
+
+    // 島の一覧。代表者 = 島の中で子孫が最も多い藩主(その島の本流の祖)。
+    // 同点なら世代が上の人、次に在任の始まりが早い人。
+    // 「家系図の一番上の藩主」で選ぶと、徳川・松平の島で子孫4人の松平信一が選ばれるなど、分家の祖や子孫の少ない兄弟が出やすかったため。
+    // 藩主のいない島は無い(藩主でない人物は、藩主の実父・祖先としてだけ載っているため)が、念のため島の全員から選ぶ。
+    // regions: 島の藩主が在任した藩の地方。地方で一覧を絞るときに使う。
+    function islands() {
+      return components(new Set(data.lords.map((l) => l.id))).map((comp) => {
+        const inComp = new Set(comp);
+        const rank = ranks(comp);
+        const rulers = comp.filter(isRuler);
+        const pool = rulers.length ? rulers : comp;
+        const desc = new Map(pool.map((id) => [id, descendantCount(id, inComp)]));
+        const rep = pool.slice().sort((a, b) => desc.get(b) - desc.get(a) || rank.get(a) - rank.get(b)
+          || firstStart(a) - firstStart(b) || lords.get(a).name.localeCompare(lords.get(b).name, "ja"))[0];
+        const regions = new Set();
+        rulers.forEach((id) => (tenuresByLord.get(id) || []).forEach((t) => {
+          const d = domains.get(t.domain);
+          if (d && d.region) regions.add(d.region);
+        }));
+        return { id: rep, rep, members: comp, rulers: rulers.length, regions };
       });
-      return { positions: out, width, height: y + rowH };
     }
 
-    // 全体表示用。ids を省くと全員。
-    function allElements(opts, ids) {
-      return elements(ids || new Set(data.lords.map((l) => l.id)), opts);
-    }
-
-    // 地方で絞り込むときに描く人物: その地方の藩に一度でも在任した藩主と、その実父の系統(祖先)。
-    // 一族(連結成分)を丸ごと残すと、遠い祖先を介して全国の家がつながった大きな一族が、どの地方を選んでも入ってしまう。
-    // 祖先だけを足せば、藩主から上へのつながりは切れず、他地方の無関係な分家は入らない。
-    function idsInRegion(region) {
-      if (!region) return new Set(data.lords.map((l) => l.id));
-      const rulers = new Set();
-      data.tenures.forEach((t) => { const d = domains.get(t.domain); if (d && d.region === region && lords.has(t.lord)) rulers.add(t.lord); });
-      ancestors([...rulers], Infinity).forEach((id) => rulers.add(id));
-      return rulers;
+    // 円を渦巻き(アルキメデスの螺旋)に沿って、大きい順に重ならない最初の位置へ置く。戻り値は各円の中心。
+    // 大きい島が中央に、小さい島が周りや隙間に集まり、「島の大きさ」を見比べやすい。
+    // 円の数は数百なので、重なりの判定は総当たりで十分(厳密な最密充填は求めない)。
+    function packCircles(circles, gap) {
+      gap = gap === undefined ? 12 : gap;
+      const placed = [];
+      const b = 6 / (2 * Math.PI);      // 螺旋の1周ごとに半径が 6px 増える
+      // 同じ大きさの円は、前の円を置いた位置の続きから探す(内側はもう埋まっているので)。
+      // 1人だけの島など同じ大きさの円が数百あるため、毎回中心から探すと遅い。
+      const resume = new Map();
+      return circles.map((c) => {
+        let x = 0, y = 0;
+        if (placed.length) {
+          for (let th = resume.get(c.r) || 0; ; ) {
+            const rad = b * th;
+            x = rad * Math.cos(th); y = rad * Math.sin(th);
+            if (placed.every((p) => (p.x - x) ** 2 + (p.y - y) ** 2 >= (p.r + c.r + gap) ** 2)) { resume.set(c.r, th); break; }
+            th += Math.min(0.5, 4 / Math.max(rad, 1));   // 弧の長さがおよそ 4px ずつ進むように角度を刻む
+          }
+        }
+        placed.push({ x, y, r: c.r });
+        return { id: c.id, x, y };
+      });
     }
 
     function search(query, limit) {
@@ -220,7 +268,7 @@
     }
 
     return { thumbUrl, lords, domains, colors, tenuresByLord, tenuresByDomain, parents, children, clans, holders, neighbors,
-             warningsFor, ancestors, nodeLabel, elements, allElements, components, idsInRegion, packRects, primaryTenure,
+             warningsFor, ancestors, nodeLabel, elements, components, islands, packCircles, primaryTenure,
              isRuler, ruledDomain, regionOfLord, search };
   }
 
