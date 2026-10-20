@@ -48,7 +48,9 @@
   <!-- 全画面表示では、この枠ごと画面いっぱいにする。年の操作欄(#yearCard)は全画面のあいだだけ #mapOverlay に移す。 -->
   <div id="mapWrap" class="canvas map-wrap">
     <div id="map"></div>
-    <div id="mapOverlay" class="map-overlay" hidden></div>
+    <div id="mapOverlay" class="map-overlay" hidden>
+      <div class="overlay-handle" id="overlayHandle" title="ドラッグで移動(ダブルクリックで右上に戻す)">⠿ 年の操作 <span class="sub">ドラッグで移動</span></div>
+    </div>
   </div>
   <aside class="side"><section class="card" id="detail"><p class="sub">マーカーをクリックすると、その藩の歴代藩主を表示します。</p></section></aside>
 </main>
