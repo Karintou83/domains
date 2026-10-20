@@ -167,6 +167,7 @@
   "Q1052955",
   "Q1054034",
   "Q1054143",
+  "Q1054305",
   "Q10565384",
   "Q10565386",
   "Q10565388",
@@ -654,6 +655,7 @@
   "Q109250449",
   "Q109250469",
   "Q109287797",
+  "Q109288348",
   "Q109288399",
   "Q109357699",
   "Q10943127",
@@ -689,6 +691,7 @@
   "Q110284102",
   "Q110284147",
   "Q110285122",
+  "Q110307965",
   "Q11045153",
   "Q11048952",
   "Q110625152",
@@ -790,11 +793,14 @@
   "Q11104450",
   "Q11107033",
   "Q111097521",
+  "Q111131074",
   "Q111143048",
   "Q11117105",
   "Q111191156",
   "Q111200552",
   "Q111218884",
+  "Q111260390",
+  "Q111260396",
   "Q111260916",
   "Q111302380",
   "Q111533942",
@@ -966,6 +972,7 @@
   "Q11364069",
   "Q11364136",
   "Q11364183",
+  "Q11364232",
   "Q11364736",
   "Q11364738",
   "Q11364739",
@@ -1034,6 +1041,7 @@
   "Q11372335",
   "Q11372336",
   "Q11372337",
+  "Q11373018",
   "Q11373020",
   "Q11373021",
   "Q11373022",
@@ -1103,6 +1111,8 @@
   "Q11374498",
   "Q11374499",
   "Q11374500",
+  "Q11376938",
+  "Q11376939",
   "Q11378154",
   "Q11378160",
   "Q11378162",
@@ -1264,6 +1274,7 @@
   "Q11397461",
   "Q11397464",
   "Q11397465",
+  "Q11397519",
   "Q11397628",
   "Q11397719",
   "Q11398741",
@@ -1354,6 +1365,7 @@
   "Q11414260",
   "Q11414262",
   "Q1141474",
+  "Q11418433",
   "Q11419181",
   "Q11419250",
   "Q11419251",
@@ -1363,6 +1375,7 @@
   "Q11419257",
   "Q11419258",
   "Q11419260",
+  "Q11419262",
   "Q11419263",
   "Q11419265",
   "Q11422947",
@@ -1618,6 +1631,7 @@
   "Q11451585",
   "Q11451586",
   "Q11451587",
+  "Q11451588",
   "Q11451590",
   "Q11451591",
   "Q11451592",
@@ -1638,6 +1652,7 @@
   "Q11452039",
   "Q11452040",
   "Q11452042",
+  "Q11453430",
   "Q11454002",
   "Q11454032",
   "Q11457152",
@@ -1681,6 +1696,7 @@
   "Q11464739",
   "Q11464741",
   "Q11465652",
+  "Q11465660",
   "Q11466346",
   "Q11466347",
   "Q11466403",
@@ -1921,6 +1937,7 @@
   "Q11520052",
   "Q11520053",
   "Q11520055",
+  "Q11520068",
   "Q11520069",
   "Q11520258",
   "Q11520260",
@@ -2209,6 +2226,7 @@
   "Q11534515",
   "Q11534524",
   "Q11534529",
+  "Q11536446",
   "Q11537527",
   "Q11537528",
   "Q11537529",
@@ -2710,6 +2728,7 @@
   "Q11598223",
   "Q11598745",
   "Q11598747",
+  "Q11599408",
   "Q11603995",
   "Q11603996",
   "Q11603997",
@@ -3375,6 +3394,40 @@
   "Q141783716",
   "Q141783793",
   "Q141783794",
+  "Q141793980",
+  "Q141793981",
+  "Q141793983",
+  "Q141794007",
+  "Q141794009",
+  "Q141794010",
+  "Q141794013",
+  "Q141794014",
+  "Q141794016",
+  "Q141794017",
+  "Q141794019",
+  "Q141794020",
+  "Q141794024",
+  "Q141794025",
+  "Q141794027",
+  "Q141794028",
+  "Q141794030",
+  "Q141794032",
+  "Q141794033",
+  "Q141794035",
+  "Q141794036",
+  "Q141794038",
+  "Q141794039",
+  "Q141794041",
+  "Q141794042",
+  "Q141794044",
+  "Q141794045",
+  "Q141794047",
+  "Q141794049",
+  "Q141794051",
+  "Q141794053",
+  "Q141794056",
+  "Q141794547",
+  "Q141794650",
   "Q15839246",
   "Q15934258",
   "Q1616582",
@@ -3386,6 +3439,7 @@
   "Q171411",
   "Q17192646",
   "Q17192875",
+  "Q17192948",
   "Q17192964",
   "Q17192965",
   "Q17192972",
@@ -3406,6 +3460,7 @@
   "Q187550",
   "Q1882775",
   "Q1968898",
+  "Q20038495",
   "Q20039854",
   "Q20040152",
   "Q20042142",
@@ -3462,6 +3517,7 @@
   "Q304892",
   "Q3072072",
   "Q3080602",
+  "Q3100078",
   "Q311183",
   "Q3125457",
   "Q3125458",
@@ -3547,6 +3603,7 @@
   "Q3342232",
   "Q3350116",
   "Q336383",
+  "Q3387863",
   "Q3387880",
   "Q3387904",
   "Q3387913",
@@ -3567,6 +3624,7 @@
   "Q3530497",
   "Q3530498",
   "Q3538594",
+  "Q3572692",
   "Q366722",
   "Q366734",
   "Q3776344",
@@ -3622,6 +3680,7 @@
   "Q5227543",
   "Q5227551",
   "Q5227557",
+  "Q52320282",
   "Q528010",
   "Q5324802",
   "Q5324923",
@@ -3671,6 +3730,7 @@
   "Q5903277",
   "Q5908052",
   "Q5965205",
+  "Q59779746",
   "Q5990105",
   "Q5994890",
   "Q5994900",
@@ -4406,6 +4466,7 @@
   "Q906580",
   "Q907019",
   "Q907127",
+  "Q909023",
   "Q909029",
   "Q909763",
   "Q910241",
@@ -4576,6 +4637,10 @@
   {
    "item": "http://www.wikidata.org/entity/Q1054143",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oooka%20tadasuke.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1054305",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Imagawa-Yoshimoto-Ukiyo-e.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q10565388",
@@ -5022,14 +5087,6 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsudaira%20Motochika.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q11246183",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisatoyo%20shimadzu.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11246514",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimadzu-mitsuhisa.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q1130929",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yuki%20Hideyasu.jpg"
   },
@@ -5060,6 +5117,14 @@
   {
    "item": "http://www.wikidata.org/entity/Q1136186",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Yoshinao.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q11246183",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisatoyo%20shimadzu.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q11246514",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimadzu-mitsuhisa.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11286854",
@@ -5258,6 +5323,10 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ky%C5%8Dgoku%20Takanaga.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q11376939",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Imagawa%20Norimasa.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q11378173",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sengoku%20Tadamasa.jpg"
   },
@@ -5318,16 +5387,12 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hisayoshi%20Kano.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q11399255",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kat%C5%8D%20Akizane.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q1141305",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sanada%20Nobuyuki2.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1141474",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yagyu%20Mitsuyoshi.jpg"
+   "item": "http://www.wikidata.org/entity/Q11399255",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kat%C5%8D%20Akizane.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11399263",
@@ -5402,6 +5467,10 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kikkawa%20Tsunemasa%20Sh%C5%8Dz%C5%8D.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q1141474",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yagyu%20Mitsuyoshi.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q1142657",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mori%20Terumoto.jpg"
   },
@@ -5470,14 +5539,6 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Haruki%20Nanko%20A%20portrai%20of%20Mashiyama%20Sessai%28part%29%20%E6%98%A5%E6%9C%A8%E5%8D%97%E6%B9%96%E7%AD%86%20%E9%9B%AA%E6%96%8E%E5%85%AC%E8%82%96%E5%83%8F%E7%94%BB%EF%BC%88%E9%83%A8%E5%88%86%EF%BC%89.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q11431981",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ookubo%20Tadamoto.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11431985",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ookubo%20Tadayori.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q1143534",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nanbu%20Toshinao01.jpg"
   },
@@ -5490,8 +5551,12 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shiro%20Ichiki%2C%20Portrait%20of%20Nariakira%20Shimazu%2C%201857.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1144171",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sanada%20Masayuki2.jpg"
+   "item": "http://www.wikidata.org/entity/Q11431981",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ookubo%20Tadamoto.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q11431985",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ookubo%20Tadayori.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11432003",
@@ -5540,6 +5605,10 @@
   {
    "item": "http://www.wikidata.org/entity/Q11439887",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Bakushin.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1144171",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sanada%20Masayuki2.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11445767",
@@ -5630,16 +5699,16 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Koide%20Fusamoto.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q1147154",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosokawa%20Tadaoki.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q11459510",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kobori%20Masayuki.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11459515",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kobori%20Masatsugu.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q1147154",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosokawa%20Tadaoki.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11466403",
@@ -5710,6 +5779,10 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tatebe%20Masanaga.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q11490280",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Yoshihisa%20%28Hitotsubashi%29.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q11490290",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Harusada%20Tokugawa.jpg"
   },
@@ -5730,6 +5803,10 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hineno%20Yoshiaki.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q1151731",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kurushima%20Michihusa.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q11516505",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/The%20prince%20Orihito%20Arisugawa.jpg"
   },
@@ -5744,10 +5821,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q11516764",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Arima%20Noriyori.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q1151731",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kurushima%20Michihusa.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11516843",
@@ -5914,10 +5987,6 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Itakura%20Katsutake.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1153962",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Oda%20Nobuhide%20at%20Bansh%C5%8D-ji.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q11532525",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Itakura%20Shigetsune.jpg"
   },
@@ -5944,6 +6013,10 @@
   {
    "item": "http://www.wikidata.org/entity/Q11534398",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yanagisawa%20Noritada.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1153962",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Statue%20of%20Oda%20Nobuhide%20at%20Bansh%C5%8D-ji.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11539680",
@@ -6202,6 +6275,10 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%E7%89%87%E6%A1%90%E7%9F%B3%E5%B7%9E%E5%83%8F%20%282%29.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q115852",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Tadamune.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q11574929",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikoma%20Masatoshi.jpg"
   },
@@ -6212,10 +6289,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q11580958",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Minagawa%20Takatsune.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q115852",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Tadamune.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11582400",
@@ -6402,16 +6475,16 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oda%20Nobuhiro.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q116151",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Yoshimura.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q11608329",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nobuchika%20Oda.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11608386",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oda%20Toshisada.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q116151",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Yoshimura.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11612111",
@@ -6586,30 +6659,6 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoki%20Shigekane.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q11661887",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoki%20Shigeyosi.png"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11670089",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Takagi%20Masayoshi.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11670091",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Takagi%20Masahira.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11670104",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Takagi%20Masatsugu.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11674901",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Torii%20Tadatomi.png"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11674901",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Torii%20Tadatomi%201880.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q1185372",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimazu%20Tadatsune.jpg"
   },
@@ -6650,24 +6699,28 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachisuka%20Masakatsu.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1207509",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Y%C5%ABsai%20Hosokawa%20Fujitaka.jpg"
+   "item": "http://www.wikidata.org/entity/Q11661887",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoki%20Shigeyosi.png"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1315878",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamauchi-Kazutoyo.jpg"
+   "item": "http://www.wikidata.org/entity/Q11670089",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Takagi%20Masayoshi.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1323770",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Nariaki.jpg"
+   "item": "http://www.wikidata.org/entity/Q11670091",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Takagi%20Masahira.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1328807",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C5%8D%20Yoshitoshi.jpg"
+   "item": "http://www.wikidata.org/entity/Q11670104",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Takagi%20Masatsugu.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1334437",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ii%20Naomasa.jpg"
+   "item": "http://www.wikidata.org/entity/Q11674901",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Torii%20Tadatomi.png"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q11674901",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Torii%20Tadatomi%201880.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q11678571",
@@ -6710,8 +6763,24 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ry%C5%ABz%C5%8Dji%20Takahusa.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q13365626",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamauchi%20Toyomasa.jpg"
+   "item": "http://www.wikidata.org/entity/Q1207509",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Y%C5%ABsai%20Hosokawa%20Fujitaka.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1315878",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamauchi-Kazutoyo.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1323770",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Nariaki.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1328807",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/S%C5%8D%20Yoshitoshi.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1334437",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ii%20Naomasa.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q1348386",
@@ -6750,12 +6819,32 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikeda%20Terumasa.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q13365626",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamauchi%20Toyomasa.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q171411",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Odanobunaga.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q171411",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oda%20Nobunaga%20Portrait%20Sanpoji%20Yamagata.png"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1616582",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosokawa%20Mitsunao.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1631219",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hotta%20Masamori.png"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q1631220",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hotta%20Masanobu.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q17192875",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikeda%20Tsunetoshi.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q171977",
@@ -6786,16 +6875,20 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nabeshima%20Naoharu.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1616582",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hosokawa%20Mitsunao.jpg"
+   "item": "http://www.wikidata.org/entity/Q287657",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1867%20Osaka%20Yoshinobu%20Tokugawa.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1631219",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hotta%20Masamori.png"
+   "item": "http://www.wikidata.org/entity/Q301167",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Itakura%20Katsuaki.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q1631220",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hotta%20Masanobu.jpg"
+   "item": "http://www.wikidata.org/entity/Q304892",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachisuka%20Narimasa.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q311183",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Masamune02.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q1882775",
@@ -6846,8 +6939,32 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano%20Naganao.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q17192875",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikeda%20Tsunetoshi.jpg"
+   "item": "http://www.wikidata.org/entity/Q2866316",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Naganori%20Asano.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q2900560",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Niwa%20Nagahide2.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q2975848",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mizuno%20Tadakuni.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3044815",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oda%20Nobukatu.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3080602",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nabeshima%20Mitsushige%20%28cropped%29.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3100078",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%BB%8A%E5%B7%9D%E6%B0%8F%E7%9C%9F%E5%83%8F%EF%BC%88%E5%80%8B%E4%BA%BA%E5%83%8F%EF%BC%89.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3125457",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachisuka%20Haruaki.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q17209024",
@@ -6868,22 +6985,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q28131624",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikeda%20Tsugumasa.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q287657",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/1867%20Osaka%20Yoshinobu%20Tokugawa.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q301167",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Itakura%20Katsuaki.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q304892",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachisuka%20Narimasa.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q311183",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Masamune02.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q313641",
@@ -6920,30 +7021,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q323443",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Ieshige.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q2866316",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Naganori%20Asano.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q2900560",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Niwa%20Nagahide2.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q2975848",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mizuno%20Tadakuni.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3044815",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Oda%20Nobukatu.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3080602",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nabeshima%20Mitsushige%20%28cropped%29.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3125457",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachisuka%20Haruaki.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q3125458",
@@ -7094,6 +7171,46 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Honda%20Tadamoto.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q3331290",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuse%20Hirochika%20%E4%B9%85%E4%B8%96%E5%BA%83%E5%91%A8.png"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3331296",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Abe%20Masayoshi%20And%20his%20wife.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3334056",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mouri%20Hidenari.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3334677",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nabeshima%20Naomasa.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3335052",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagai%20Naotsune.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3335053",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagai%20Naohiro.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3335080",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano%20Nagatomo.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3336100",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Naritomo.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3341470",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nij%C5%8D%20Tadafusa.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q3341472",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nij%C5%8D%20Hisamoto.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q336383",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Iesada.jpg"
   },
@@ -7146,44 +7263,8 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Portrait-Honda-Tadakatsu.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q3331290",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuse%20Hirochika%20%E4%B9%85%E4%B8%96%E5%BA%83%E5%91%A8.png"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3331296",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Abe%20Masayoshi%20And%20his%20wife.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3334056",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Mouri%20Hidenari.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3334677",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nabeshima%20Naomasa.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3335052",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagai%20Naotsune.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3335053",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nagai%20Naohiro.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3335080",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Asano%20Nagatomo.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3336100",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Naritomo.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3341470",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nij%C5%8D%20Tadafusa.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q3341472",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nij%C5%8D%20Hisamoto.jpg"
+   "item": "http://www.wikidata.org/entity/Q521070",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tanuma%20Okitsugu2.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q3350116",
@@ -7270,30 +7351,6 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyama%20Munetoshi.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q521070",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tanuma%20Okitsugu2.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q536313",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashikaga%20Yoshiharu.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q541040",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kobori%20Ensh%C5%AB.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q569441",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matudaira%20Katamori.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q587204",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Maeda%20Toshitsune.png"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q587980",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyogoku%20takatsugu.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q4778838",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Aoyama%20Tadatoshi.jpg"
   },
@@ -7344,6 +7401,34 @@
   {
    "item": "http://www.wikidata.org/entity/Q5227557",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Tsunamura.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q536313",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ashikaga%20Yoshiharu.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q541040",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kobori%20Ensh%C5%AB.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q569441",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matudaira%20Katamori.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q587204",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Maeda%20Toshitsune.png"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q587980",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kyogoku%20takatsugu.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q606867",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Arima%20Toyouji2.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q610933",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sagara%20Yorihusa.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q5324802",
@@ -7454,30 +7539,6 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%E4%BA%95%E4%B8%8A%E6%AD%A3%E7%9B%B4.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q55525342",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Itakura%20Yoshishige.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q606867",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Arima%20Toyouji2.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q610933",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Sagara%20Yorihusa.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q631099",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yagyu%20Munenori.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q656008",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachisuka%20Mochiaki.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q656135",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimazu%20Hisamitsu%20%E5%B3%B6%E6%B4%A5%E4%B9%85%E5%85%89.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q6092510",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Itakura%20Katsumasa%28%E5%82%99%E4%B8%AD%E6%9D%BE%E5%B1%B1%E8%97%A9%E4%B8%BB%29.jpg"
   },
@@ -7494,8 +7555,28 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/It%C5%8D%20Yoshisuke.png"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q6282495",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Atsumori.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q6282570",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsudaira%20Sadanori%28%E6%A1%91%E5%90%8D%E8%97%A9%E7%9F%A5%E4%BA%8B%29.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q55525342",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Itakura%20Yoshishige.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q631099",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yagyu%20Munenori.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q656008",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hachisuka%20Mochiaki.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q656135",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Shimazu%20Hisamitsu%20%E5%B3%B6%E6%B4%A5%E4%B9%85%E5%85%89.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q6378611",
@@ -7530,6 +7611,10 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamauchi%20Tadatoyo.JPG"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q6637937",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Katagiri%20Sadaatsu.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q665518",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/%E9%B3%A5%E5%B1%85%20%E5%85%83%E5%BF%A0.jpg"
   },
@@ -7540,10 +7625,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q672741",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Iesato.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q6637937",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Katagiri%20Sadaatsu.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q6638162",
@@ -7654,10 +7735,6 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsudaira%20Tadaaki.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q705147",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nabeshima%20Naoyoshi.jpg"
-  },
-  {
    "item": "http://www.wikidata.org/entity/Q6788127",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsumae-Takahiro-1864.jpg"
   },
@@ -7672,6 +7749,18 @@
   {
    "item": "http://www.wikidata.org/entity/Q6788220",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsura%20Kiyoshi.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q705147",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Nabeshima%20Naoyoshi.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q711001",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamauchi%20Toyoshige.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q716940",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ii%20Naosuke.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q6832376",
@@ -7794,12 +7883,16 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ogasawara%20Tadanobu.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q711001",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yamauchi%20Toyoshige.jpg"
+   "item": "http://www.wikidata.org/entity/Q7079842",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ogasawara%20Tadazane.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q716940",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ii%20Naosuke.jpg"
+   "item": "http://www.wikidata.org/entity/Q7201026",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Nariyoshi.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q7222435",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ooka%20Tadamitsu.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q761596",
@@ -7816,18 +7909,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q798628",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Doi%20Toshitsura.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q7079842",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ogasawara%20Tadazane.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q7201026",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Date%20Nariyoshi.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q7222435",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ooka%20Tadamitsu.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q7222505",
@@ -7994,6 +8075,14 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Niwa%20Nagaakira.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q8014919",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Suketaka.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q8054928",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yonekura%20Masakoto.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q837166",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ikeda%20Yukisuke%28Motosuke%29.jpg"
   },
@@ -8096,14 +8185,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q849070",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Hiraiwa%20Chikayoshi.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q8014919",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ito%20Suketaka.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q8054928",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Yonekura%20Masakoto.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q8081574",
@@ -8474,6 +8555,10 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Akimoto%20Yukitomo.jpg"
   },
   {
+   "item": "http://www.wikidata.org/entity/Q8515325",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ando%20Nobutake.jpg"
+  },
+  {
    "item": "http://www.wikidata.org/entity/Q851776",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Uesugi%20Narinori.jpg"
   },
@@ -8546,8 +8631,24 @@
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kukiyoshitaka2.jpg"
   },
   {
-   "item": "http://www.wikidata.org/entity/Q8515325",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ando%20Nobutake.jpg"
+   "item": "http://www.wikidata.org/entity/Q924929",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Soun%20Hojo%20portrait.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q930282",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsudaira%20Nobunori%20Young%20Portrait.png"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q943643",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ujiyasu%20Hojo.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q946037",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Motinaga.jpg"
+  },
+  {
+   "item": "http://www.wikidata.org/entity/Q950496",
+   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuroda%20Nagamasa.jpg"
   },
   {
    "item": "http://www.wikidata.org/entity/Q8515360",
@@ -8572,34 +8673,6 @@
   {
    "item": "http://www.wikidata.org/entity/Q8515901",
    "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Souma%20Takatane.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q924929",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Soun%20Hojo%20portrait.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q930282",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Matsudaira%20Nobunori%20Young%20Portrait.png"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q943643",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Ujiyasu%20Hojo.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q946037",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Motinaga.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q950496",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Kuroda%20Nagamasa.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q6282495",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Atsumori.jpg"
-  },
-  {
-   "item": "http://www.wikidata.org/entity/Q11490280",
-   "img": "http://commons.wikimedia.org/wiki/Special:FilePath/Tokugawa%20Yoshihisa%20%28Hitotsubashi%29.jpg"
   }
  ]
 }

@@ -1,0 +1,361 @@
+{
+ "done": [
+  "Q10522845",
+  "Q10523842",
+  "Q10523862",
+  "Q10523924",
+  "Q10523993",
+  "Q10524017",
+  "Q10565452",
+  "Q10565518",
+  "Q10565540",
+  "Q10565556",
+  "Q10565559",
+  "Q10565561",
+  "Q10565563",
+  "Q10565566",
+  "Q10565571",
+  "Q10565576",
+  "Q10565588",
+  "Q10565602",
+  "Q10729347",
+  "Q10859999",
+  "Q10860072",
+  "Q11161327",
+  "Q11161337",
+  "Q11364056",
+  "Q11364059",
+  "Q11364060",
+  "Q11364062",
+  "Q11364063",
+  "Q11364064",
+  "Q11364065",
+  "Q11364067",
+  "Q11364069",
+  "Q11373068",
+  "Q11373069",
+  "Q11373079",
+  "Q11373080",
+  "Q11373081",
+  "Q11373082",
+  "Q11373083",
+  "Q11373086",
+  "Q11373094",
+  "Q11382701",
+  "Q11382702",
+  "Q11398747",
+  "Q11423550",
+  "Q11427205",
+  "Q11427207",
+  "Q11427644",
+  "Q11427646",
+  "Q11427649",
+  "Q11427656",
+  "Q11427680",
+  "Q11427685",
+  "Q11427686",
+  "Q11427690",
+  "Q11427692",
+  "Q11427696",
+  "Q11427703",
+  "Q11427708",
+  "Q11427714",
+  "Q11427715",
+  "Q11427718",
+  "Q11427720",
+  "Q11427722",
+  "Q11427750",
+  "Q11427757",
+  "Q11427760",
+  "Q11427811",
+  "Q11429189",
+  "Q11431968",
+  "Q11431982",
+  "Q11431985",
+  "Q11437058",
+  "Q11473877",
+  "Q11473878",
+  "Q11480545",
+  "Q11480556",
+  "Q11480569",
+  "Q11495562",
+  "Q11495569",
+  "Q11502209",
+  "Q11520069",
+  "Q11520310",
+  "Q11520312",
+  "Q11520893",
+  "Q11522938",
+  "Q11530449",
+  "Q11530597",
+  "Q11534365",
+  "Q11534376",
+  "Q11534386",
+  "Q11534420",
+  "Q11534423",
+  "Q11534508",
+  "Q11534512",
+  "Q11534514",
+  "Q11534524",
+  "Q11537542",
+  "Q11549385",
+  "Q11549747",
+  "Q11549795",
+  "Q11549798",
+  "Q11549810",
+  "Q11569866",
+  "Q11569867",
+  "Q11569877",
+  "Q11569878",
+  "Q11569879",
+  "Q11569880",
+  "Q11569884",
+  "Q11608282",
+  "Q11642019",
+  "Q11644092",
+  "Q11644157",
+  "Q11670089",
+  "Q11670091",
+  "Q11670099",
+  "Q11670105",
+  "Q141734620",
+  "Q141734621",
+  "Q141734622",
+  "Q141734623",
+  "Q141734625",
+  "Q141734627",
+  "Q3151480",
+  "Q4803532",
+  "Q6013303",
+  "Q6636035",
+  "Q6637937",
+  "Q6638010",
+  "Q7400591",
+  "Q8054929",
+  "Q8081567"
+ ],
+ "rows": [
+  {
+   "person": "http://www.wikidata.org/entity/Q11522938",
+   "other": "http://www.wikidata.org/entity/Q11522794",
+   "otherLabel": "村上忠勝",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11522938",
+   "other": "http://www.wikidata.org/entity/Q11522794",
+   "otherLabel": "村上忠勝",
+   "rel": "http://www.wikidata.org/entity/Q61740757"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11530449",
+   "other": "http://www.wikidata.org/entity/Q11530426",
+   "otherLabel": "松平忠国 (武蔵国忍藩主)",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11549747",
+   "other": "http://www.wikidata.org/entity/Q11549820",
+   "otherLabel": "永井直陳",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11495562",
+   "other": "http://www.wikidata.org/entity/Q136184320",
+   "otherLabel": "青山幸詮",
+   "rel": "http://www.wikidata.org/entity/Q61740757"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q10565563",
+   "other": "http://www.wikidata.org/entity/Q10565488",
+   "otherLabel": "水野忠任",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11429189",
+   "other": "http://www.wikidata.org/entity/Q11429188",
+   "otherLabel": "増山正修",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11373080",
+   "other": "http://www.wikidata.org/entity/Q10729323",
+   "otherLabel": "井上正廬",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11373068",
+   "other": "http://www.wikidata.org/entity/Q11069010",
+   "otherLabel": "井上正誠",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11530449",
+   "other": "http://www.wikidata.org/entity/Q11530437",
+   "otherLabel": "松平忠敬",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11431968",
+   "other": "http://www.wikidata.org/entity/Q10729325",
+   "otherLabel": "大久保忠成",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11534508",
+   "other": "http://www.wikidata.org/entity/Q11534510",
+   "otherLabel": "柳生俊峯",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11534420",
+   "other": "http://www.wikidata.org/entity/Q11534424",
+   "otherLabel": "柳沢里顕",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11427750",
+   "other": "http://www.wikidata.org/entity/Q10729522",
+   "otherLabel": "堀直起",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11427715",
+   "other": "http://www.wikidata.org/entity/Q11427707",
+   "otherLabel": "堀直格",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11427708",
+   "other": "http://www.wikidata.org/entity/Q3208763",
+   "otherLabel": "堀直虎",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11161327",
+   "other": "http://www.wikidata.org/entity/Q11161390",
+   "otherLabel": "井伊直矩",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11423550",
+   "other": "http://www.wikidata.org/entity/Q11423535",
+   "otherLabel": "土方豊義",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11480545",
+   "other": "http://www.wikidata.org/entity/Q11480558",
+   "otherLabel": "市橋直方",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11480556",
+   "other": "http://www.wikidata.org/entity/Q11480571",
+   "otherLabel": "市橋長璉",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q10565556",
+   "other": "http://www.wikidata.org/entity/Q10565520",
+   "otherLabel": "水野忠実",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11427760",
+   "other": "http://www.wikidata.org/entity/Q11427754",
+   "otherLabel": "堀親寚",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11530597",
+   "other": "http://www.wikidata.org/entity/Q11530592",
+   "otherLabel": "松平輝充",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11644092",
+   "other": "http://www.wikidata.org/entity/Q1143856",
+   "otherLabel": "島津斉彬",
+   "rel": "http://www.wikidata.org/entity/Q13204680"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608282",
+   "other": "http://www.wikidata.org/entity/Q11596907",
+   "otherLabel": "稲葉信通",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8081567",
+   "other": "http://www.wikidata.org/entity/Q8081574",
+   "otherLabel": "大久保忠礼",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11670099",
+   "other": "http://www.wikidata.org/entity/Q11670107",
+   "otherLabel": "高木正陳",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11670105",
+   "other": "http://www.wikidata.org/entity/Q11670096",
+   "otherLabel": "高木正弼",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11670105",
+   "other": "http://www.wikidata.org/entity/Q11670088",
+   "otherLabel": "高木正剛",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11670091",
+   "other": "http://www.wikidata.org/entity/Q11670089",
+   "otherLabel": "高木正善",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11670091",
+   "other": "http://www.wikidata.org/entity/Q11670101",
+   "otherLabel": "高木正明",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11670089",
+   "other": "http://www.wikidata.org/entity/Q11670091",
+   "otherLabel": "高木正坦",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6636035",
+   "other": "http://www.wikidata.org/entity/Q6640135",
+   "otherLabel": "柳生俊順",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11642019",
+   "other": "http://www.wikidata.org/entity/Q11642009",
+   "otherLabel": "遠山友寿",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11642019",
+   "other": "http://www.wikidata.org/entity/Q11642014",
+   "otherLabel": "遠山友清",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11549810",
+   "other": "http://www.wikidata.org/entity/Q11549813",
+   "otherLabel": "永井直諒",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11549810",
+   "other": "http://www.wikidata.org/entity/Q11549816",
+   "otherLabel": "永井直輝",
+   "rel": "http://www.wikidata.org/entity/Q20746725"
+  }
+ ]
+}

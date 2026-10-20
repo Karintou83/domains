@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-20T15:04:32+00:00",
+ "generated_at": "2026-10-20T16:01:56+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
   "domains": 496,
-  "lords": 4193,
-  "tenures": 4040,
-  "relations": 3592,
+  "lords": 4246,
+  "tenures": 4048,
+  "relations": 3765,
   "rulers": 3416,
   "warnings": {
-   "warn": 539,
-   "info": 218
+   "warn": 367,
+   "info": 237
   }
  },
  "regions": [
@@ -29,9 +29,9 @@
    "tenures": 429
   },
   "関東": {
-   "domains": 127,
-   "lords": 812,
-   "tenures": 909
+   "domains": 132,
+   "lords": 836,
+   "tenures": 945
   },
   "北陸": {
    "domains": 36,
@@ -39,14 +39,14 @@
    "tenures": 285
   },
   "東海・甲信": {
-   "domains": 72,
-   "lords": 497,
-   "tenures": 537
+   "domains": 74,
+   "lords": 512,
+   "tenures": 554
   },
   "近畿": {
-   "domains": 83,
-   "lords": 716,
-   "tenures": 754
+   "domains": 86,
+   "lords": 740,
+   "tenures": 779
   },
   "中国": {
    "domains": 35,
@@ -64,26 +64,27 @@
    "tenures": 457
   },
   "unknown": {
-   "domains": 37,
-   "lords": 232,
-   "tenures": 234
+   "domains": 27,
+   "lords": 162,
+   "tenures": 164
   }
  },
  "province_source": {
-  "wikidata_direct": 392,
-  "none": 37,
-  "wikidata_p131": 26,
+  "wikidata_direct": 394,
+  "none": 27,
+  "wikidata_p131": 27,
+  "config_district": 7,
   "config": 41
  },
  "clan_source": {
-  "inferred_name": 2669,
-  "wikidata": 428,
-  "none": 1085,
-  "inherited_father": 11
+  "inferred_name": 2694,
+  "wikidata": 429,
+  "none": 1111,
+  "inherited_father": 12
  },
  "clan_inference_selfcheck": {
-  "evaluated": 456,
-  "correct": 246
+  "evaluated": 459,
+  "correct": 249
  },
  "p1038_skipped_non_adoption": {
   "Q12160962": 5,
@@ -97,14 +98,14 @@
   "Q11666901": 14,
   "Q15224724": 6,
   "Q3752578": 22,
-  "Q13204680": 13,
+  "Q13204680": 14,
   "Q3238556": 1,
   "Q180472": 3,
   "Q10291472": 4,
   "Q3972282": 1,
   "Q15657883": 2,
-  "Q31819505": 1,
   "Q2096646": 1,
+  "Q31819505": 1,
   "Q402152": 2,
   "Q183905": 1,
   "Q13184390": 1,
@@ -245,16 +246,16 @@
  "excluded": {
   "female": 0,
   "parent_gender_unknown": 1,
-  "adoption_edges": 955
+  "adoption_edges": 1051
  },
  "include_adoption": "roots",
  "adoption_roots": {
-  "roots": 656,
-  "edges": 15,
-  "roots_connected": 15,
+  "roots": 534,
+  "edges": 11,
+  "roots_connected": 11,
   "skipped_cycle": 0
  },
  "ancestor_generations": 8,
  "ancestor_keep_generations": 2,
- "ancestors_pruned": 230
+ "ancestors_pruned": 237
 }

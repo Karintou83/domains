@@ -228,6 +228,8 @@
   "Ikoma Kazumasa.jpg",
   "Ikoma Masatoshi.jpg",
   "Ikoma Takatoshi.jpg",
+  "Imagawa Norimasa.jpg",
+  "Imagawa-Yoshimoto-Ukiyo-e.jpg",
   "Ina Tadatsugu a.jpg",
   "Inaba Akimichi.jpg",
   "Inaba Hiromichi.jpg",
@@ -1015,6 +1017,7 @@
   "丹羽高寛.jpg",
   "久松勝慈.jpg",
   "井上正直.jpg",
+  "今川氏真像（個人像）.jpg",
   "佐竹義尭 Satake Yoshitaka.png",
   "内藤忠重の墓.jpg",
   "大沢基寿.jpg",
@@ -4006,6 +4009,32 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:Ikoma_Takatoshi.jpg",
    "mime": "image/jpeg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Ikoma_Takatoshi.jpg/250px-Ikoma_Takatoshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
+   "file": "Imagawa-Yoshimoto-Ukiyo-e.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "Utagawa Kuniyoshi",
+   "credit": "Ukiyo-e.org [1] and the British Museum.",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Imagawa-Yoshimoto-Ukiyo-e.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Imagawa-Yoshimoto-Ukiyo-e.jpg/250px-Imagawa-Yoshimoto-Ukiyo-e.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
+   "file": "Imagawa Norimasa.jpg",
+   "license": "CC BY 4.0",
+   "license_url": "https://creativecommons.org/licenses/by/4.0",
+   "artist": "緑亭川柳：編輯 北斎卍老人等：画",
+   "credit": "『義烈百人一首』NPO長野県図書館等協働機構／信州地域史料アーカイブ",
+   "attribution_required": "true",
+   "copyrighted": "True",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Imagawa_Norimasa.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Imagawa_Norimasa.jpg/250px-Imagawa_Norimasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {
@@ -7272,19 +7301,6 @@
    "missing": false
   },
   {
-   "file": "Matsudaira Yoshinori 1880.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "artist": "Unknown authorUnknown author",
-   "credit": "宮内庁三の丸尚蔵館 編『明治十二年明治天皇御下命「人物写真帖」上』宮内庁、2015年",
-   "attribution_required": "false",
-   "copyrighted": "False",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Matsudaira_Yoshinori_1880.jpg",
-   "mime": "image/jpeg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Matsudaira_Yoshinori_1880.jpg/250px-Matsudaira_Yoshinori_1880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "missing": false
-  },
-  {
    "file": "Matsudaira Yoshinori.jpg",
    "license": "Public domain",
    "license_url": null,
@@ -7295,6 +7311,19 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:Matsudaira_Yoshinori.jpg",
    "mime": "image/jpeg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Matsudaira_Yoshinori.jpg/250px-Matsudaira_Yoshinori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
+   "file": "Matsudaira Yoshinori 1880.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "Unknown authorUnknown author",
+   "credit": "宮内庁三の丸尚蔵館 編『明治十二年明治天皇御下命「人物写真帖」上』宮内庁、2015年",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Matsudaira_Yoshinori_1880.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Matsudaira_Yoshinori_1880.jpg/250px-Matsudaira_Yoshinori_1880.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {
@@ -9339,6 +9368,19 @@
    "missing": false
   },
   {
+   "file": "Nanbu-naofusa-zou.jpg",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5",
+   "artist": "house-nasu",
+   "credit": "Self-photographed",
+   "attribution_required": "true",
+   "copyrighted": "True",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Nanbu-naofusa-zou.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nanbu-naofusa-zou.jpg/250px-Nanbu-naofusa-zou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
    "file": "Nanbu Nobuyuki.png",
    "license": "Public domain",
    "license_url": null,
@@ -9362,19 +9404,6 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:Nanbu_Shigenao.jpg",
    "mime": "image/jpeg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Nanbu_Shigenao.jpg/250px-Nanbu_Shigenao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "missing": false
-  },
-  {
-   "file": "Nanbu-naofusa-zou.jpg",
-   "license": "CC BY 2.5",
-   "license_url": "https://creativecommons.org/licenses/by/2.5",
-   "artist": "house-nasu",
-   "credit": "Self-photographed",
-   "attribution_required": "true",
-   "copyrighted": "True",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Nanbu-naofusa-zou.jpg",
-   "mime": "image/jpeg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nanbu-naofusa-zou.jpg/250px-Nanbu-naofusa-zou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {
@@ -12472,6 +12501,19 @@
    "missing": false
   },
   {
+   "file": "Toku14-2.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "Tokugawa Mochinaga",
+   "credit": "宇治主水",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Toku14-2.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Toku14-2.jpg/250px-Toku14-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
    "file": "Toku fig03.jpg",
    "license": "Copyrighted free use",
    "license_url": null,
@@ -12485,16 +12527,16 @@
    "missing": false
   },
   {
-   "file": "Toku14-2.jpg",
+   "file": "Tokugawa Atsumori.jpg",
    "license": "Public domain",
    "license_url": null,
-   "artist": "Tokugawa Mochinaga",
-   "credit": "宇治主水",
+   "artist": "Unknown authorUnknown author",
+   "credit": "『最後の将軍と徳川一族』新人物往来社、2013年1月29日",
    "attribution_required": "false",
    "copyrighted": "False",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Toku14-2.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Tokugawa_Atsumori.jpg",
    "mime": "image/jpeg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Toku14-2.jpg/250px-Toku14-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tokugawa_Atsumori.jpg/250px-Tokugawa_Atsumori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {
@@ -12794,6 +12836,19 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:Tokugawa_Yorinobu.jpg",
    "mime": "image/jpeg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Tokugawa_Yorinobu.jpg/250px-Tokugawa_Yorinobu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
+   "file": "Tokugawa Yoshihisa (Hitotsubashi).jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "Unknown",
+   "credit": "The Japanese book \"御三卿一橋徳川家 (Gosankyō Hitotsubashi Tokugawake)\", Ibaraki Prefectural Museum of History(茨城県立歴史館), 2003",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Tokugawa_Yoshihisa_(Hitotsubashi).jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tokugawa_Yoshihisa_%28Hitotsubashi%29.jpg/250px-Tokugawa_Yoshihisa_%28Hitotsubashi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {
@@ -14214,6 +14269,19 @@
    "missing": false
   },
   {
+   "file": "今川氏真像（個人像）.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "未詳。",
+   "credit": "静岡県編『静岡県史』掲載の画像",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E4%BB%8A%E5%B7%9D%E6%B0%8F%E7%9C%9F%E5%83%8F%EF%BC%88%E5%80%8B%E4%BA%BA%E5%83%8F%EF%BC%89.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/%E4%BB%8A%E5%B7%9D%E6%B0%8F%E7%9C%9F%E5%83%8F%EF%BC%88%E5%80%8B%E4%BA%BA%E5%83%8F%EF%BC%89.jpg/250px-%E4%BB%8A%E5%B7%9D%E6%B0%8F%E7%9C%9F%E5%83%8F%EF%BC%88%E5%80%8B%E4%BA%BA%E5%83%8F%EF%BC%89.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
    "file": "佐竹義尭 Satake Yoshitaka.png",
    "license": "Public domain",
    "license_url": null,
@@ -14562,32 +14630,6 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:%E9%B3%A5%E5%B1%85_%E5%85%83%E5%BF%A0.jpg",
    "mime": "image/jpeg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/%E9%B3%A5%E5%B1%85_%E5%85%83%E5%BF%A0.jpg/250px-%E9%B3%A5%E5%B1%85_%E5%85%83%E5%BF%A0.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "missing": false
-  },
-  {
-   "file": "Tokugawa Atsumori.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "artist": "Unknown authorUnknown author",
-   "credit": "『最後の将軍と徳川一族』新人物往来社、2013年1月29日",
-   "attribution_required": "false",
-   "copyrighted": "False",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Tokugawa_Atsumori.jpg",
-   "mime": "image/jpeg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Tokugawa_Atsumori.jpg/250px-Tokugawa_Atsumori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "missing": false
-  },
-  {
-   "file": "Tokugawa Yoshihisa (Hitotsubashi).jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "artist": "Unknown",
-   "credit": "The Japanese book \"御三卿一橋徳川家 (Gosankyō Hitotsubashi Tokugawake)\", Ibaraki Prefectural Museum of History(茨城県立歴史館), 2003",
-   "attribution_required": "false",
-   "copyrighted": "False",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Tokugawa_Yoshihisa_(Hitotsubashi).jpg",
-   "mime": "image/jpeg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Tokugawa_Yoshihisa_%28Hitotsubashi%29.jpg/250px-Tokugawa_Yoshihisa_%28Hitotsubashi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   }
  ]
