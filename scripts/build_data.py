@@ -48,8 +48,11 @@ FEMALE = "Q6581072"                          # 性別(P21) = 女性。系図に�
 # 藩主職の選び方: 上位クラス(P279)が近世大名で、日本語ラベルが「〇〇藩主」のもの。
 # 以前は P31 = Q114962596 も条件にしていたが、P31 の入れ方は職によってまちまちなので、ラベルで選ぶ。
 # 近世大名の下位クラスには「〇〇藩主」以外(大名家の当主など)もあり得るので、ラベルの末尾で藩主職に限る。
-POS_FILTER = f"""?pos wdt:P279 wd:{KINSEI} ; rdfs:label ?posJa .
-  FILTER(LANG(?posJa) = "ja" && STRENDS(?posJa, "藩主"))"""
+# config の include_positions(御三卿の当主職)は、ラベルが「〇〇当主」で P279 も揃っていないため、QID で直接加える。
+INCLUDE_POSITIONS = CONFIG.get("include_positions", {})
+POS_FILTER = f"""{{ ?pos wdt:P279 wd:{KINSEI} ; rdfs:label ?posJa .
+    FILTER(LANG(?posJa) = "ja" && STRENDS(?posJa, "藩主")) }}
+  UNION {{ VALUES ?pos {{ {" ".join(f"wd:{q}" for q in INCLUDE_POSITIONS)} }} }}"""
 
 Q_POSITIONS = f"""
 SELECT ?pos ?posLabel ?p279 ?domain ?domainLabel ?back ?coord WHERE {{

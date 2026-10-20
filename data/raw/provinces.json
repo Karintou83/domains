@@ -1,0 +1,472 @@
+[
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q3297721",
+  "provLabel": "陸奥国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q857330",
+  "provLabel": "土佐国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q860928",
+  "provLabel": "伊豆国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q929682",
+  "provLabel": "讃岐国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q864053",
+  "provLabel": "紀伊国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q864148",
+  "provLabel": "豊後国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q864159",
+  "provLabel": "筑後国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q864156",
+  "provLabel": "美濃国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q864163",
+  "provLabel": "摂津国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q864166",
+  "provLabel": "伊勢国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q864170",
+  "provLabel": "駿河国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q936036",
+  "provLabel": "美作国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1192050",
+  "provLabel": "羽前国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1192070",
+  "provLabel": "羽後国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1192236",
+  "provLabel": "陸前国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1192248",
+  "provLabel": "諏方国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1192262",
+  "provLabel": "陸中国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1192809",
+  "provLabel": "石城国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q666514",
+  "provLabel": "越後国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q667475",
+  "provLabel": "薩摩国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1206461",
+  "provLabel": "筑紫国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1370581",
+  "provLabel": "多禰国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1370734",
+  "provLabel": "岩代国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1371179",
+  "provLabel": "芳野監"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q954511",
+  "provLabel": "丹波国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q582846",
+  "provLabel": "出雲国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q259705",
+  "provLabel": "肥後国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q965029",
+  "provLabel": "安芸国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q907389",
+  "provLabel": "陸奥国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q201583",
+  "provLabel": "磐城国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q876032",
+  "provLabel": "出羽国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q981002",
+  "provLabel": "大隅国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q607770",
+  "provLabel": "釧路国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q289250",
+  "provLabel": "信濃国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q732831",
+  "provLabel": "天塩国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047117",
+  "provLabel": "和泉国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047128",
+  "provLabel": "伊賀国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047134",
+  "provLabel": "豊前国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047150",
+  "provLabel": "河内国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047144",
+  "provLabel": "越前国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047514",
+  "provLabel": "備中国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047523",
+  "provLabel": "播磨国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047664",
+  "provLabel": "筑前国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1047671",
+  "provLabel": "能登国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1048864",
+  "provLabel": "遠江国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1049113",
+  "provLabel": "備後国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1052938",
+  "provLabel": "壱岐国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053037",
+  "provLabel": "周防国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053044",
+  "provLabel": "安房国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053688",
+  "provLabel": "備前国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053695",
+  "provLabel": "下総国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053699",
+  "provLabel": "下野国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053703",
+  "provLabel": "伯耆国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053709",
+  "provLabel": "石見国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053713",
+  "provLabel": "若狭国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053717",
+  "provLabel": "淡路国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053722",
+  "provLabel": "志摩国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053727",
+  "provLabel": "但馬国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1053732",
+  "provLabel": "相模国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1054331",
+  "provLabel": "丹後国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1054338",
+  "provLabel": "因幡国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1054838",
+  "provLabel": "上野国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1054861",
+  "provLabel": "対馬国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1055353",
+  "provLabel": "常陸国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1055394",
+  "provLabel": "上総国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1155128",
+  "provLabel": "吉備国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1156510",
+  "provLabel": "火国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1056535",
+  "provLabel": "飛騨国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q843882",
+  "provLabel": "近江国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q858076",
+  "provLabel": "甲斐国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q513737",
+  "provLabel": "日向国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q749276",
+  "provLabel": "山城国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q514506",
+  "provLabel": "尾張国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q906899",
+  "provLabel": "越中国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q906926",
+  "provLabel": "肥前国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q907382",
+  "provLabel": "長門国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q907398",
+  "provLabel": "武蔵国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q907457",
+  "provLabel": "阿波国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q907495",
+  "provLabel": "大和国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q907829",
+  "provLabel": "伊予国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q768158",
+  "provLabel": "三河国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q1063001",
+  "provLabel": "根室国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q522521",
+  "provLabel": "後志国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q907469",
+  "provLabel": "加賀国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1166897",
+  "provLabel": "石背国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1063829",
+  "provLabel": "隠岐国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q1063806",
+  "provLabel": "十勝国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q1063820",
+  "provLabel": "千島国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q860290",
+  "prov": "http://www.wikidata.org/entity/Q1063844",
+  "provLabel": "佐渡国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q1063868",
+  "provLabel": "胆振国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q1063877",
+  "provLabel": "石狩国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q1063885",
+  "provLabel": "日高国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q1064306",
+  "provLabel": "渡島国"
+ },
+ {
+  "cls": "http://www.wikidata.org/entity/Q1541735",
+  "prov": "http://www.wikidata.org/entity/Q531886",
+  "provLabel": "北見国"
+ }
+]

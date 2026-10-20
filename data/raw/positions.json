@@ -1,5 +1,1653 @@
 [
  {
+  "pos": "http://www.wikidata.org/entity/Q141733737",
+  "domain": "http://www.wikidata.org/entity/Q1005450",
+  "back": "http://www.wikidata.org/entity/Q141733737",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "沼津藩主",
+  "domainLabel": "沼津藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733740",
+  "domain": "http://www.wikidata.org/entity/Q3034398",
+  "back": "http://www.wikidata.org/entity/Q141733740",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "小島藩主",
+  "domainLabel": "小島藩",
+  "coord": "Point(138.516 35.085)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733751",
+  "domain": "http://www.wikidata.org/entity/Q3034440",
+  "back": "http://www.wikidata.org/entity/Q141733751",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "浜松藩主",
+  "domainLabel": "浜松藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733748",
+  "domain": "http://www.wikidata.org/entity/Q10855037",
+  "back": "http://www.wikidata.org/entity/Q141733748",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "川成島藩主",
+  "domainLabel": "川成島藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733749",
+  "domain": "http://www.wikidata.org/entity/Q3034456",
+  "back": "http://www.wikidata.org/entity/Q141733749",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "掛川藩主",
+  "domainLabel": "掛川藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733754",
+  "domain": "http://www.wikidata.org/entity/Q3034572",
+  "back": "http://www.wikidata.org/entity/Q141733754",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "横須賀藩主",
+  "domainLabel": "横須賀藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733758",
+  "domain": "http://www.wikidata.org/entity/Q10863232",
+  "back": "http://www.wikidata.org/entity/Q141733758",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "井伊谷藩主",
+  "domainLabel": "井伊谷藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733759",
+  "domain": "http://www.wikidata.org/entity/Q10863335",
+  "back": "http://www.wikidata.org/entity/Q141733759",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "掛塚藩主",
+  "domainLabel": "掛塚藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733756",
+  "domain": "http://www.wikidata.org/entity/Q10863489",
+  "back": "http://www.wikidata.org/entity/Q141733756",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "堀江藩主",
+  "domainLabel": "堀江藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733762",
+  "domain": "http://www.wikidata.org/entity/Q10863464",
+  "back": "http://www.wikidata.org/entity/Q141733762",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "遠江久野藩主",
+  "domainLabel": "遠江久野藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733770",
+  "domain": "http://www.wikidata.org/entity/Q3034473",
+  "back": "http://www.wikidata.org/entity/Q141733770",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "挙母藩主",
+  "domainLabel": "挙母藩",
+  "coord": "Point(137.15068889 35.08036944)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733774",
+  "domain": "http://www.wikidata.org/entity/Q1045776",
+  "back": "http://www.wikidata.org/entity/Q141733774",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "刈谷藩主",
+  "domainLabel": "刈谷藩",
+  "coord": "Point(136.98344444 34.98861111)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733778",
+  "domain": "http://www.wikidata.org/entity/Q10863406",
+  "back": "http://www.wikidata.org/entity/Q141733778",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "重原藩主",
+  "domainLabel": "重原藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733777",
+  "domain": "http://www.wikidata.org/entity/Q849483",
+  "back": "http://www.wikidata.org/entity/Q141733777",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "村上藩主",
+  "domainLabel": "村上藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733784",
+  "domain": "http://www.wikidata.org/entity/Q3034508",
+  "back": "http://www.wikidata.org/entity/Q141733784",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "西大平藩主",
+  "domainLabel": "西大平藩",
+  "coord": "Point(137.19622222 34.94069444)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733790",
+  "domain": "http://www.wikidata.org/entity/Q10863461",
+  "back": "http://www.wikidata.org/entity/Q141733790",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "西端藩主",
+  "domainLabel": "西端藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733798",
+  "domain": "http://www.wikidata.org/entity/Q3034512",
+  "back": "http://www.wikidata.org/entity/Q141733798",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "西尾藩主",
+  "domainLabel": "西尾藩",
+  "coord": "Point(137.04861111 34.85166667)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733799",
+  "domain": "http://www.wikidata.org/entity/Q3034472",
+  "back": "http://www.wikidata.org/entity/Q141733799",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "菰野藩主",
+  "domainLabel": "菰野藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733802",
+  "domain": "http://www.wikidata.org/entity/Q1060551",
+  "back": "http://www.wikidata.org/entity/Q141733802",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "津藩主",
+  "domainLabel": "津藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733803",
+  "domain": "http://www.wikidata.org/entity/Q109570669",
+  "back": "http://www.wikidata.org/entity/Q141733803",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "久居藩主",
+  "domainLabel": "久居藩",
+  "coord": "Point(136.461111111 34.676111111)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733801",
+  "domain": "http://www.wikidata.org/entity/Q3034389",
+  "back": "http://www.wikidata.org/entity/Q141733801",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伊勢亀山藩主",
+  "domainLabel": "伊勢亀山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733807",
+  "domain": "http://www.wikidata.org/entity/Q11533304",
+  "back": "http://www.wikidata.org/entity/Q141733807",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "林藩主",
+  "domainLabel": "林藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733804",
+  "domain": "http://www.wikidata.org/entity/Q10863430",
+  "back": "http://www.wikidata.org/entity/Q141733804",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "八田藩主",
+  "domainLabel": "八田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733805",
+  "domain": "http://www.wikidata.org/entity/Q10863237",
+  "back": "http://www.wikidata.org/entity/Q141733805",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伊勢上野藩主",
+  "domainLabel": "伊勢上野藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733811",
+  "domain": "http://www.wikidata.org/entity/Q10863238",
+  "back": "http://www.wikidata.org/entity/Q141733811",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伊勢岩手藩主",
+  "domainLabel": "伊勢岩手藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733808",
+  "domain": "http://www.wikidata.org/entity/Q10863358",
+  "back": "http://www.wikidata.org/entity/Q141733808",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "雲出藩主",
+  "domainLabel": "雲出藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733809",
+  "domain": "http://www.wikidata.org/entity/Q10863498",
+  "back": "http://www.wikidata.org/entity/Q141733809",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "松坂藩主",
+  "domainLabel": "松坂藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733814",
+  "domain": "http://www.wikidata.org/entity/Q1396816",
+  "back": "http://www.wikidata.org/entity/Q141733814",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鳥羽藩主",
+  "domainLabel": "鳥羽藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733815",
+  "domain": "http://www.wikidata.org/entity/Q10863290",
+  "back": "http://www.wikidata.org/entity/Q141733815",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "近江宮川藩主",
+  "domainLabel": "近江宮川藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733812",
+  "domain": "http://www.wikidata.org/entity/Q10863456",
+  "back": "http://www.wikidata.org/entity/Q141733812",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "田丸藩主",
+  "domainLabel": "田丸藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733813",
+  "domain": "http://www.wikidata.org/entity/Q10863245",
+  "back": "http://www.wikidata.org/entity/Q141733813",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伊賀上野藩主",
+  "domainLabel": "伊賀上野藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733818",
+  "domain": "http://www.wikidata.org/entity/Q1062225",
+  "back": "http://www.wikidata.org/entity/Q141733818",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "彦根藩主",
+  "domainLabel": "彦根藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733819",
+  "domain": "http://www.wikidata.org/entity/Q12626275",
+  "back": "http://www.wikidata.org/entity/Q141733819",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "彦根新田藩主",
+  "domainLabel": "彦根新田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733816",
+  "domain": "http://www.wikidata.org/entity/Q858917",
+  "back": "http://www.wikidata.org/entity/Q141733816",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "三河吉田藩主",
+  "domainLabel": "三河吉田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733817",
+  "domain": "http://www.wikidata.org/entity/Q10863471",
+  "back": "http://www.wikidata.org/entity/Q141733817",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "長浜藩主",
+  "domainLabel": "長浜藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733822",
+  "domain": "http://www.wikidata.org/entity/Q10863537",
+  "back": "http://www.wikidata.org/entity/Q141733822",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "山上藩主",
+  "domainLabel": "山上藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733823",
+  "domain": "http://www.wikidata.org/entity/Q10863474",
+  "back": "http://www.wikidata.org/entity/Q141733823",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "三上藩主",
+  "domainLabel": "三上藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733820",
+  "domain": "http://www.wikidata.org/entity/Q997403",
+  "back": "http://www.wikidata.org/entity/Q141733820",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大溝藩主",
+  "domainLabel": "大溝藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733821",
+  "domain": "http://www.wikidata.org/entity/Q10863307",
+  "back": "http://www.wikidata.org/entity/Q141733821",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "堅田藩主",
+  "domainLabel": "堅田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733826",
+  "domain": "http://www.wikidata.org/entity/Q10863504",
+  "back": "http://www.wikidata.org/entity/Q141733826",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "水口藩主",
+  "domainLabel": "水口藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733827",
+  "domain": "http://www.wikidata.org/entity/Q10863293",
+  "back": "http://www.wikidata.org/entity/Q141733827",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "近江高島藩主",
+  "domainLabel": "近江高島藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733824",
+  "domain": "http://www.wikidata.org/entity/Q10863425",
+  "back": "http://www.wikidata.org/entity/Q141733824",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "仁正寺藩主",
+  "domainLabel": "仁正寺藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733825",
+  "domain": "http://www.wikidata.org/entity/Q903503",
+  "back": "http://www.wikidata.org/entity/Q141733825",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "膳所藩主",
+  "domainLabel": "膳所藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733828",
+  "domain": "http://www.wikidata.org/entity/Q10863316",
+  "back": "http://www.wikidata.org/entity/Q141733828",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大津藩主",
+  "domainLabel": "大津藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733833",
+  "domain": "http://www.wikidata.org/entity/Q3034533",
+  "back": "http://www.wikidata.org/entity/Q141733833",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "田原藩主",
+  "domainLabel": "田原藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733839",
+  "domain": "http://www.wikidata.org/entity/Q10863426",
+  "back": "http://www.wikidata.org/entity/Q141733839",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "作手藩主",
+  "domainLabel": "作手藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733846",
+  "domain": "http://www.wikidata.org/entity/Q10863390",
+  "back": "http://www.wikidata.org/entity/Q141733846",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "新城藩主",
+  "domainLabel": "新城藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733853",
+  "domain": "http://www.wikidata.org/entity/Q10863288",
+  "back": "http://www.wikidata.org/entity/Q141733853",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "足助藩主",
+  "domainLabel": "足助藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733859",
+  "domain": "http://www.wikidata.org/entity/Q10863235",
+  "back": "http://www.wikidata.org/entity/Q141733859",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伊保藩主",
+  "domainLabel": "伊保藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733862",
+  "domain": "http://www.wikidata.org/entity/Q10863292",
+  "back": "http://www.wikidata.org/entity/Q141733862",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "近江小室藩主",
+  "domainLabel": "近江小室藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733863",
+  "domain": "http://www.wikidata.org/entity/Q844014",
+  "back": "http://www.wikidata.org/entity/Q141733863",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "淀藩主",
+  "domainLabel": "淀藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733861",
+  "domain": "http://www.wikidata.org/entity/Q3034400",
+  "back": "http://www.wikidata.org/entity/Q141733861",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "奥殿藩主",
+  "domainLabel": "奥殿藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733867",
+  "domain": "http://www.wikidata.org/entity/Q10863483",
+  "back": "http://www.wikidata.org/entity/Q141733867",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伏見藩主",
+  "domainLabel": "伏見藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733864",
+  "domain": "http://www.wikidata.org/entity/Q12589487",
+  "back": "http://www.wikidata.org/entity/Q141733864",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "山城長岡藩主",
+  "domainLabel": "山城長岡藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733865",
+  "domain": "http://www.wikidata.org/entity/Q10863477",
+  "back": "http://www.wikidata.org/entity/Q141733865",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "三河中島藩主",
+  "domainLabel": "三河中島藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733871",
+  "domain": "http://www.wikidata.org/entity/Q1005257",
+  "back": "http://www.wikidata.org/entity/Q141733871",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "小泉藩主",
+  "domainLabel": "小泉藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733868",
+  "domain": "http://www.wikidata.org/entity/Q10863494",
+  "back": "http://www.wikidata.org/entity/Q141733868",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "御牧藩主",
+  "domainLabel": "御牧藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733869",
+  "domain": "http://www.wikidata.org/entity/Q10863405",
+  "back": "http://www.wikidata.org/entity/Q141733869",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "郡山藩主",
+  "domainLabel": "郡山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733875",
+  "domain": "http://www.wikidata.org/entity/Q3034568",
+  "back": "http://www.wikidata.org/entity/Q141733875",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "柳本藩主",
+  "domainLabel": "柳本藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733872",
+  "domain": "http://www.wikidata.org/entity/Q10863505",
+  "back": "http://www.wikidata.org/entity/Q141733872",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "深溝藩主",
+  "domainLabel": "深溝藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733879",
+  "domain": "http://www.wikidata.org/entity/Q10863402",
+  "back": "http://www.wikidata.org/entity/Q141733879",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "芝村藩主",
+  "domainLabel": "芝村藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733877",
+  "domain": "http://www.wikidata.org/entity/Q10863334",
+  "back": "http://www.wikidata.org/entity/Q141733877",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "形原藩主",
+  "domainLabel": "形原藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733881",
+  "domain": "http://www.wikidata.org/entity/Q10863339",
+  "back": "http://www.wikidata.org/entity/Q141733881",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "櫛羅藩主",
+  "domainLabel": "櫛羅藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733886",
+  "domain": "http://www.wikidata.org/entity/Q10863410",
+  "back": "http://www.wikidata.org/entity/Q141733886",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "高取藩主",
+  "domainLabel": "高取藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733887",
+  "domain": "http://www.wikidata.org/entity/Q10863353",
+  "back": "http://www.wikidata.org/entity/Q141733887",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "興留藩主",
+  "domainLabel": "興留藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733885",
+  "domain": "http://www.wikidata.org/entity/Q3034407",
+  "back": "http://www.wikidata.org/entity/Q141733885",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "宇陀松山藩主",
+  "domainLabel": "宇陀松山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733890",
+  "domain": "http://www.wikidata.org/entity/Q10863387",
+  "back": "http://www.wikidata.org/entity/Q141733890",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "御所藩主",
+  "domainLabel": "御所藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733888",
+  "domain": "http://www.wikidata.org/entity/Q10863399",
+  "back": "http://www.wikidata.org/entity/Q141733888",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "竜田藩主",
+  "domainLabel": "竜田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733889",
+  "domain": "http://www.wikidata.org/entity/Q10863535",
+  "back": "http://www.wikidata.org/entity/Q141733889",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大和新庄藩主",
+  "domainLabel": "大和新庄藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733894",
+  "domain": "http://www.wikidata.org/entity/Q10863472",
+  "back": "http://www.wikidata.org/entity/Q141733894",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "陶器藩主",
+  "domainLabel": "陶器藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733895",
+  "domain": "http://www.wikidata.org/entity/Q3034436",
+  "back": "http://www.wikidata.org/entity/Q141733895",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伯太藩主",
+  "domainLabel": "伯太藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733892",
+  "domain": "http://www.wikidata.org/entity/Q10863534",
+  "back": "http://www.wikidata.org/entity/Q141733892",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大和五条藩主",
+  "domainLabel": "大和五条藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733893",
+  "domain": "http://www.wikidata.org/entity/Q10863346",
+  "back": "http://www.wikidata.org/entity/Q141733893",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "紀伊新宮藩主",
+  "domainLabel": "紀伊新宮藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733898",
+  "domain": "http://www.wikidata.org/entity/Q10863463",
+  "back": "http://www.wikidata.org/entity/Q141733898",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "谷川藩主",
+  "domainLabel": "谷川藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733897",
+  "domain": "http://www.wikidata.org/entity/Q3034469",
+  "back": "http://www.wikidata.org/entity/Q141733897",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "岸和田藩主",
+  "domainLabel": "岸和田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733902",
+  "domain": "http://www.wikidata.org/entity/Q1073712",
+  "back": "http://www.wikidata.org/entity/Q141733902",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "狭山藩主",
+  "domainLabel": "狭山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733903",
+  "domain": "http://www.wikidata.org/entity/Q10863415",
+  "back": "http://www.wikidata.org/entity/Q141733903",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "高槻藩主",
+  "domainLabel": "高槻藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733901",
+  "domain": "http://www.wikidata.org/entity/Q10863422",
+  "back": "http://www.wikidata.org/entity/Q141733901",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "丹南藩主",
+  "domainLabel": "丹南藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733906",
+  "domain": "http://www.wikidata.org/entity/Q1073005",
+  "back": "http://www.wikidata.org/entity/Q141733906",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "麻田藩主",
+  "domainLabel": "麻田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733910",
+  "domain": "http://www.wikidata.org/entity/Q849472",
+  "back": "http://www.wikidata.org/entity/Q141733910",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "三日市藩主",
+  "domainLabel": "三日市藩",
+  "coord": "Point(139.363261111 38.972122222)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733909",
+  "domain": "http://www.wikidata.org/entity/Q849395",
+  "back": "http://www.wikidata.org/entity/Q141733909",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "黒川藩主",
+  "domainLabel": "黒川藩",
+  "coord": "Point(139.4375 38.076944444)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733914",
+  "domain": "http://www.wikidata.org/entity/Q3034411",
+  "back": "http://www.wikidata.org/entity/Q141733914",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大浜藩主",
+  "domainLabel": "大浜藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733915",
+  "domain": "http://www.wikidata.org/entity/Q1041310",
+  "back": "http://www.wikidata.org/entity/Q141733915",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "越後長岡藩主",
+  "domainLabel": "越後長岡藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733913",
+  "domain": "http://www.wikidata.org/entity/Q1040856",
+  "back": "http://www.wikidata.org/entity/Q141733913",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "新発田藩主",
+  "domainLabel": "新発田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733918",
+  "domain": "http://www.wikidata.org/entity/Q3034396",
+  "back": "http://www.wikidata.org/entity/Q141733918",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "緒川藩主",
+  "domainLabel": "緒川藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733919",
+  "domain": "http://www.wikidata.org/entity/Q10863395",
+  "back": "http://www.wikidata.org/entity/Q141733919",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "椎谷藩主",
+  "domainLabel": "椎谷藩",
+  "coord": "Point(138.619794444 37.475991666)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733916",
+  "domain": "http://www.wikidata.org/entity/Q1004357",
+  "back": "http://www.wikidata.org/entity/Q141733916",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "犬山藩主",
+  "domainLabel": "犬山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733917",
+  "domain": "http://www.wikidata.org/entity/Q10863403",
+  "back": "http://www.wikidata.org/entity/Q141733917",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "蔵王堂藩主",
+  "domainLabel": "蔵王堂藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733922",
+  "domain": "http://www.wikidata.org/entity/Q10863379",
+  "back": "http://www.wikidata.org/entity/Q141733922",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "坂戸藩主",
+  "domainLabel": "坂戸藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733920",
+  "domain": "http://www.wikidata.org/entity/Q10856398",
+  "back": "http://www.wikidata.org/entity/Q141733920",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "高柳藩主",
+  "domainLabel": "高柳藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733921",
+  "domain": "http://www.wikidata.org/entity/Q10863330",
+  "back": "http://www.wikidata.org/entity/Q141733921",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "尾張黒田藩主",
+  "domainLabel": "尾張黒田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733926",
+  "domain": "http://www.wikidata.org/entity/Q10863362",
+  "back": "http://www.wikidata.org/entity/Q141733926",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "三条藩主",
+  "domainLabel": "三条藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733925",
+  "domain": "http://www.wikidata.org/entity/Q10863342",
+  "back": "http://www.wikidata.org/entity/Q141733925",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "清洲藩主",
+  "domainLabel": "清洲藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733930",
+  "domain": "http://www.wikidata.org/entity/Q10863526",
+  "back": "http://www.wikidata.org/entity/Q141733930",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "藤井藩主",
+  "domainLabel": "藤井藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733928",
+  "domain": "http://www.wikidata.org/entity/Q3034448",
+  "back": "http://www.wikidata.org/entity/Q141733928",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "飛騨高山藩主",
+  "domainLabel": "飛騨高山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733929",
+  "domain": "http://www.wikidata.org/entity/Q10863396",
+  "back": "http://www.wikidata.org/entity/Q141733929",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "沢海藩主",
+  "domainLabel": "沢海藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733932",
+  "domain": "http://www.wikidata.org/entity/Q10863356",
+  "back": "http://www.wikidata.org/entity/Q141733932",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "郡上藩主",
+  "domainLabel": "郡上藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733933",
+  "domain": "http://www.wikidata.org/entity/Q10855946",
+  "back": "http://www.wikidata.org/entity/Q141733933",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "長峰藩主",
+  "domainLabel": "長峰藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733939",
+  "domain": "http://www.wikidata.org/entity/Q10863438",
+  "back": "http://www.wikidata.org/entity/Q141733939",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "布市藩主",
+  "domainLabel": "布市藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733936",
+  "domain": "http://www.wikidata.org/entity/Q10863458",
+  "back": "http://www.wikidata.org/entity/Q141733936",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "苗木藩主",
+  "domainLabel": "苗木藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694057",
+  "domain": "http://www.wikidata.org/entity/Q10863383",
+  "back": "http://www.wikidata.org/entity/Q141694057",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "小久保藩主",
+  "domainLabel": "小久保藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694062",
+  "domain": "http://www.wikidata.org/entity/Q10863313",
+  "back": "http://www.wikidata.org/entity/Q141694062",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大多喜新田藩主",
+  "domainLabel": "大多喜新田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694063",
+  "domain": "http://www.wikidata.org/entity/Q10863303",
+  "back": "http://www.wikidata.org/entity/Q141694063",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "勝浦藩主",
+  "domainLabel": "勝浦藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694060",
+  "domain": "http://www.wikidata.org/entity/Q3034553",
+  "back": "http://www.wikidata.org/entity/Q141694060",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鶴牧藩主",
+  "domainLabel": "鶴牧藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694061",
+  "domain": "http://www.wikidata.org/entity/Q1040575",
+  "back": "http://www.wikidata.org/entity/Q141694061",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "桜井藩主",
+  "domainLabel": "請西藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694066",
+  "domain": "http://www.wikidata.org/entity/Q10863473",
+  "back": "http://www.wikidata.org/entity/Q141694066",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鶴舞藩主",
+  "domainLabel": "鶴舞藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694067",
+  "domain": "http://www.wikidata.org/entity/Q10863416",
+  "back": "http://www.wikidata.org/entity/Q141694067",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "高滝藩主",
+  "domainLabel": "高滝藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694064",
+  "domain": "http://www.wikidata.org/entity/Q10855751",
+  "back": "http://www.wikidata.org/entity/Q141694064",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "菊間藩主",
+  "domainLabel": "菊間藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694065",
+  "domain": "http://www.wikidata.org/entity/Q10863278",
+  "back": "http://www.wikidata.org/entity/Q141694065",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "潤井戸藩主",
+  "domainLabel": "潤井戸藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694070",
+  "domain": "http://www.wikidata.org/entity/Q3034475",
+  "back": "http://www.wikidata.org/entity/Q141694070",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "古河藩主",
+  "domainLabel": "古河藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694071",
+  "domain": "http://www.wikidata.org/entity/Q3034537",
+  "back": "http://www.wikidata.org/entity/Q141694071",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "高岡藩主",
+  "domainLabel": "高岡藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694068",
+  "domain": "http://www.wikidata.org/entity/Q10863298",
+  "back": "http://www.wikidata.org/entity/Q141694068",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "上総八幡藩主",
+  "domainLabel": "上総八幡藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694069",
+  "domain": "http://www.wikidata.org/entity/Q997369",
+  "back": "http://www.wikidata.org/entity/Q141694069",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "結城藩主",
+  "domainLabel": "結城藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694074",
+  "domain": "http://www.wikidata.org/entity/Q3034406",
+  "back": "http://www.wikidata.org/entity/Q141694074",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "生実藩主",
+  "domainLabel": "生実藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694075",
+  "domain": "http://www.wikidata.org/entity/Q10863366",
+  "back": "http://www.wikidata.org/entity/Q141694075",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "下総山川藩主",
+  "domainLabel": "下総山川藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694072",
+  "domain": "http://www.wikidata.org/entity/Q3034402",
+  "back": "http://www.wikidata.org/entity/Q141694072",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "小見川藩主",
+  "domainLabel": "小見川藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694073",
+  "domain": "http://www.wikidata.org/entity/Q2399563",
+  "back": "http://www.wikidata.org/entity/Q141694073",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "多古藩主",
+  "domainLabel": "多胡藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694078",
+  "domain": "http://www.wikidata.org/entity/Q10863545",
+  "back": "http://www.wikidata.org/entity/Q141694078",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "矢作藩主",
+  "domainLabel": "矢作藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694079",
+  "domain": "http://www.wikidata.org/entity/Q10863231",
+  "back": "http://www.wikidata.org/entity/Q141694079",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "下総飯田藩主",
+  "domainLabel": "下総飯田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694076",
+  "domain": "http://www.wikidata.org/entity/Q10863323",
+  "back": "http://www.wikidata.org/entity/Q141694076",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大輪藩主",
+  "domainLabel": "大輪藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694077",
+  "domain": "http://www.wikidata.org/entity/Q10863365",
+  "back": "http://www.wikidata.org/entity/Q141694077",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "下総山崎藩主",
+  "domainLabel": "下総山崎藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694082",
+  "domain": "http://www.wikidata.org/entity/Q10863338",
+  "back": "http://www.wikidata.org/entity/Q141694082",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "栗原藩主",
+  "domainLabel": "栗原藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694080",
+  "domain": "http://www.wikidata.org/entity/Q10863283",
+  "back": "http://www.wikidata.org/entity/Q141694080",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "臼井藩主",
+  "domainLabel": "臼井藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694081",
+  "domain": "http://www.wikidata.org/entity/Q10863392",
+  "back": "http://www.wikidata.org/entity/Q141694081",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "曾我野藩主",
+  "domainLabel": "曾我野藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694087",
+  "domain": "http://www.wikidata.org/entity/Q10863364",
+  "back": "http://www.wikidata.org/entity/Q141694087",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "下総三浦藩主",
+  "domainLabel": "下総三浦藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694090",
+  "domain": "http://www.wikidata.org/entity/Q1001893",
+  "back": "http://www.wikidata.org/entity/Q141694090",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "岩槻藩主",
+  "domainLabel": "岩槻藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694091",
+  "domain": "http://www.wikidata.org/entity/Q10863495",
+  "back": "http://www.wikidata.org/entity/Q141694091",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "本庄藩主",
+  "domainLabel": "本庄藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694088",
+  "domain": "http://www.wikidata.org/entity/Q3034405",
+  "back": "http://www.wikidata.org/entity/Q141694088",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "忍藩主",
+  "domainLabel": "忍藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694094",
+  "domain": "http://www.wikidata.org/entity/Q3034467",
+  "back": "http://www.wikidata.org/entity/Q141694094",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "騎西藩主",
+  "domainLabel": "騎西藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694095",
+  "domain": "http://www.wikidata.org/entity/Q10863503",
+  "back": "http://www.wikidata.org/entity/Q141694095",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "武蔵松山藩主",
+  "domainLabel": "武蔵松山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694092",
+  "domain": "http://www.wikidata.org/entity/Q10863332",
+  "back": "http://www.wikidata.org/entity/Q141694092",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "岡部藩主",
+  "domainLabel": "岡部藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694093",
+  "domain": "http://www.wikidata.org/entity/Q10863507",
+  "back": "http://www.wikidata.org/entity/Q141694093",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "深谷藩主",
+  "domainLabel": "深谷藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694098",
+  "domain": "http://www.wikidata.org/entity/Q10863502",
+  "back": "http://www.wikidata.org/entity/Q141694098",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "武蔵小室藩主",
+  "domainLabel": "武蔵小室藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694099",
+  "domain": "http://www.wikidata.org/entity/Q10863433",
+  "back": "http://www.wikidata.org/entity/Q141694099",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "原市藩主",
+  "domainLabel": "原市藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694096",
+  "domain": "http://www.wikidata.org/entity/Q10863301",
+  "back": "http://www.wikidata.org/entity/Q141694096",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "久喜藩主",
+  "domainLabel": "久喜藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694097",
+  "domain": "http://www.wikidata.org/entity/Q10863281",
+  "back": "http://www.wikidata.org/entity/Q141694097",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "石戸藩主",
+  "domainLabel": "石戸藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694102",
+  "domain": "http://www.wikidata.org/entity/Q3034502",
+  "back": "http://www.wikidata.org/entity/Q141694102",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "六浦藩主",
+  "domainLabel": "六浦藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694103",
+  "domain": "http://www.wikidata.org/entity/Q10863285",
+  "back": "http://www.wikidata.org/entity/Q141694103",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "赤沼藩主",
+  "domainLabel": "赤沼藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694100",
+  "domain": "http://www.wikidata.org/entity/Q591239",
+  "back": "http://www.wikidata.org/entity/Q141694100",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鳩ヶ谷藩主",
+  "domainLabel": "鳩ヶ谷藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694101",
+  "domain": "http://www.wikidata.org/entity/Q10863304",
+  "back": "http://www.wikidata.org/entity/Q141694101",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "喜多見藩主",
+  "domainLabel": "喜多見藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694106",
+  "domain": "http://www.wikidata.org/entity/Q3034503",
+  "back": "http://www.wikidata.org/entity/Q141694106",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "長尾藩主",
+  "domainLabel": "長尾藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694107",
+  "domain": "http://www.wikidata.org/entity/Q3034454",
+  "back": "http://www.wikidata.org/entity/Q141694107",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "北条藩主",
+  "domainLabel": "北条藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694104",
+  "domain": "http://www.wikidata.org/entity/Q3034384",
+  "back": "http://www.wikidata.org/entity/Q141694104",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "安房勝山藩主",
+  "domainLabel": "安房勝山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694105",
+  "domain": "http://www.wikidata.org/entity/Q3034545",
+  "back": "http://www.wikidata.org/entity/Q141694105",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "館山藩主",
+  "domainLabel": "館山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694110",
+  "domain": "http://www.wikidata.org/entity/Q10863257",
+  "back": "http://www.wikidata.org/entity/Q141694110",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "安房三枝藩主",
+  "domainLabel": "安房三枝藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694111",
+  "domain": "http://www.wikidata.org/entity/Q10863455",
+  "back": "http://www.wikidata.org/entity/Q141694111",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "玉縄藩主",
+  "domainLabel": "玉縄藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694108",
+  "domain": "http://www.wikidata.org/entity/Q10863452",
+  "back": "http://www.wikidata.org/entity/Q141694108",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "東条藩主",
+  "domainLabel": "東条藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694109",
+  "domain": "http://www.wikidata.org/entity/Q3034442",
+  "back": "http://www.wikidata.org/entity/Q141694109",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "花房藩主",
+  "domainLabel": "花房藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694114",
+  "domain": "http://www.wikidata.org/entity/Q661116",
+  "back": "http://www.wikidata.org/entity/Q141694114",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "甲府藩主",
+  "domainLabel": "甲府藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694115",
+  "domain": "http://www.wikidata.org/entity/Q10863551",
+  "back": "http://www.wikidata.org/entity/Q141694115",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "谷村藩主",
+  "domainLabel": "谷村藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694112",
+  "domain": "http://www.wikidata.org/entity/Q903467",
+  "back": "http://www.wikidata.org/entity/Q141694112",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "小田原藩主",
+  "domainLabel": "小田原藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694113",
+  "domain": "http://www.wikidata.org/entity/Q10863355",
+  "back": "http://www.wikidata.org/entity/Q141694113",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "荻野山中藩主",
+  "domainLabel": "荻野山中藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141694116",
+  "domain": "http://www.wikidata.org/entity/Q10863449",
+  "back": "http://www.wikidata.org/entity/Q141694116",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "徳美藩主",
+  "domainLabel": "徳美藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732700",
+  "domain": "http://www.wikidata.org/entity/Q141732683",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "東方藩主",
+  "domainLabel": "東方藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732701",
+  "domain": "http://www.wikidata.org/entity/Q141732613",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "野本藩主",
+  "domainLabel": "野本藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732917",
+  "domain": "http://www.wikidata.org/entity/Q10863480",
+  "back": "http://www.wikidata.org/entity/Q141732917",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "丸亀藩主",
+  "domainLabel": "丸亀藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732922",
+  "domain": "http://www.wikidata.org/entity/Q3034557",
+  "back": "http://www.wikidata.org/entity/Q141732922",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "徳島藩主",
+  "domainLabel": "徳島藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732923",
+  "domain": "http://www.wikidata.org/entity/Q1005251",
+  "back": "http://www.wikidata.org/entity/Q141732923",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "大洲藩主",
+  "domainLabel": "大洲藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732920",
+  "domain": "http://www.wikidata.org/entity/Q109356835",
+  "back": "http://www.wikidata.org/entity/Q141732920",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "多度津藩主",
+  "domainLabel": "多度津藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732927",
+  "domain": "http://www.wikidata.org/entity/Q1189704",
+  "back": "http://www.wikidata.org/entity/Q141732927",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "土佐藩主",
+  "domainLabel": "土佐藩",
+  "coord": "Point(136.659166666 36.564444444)"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732924",
+  "domain": "http://www.wikidata.org/entity/Q109357353",
+  "back": "http://www.wikidata.org/entity/Q141732924",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "新谷藩主",
+  "domainLabel": "新谷藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732925",
+  "domain": "http://www.wikidata.org/entity/Q994102",
+  "back": "http://www.wikidata.org/entity/Q141732925",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "宇和島藩主",
+  "domainLabel": "宇和島藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732928",
+  "domain": "http://www.wikidata.org/entity/Q12162100",
+  "back": "http://www.wikidata.org/entity/Q141732928",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "土佐新田藩主",
+  "domainLabel": "土佐新田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732942",
+  "domain": "http://www.wikidata.org/entity/Q10863386",
+  "back": "http://www.wikidata.org/entity/Q141732942",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "小松藩主",
+  "domainLabel": "小松藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732943",
+  "domain": "http://www.wikidata.org/entity/Q114397604",
+  "back": "http://www.wikidata.org/entity/Q141732943",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "伊予吉田藩主",
+  "domainLabel": "伊予吉田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732946",
+  "domain": "http://www.wikidata.org/entity/Q141732887",
+  "back": "http://www.wikidata.org/entity/Q141732946",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "松山新田藩主",
+  "domainLabel": "松山新田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732947",
+  "domain": "http://www.wikidata.org/entity/Q12161918",
+  "back": "http://www.wikidata.org/entity/Q141732947",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "富田藩主",
+  "domainLabel": "阿波富田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732944",
+  "domain": "http://www.wikidata.org/entity/Q10863333",
+  "back": "http://www.wikidata.org/entity/Q141732944",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "川之江藩主",
+  "domainLabel": "川之江藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141732948",
+  "domain": "http://www.wikidata.org/entity/Q18710354",
+  "back": "http://www.wikidata.org/entity/Q141732948",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "中村藩主",
+  "domainLabel": "中村藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733583",
+  "domain": "http://www.wikidata.org/entity/Q905521",
+  "back": "http://www.wikidata.org/entity/Q141733583",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鳥取藩主",
+  "domainLabel": "鳥取藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733594",
+  "domain": "http://www.wikidata.org/entity/Q141737862",
+  "back": "http://www.wikidata.org/entity/Q141733594",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鳥取（東館）新田藩主",
+  "domainLabel": "鳥取新田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733595",
+  "domain": "http://www.wikidata.org/entity/Q10863548",
+  "back": "http://www.wikidata.org/entity/Q141733595",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "米子藩主",
+  "domainLabel": "米子藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733593",
+  "domain": "http://www.wikidata.org/entity/Q10863418",
+  "back": "http://www.wikidata.org/entity/Q141733593",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鹿野藩主",
+  "domainLabel": "鹿野藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733599",
+  "domain": "http://www.wikidata.org/entity/Q10863547",
+  "back": "http://www.wikidata.org/entity/Q141733599",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "矢橋藩主",
+  "domainLabel": "矢橋藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733596",
+  "domain": "http://www.wikidata.org/entity/Q10863302",
+  "back": "http://www.wikidata.org/entity/Q141733596",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "倉吉藩主",
+  "domainLabel": "倉吉藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733597",
+  "domain": "http://www.wikidata.org/entity/Q10863360",
+  "back": "http://www.wikidata.org/entity/Q141733597",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "黒坂藩主",
+  "domainLabel": "黒坂藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733602",
+  "domain": "http://www.wikidata.org/entity/Q141733522",
+  "back": "http://www.wikidata.org/entity/Q141733602",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "松江新田藩主",
+  "domainLabel": "松江新田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733607",
+  "domain": "http://www.wikidata.org/entity/Q3034561",
+  "back": "http://www.wikidata.org/entity/Q141733607",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "津和野藩主",
+  "domainLabel": "津和野藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733604",
+  "domain": "http://www.wikidata.org/entity/Q10863515",
+  "back": "http://www.wikidata.org/entity/Q141733604",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "美作勝山藩主",
+  "domainLabel": "美作勝山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733605",
+  "domain": "http://www.wikidata.org/entity/Q109356827",
+  "back": "http://www.wikidata.org/entity/Q141733605",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "吉永藩主",
+  "domainLabel": "吉永藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733611",
+  "domain": "http://www.wikidata.org/entity/Q109358278",
+  "back": "http://www.wikidata.org/entity/Q141733611",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "児島藩主",
+  "domainLabel": "児島藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733608",
+  "domain": "http://www.wikidata.org/entity/Q903497",
+  "back": "http://www.wikidata.org/entity/Q141733608",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "岡山藩主",
+  "domainLabel": "岡山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733614",
+  "domain": "http://www.wikidata.org/entity/Q3034507",
+  "back": "http://www.wikidata.org/entity/Q141733614",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "新見藩主",
+  "domainLabel": "新見藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733618",
+  "domain": "http://www.wikidata.org/entity/Q3034422",
+  "back": "http://www.wikidata.org/entity/Q141733618",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "備中松山藩主",
+  "domainLabel": "備中松山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733622",
+  "domain": "http://www.wikidata.org/entity/Q1045052",
+  "back": "http://www.wikidata.org/entity/Q141733622",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "岡田藩主",
+  "domainLabel": "岡田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733620",
+  "domain": "http://www.wikidata.org/entity/Q10863450",
+  "back": "http://www.wikidata.org/entity/Q141733620",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "成羽藩主",
+  "domainLabel": "成羽藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733621",
+  "domain": "http://www.wikidata.org/entity/Q10863289",
+  "back": "http://www.wikidata.org/entity/Q141733621",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "足守藩主",
+  "domainLabel": "足守藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733626",
+  "domain": "http://www.wikidata.org/entity/Q123110957",
+  "back": "http://www.wikidata.org/entity/Q141733626",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "生坂藩主",
+  "domainLabel": "生坂藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733627",
+  "domain": "http://www.wikidata.org/entity/Q123110960",
+  "back": "http://www.wikidata.org/entity/Q141733627",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "鴨方藩主",
+  "domainLabel": "鴨方藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733625",
+  "domain": "http://www.wikidata.org/entity/Q3034514",
+  "back": "http://www.wikidata.org/entity/Q141733625",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "庭瀬藩主",
+  "domainLabel": "庭瀬藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733630",
+  "domain": "http://www.wikidata.org/entity/Q109359691",
+  "back": "http://www.wikidata.org/entity/Q141733630",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "三次藩主",
+  "domainLabel": "三次藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733631",
+  "domain": "http://www.wikidata.org/entity/Q909278",
+  "back": "http://www.wikidata.org/entity/Q141733631",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "備後福山藩主",
+  "domainLabel": "備後福山藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733629",
+  "domain": "http://www.wikidata.org/entity/Q10856274",
+  "back": "http://www.wikidata.org/entity/Q141733629",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "西江原藩主",
+  "domainLabel": "西江原藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733635",
+  "domain": "http://www.wikidata.org/entity/Q109359721",
+  "back": "http://www.wikidata.org/entity/Q141733635",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "広島新田藩主",
+  "domainLabel": "広島新田藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733633",
+  "domain": "http://www.wikidata.org/entity/Q1141203",
+  "back": "http://www.wikidata.org/entity/Q141733633",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "広島藩主",
+  "domainLabel": "広島藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733638",
+  "domain": "http://www.wikidata.org/entity/Q613073",
+  "back": "http://www.wikidata.org/entity/Q141733638",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "清末藩主",
+  "domainLabel": "清末藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733636",
+  "domain": "http://www.wikidata.org/entity/Q903430",
+  "back": "http://www.wikidata.org/entity/Q141733636",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "長府藩主",
+  "domainLabel": "長府藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733668",
+  "domain": "http://www.wikidata.org/entity/Q905686",
+  "back": "http://www.wikidata.org/entity/Q141733668",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "岡崎藩主",
+  "domainLabel": "岡崎藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733735",
+  "domain": "http://www.wikidata.org/entity/Q3034530",
+  "back": "http://www.wikidata.org/entity/Q141733735",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "駿府藩主",
+  "domainLabel": "駿府藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141733738",
+  "domain": "http://www.wikidata.org/entity/Q10863501",
+  "back": "http://www.wikidata.org/entity/Q141733738",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "松長藩主",
+  "domainLabel": "松長藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141661619",
+  "domain": "http://www.wikidata.org/entity/Q141661613",
+  "back": "http://www.wikidata.org/entity/Q141661619",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "湯本藩主",
+  "domainLabel": "湯本藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141661695",
+  "domain": "http://www.wikidata.org/entity/Q141654806",
+  "back": "http://www.wikidata.org/entity/Q141661695",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "左沢藩主",
+  "domainLabel": "左沢藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141680190",
+  "domain": "http://www.wikidata.org/entity/Q8192275",
+  "back": "http://www.wikidata.org/entity/Q141680190",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "岡藩主",
+  "domainLabel": "岡藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141680194",
+  "domain": "http://www.wikidata.org/entity/Q12162070",
+  "back": "http://www.wikidata.org/entity/Q141680194",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "東蓮寺藩主",
+  "domainLabel": "東蓮寺藩"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141680192",
+  "domain": "http://www.wikidata.org/entity/Q24900616",
+  "back": "http://www.wikidata.org/entity/Q141680192",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "豊後高松藩主",
+  "domainLabel": "豊後高松藩"
+ },
+ {
   "pos": "http://www.wikidata.org/entity/Q141680206",
   "domain": "http://www.wikidata.org/entity/Q109359686",
   "back": "http://www.wikidata.org/entity/Q141680206",
@@ -778,1638 +2426,6 @@
   "domainLabel": "百首藩"
  },
  {
-  "pos": "http://www.wikidata.org/entity/Q141694057",
-  "domain": "http://www.wikidata.org/entity/Q10863383",
-  "back": "http://www.wikidata.org/entity/Q141694057",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "小久保藩主",
-  "domainLabel": "小久保藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694062",
-  "domain": "http://www.wikidata.org/entity/Q10863313",
-  "back": "http://www.wikidata.org/entity/Q141694062",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大多喜新田藩主",
-  "domainLabel": "大多喜新田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694063",
-  "domain": "http://www.wikidata.org/entity/Q10863303",
-  "back": "http://www.wikidata.org/entity/Q141694063",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "勝浦藩主",
-  "domainLabel": "勝浦藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141661619",
-  "domain": "http://www.wikidata.org/entity/Q141661613",
-  "back": "http://www.wikidata.org/entity/Q141661619",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "湯本藩主",
-  "domainLabel": "湯本藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141661695",
-  "domain": "http://www.wikidata.org/entity/Q141654806",
-  "back": "http://www.wikidata.org/entity/Q141661695",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "左沢藩主",
-  "domainLabel": "左沢藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694060",
-  "domain": "http://www.wikidata.org/entity/Q3034553",
-  "back": "http://www.wikidata.org/entity/Q141694060",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鶴牧藩主",
-  "domainLabel": "鶴牧藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694061",
-  "domain": "http://www.wikidata.org/entity/Q1040575",
-  "back": "http://www.wikidata.org/entity/Q141694061",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "桜井藩主",
-  "domainLabel": "請西藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694066",
-  "domain": "http://www.wikidata.org/entity/Q10863473",
-  "back": "http://www.wikidata.org/entity/Q141694066",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鶴舞藩主",
-  "domainLabel": "鶴舞藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694067",
-  "domain": "http://www.wikidata.org/entity/Q10863416",
-  "back": "http://www.wikidata.org/entity/Q141694067",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "高滝藩主",
-  "domainLabel": "高滝藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694064",
-  "domain": "http://www.wikidata.org/entity/Q10855751",
-  "back": "http://www.wikidata.org/entity/Q141694064",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "菊間藩主",
-  "domainLabel": "菊間藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694065",
-  "domain": "http://www.wikidata.org/entity/Q10863278",
-  "back": "http://www.wikidata.org/entity/Q141694065",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "潤井戸藩主",
-  "domainLabel": "潤井戸藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694070",
-  "domain": "http://www.wikidata.org/entity/Q3034475",
-  "back": "http://www.wikidata.org/entity/Q141694070",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "古河藩主",
-  "domainLabel": "古河藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694071",
-  "domain": "http://www.wikidata.org/entity/Q3034537",
-  "back": "http://www.wikidata.org/entity/Q141694071",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "高岡藩主",
-  "domainLabel": "高岡藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694068",
-  "domain": "http://www.wikidata.org/entity/Q10863298",
-  "back": "http://www.wikidata.org/entity/Q141694068",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "上総八幡藩主",
-  "domainLabel": "上総八幡藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694069",
-  "domain": "http://www.wikidata.org/entity/Q997369",
-  "back": "http://www.wikidata.org/entity/Q141694069",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "結城藩主",
-  "domainLabel": "結城藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694074",
-  "domain": "http://www.wikidata.org/entity/Q3034406",
-  "back": "http://www.wikidata.org/entity/Q141694074",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "生実藩主",
-  "domainLabel": "生実藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694075",
-  "domain": "http://www.wikidata.org/entity/Q10863366",
-  "back": "http://www.wikidata.org/entity/Q141694075",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "下総山川藩主",
-  "domainLabel": "下総山川藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694072",
-  "domain": "http://www.wikidata.org/entity/Q3034402",
-  "back": "http://www.wikidata.org/entity/Q141694072",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "小見川藩主",
-  "domainLabel": "小見川藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694073",
-  "domain": "http://www.wikidata.org/entity/Q2399563",
-  "back": "http://www.wikidata.org/entity/Q141694073",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "多古藩主",
-  "domainLabel": "多胡藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694078",
-  "domain": "http://www.wikidata.org/entity/Q10863545",
-  "back": "http://www.wikidata.org/entity/Q141694078",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "矢作藩主",
-  "domainLabel": "矢作藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694079",
-  "domain": "http://www.wikidata.org/entity/Q10863231",
-  "back": "http://www.wikidata.org/entity/Q141694079",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "下総飯田藩主",
-  "domainLabel": "下総飯田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694076",
-  "domain": "http://www.wikidata.org/entity/Q10863323",
-  "back": "http://www.wikidata.org/entity/Q141694076",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大輪藩主",
-  "domainLabel": "大輪藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694077",
-  "domain": "http://www.wikidata.org/entity/Q10863365",
-  "back": "http://www.wikidata.org/entity/Q141694077",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "下総山崎藩主",
-  "domainLabel": "下総山崎藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694082",
-  "domain": "http://www.wikidata.org/entity/Q10863338",
-  "back": "http://www.wikidata.org/entity/Q141694082",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "栗原藩主",
-  "domainLabel": "栗原藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694080",
-  "domain": "http://www.wikidata.org/entity/Q10863283",
-  "back": "http://www.wikidata.org/entity/Q141694080",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "臼井藩主",
-  "domainLabel": "臼井藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694081",
-  "domain": "http://www.wikidata.org/entity/Q10863392",
-  "back": "http://www.wikidata.org/entity/Q141694081",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "曾我野藩主",
-  "domainLabel": "曾我野藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694087",
-  "domain": "http://www.wikidata.org/entity/Q10863364",
-  "back": "http://www.wikidata.org/entity/Q141694087",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "下総三浦藩主",
-  "domainLabel": "下総三浦藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694090",
-  "domain": "http://www.wikidata.org/entity/Q1001893",
-  "back": "http://www.wikidata.org/entity/Q141694090",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "岩槻藩主",
-  "domainLabel": "岩槻藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694091",
-  "domain": "http://www.wikidata.org/entity/Q10863495",
-  "back": "http://www.wikidata.org/entity/Q141694091",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "本庄藩主",
-  "domainLabel": "本庄藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694088",
-  "domain": "http://www.wikidata.org/entity/Q3034405",
-  "back": "http://www.wikidata.org/entity/Q141694088",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "忍藩主",
-  "domainLabel": "忍藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694094",
-  "domain": "http://www.wikidata.org/entity/Q3034467",
-  "back": "http://www.wikidata.org/entity/Q141694094",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "騎西藩主",
-  "domainLabel": "騎西藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694095",
-  "domain": "http://www.wikidata.org/entity/Q10863503",
-  "back": "http://www.wikidata.org/entity/Q141694095",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "武蔵松山藩主",
-  "domainLabel": "武蔵松山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694092",
-  "domain": "http://www.wikidata.org/entity/Q10863332",
-  "back": "http://www.wikidata.org/entity/Q141694092",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "岡部藩主",
-  "domainLabel": "岡部藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694093",
-  "domain": "http://www.wikidata.org/entity/Q10863507",
-  "back": "http://www.wikidata.org/entity/Q141694093",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "深谷藩主",
-  "domainLabel": "深谷藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694098",
-  "domain": "http://www.wikidata.org/entity/Q10863502",
-  "back": "http://www.wikidata.org/entity/Q141694098",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "武蔵小室藩主",
-  "domainLabel": "武蔵小室藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694099",
-  "domain": "http://www.wikidata.org/entity/Q10863433",
-  "back": "http://www.wikidata.org/entity/Q141694099",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "原市藩主",
-  "domainLabel": "原市藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694096",
-  "domain": "http://www.wikidata.org/entity/Q10863301",
-  "back": "http://www.wikidata.org/entity/Q141694096",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "久喜藩主",
-  "domainLabel": "久喜藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694097",
-  "domain": "http://www.wikidata.org/entity/Q10863281",
-  "back": "http://www.wikidata.org/entity/Q141694097",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "石戸藩主",
-  "domainLabel": "石戸藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694102",
-  "domain": "http://www.wikidata.org/entity/Q3034502",
-  "back": "http://www.wikidata.org/entity/Q141694102",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "六浦藩主",
-  "domainLabel": "六浦藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694103",
-  "domain": "http://www.wikidata.org/entity/Q10863285",
-  "back": "http://www.wikidata.org/entity/Q141694103",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "赤沼藩主",
-  "domainLabel": "赤沼藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694100",
-  "domain": "http://www.wikidata.org/entity/Q591239",
-  "back": "http://www.wikidata.org/entity/Q141694100",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鳩ヶ谷藩主",
-  "domainLabel": "鳩ヶ谷藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694101",
-  "domain": "http://www.wikidata.org/entity/Q10863304",
-  "back": "http://www.wikidata.org/entity/Q141694101",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "喜多見藩主",
-  "domainLabel": "喜多見藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694106",
-  "domain": "http://www.wikidata.org/entity/Q3034503",
-  "back": "http://www.wikidata.org/entity/Q141694106",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "長尾藩主",
-  "domainLabel": "長尾藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694107",
-  "domain": "http://www.wikidata.org/entity/Q3034454",
-  "back": "http://www.wikidata.org/entity/Q141694107",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "北条藩主",
-  "domainLabel": "北条藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694104",
-  "domain": "http://www.wikidata.org/entity/Q3034384",
-  "back": "http://www.wikidata.org/entity/Q141694104",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "安房勝山藩主",
-  "domainLabel": "安房勝山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694105",
-  "domain": "http://www.wikidata.org/entity/Q3034545",
-  "back": "http://www.wikidata.org/entity/Q141694105",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "館山藩主",
-  "domainLabel": "館山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694110",
-  "domain": "http://www.wikidata.org/entity/Q10863257",
-  "back": "http://www.wikidata.org/entity/Q141694110",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "安房三枝藩主",
-  "domainLabel": "安房三枝藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694111",
-  "domain": "http://www.wikidata.org/entity/Q10863455",
-  "back": "http://www.wikidata.org/entity/Q141694111",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "玉縄藩主",
-  "domainLabel": "玉縄藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694108",
-  "domain": "http://www.wikidata.org/entity/Q10863452",
-  "back": "http://www.wikidata.org/entity/Q141694108",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "東条藩主",
-  "domainLabel": "東条藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694109",
-  "domain": "http://www.wikidata.org/entity/Q3034442",
-  "back": "http://www.wikidata.org/entity/Q141694109",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "花房藩主",
-  "domainLabel": "花房藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694114",
-  "domain": "http://www.wikidata.org/entity/Q661116",
-  "back": "http://www.wikidata.org/entity/Q141694114",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "甲府藩主",
-  "domainLabel": "甲府藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694115",
-  "domain": "http://www.wikidata.org/entity/Q10863551",
-  "back": "http://www.wikidata.org/entity/Q141694115",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "谷村藩主",
-  "domainLabel": "谷村藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694112",
-  "domain": "http://www.wikidata.org/entity/Q903467",
-  "back": "http://www.wikidata.org/entity/Q141694112",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "小田原藩主",
-  "domainLabel": "小田原藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694113",
-  "domain": "http://www.wikidata.org/entity/Q10863355",
-  "back": "http://www.wikidata.org/entity/Q141694113",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "荻野山中藩主",
-  "domainLabel": "荻野山中藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141694116",
-  "domain": "http://www.wikidata.org/entity/Q10863449",
-  "back": "http://www.wikidata.org/entity/Q141694116",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "徳美藩主",
-  "domainLabel": "徳美藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732700",
-  "domain": "http://www.wikidata.org/entity/Q141732683",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "東方藩主",
-  "domainLabel": "東方藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732701",
-  "domain": "http://www.wikidata.org/entity/Q141732613",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "野本藩主",
-  "domainLabel": "野本藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732917",
-  "domain": "http://www.wikidata.org/entity/Q10863480",
-  "back": "http://www.wikidata.org/entity/Q141732917",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "丸亀藩主",
-  "domainLabel": "丸亀藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732922",
-  "domain": "http://www.wikidata.org/entity/Q3034557",
-  "back": "http://www.wikidata.org/entity/Q141732922",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "徳島藩主",
-  "domainLabel": "徳島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732923",
-  "domain": "http://www.wikidata.org/entity/Q1005251",
-  "back": "http://www.wikidata.org/entity/Q141732923",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大洲藩主",
-  "domainLabel": "大洲藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732920",
-  "domain": "http://www.wikidata.org/entity/Q109356835",
-  "back": "http://www.wikidata.org/entity/Q141732920",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "多度津藩主",
-  "domainLabel": "多度津藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732927",
-  "domain": "http://www.wikidata.org/entity/Q1189704",
-  "back": "http://www.wikidata.org/entity/Q141732927",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "土佐藩主",
-  "domainLabel": "土佐藩",
-  "coord": "Point(136.659166666 36.564444444)"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732924",
-  "domain": "http://www.wikidata.org/entity/Q109357353",
-  "back": "http://www.wikidata.org/entity/Q141732924",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "新谷藩主",
-  "domainLabel": "新谷藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732925",
-  "domain": "http://www.wikidata.org/entity/Q994102",
-  "back": "http://www.wikidata.org/entity/Q141732925",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "宇和島藩主",
-  "domainLabel": "宇和島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732928",
-  "domain": "http://www.wikidata.org/entity/Q12162100",
-  "back": "http://www.wikidata.org/entity/Q141732928",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "土佐新田藩主",
-  "domainLabel": "土佐新田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732942",
-  "domain": "http://www.wikidata.org/entity/Q10863386",
-  "back": "http://www.wikidata.org/entity/Q141732942",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "小松藩主",
-  "domainLabel": "小松藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732943",
-  "domain": "http://www.wikidata.org/entity/Q114397604",
-  "back": "http://www.wikidata.org/entity/Q141732943",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伊予吉田藩主",
-  "domainLabel": "伊予吉田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732946",
-  "domain": "http://www.wikidata.org/entity/Q141732887",
-  "back": "http://www.wikidata.org/entity/Q141732946",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "松山新田藩主",
-  "domainLabel": "松山新田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732947",
-  "domain": "http://www.wikidata.org/entity/Q12161918",
-  "back": "http://www.wikidata.org/entity/Q141732947",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "富田藩主",
-  "domainLabel": "阿波富田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732944",
-  "domain": "http://www.wikidata.org/entity/Q10863333",
-  "back": "http://www.wikidata.org/entity/Q141732944",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "川之江藩主",
-  "domainLabel": "川之江藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141732948",
-  "domain": "http://www.wikidata.org/entity/Q18710354",
-  "back": "http://www.wikidata.org/entity/Q141732948",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "中村藩主",
-  "domainLabel": "中村藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733583",
-  "domain": "http://www.wikidata.org/entity/Q905521",
-  "back": "http://www.wikidata.org/entity/Q141733583",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鳥取藩主",
-  "domainLabel": "鳥取藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733594",
-  "domain": "http://www.wikidata.org/entity/Q141737862",
-  "back": "http://www.wikidata.org/entity/Q141733594",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鳥取（東館）新田藩主",
-  "domainLabel": "鳥取新田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733595",
-  "domain": "http://www.wikidata.org/entity/Q10863548",
-  "back": "http://www.wikidata.org/entity/Q141733595",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "米子藩主",
-  "domainLabel": "米子藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733593",
-  "domain": "http://www.wikidata.org/entity/Q10863418",
-  "back": "http://www.wikidata.org/entity/Q141733593",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鹿野藩主",
-  "domainLabel": "鹿野藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733599",
-  "domain": "http://www.wikidata.org/entity/Q10863547",
-  "back": "http://www.wikidata.org/entity/Q141733599",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "矢橋藩主",
-  "domainLabel": "矢橋藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733596",
-  "domain": "http://www.wikidata.org/entity/Q10863302",
-  "back": "http://www.wikidata.org/entity/Q141733596",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "倉吉藩主",
-  "domainLabel": "倉吉藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733597",
-  "domain": "http://www.wikidata.org/entity/Q10863360",
-  "back": "http://www.wikidata.org/entity/Q141733597",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "黒坂藩主",
-  "domainLabel": "黒坂藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733602",
-  "domain": "http://www.wikidata.org/entity/Q141733522",
-  "back": "http://www.wikidata.org/entity/Q141733602",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "松江新田藩主",
-  "domainLabel": "松江新田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733607",
-  "domain": "http://www.wikidata.org/entity/Q3034561",
-  "back": "http://www.wikidata.org/entity/Q141733607",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "津和野藩主",
-  "domainLabel": "津和野藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733604",
-  "domain": "http://www.wikidata.org/entity/Q10863515",
-  "back": "http://www.wikidata.org/entity/Q141733604",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "美作勝山藩主",
-  "domainLabel": "美作勝山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733605",
-  "domain": "http://www.wikidata.org/entity/Q109356827",
-  "back": "http://www.wikidata.org/entity/Q141733605",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "吉永藩主",
-  "domainLabel": "吉永藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733611",
-  "domain": "http://www.wikidata.org/entity/Q109358278",
-  "back": "http://www.wikidata.org/entity/Q141733611",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "児島藩主",
-  "domainLabel": "児島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733608",
-  "domain": "http://www.wikidata.org/entity/Q903497",
-  "back": "http://www.wikidata.org/entity/Q141733608",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "岡山藩主",
-  "domainLabel": "岡山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733614",
-  "domain": "http://www.wikidata.org/entity/Q3034507",
-  "back": "http://www.wikidata.org/entity/Q141733614",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "新見藩主",
-  "domainLabel": "新見藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733618",
-  "domain": "http://www.wikidata.org/entity/Q3034422",
-  "back": "http://www.wikidata.org/entity/Q141733618",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "備中松山藩主",
-  "domainLabel": "備中松山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733622",
-  "domain": "http://www.wikidata.org/entity/Q1045052",
-  "back": "http://www.wikidata.org/entity/Q141733622",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "岡田藩主",
-  "domainLabel": "岡田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733620",
-  "domain": "http://www.wikidata.org/entity/Q10863450",
-  "back": "http://www.wikidata.org/entity/Q141733620",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "成羽藩主",
-  "domainLabel": "成羽藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733621",
-  "domain": "http://www.wikidata.org/entity/Q10863289",
-  "back": "http://www.wikidata.org/entity/Q141733621",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "足守藩主",
-  "domainLabel": "足守藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733626",
-  "domain": "http://www.wikidata.org/entity/Q123110957",
-  "back": "http://www.wikidata.org/entity/Q141733626",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "生坂藩主",
-  "domainLabel": "生坂藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733627",
-  "domain": "http://www.wikidata.org/entity/Q123110960",
-  "back": "http://www.wikidata.org/entity/Q141733627",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鴨方藩主",
-  "domainLabel": "鴨方藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733625",
-  "domain": "http://www.wikidata.org/entity/Q3034514",
-  "back": "http://www.wikidata.org/entity/Q141733625",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "庭瀬藩主",
-  "domainLabel": "庭瀬藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733630",
-  "domain": "http://www.wikidata.org/entity/Q109359691",
-  "back": "http://www.wikidata.org/entity/Q141733630",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "三次藩主",
-  "domainLabel": "三次藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733631",
-  "domain": "http://www.wikidata.org/entity/Q909278",
-  "back": "http://www.wikidata.org/entity/Q141733631",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "備後福山藩主",
-  "domainLabel": "備後福山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733629",
-  "domain": "http://www.wikidata.org/entity/Q10856274",
-  "back": "http://www.wikidata.org/entity/Q141733629",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "西江原藩主",
-  "domainLabel": "西江原藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733635",
-  "domain": "http://www.wikidata.org/entity/Q109359721",
-  "back": "http://www.wikidata.org/entity/Q141733635",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "広島新田藩主",
-  "domainLabel": "広島新田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733633",
-  "domain": "http://www.wikidata.org/entity/Q1141203",
-  "back": "http://www.wikidata.org/entity/Q141733633",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "広島藩主",
-  "domainLabel": "広島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733638",
-  "domain": "http://www.wikidata.org/entity/Q613073",
-  "back": "http://www.wikidata.org/entity/Q141733638",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "清末藩主",
-  "domainLabel": "清末藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733636",
-  "domain": "http://www.wikidata.org/entity/Q903430",
-  "back": "http://www.wikidata.org/entity/Q141733636",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "長府藩主",
-  "domainLabel": "長府藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733668",
-  "domain": "http://www.wikidata.org/entity/Q905686",
-  "back": "http://www.wikidata.org/entity/Q141733668",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "岡崎藩主",
-  "domainLabel": "岡崎藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733735",
-  "domain": "http://www.wikidata.org/entity/Q3034530",
-  "back": "http://www.wikidata.org/entity/Q141733735",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "駿府藩主",
-  "domainLabel": "駿府藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733738",
-  "domain": "http://www.wikidata.org/entity/Q10863501",
-  "back": "http://www.wikidata.org/entity/Q141733738",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "松長藩主",
-  "domainLabel": "松長藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733737",
-  "domain": "http://www.wikidata.org/entity/Q1005450",
-  "back": "http://www.wikidata.org/entity/Q141733737",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "沼津藩主",
-  "domainLabel": "沼津藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733740",
-  "domain": "http://www.wikidata.org/entity/Q3034398",
-  "back": "http://www.wikidata.org/entity/Q141733740",
-  "coord": "Point(138.516 35.085)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "小島藩主",
-  "domainLabel": "小島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733751",
-  "domain": "http://www.wikidata.org/entity/Q3034440",
-  "back": "http://www.wikidata.org/entity/Q141733751",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "浜松藩主",
-  "domainLabel": "浜松藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733748",
-  "domain": "http://www.wikidata.org/entity/Q10855037",
-  "back": "http://www.wikidata.org/entity/Q141733748",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "川成島藩主",
-  "domainLabel": "川成島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733749",
-  "domain": "http://www.wikidata.org/entity/Q3034456",
-  "back": "http://www.wikidata.org/entity/Q141733749",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "掛川藩主",
-  "domainLabel": "掛川藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733754",
-  "domain": "http://www.wikidata.org/entity/Q3034572",
-  "back": "http://www.wikidata.org/entity/Q141733754",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "横須賀藩主",
-  "domainLabel": "横須賀藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733758",
-  "domain": "http://www.wikidata.org/entity/Q10863232",
-  "back": "http://www.wikidata.org/entity/Q141733758",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "井伊谷藩主",
-  "domainLabel": "井伊谷藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733759",
-  "domain": "http://www.wikidata.org/entity/Q10863335",
-  "back": "http://www.wikidata.org/entity/Q141733759",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "掛塚藩主",
-  "domainLabel": "掛塚藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733756",
-  "domain": "http://www.wikidata.org/entity/Q10863489",
-  "back": "http://www.wikidata.org/entity/Q141733756",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "堀江藩主",
-  "domainLabel": "堀江藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733762",
-  "domain": "http://www.wikidata.org/entity/Q10863464",
-  "back": "http://www.wikidata.org/entity/Q141733762",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "遠江久野藩主",
-  "domainLabel": "遠江久野藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733770",
-  "domain": "http://www.wikidata.org/entity/Q3034473",
-  "back": "http://www.wikidata.org/entity/Q141733770",
-  "coord": "Point(137.15068889 35.08036944)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "挙母藩主",
-  "domainLabel": "挙母藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733774",
-  "domain": "http://www.wikidata.org/entity/Q1045776",
-  "back": "http://www.wikidata.org/entity/Q141733774",
-  "coord": "Point(136.98344444 34.98861111)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "刈谷藩主",
-  "domainLabel": "刈谷藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733778",
-  "domain": "http://www.wikidata.org/entity/Q10863406",
-  "back": "http://www.wikidata.org/entity/Q141733778",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "重原藩主",
-  "domainLabel": "重原藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733777",
-  "domain": "http://www.wikidata.org/entity/Q849483",
-  "back": "http://www.wikidata.org/entity/Q141733777",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "村上藩主",
-  "domainLabel": "村上藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733784",
-  "domain": "http://www.wikidata.org/entity/Q3034508",
-  "back": "http://www.wikidata.org/entity/Q141733784",
-  "coord": "Point(137.19622222 34.94069444)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "西大平藩主",
-  "domainLabel": "西大平藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733790",
-  "domain": "http://www.wikidata.org/entity/Q10863461",
-  "back": "http://www.wikidata.org/entity/Q141733790",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "西端藩主",
-  "domainLabel": "西端藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733798",
-  "domain": "http://www.wikidata.org/entity/Q3034512",
-  "back": "http://www.wikidata.org/entity/Q141733798",
-  "coord": "Point(137.04861111 34.85166667)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "西尾藩主",
-  "domainLabel": "西尾藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733799",
-  "domain": "http://www.wikidata.org/entity/Q3034472",
-  "back": "http://www.wikidata.org/entity/Q141733799",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "菰野藩主",
-  "domainLabel": "菰野藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733802",
-  "domain": "http://www.wikidata.org/entity/Q1060551",
-  "back": "http://www.wikidata.org/entity/Q141733802",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "津藩主",
-  "domainLabel": "津藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733803",
-  "domain": "http://www.wikidata.org/entity/Q109570669",
-  "back": "http://www.wikidata.org/entity/Q141733803",
-  "coord": "Point(136.461111111 34.676111111)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "久居藩主",
-  "domainLabel": "久居藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733801",
-  "domain": "http://www.wikidata.org/entity/Q3034389",
-  "back": "http://www.wikidata.org/entity/Q141733801",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伊勢亀山藩主",
-  "domainLabel": "伊勢亀山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733807",
-  "domain": "http://www.wikidata.org/entity/Q11533304",
-  "back": "http://www.wikidata.org/entity/Q141733807",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "林藩主",
-  "domainLabel": "林藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733804",
-  "domain": "http://www.wikidata.org/entity/Q10863430",
-  "back": "http://www.wikidata.org/entity/Q141733804",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "八田藩主",
-  "domainLabel": "八田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733805",
-  "domain": "http://www.wikidata.org/entity/Q10863237",
-  "back": "http://www.wikidata.org/entity/Q141733805",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伊勢上野藩主",
-  "domainLabel": "伊勢上野藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733811",
-  "domain": "http://www.wikidata.org/entity/Q10863238",
-  "back": "http://www.wikidata.org/entity/Q141733811",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伊勢岩手藩主",
-  "domainLabel": "伊勢岩手藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733808",
-  "domain": "http://www.wikidata.org/entity/Q10863358",
-  "back": "http://www.wikidata.org/entity/Q141733808",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "雲出藩主",
-  "domainLabel": "雲出藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733809",
-  "domain": "http://www.wikidata.org/entity/Q10863498",
-  "back": "http://www.wikidata.org/entity/Q141733809",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "松坂藩主",
-  "domainLabel": "松坂藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733814",
-  "domain": "http://www.wikidata.org/entity/Q1396816",
-  "back": "http://www.wikidata.org/entity/Q141733814",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "鳥羽藩主",
-  "domainLabel": "鳥羽藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733815",
-  "domain": "http://www.wikidata.org/entity/Q10863290",
-  "back": "http://www.wikidata.org/entity/Q141733815",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "近江宮川藩主",
-  "domainLabel": "近江宮川藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733812",
-  "domain": "http://www.wikidata.org/entity/Q10863456",
-  "back": "http://www.wikidata.org/entity/Q141733812",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "田丸藩主",
-  "domainLabel": "田丸藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733813",
-  "domain": "http://www.wikidata.org/entity/Q10863245",
-  "back": "http://www.wikidata.org/entity/Q141733813",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伊賀上野藩主",
-  "domainLabel": "伊賀上野藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733818",
-  "domain": "http://www.wikidata.org/entity/Q1062225",
-  "back": "http://www.wikidata.org/entity/Q141733818",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "彦根藩主",
-  "domainLabel": "彦根藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733819",
-  "domain": "http://www.wikidata.org/entity/Q12626275",
-  "back": "http://www.wikidata.org/entity/Q141733819",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "彦根新田藩主",
-  "domainLabel": "彦根新田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733816",
-  "domain": "http://www.wikidata.org/entity/Q858917",
-  "back": "http://www.wikidata.org/entity/Q141733816",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "三河吉田藩主",
-  "domainLabel": "三河吉田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733817",
-  "domain": "http://www.wikidata.org/entity/Q10863471",
-  "back": "http://www.wikidata.org/entity/Q141733817",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "長浜藩主",
-  "domainLabel": "長浜藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733822",
-  "domain": "http://www.wikidata.org/entity/Q10863537",
-  "back": "http://www.wikidata.org/entity/Q141733822",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "山上藩主",
-  "domainLabel": "山上藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733823",
-  "domain": "http://www.wikidata.org/entity/Q10863474",
-  "back": "http://www.wikidata.org/entity/Q141733823",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "三上藩主",
-  "domainLabel": "三上藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733820",
-  "domain": "http://www.wikidata.org/entity/Q997403",
-  "back": "http://www.wikidata.org/entity/Q141733820",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大溝藩主",
-  "domainLabel": "大溝藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733821",
-  "domain": "http://www.wikidata.org/entity/Q10863307",
-  "back": "http://www.wikidata.org/entity/Q141733821",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "堅田藩主",
-  "domainLabel": "堅田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733826",
-  "domain": "http://www.wikidata.org/entity/Q10863504",
-  "back": "http://www.wikidata.org/entity/Q141733826",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "水口藩主",
-  "domainLabel": "水口藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733827",
-  "domain": "http://www.wikidata.org/entity/Q10863293",
-  "back": "http://www.wikidata.org/entity/Q141733827",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "近江高島藩主",
-  "domainLabel": "近江高島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733824",
-  "domain": "http://www.wikidata.org/entity/Q10863425",
-  "back": "http://www.wikidata.org/entity/Q141733824",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "仁正寺藩主",
-  "domainLabel": "仁正寺藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733825",
-  "domain": "http://www.wikidata.org/entity/Q903503",
-  "back": "http://www.wikidata.org/entity/Q141733825",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "膳所藩主",
-  "domainLabel": "膳所藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733828",
-  "domain": "http://www.wikidata.org/entity/Q10863316",
-  "back": "http://www.wikidata.org/entity/Q141733828",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大津藩主",
-  "domainLabel": "大津藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733833",
-  "domain": "http://www.wikidata.org/entity/Q3034533",
-  "back": "http://www.wikidata.org/entity/Q141733833",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "田原藩主",
-  "domainLabel": "田原藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733839",
-  "domain": "http://www.wikidata.org/entity/Q10863426",
-  "back": "http://www.wikidata.org/entity/Q141733839",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "作手藩主",
-  "domainLabel": "作手藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733846",
-  "domain": "http://www.wikidata.org/entity/Q10863390",
-  "back": "http://www.wikidata.org/entity/Q141733846",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "新城藩主",
-  "domainLabel": "新城藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733853",
-  "domain": "http://www.wikidata.org/entity/Q10863288",
-  "back": "http://www.wikidata.org/entity/Q141733853",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "足助藩主",
-  "domainLabel": "足助藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733859",
-  "domain": "http://www.wikidata.org/entity/Q10863235",
-  "back": "http://www.wikidata.org/entity/Q141733859",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伊保藩主",
-  "domainLabel": "伊保藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733862",
-  "domain": "http://www.wikidata.org/entity/Q10863292",
-  "back": "http://www.wikidata.org/entity/Q141733862",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "近江小室藩主",
-  "domainLabel": "近江小室藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733863",
-  "domain": "http://www.wikidata.org/entity/Q844014",
-  "back": "http://www.wikidata.org/entity/Q141733863",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "淀藩主",
-  "domainLabel": "淀藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733861",
-  "domain": "http://www.wikidata.org/entity/Q3034400",
-  "back": "http://www.wikidata.org/entity/Q141733861",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "奥殿藩主",
-  "domainLabel": "奥殿藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733867",
-  "domain": "http://www.wikidata.org/entity/Q10863483",
-  "back": "http://www.wikidata.org/entity/Q141733867",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伏見藩主",
-  "domainLabel": "伏見藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733864",
-  "domain": "http://www.wikidata.org/entity/Q12589487",
-  "back": "http://www.wikidata.org/entity/Q141733864",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "山城長岡藩主",
-  "domainLabel": "山城長岡藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733865",
-  "domain": "http://www.wikidata.org/entity/Q10863477",
-  "back": "http://www.wikidata.org/entity/Q141733865",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "三河中島藩主",
-  "domainLabel": "三河中島藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733871",
-  "domain": "http://www.wikidata.org/entity/Q1005257",
-  "back": "http://www.wikidata.org/entity/Q141733871",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "小泉藩主",
-  "domainLabel": "小泉藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733868",
-  "domain": "http://www.wikidata.org/entity/Q10863494",
-  "back": "http://www.wikidata.org/entity/Q141733868",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "御牧藩主",
-  "domainLabel": "御牧藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733869",
-  "domain": "http://www.wikidata.org/entity/Q10863405",
-  "back": "http://www.wikidata.org/entity/Q141733869",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "郡山藩主",
-  "domainLabel": "郡山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733875",
-  "domain": "http://www.wikidata.org/entity/Q3034568",
-  "back": "http://www.wikidata.org/entity/Q141733875",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "柳本藩主",
-  "domainLabel": "柳本藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733872",
-  "domain": "http://www.wikidata.org/entity/Q10863505",
-  "back": "http://www.wikidata.org/entity/Q141733872",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "深溝藩主",
-  "domainLabel": "深溝藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733879",
-  "domain": "http://www.wikidata.org/entity/Q10863402",
-  "back": "http://www.wikidata.org/entity/Q141733879",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "芝村藩主",
-  "domainLabel": "芝村藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733877",
-  "domain": "http://www.wikidata.org/entity/Q10863334",
-  "back": "http://www.wikidata.org/entity/Q141733877",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "形原藩主",
-  "domainLabel": "形原藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733881",
-  "domain": "http://www.wikidata.org/entity/Q10863339",
-  "back": "http://www.wikidata.org/entity/Q141733881",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "櫛羅藩主",
-  "domainLabel": "櫛羅藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733886",
-  "domain": "http://www.wikidata.org/entity/Q10863410",
-  "back": "http://www.wikidata.org/entity/Q141733886",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "高取藩主",
-  "domainLabel": "高取藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733887",
-  "domain": "http://www.wikidata.org/entity/Q10863353",
-  "back": "http://www.wikidata.org/entity/Q141733887",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "興留藩主",
-  "domainLabel": "興留藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733885",
-  "domain": "http://www.wikidata.org/entity/Q3034407",
-  "back": "http://www.wikidata.org/entity/Q141733885",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "宇陀松山藩主",
-  "domainLabel": "宇陀松山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733890",
-  "domain": "http://www.wikidata.org/entity/Q10863387",
-  "back": "http://www.wikidata.org/entity/Q141733890",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "御所藩主",
-  "domainLabel": "御所藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733888",
-  "domain": "http://www.wikidata.org/entity/Q10863399",
-  "back": "http://www.wikidata.org/entity/Q141733888",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "竜田藩主",
-  "domainLabel": "竜田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733889",
-  "domain": "http://www.wikidata.org/entity/Q10863535",
-  "back": "http://www.wikidata.org/entity/Q141733889",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大和新庄藩主",
-  "domainLabel": "大和新庄藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733894",
-  "domain": "http://www.wikidata.org/entity/Q10863472",
-  "back": "http://www.wikidata.org/entity/Q141733894",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "陶器藩主",
-  "domainLabel": "陶器藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733895",
-  "domain": "http://www.wikidata.org/entity/Q3034436",
-  "back": "http://www.wikidata.org/entity/Q141733895",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "伯太藩主",
-  "domainLabel": "伯太藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733892",
-  "domain": "http://www.wikidata.org/entity/Q10863534",
-  "back": "http://www.wikidata.org/entity/Q141733892",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大和五条藩主",
-  "domainLabel": "大和五条藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733893",
-  "domain": "http://www.wikidata.org/entity/Q10863346",
-  "back": "http://www.wikidata.org/entity/Q141733893",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "紀伊新宮藩主",
-  "domainLabel": "紀伊新宮藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733898",
-  "domain": "http://www.wikidata.org/entity/Q10863463",
-  "back": "http://www.wikidata.org/entity/Q141733898",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "谷川藩主",
-  "domainLabel": "谷川藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733897",
-  "domain": "http://www.wikidata.org/entity/Q3034469",
-  "back": "http://www.wikidata.org/entity/Q141733897",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "岸和田藩主",
-  "domainLabel": "岸和田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733902",
-  "domain": "http://www.wikidata.org/entity/Q1073712",
-  "back": "http://www.wikidata.org/entity/Q141733902",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "狭山藩主",
-  "domainLabel": "狭山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733903",
-  "domain": "http://www.wikidata.org/entity/Q10863415",
-  "back": "http://www.wikidata.org/entity/Q141733903",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "高槻藩主",
-  "domainLabel": "高槻藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733901",
-  "domain": "http://www.wikidata.org/entity/Q10863422",
-  "back": "http://www.wikidata.org/entity/Q141733901",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "丹南藩主",
-  "domainLabel": "丹南藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733906",
-  "domain": "http://www.wikidata.org/entity/Q1073005",
-  "back": "http://www.wikidata.org/entity/Q141733906",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "麻田藩主",
-  "domainLabel": "麻田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733910",
-  "domain": "http://www.wikidata.org/entity/Q849472",
-  "back": "http://www.wikidata.org/entity/Q141733910",
-  "coord": "Point(139.363261111 38.972122222)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "三日市藩主",
-  "domainLabel": "三日市藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733909",
-  "domain": "http://www.wikidata.org/entity/Q849395",
-  "back": "http://www.wikidata.org/entity/Q141733909",
-  "coord": "Point(139.4375 38.076944444)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "黒川藩主",
-  "domainLabel": "黒川藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733914",
-  "domain": "http://www.wikidata.org/entity/Q3034411",
-  "back": "http://www.wikidata.org/entity/Q141733914",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "大浜藩主",
-  "domainLabel": "大浜藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733915",
-  "domain": "http://www.wikidata.org/entity/Q1041310",
-  "back": "http://www.wikidata.org/entity/Q141733915",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "越後長岡藩主",
-  "domainLabel": "越後長岡藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733913",
-  "domain": "http://www.wikidata.org/entity/Q1040856",
-  "back": "http://www.wikidata.org/entity/Q141733913",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "新発田藩主",
-  "domainLabel": "新発田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733918",
-  "domain": "http://www.wikidata.org/entity/Q3034396",
-  "back": "http://www.wikidata.org/entity/Q141733918",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "緒川藩主",
-  "domainLabel": "緒川藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733919",
-  "domain": "http://www.wikidata.org/entity/Q10863395",
-  "back": "http://www.wikidata.org/entity/Q141733919",
-  "coord": "Point(138.619794444 37.475991666)",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "椎谷藩主",
-  "domainLabel": "椎谷藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733916",
-  "domain": "http://www.wikidata.org/entity/Q1004357",
-  "back": "http://www.wikidata.org/entity/Q141733916",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "犬山藩主",
-  "domainLabel": "犬山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733917",
-  "domain": "http://www.wikidata.org/entity/Q10863403",
-  "back": "http://www.wikidata.org/entity/Q141733917",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "蔵王堂藩主",
-  "domainLabel": "蔵王堂藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733922",
-  "domain": "http://www.wikidata.org/entity/Q10863379",
-  "back": "http://www.wikidata.org/entity/Q141733922",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "坂戸藩主",
-  "domainLabel": "坂戸藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733920",
-  "domain": "http://www.wikidata.org/entity/Q10856398",
-  "back": "http://www.wikidata.org/entity/Q141733920",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "高柳藩主",
-  "domainLabel": "高柳藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733921",
-  "domain": "http://www.wikidata.org/entity/Q10863330",
-  "back": "http://www.wikidata.org/entity/Q141733921",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "尾張黒田藩主",
-  "domainLabel": "尾張黒田藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733926",
-  "domain": "http://www.wikidata.org/entity/Q10863362",
-  "back": "http://www.wikidata.org/entity/Q141733926",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "三条藩主",
-  "domainLabel": "三条藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733925",
-  "domain": "http://www.wikidata.org/entity/Q10863342",
-  "back": "http://www.wikidata.org/entity/Q141733925",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "清洲藩主",
-  "domainLabel": "清洲藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733930",
-  "domain": "http://www.wikidata.org/entity/Q10863526",
-  "back": "http://www.wikidata.org/entity/Q141733930",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "藤井藩主",
-  "domainLabel": "藤井藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733928",
-  "domain": "http://www.wikidata.org/entity/Q3034448",
-  "back": "http://www.wikidata.org/entity/Q141733928",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "飛騨高山藩主",
-  "domainLabel": "飛騨高山藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733929",
-  "domain": "http://www.wikidata.org/entity/Q10863396",
-  "back": "http://www.wikidata.org/entity/Q141733929",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "沢海藩主",
-  "domainLabel": "沢海藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733932",
-  "domain": "http://www.wikidata.org/entity/Q10863356",
-  "back": "http://www.wikidata.org/entity/Q141733932",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "郡上藩主",
-  "domainLabel": "郡上藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733933",
-  "domain": "http://www.wikidata.org/entity/Q10855946",
-  "back": "http://www.wikidata.org/entity/Q141733933",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "長峰藩主",
-  "domainLabel": "長峰藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733939",
-  "domain": "http://www.wikidata.org/entity/Q10863438",
-  "back": "http://www.wikidata.org/entity/Q141733939",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "布市藩主",
-  "domainLabel": "布市藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733936",
-  "domain": "http://www.wikidata.org/entity/Q10863458",
-  "back": "http://www.wikidata.org/entity/Q141733936",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "苗木藩主",
-  "domainLabel": "苗木藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141733937",
-  "domain": "http://www.wikidata.org/entity/Q1088437",
-  "back": "http://www.wikidata.org/entity/Q141733937",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "富山藩主",
-  "domainLabel": "富山藩"
- },
- {
   "pos": "http://www.wikidata.org/entity/Q141515630",
   "domain": "http://www.wikidata.org/entity/Q1073012",
   "back": "http://www.wikidata.org/entity/Q141515630",
@@ -2884,6 +2900,30 @@
   "domainLabel": "大山藩"
  },
  {
+  "pos": "http://www.wikidata.org/entity/Q141663579",
+  "domain": "http://www.wikidata.org/entity/Q11576489",
+  "back": "http://www.wikidata.org/entity/Q141663579",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "田安徳川家当主",
+  "domainLabel": "田安徳川家"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141663648",
+  "domain": "http://www.wikidata.org/entity/Q10863984",
+  "back": "http://www.wikidata.org/entity/Q141663648",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "一橋徳川家当主",
+  "domainLabel": "一橋徳川家"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q141678738",
+  "domain": "http://www.wikidata.org/entity/Q11560958",
+  "back": "http://www.wikidata.org/entity/Q141678738",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "清水徳川家当主",
+  "domainLabel": "清水徳川家"
+ },
+ {
   "pos": "http://www.wikidata.org/entity/Q141678870",
   "domain": "http://www.wikidata.org/entity/Q1069187",
   "back": "http://www.wikidata.org/entity/Q141678870",
@@ -3174,6 +3214,14 @@
   "domainLabel": "臼杵藩"
  },
  {
+  "pos": "http://www.wikidata.org/entity/Q141786187",
+  "domain": "http://www.wikidata.org/entity/Q141786081",
+  "back": "http://www.wikidata.org/entity/Q141786187",
+  "p279": "http://www.wikidata.org/entity/Q24887524",
+  "posLabel": "佐和山藩主",
+  "domainLabel": "佐和山藩"
+ },
+ {
   "pos": "http://www.wikidata.org/entity/Q141680187",
   "domain": "http://www.wikidata.org/entity/Q10863371",
   "back": "http://www.wikidata.org/entity/Q141680187",
@@ -3190,28 +3238,12 @@
   "domainLabel": "府内藩"
  },
  {
-  "pos": "http://www.wikidata.org/entity/Q141680190",
-  "domain": "http://www.wikidata.org/entity/Q8192275",
-  "back": "http://www.wikidata.org/entity/Q141680190",
+  "pos": "http://www.wikidata.org/entity/Q141733937",
+  "domain": "http://www.wikidata.org/entity/Q1088437",
+  "back": "http://www.wikidata.org/entity/Q141733937",
   "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "岡藩主",
-  "domainLabel": "岡藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141680194",
-  "domain": "http://www.wikidata.org/entity/Q12162070",
-  "back": "http://www.wikidata.org/entity/Q141680194",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "東蓮寺藩主",
-  "domainLabel": "東蓮寺藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141680192",
-  "domain": "http://www.wikidata.org/entity/Q24900616",
-  "back": "http://www.wikidata.org/entity/Q141680192",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "豊後高松藩主",
-  "domainLabel": "豊後高松藩"
+  "posLabel": "富山藩主",
+  "domainLabel": "富山藩"
  },
  {
   "pos": "http://www.wikidata.org/entity/Q141733942",
@@ -3991,13 +4023,5 @@
   "p279": "http://www.wikidata.org/entity/Q24887524",
   "posLabel": "小諸藩主",
   "domainLabel": "小諸藩"
- },
- {
-  "pos": "http://www.wikidata.org/entity/Q141786187",
-  "domain": "http://www.wikidata.org/entity/Q141786081",
-  "back": "http://www.wikidata.org/entity/Q141786187",
-  "p279": "http://www.wikidata.org/entity/Q24887524",
-  "posLabel": "佐和山藩主",
-  "domainLabel": "佐和山藩"
  }
 ]
