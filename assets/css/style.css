@@ -97,9 +97,15 @@ h4 { margin:.9rem 0 .25rem; font-family:var(--serif); font-size:.82rem; letter-s
 .map-wrap #map { position:absolute; inset:0; background:var(--paper2); border-radius:inherit; }
 .map-wrap:fullscreen { border-radius:0; border:none; }
 .map-wrap.map-full { position:fixed; inset:0; z-index:2000; border-radius:0; border:none; min-height:0; }
-/* 全画面のあいだ、年の操作欄を地図の右上に重ねる */
-.map-overlay { position:absolute; top:3.6rem; right:.7rem; z-index:1000; width:min(300px, calc(100% - 4.5rem)); max-height:calc(100% - 5rem); overflow:auto; }
-.map-overlay .card { background:rgba(255,252,245,.94); backdrop-filter:blur(2px); }
+/* 全画面のあいだ、年の操作欄を地図の右上に重ねる。z-index は地図のボタン類(Leaflet の操作部品は 1000)より下にし、
+   操作欄をどこへ動かしても全画面を終える ✕ や拡大・縮小ボタンが隠れないようにする */
+.map-overlay { position:absolute; top:3.6rem; right:.7rem; z-index:900; width:min(300px, calc(100% - 4.5rem)); max-height:calc(100% - 5rem); overflow:auto; }
+.map-overlay .card { background:rgba(255,252,245,.94); backdrop-filter:blur(2px); border-top-left-radius:0; border-top-right-radius:0; }
+/* 年の操作欄を動かすつまみ。指でも動かせるよう touch-action を止める */
+.overlay-handle { cursor:grab; user-select:none; touch-action:none; padding:.3rem .7rem; font-size:.78rem; color:#fff; background:var(--indigo);
+  border-radius:var(--radius) var(--radius) 0 0; letter-spacing:.06em; }
+.overlay-handle .sub { color:rgba(255,255,255,.75); margin-left:.3rem; }
+.overlay-handle:active { cursor:grabbing; }
 .fs-btn { font-size:1.05rem; line-height:30px; text-align:center; cursor:pointer; }
 /* 全画面で藩をクリックしたときの吹き出し */
 .leaflet-popup-content { font-family:var(--sans); font-size:.82rem; line-height:1.55; margin:.6rem .8rem; }

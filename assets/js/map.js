@@ -247,9 +247,52 @@
     const yearHome = yearCard.parentNode, yearNext = yearCard.nextSibling;
     const canFs = !!(wrap.requestFullscreen && document.fullscreenEnabled);
     function isFull() { return document.fullscreenElement === wrap || wrap.classList.contains("map-full"); }
+    // 年の操作欄は、つまみ(#overlayHandle)をドラッグして好きな位置に動かせる。初期位置は右上(CSS の .map-overlay)。
+    // 動かした位置は localStorage に覚え、次に全画面にしたときも同じ位置に出す(閲覧しているブラウザの中だけ。使えなければ毎回右上)。
+    const POS_KEY = "han.map.overlayPos";
+    function placeOverlay(x, y) {
+      // 枠の外に出ないように収める(つまみが必ず画面に残るように)
+      const W = wrap.clientWidth, H = wrap.clientHeight;
+      x = Math.min(Math.max(0, x), Math.max(0, W - overlay.offsetWidth));
+      y = Math.min(Math.max(0, y), Math.max(0, H - 32));
+      overlay.style.left = x + "px"; overlay.style.top = y + "px"; overlay.style.right = "auto";
+      return { x, y };
+    }
+    function restoreOverlay() {
+      let pos = null;
+      try { pos = JSON.parse(localStorage.getItem(POS_KEY)); } catch (e) { pos = null; }
+      if (pos && isFinite(pos.x) && isFinite(pos.y)) placeOverlay(pos.x, pos.y);
+      else resetOverlay(false);
+    }
+    function resetOverlay(forget) {
+      overlay.style.left = ""; overlay.style.top = ""; overlay.style.right = "";
+      if (forget) { try { localStorage.removeItem(POS_KEY); } catch (e) { /* 保存できない環境では何もしない */ } }
+    }
+    (function draggable() {
+      const handle = $("overlayHandle");
+      let start = null;
+      handle.addEventListener("pointerdown", (e) => {
+        const r = overlay.getBoundingClientRect(), w = wrap.getBoundingClientRect();
+        start = { dx: e.clientX - r.left, dy: e.clientY - r.top, wx: w.left, wy: w.top };
+        handle.setPointerCapture(e.pointerId);
+        e.preventDefault();
+      });
+      handle.addEventListener("pointermove", (e) => {
+        if (start) placeOverlay(e.clientX - start.wx - start.dx, e.clientY - start.wy - start.dy);
+      });
+      const end = () => {
+        if (!start) return;
+        start = null;
+        const pos = { x: parseFloat(overlay.style.left) || 0, y: parseFloat(overlay.style.top) || 0 };
+        try { localStorage.setItem(POS_KEY, JSON.stringify(pos)); } catch (e) { /* 保存できない環境では覚えない */ }
+      };
+      handle.addEventListener("pointerup", end);
+      handle.addEventListener("pointercancel", end);
+      handle.addEventListener("dblclick", () => resetOverlay(true));
+    })();
     function onFullChange() {
       const full = isFull();
-      if (full) { overlay.append(yearCard); overlay.hidden = false; }
+      if (full) { overlay.append(yearCard); overlay.hidden = false; requestAnimationFrame(restoreOverlay); }
       else { yearHome.insertBefore(yearCard, yearNext); overlay.hidden = true; map.closePopup(); }
       fsBtn.textContent = full ? "✕" : "⛶";
       fsBtn.title = full ? "全画面表示を終える(Esc)" : "地図を全画面で表示";
