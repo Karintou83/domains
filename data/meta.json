@@ -1,11 +1,11 @@
 {
- "generated_at": "2026-10-20T12:12:22+00:00",
+ "generated_at": "2026-10-20T13:21:36+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
   "domains": 496,
-  "lords": 4422,
+  "lords": 4192,
   "tenures": 4040,
-  "relations": 3807,
+  "relations": 3591,
   "rulers": 3416,
   "warnings": {
    "warn": 538,
@@ -76,10 +76,10 @@
   "config": 41
  },
  "clan_source": {
-  "inferred_name": 2792,
-  "wikidata": 456,
-  "none": 1161,
-  "inherited_father": 13
+  "inferred_name": 2668,
+  "wikidata": 428,
+  "none": 1085,
+  "inherited_father": 11
  },
  "clan_inference_selfcheck": {
   "evaluated": 456,
@@ -242,8 +242,16 @@
  "excluded": {
   "female": 0,
   "parent_gender_unknown": 1,
-  "adoption_edges": 983
+  "adoption_edges": 969
  },
- "include_adoption": false,
- "ancestor_generations": 8
+ "include_adoption": "roots",
+ "adoption_roots": {
+  "roots": 655,
+  "edges": 14,
+  "roots_connected": 14,
+  "skipped_cycle": 0
+ },
+ "ancestor_generations": 8,
+ "ancestor_keep_generations": 2,
+ "ancestors_pruned": 230
 }

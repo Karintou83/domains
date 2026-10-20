@@ -652,8 +652,11 @@
     }
   },
   "_comment_seat_overrides": "地図上の位置を城に固定する藩(藩の QID → 城の QID)。御三卿と江戸幕府は江戸城に置く(ユーザーの判断)。座標は城の P625 を取得して使い、2つ目以降は重ならないよう少しずらす。",
-  "include_adoption": false,
+  "_comment_include_adoption": "養子関係の線。false=出さない / true=すべて出す / \"roots\"=実父がデータに無い人(家系図の一番上の人)に限って養親からの線を出す。roots は孤立した系統を、実父子でないと分かる線(点線・破線)でつなぐため(ユーザーの判断)。",
+  "include_adoption": "roots",
   "ancestor_generations": 8,
+  "_comment_ancestor_keep_generations": "家系図に載せる祖先。各藩主から何世代(実父=1)までは必ず載せるか。それより上は、ほかの藩主の系統との合流点と、そこから藩主へ下る途中の人だけを載せる(ancestor_generations まで取得して合流を確かめたうえで、合流しない長い祖先の列を省く。ユーザーの判断)。null なら間引かない。",
+  "ancestor_keep_generations": 2,
   "p1039_roles": {},
   "year_range": [
     1550,

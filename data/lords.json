@@ -54,25 +54,6 @@
   }
  },
  {
-  "id": "Q102247176",
-  "name": "細川頼長",
-  "wikipedia": "細川頼長",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2736120",
-    "name": "細川氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q10297028",
   "name": "戸沢盛安",
   "wikipedia": "戸沢盛安",
@@ -120,35 +101,6 @@
    "author": "Kanō Naonobu",
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Ikeda_Tsuneoki.jpg/250px-Ikeda_Tsuneoki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q1036907",
-  "name": "佐々木道誉",
-  "wikipedia": "佐々木道誉",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1028587",
-    "name": "佐々木氏"
-   },
-   {
-    "id": "Q2975299",
-    "name": "京極氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Sasaki Dōyo.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Sasaki_D%C5%8Dyo.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Sasaki_D%C5%8Dyo.jpg/250px-Sasaki_D%C5%8Dyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {
@@ -5207,82 +5159,6 @@
   "image": null
  },
  {
-  "id": "Q106317179",
-  "name": "松平親清 (長沢松平家)",
-  "wikipedia": "松平親清 (長沢松平家)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1141077",
-    "name": "松平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q106317197",
-  "name": "松平勝宗",
-  "wikipedia": "松平勝宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1141077",
-    "name": "松平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q106317211",
-  "name": "松平一忠",
-  "wikipedia": "松平一忠",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1141077",
-    "name": "松平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q106317216",
-  "name": "松平親広",
-  "wikipedia": "松平親広",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1141077",
-    "name": "松平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q1064935",
   "name": "松平広忠",
   "wikipedia": "松平広忠",
@@ -5327,71 +5203,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Sakai_Tadayo.jpg/250px-Sakai_Tadayo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q106648434",
-  "name": "長尾景直 (長尾景忠の子)",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q106650013",
-  "name": "長尾景英 (鎌倉長尾氏)",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q106650128",
-  "name": "長尾房景 (鎌倉長尾氏)",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q106664211",
-  "name": "小笠原長将",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975340",
-    "name": "小笠原氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
  },
  {
   "id": "Q106673226",
@@ -5439,46 +5250,6 @@
   "clan_source": null,
   "flags": [
    "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q106679747",
-  "name": "水野貞守",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975321",
-    "name": "水野氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q106679764",
-  "name": "水野為則",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975321",
-    "name": "水野氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
    "no_wikipedia"
   ],
   "image": null
@@ -5544,26 +5315,6 @@
   "image": null
  },
  {
-  "id": "Q106680509",
-  "name": "菅沼定成 (菅沼定直の子)",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11619306",
-    "name": "菅沼氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q106680510",
   "name": "菅沼定成 (菅沼定忠の子)",
   "wikipedia": null,
@@ -5584,45 +5335,6 @@
   "image": null
  },
  {
-  "id": "Q106680522",
-  "name": "菅沼定信",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11619306",
-    "name": "菅沼氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q106680544",
-  "name": "菅沼定直",
-  "wikipedia": "菅沼定直 (室町時代)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11619306",
-    "name": "菅沼氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q106701773",
   "name": "酒井広親",
   "wikipedia": null,
@@ -5638,21 +5350,6 @@
   "clan_source": "inferred_name",
   "flags": [
    "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q106702516",
-  "name": "西郷正員 (西郷正勝の父)",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
    "no_wikipedia"
   ],
   "image": null
@@ -5720,26 +5417,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Asano_Nagamasa_Portrait.png/250px-Asano_Nagamasa_Portrait.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q106774451",
-  "name": "那須資氏",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11642934",
-    "name": "那須氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
  },
  {
   "id": "Q1069843",
@@ -8297,46 +7974,6 @@
   "image": null
  },
  {
-  "id": "Q108056632",
-  "name": "前田仲利",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q578033",
-    "name": "前田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q108056644",
-  "name": "前田利隆 (主膳正)",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q578033",
-    "name": "前田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q1080643",
   "name": "秋月種実",
   "wikipedia": "秋月種実",
@@ -8543,42 +8180,6 @@
    "clan_missing"
   ],
   "image": null
- },
- {
-  "id": "Q10855756",
-  "name": "北畠教具",
-  "wikipedia": "北畠教具",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q10855758",
-  "name": "北畠政郷",
-  "wikipedia": "北畠政郷",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": {
-   "file": "Kitabatake Masasato.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Kitabatake_Masasato.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Kitabatake_Masasato.jpg/250px-Kitabatake_Masasato.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
  },
  {
   "id": "Q10856319",
@@ -8945,25 +8546,6 @@
   "image": null
  },
  {
-  "id": "Q10856563",
-  "name": "小笠原貞朝",
-  "wikipedia": "小笠原貞朝",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975340",
-    "name": "小笠原氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q10856564",
   "name": "小笠原貞正",
   "wikipedia": "小笠原貞正",
@@ -9084,23 +8666,6 @@
   }
  },
  {
-  "id": "Q10856576",
-  "name": "松平親善",
-  "wikipedia": "松平親善",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q10856413",
-    "name": "竹谷松平家"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q10856583",
   "name": "小笠原長円",
   "wikipedia": "小笠原長円",
@@ -9126,25 +8691,6 @@
   "primary_domain": "Q10863286",
   "has_tenure": true,
   "gen_label": "越前勝山藩8代",
-  "clans": [
-   {
-    "id": "Q2975340",
-    "name": "小笠原氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q10859957",
-  "name": "小笠原長棟",
-  "wikipedia": "小笠原長棟",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q2975340",
@@ -9668,25 +9214,6 @@
   "id": "Q10860026",
   "name": "小笠原安次",
   "wikipedia": "小笠原安次",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975340",
-    "name": "小笠原氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q10860030",
-  "name": "小笠原持長 (信濃小笠原氏)",
-  "wikipedia": "小笠原持長 (信濃小笠原氏)",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -11464,36 +10991,6 @@
   "image": null
  },
  {
-  "id": "Q108684909",
-  "name": "下間頼善",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q108689599",
-  "name": "高山重利",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q108689628",
   "name": "中川重清",
   "wikipedia": null,
@@ -11634,46 +11131,6 @@
   "clan_source": null,
   "flags": [
    "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q108803091",
-  "name": "本多助政",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975272",
-    "name": "本多氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q108803096",
-  "name": "本多定正",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975272",
-    "name": "本多氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
   ],
   "image": null
  },
@@ -11924,90 +11381,6 @@
   "image": null
  },
  {
-  "id": "Q10885145",
-  "name": "伊達尚宗",
-  "wikipedia": "伊達尚宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1151061",
-    "name": "伊達氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q10885147",
-  "name": "伊達成宗",
-  "wikipedia": "伊達成宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1151061",
-    "name": "伊達氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q10885148",
-  "name": "伊達持宗",
-  "wikipedia": "伊達持宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1151061",
-    "name": "伊達氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q10885149",
-  "name": "伊達政宗",
-  "wikipedia": "伊達政宗 (大膳大夫)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1151061",
-    "name": "伊達氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Idate Masamune.JPG",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Idate_Masamune.JPG",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "仙台市博物館",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Idate_Masamune.JPG/250px-Idate_Masamune.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q10885150",
   "name": "伊達村候",
   "wikipedia": "伊達村候",
@@ -12061,39 +11434,6 @@
   "clan_source": "inferred_name",
   "flags": [
    "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q10885153",
-  "name": "伊達氏宗",
-  "wikipedia": "伊達氏宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1151061",
-    "name": "伊達氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q108852206",
-  "name": "万里小路賢房",
-  "wikipedia": "万里小路賢房",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
   ],
   "image": null
  },
@@ -12208,94 +11548,6 @@
   "image": null
  },
  {
-  "id": "Q108910742",
-  "name": "高倉永相",
-  "wikipedia": "高倉永相",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q108910746",
-  "name": "高倉永孝",
-  "wikipedia": "高倉永孝",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q108913831",
-  "name": "相馬重胤 (11代)",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975379",
-    "name": "相馬氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q108913851",
-  "name": "相馬憲胤",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975379",
-    "name": "相馬氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q108913857",
-  "name": "相馬胤弘",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975379",
-    "name": "相馬氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q108916800",
   "name": "立花茂高",
   "wikipedia": null,
@@ -12402,61 +11654,6 @@
   "image": null
  },
  {
-  "id": "Q109116406",
-  "name": "蒲生秀兼",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975251",
-    "name": "蒲生氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109116467",
-  "name": "蒲生秀貞",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975251",
-    "name": "蒲生氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109116522",
-  "name": "和田政秀",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q109121935",
   "name": "河野通実",
   "wikipedia": null,
@@ -12487,21 +11684,6 @@
   "clan_source": "inferred_name",
   "flags": [
    "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109122755",
-  "name": "河野通元",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
    "no_wikipedia"
   ],
   "image": null
@@ -12558,20 +11740,6 @@
   "flags": [
    "clan_missing",
    "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109131772",
-  "name": "高倉永康",
-  "wikipedia": "高倉永康 (室町時代の公卿)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
   ],
   "image": null
  },
@@ -12656,20 +11824,6 @@
   "image": null
  },
  {
-  "id": "Q109287797",
-  "name": "木和田安逵",
-  "wikipedia": "木和田安逵",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q109288399",
   "name": "一柳治良",
   "wikipedia": "一柳治良",
@@ -12699,20 +11853,6 @@
   "clan_source": "inferred_name",
   "flags": [
    "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q10943127",
-  "name": "姉小路良頼",
-  "wikipedia": "姉小路良頼",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
   ],
   "image": null
  },
@@ -12827,26 +11967,6 @@
   "image": null
  },
  {
-  "id": "Q109665913",
-  "name": "織田真昌",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1132077",
-    "name": "織田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q109665931",
   "name": "織田常勝",
   "wikipedia": null,
@@ -12878,65 +11998,6 @@
   "flags": [
    "clan_missing",
    "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109678678",
-  "name": "本多定吉",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975272",
-    "name": "本多氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109678684",
-  "name": "本多正明",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975272",
-    "name": "本多氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109678691",
-  "name": "本多忠正",
-  "wikipedia": "本多忠正",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975272",
-    "name": "本多氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
   ],
   "image": null
  },
@@ -12998,55 +12059,6 @@
   "image": null
  },
  {
-  "id": "Q1098095",
-  "name": "毛利弘元",
-  "wikipedia": "毛利弘元",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q914637",
-    "name": "毛利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q109921380",
-  "name": "明智頼尚",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109921507",
-  "name": "明智頼明",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q109936718",
   "name": "浅野長忠",
   "wikipedia": null,
@@ -13062,36 +12074,6 @@
   "clan_source": "inferred_name",
   "flags": [
    "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109947590",
-  "name": "阿野季時",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q109947755",
-  "name": "阿野実時",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
    "no_wikipedia"
   ],
   "image": null
@@ -13132,8 +12114,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -13179,21 +12161,6 @@
   "image": null
  },
  {
-  "id": "Q110089674",
-  "name": "姉小路実道",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q110135720",
   "name": "姉小路公量",
   "wikipedia": "姉小路公量",
@@ -13210,36 +12177,6 @@
  {
   "id": "Q110249784",
   "name": "林政秀",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q110284019",
-  "name": "戸田宗忠",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q110284102",
-  "name": "戸田綱光",
   "wikipedia": null,
   "primary_domain": null,
   "has_tenure": false,
@@ -14595,47 +13532,9 @@
   "image": null
  },
  {
-  "id": "Q11070264",
-  "name": "太田資康",
-  "wikipedia": "太田資康",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1391922",
-    "name": "太田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11070291",
   "name": "太田資直",
   "wikipedia": "太田資直",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1391922",
-    "name": "太田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11070306",
-  "name": "太田資高",
-  "wikipedia": "太田資高",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -14741,86 +13640,6 @@
   "image": null
  },
  {
-  "id": "Q110816590",
-  "name": "井伊景直",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2243336",
-    "name": "井伊氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q110816643",
-  "name": "井伊忠直",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2243336",
-    "name": "井伊氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q110816667",
-  "name": "井伊成直",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2243336",
-    "name": "井伊氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q110816694",
-  "name": "井伊直氏",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2243336",
-    "name": "井伊氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q110820906",
   "name": "一色氏兼",
   "wikipedia": null,
@@ -14859,8 +13678,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -14879,48 +13698,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q110882115",
-  "name": "細川持有",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2736120",
-    "name": "細川氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q110882564",
-  "name": "細川常有",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2736120",
-    "name": "細川氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -15229,50 +14008,6 @@
  {
   "id": "Q111191156",
   "name": "荒木高村",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q111200552",
-  "name": "小寺政隆",
-  "wikipedia": "小寺政隆",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q111218884",
-  "name": "下間玄英",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q111260916",
-  "name": "阿部定時",
   "wikipedia": null,
   "primary_domain": null,
   "has_tenure": false,
@@ -15941,44 +14676,6 @@
   }
  },
  {
-  "id": "Q11162434",
-  "name": "島津氏久",
-  "wikipedia": "島津氏久",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1061406",
-    "name": "島津氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11162470",
-  "name": "島津貞久",
-  "wikipedia": "島津貞久",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1061406",
-    "name": "島津氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11162603",
   "name": "池田斉敏",
   "wikipedia": "池田斉敏",
@@ -16004,25 +14701,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Ikeda_Naritoshi.jpg/250px-Ikeda_Naritoshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q11162745",
-  "name": "島津忠国",
-  "wikipedia": "島津忠国",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1061406",
-    "name": "島津氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
  },
  {
   "id": "Q11162830",
@@ -16879,52 +15557,6 @@
   "image": null
  },
  {
-  "id": "Q11246183",
-  "name": "島津久豊",
-  "wikipedia": "島津久豊",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1061406",
-    "name": "島津氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Hisatoyo shimadzu.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Hisatoyo_shimadzu.jpg",
-   "license": "CC BY-SA 3.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "author": "Geneast",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hisatoyo_shimadzu.jpg/250px-Hisatoyo_shimadzu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q11246255",
-  "name": "島津久逸",
-  "wikipedia": "伊作久逸",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1061406",
-    "name": "島津氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11246407",
   "name": "島津以久",
   "wikipedia": "島津以久",
@@ -16975,25 +15607,6 @@
   "primary_domain": "Q676187",
   "has_tenure": true,
   "gen_label": "薩摩藩4代",
-  "clans": [
-   {
-    "id": "Q1061406",
-    "name": "島津氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11246559",
-  "name": "島津善久",
-  "wikipedia": "伊作善久",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q1061406",
@@ -17157,45 +15770,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Yuki_Hideyasu.jpg/250px-Yuki_Hideyasu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q113232056",
-  "name": "内藤宗清",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975325",
-    "name": "内藤氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q113232073",
-  "name": "内藤重清",
-  "wikipedia": "内藤重清",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975325",
-    "name": "内藤氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
  },
  {
   "id": "Q113244807",
@@ -17785,62 +16359,6 @@
   "image": null
  },
  {
-  "id": "Q11353105",
-  "name": "一色公深",
-  "wikipedia": "一色公深",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11353138",
-  "name": "一色直氏",
-  "wikipedia": "一色直氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11353145",
-  "name": "一色範氏",
-  "wikipedia": "一色範氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11355682",
-  "name": "三木直頼",
-  "wikipedia": "三木直頼",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11355916",
   "name": "三枝守昌",
   "wikipedia": "三枝守昌",
@@ -18174,25 +16692,6 @@
   "id": "Q11359143",
   "name": "上杉勝熙",
   "wikipedia": "上杉勝熙",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1150058",
-    "name": "上杉氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11359172",
-  "name": "上杉憲定",
-  "wikipedia": "上杉憲定",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -18870,8 +17369,8 @@
   "gen_label": "三草藩6代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -18897,8 +17396,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -18916,8 +17415,8 @@
   "gen_label": "伊保藩2代・岩村藩3代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -18935,8 +17434,8 @@
   "gen_label": "岩村藩4代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -18954,8 +17453,8 @@
   "gen_label": "岩村藩6代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -18973,8 +17472,8 @@
   "gen_label": "三草藩4代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -18992,8 +17491,8 @@
   "gen_label": "三草藩2代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -19011,8 +17510,8 @@
   "gen_label": "伊保藩1代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -19030,8 +17529,8 @@
   "gen_label": "三草藩3代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -19049,8 +17548,8 @@
   "gen_label": "岩村藩5代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -19068,8 +17567,8 @@
   "gen_label": "三草藩5代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -19087,8 +17586,8 @@
   "gen_label": "岩村藩7代・高柳藩1代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -19106,8 +17605,8 @@
   "gen_label": "高柳藩2代・三草藩1代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -19125,8 +17624,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -20160,23 +18659,6 @@
   "image": null
  },
  {
-  "id": "Q11374418",
-  "name": "京極勝秀",
-  "wikipedia": "京極勝秀",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975299",
-    "name": "京極氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q11374423",
   "name": "京極忠高",
   "wikipedia": "京極忠高",
@@ -20202,25 +18684,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ky%C5%8Dgoku_Tadataka.jpg/250px-Ky%C5%8Dgoku_Tadataka.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q11374424",
-  "name": "京極持清",
-  "wikipedia": "京極持清",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975299",
-    "name": "京極氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
  },
  {
   "id": "Q11374428",
@@ -20444,23 +18907,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Ky%C5%8Dgoku_Takamasa.jpg/250px-Ky%C5%8Dgoku_Takamasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q11374452",
-  "name": "京極高光",
-  "wikipedia": "京極高光",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975299",
-    "name": "京極氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
  },
  {
   "id": "Q11374453",
@@ -20972,23 +19418,6 @@
   }
  },
  {
-  "id": "Q11374489",
-  "name": "京極高詮",
-  "wikipedia": "京極高詮",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975299",
-    "name": "京極氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q11374491",
   "name": "京極高豊",
   "wikipedia": "京極高豊",
@@ -21474,25 +19903,6 @@
   "image": null
  },
  {
-  "id": "Q11379104",
-  "name": "伊勢盛定",
-  "wikipedia": "伊勢盛定",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q16141593",
-    "name": "伊勢氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11379285",
   "name": "伊奈忠勝",
   "wikipedia": "伊奈忠勝",
@@ -21592,25 +20002,6 @@
   ],
   "clan_source": "wikidata",
   "flags": [],
-  "image": null
- },
- {
-  "id": "Q11379532",
-  "name": "伊東祐国",
-  "wikipedia": "伊東祐国",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975280",
-    "name": "伊東氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
   "image": null
  },
  {
@@ -22338,35 +20729,6 @@
   "image": null
  },
  {
-  "id": "Q11382457",
-  "name": "佐々木高秀",
-  "wikipedia": "佐々木高秀",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1028587",
-    "name": "佐々木氏"
-   },
-   {
-    "id": "Q2975299",
-    "name": "京極氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Sasaki Takahide.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Sasaki_Takahide.jpg",
-   "license": "CC BY 4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0",
-   "author": "緑亭川柳：編輯 北斎卍老人等：画",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Sasaki_Takahide.jpg/250px-Sasaki_Takahide.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q11382684",
   "name": "佐久間勝友",
   "wikipedia": "佐久間勝友",
@@ -22483,44 +20845,6 @@
   "image": null
  },
  {
-  "id": "Q11383421",
-  "name": "佐竹義人",
-  "wikipedia": "佐竹義人",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975363",
-    "name": "佐竹氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11383423",
-  "name": "佐竹義俊",
-  "wikipedia": "佐竹義俊",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975363",
-    "name": "佐竹氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11383441",
   "name": "佐竹義敏",
   "wikipedia": "佐竹義敏",
@@ -22578,85 +20902,9 @@
   "image": null
  },
  {
-  "id": "Q11383453",
-  "name": "佐竹義治",
-  "wikipedia": "佐竹義治",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975363",
-    "name": "佐竹氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11383459",
   "name": "佐竹義秀",
   "wikipedia": "佐竹義秀 (東家)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975363",
-    "name": "佐竹氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11383465",
-  "name": "佐竹義篤 (十六代当主)",
-  "wikipedia": "佐竹義篤 (十六代当主)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975363",
-    "name": "佐竹氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11383467",
-  "name": "佐竹義舜",
-  "wikipedia": "佐竹義舜",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975363",
-    "name": "佐竹氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11383480",
-  "name": "佐竹義隣",
-  "wikipedia": "佐竹義隣",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -25436,70 +23684,6 @@
   "image": null
  },
  {
-  "id": "Q11403859",
-  "name": "北畠材親",
-  "wikipedia": "北畠材親",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11403861",
-  "name": "北畠満雅",
-  "wikipedia": "北畠満雅",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11403868",
-  "name": "北畠顕泰",
-  "wikipedia": "北畠顕泰",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11403872",
-  "name": "北畠顕能",
-  "wikipedia": "北畠顕能",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": {
-   "file": "Kitabatake Akiyoshi.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Kitabatake_Akiyoshi.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Kikuchi Yōsai",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kitabatake_Akiyoshi.jpg/250px-Kitabatake_Akiyoshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q11408512",
   "name": "南部利謹",
   "wikipedia": "南部利謹",
@@ -25844,123 +24028,9 @@
   "image": null
  },
  {
-  "id": "Q11414252",
-  "name": "吉良義信",
-  "wikipedia": "吉良義信",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2686025",
-    "name": "吉良氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11414253",
-  "name": "吉良義元",
-  "wikipedia": "吉良義元",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2686025",
-    "name": "吉良氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11414254",
   "name": "吉良義冬",
   "wikipedia": "吉良義冬",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2686025",
-    "name": "吉良氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11414257",
-  "name": "吉良義堯",
-  "wikipedia": "吉良義堯",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2686025",
-    "name": "吉良氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11414259",
-  "name": "吉良義定",
-  "wikipedia": "吉良義定",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2686025",
-    "name": "吉良氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11414260",
-  "name": "吉良義安",
-  "wikipedia": "吉良義安",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2686025",
-    "name": "吉良氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11414262",
-  "name": "吉良義弥",
-  "wikipedia": "吉良義弥",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -26549,20 +24619,6 @@
   "primary_domain": "Q10863415",
   "has_tenure": true,
   "gen_label": "高槻藩2代",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11423397",
-  "name": "土岐満貞",
-  "wikipedia": "土岐満貞",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [],
   "clan_source": null,
   "flags": [
@@ -29208,20 +27264,6 @@
   "image": null
  },
  {
-  "id": "Q11432393",
-  "name": "大俵胤清",
-  "wikipedia": "大俵胤清",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11432516",
   "name": "大内弘世",
   "wikipedia": "大内弘世",
@@ -29238,23 +27280,6 @@
   "flags": [
    "clan_inferred_name"
   ],
-  "image": null
- },
- {
-  "id": "Q11432517",
-  "name": "大内弘幸",
-  "wikipedia": "大内弘幸",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1348909",
-    "name": "大内氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
   "image": null
  },
  {
@@ -30530,25 +28555,6 @@
   "image": null
  },
  {
-  "id": "Q11445792",
-  "name": "奥平貞昌",
-  "wikipedia": "奥平貞昌",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11445783",
-    "name": "奥平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11445795",
   "name": "奥平定能",
   "wikipedia": "奥平定能",
@@ -30593,20 +28599,6 @@
   "id": "Q11446051",
   "name": "奥田秀種",
   "wikipedia": "奥田秀種",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11447245",
-  "name": "姉小路公景",
-  "wikipedia": "姉小路公景",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -30673,31 +28665,6 @@
   }
  },
  {
-  "id": "Q11449185",
-  "name": "宇喜多能家",
-  "wikipedia": "宇喜多能家",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975390",
-    "name": "宇喜多氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Ukita yoshiie.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ukita_yoshiie.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": null,
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Ukita_yoshiie.jpg/250px-Ukita_yoshiie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q11449186",
   "name": "宇喜多興家",
   "wikipedia": "宇喜多興家",
@@ -30714,40 +28681,6 @@
   "flags": [
    "clan_inferred_name"
   ],
-  "image": null
- },
- {
-  "id": "Q11450824",
-  "name": "安東尋季",
-  "wikipedia": "安東尋季",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11450838",
-    "name": "安東氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
-  "id": "Q11450828",
-  "name": "安東忠季",
-  "wikipedia": "安東忠季",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11450838",
-    "name": "安東氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
   "image": null
  },
  {
@@ -31970,34 +29903,6 @@
   "image": null
  },
  {
-  "id": "Q11464739",
-  "name": "少弐教頼",
-  "wikipedia": "少弐教頼",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11464741",
-  "name": "少弐満貞",
-  "wikipedia": "少弐満貞",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11465652",
   "name": "屋代忠正",
   "wikipedia": "屋代忠正",
@@ -32918,20 +30823,6 @@
   }
  },
  {
-  "id": "Q11473868",
-  "name": "岡部親綱",
-  "wikipedia": "岡部親綱",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11473877",
   "name": "岡部長住",
   "wikipedia": "岡部長住",
@@ -33388,34 +31279,6 @@
   "image": null
  },
  {
-  "id": "Q11485462",
-  "name": "広橋兼秀",
-  "wikipedia": "広橋兼秀",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11485463",
-  "name": "広橋国光",
-  "wikipedia": "広橋国光",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11486850",
   "name": "建部光重",
   "wikipedia": "建部光重",
@@ -33570,20 +31433,6 @@
   "primary_domain": "Q10863453",
   "has_tenure": true,
   "gen_label": "林田藩6代",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11488736",
-  "name": "得川有親",
-  "wikipedia": "得川有親",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [],
   "clan_source": null,
   "flags": [
@@ -33982,20 +31831,6 @@
   "image": null
  },
  {
-  "id": "Q11495754",
-  "name": "成田顕泰",
-  "wikipedia": "成田顕泰",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11496341",
   "name": "戸川安宣",
   "wikipedia": "戸川安宣",
@@ -34341,55 +32176,6 @@
    "clan_inferred_name"
   ],
   "image": null
- },
- {
-  "id": "Q11516505",
-  "name": "有栖川宮織仁親王",
-  "wikipedia": "有栖川宮織仁親王",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": {
-   "file": "The prince Orihito Arisugawa.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:The_prince_Orihito_Arisugawa.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/The_prince_Orihito_Arisugawa.jpg/250px-The_prince_Orihito_Arisugawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q11516506",
-  "name": "有栖川宮職仁親王",
-  "wikipedia": "有栖川宮職仁親王",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q909452",
-    "name": "皇室"
-   }
-  ],
-  "clan_source": "inherited_father",
-  "flags": [
-   "clan_inherited_father"
-  ],
-  "image": {
-   "file": "The prince Yorihito Arisugawa.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:The_prince_Yorihito_Arisugawa.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/The_prince_Yorihito_Arisugawa.jpg/250px-The_prince_Yorihito_Arisugawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
  },
  {
   "id": "Q11516507",
@@ -36979,25 +34765,6 @@
   "primary_domain": "Q3034398",
   "has_tenure": true,
   "gen_label": "小島藩5代",
-  "clans": [
-   {
-    "id": "Q1141077",
-    "name": "松平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11530359",
-  "name": "松平信行 (旗本)",
-  "wikipedia": "松平信行 (旗本)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q1141077",
@@ -42059,42 +39826,6 @@
   "image": null
  },
  {
-  "id": "Q11539360",
-  "name": "森可政",
-  "wikipedia": "森可政",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975327",
-    "name": "森氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11539363",
-  "name": "森可澄",
-  "wikipedia": "森可澄",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975327",
-    "name": "森氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q11539594",
   "name": "森川俊令",
   "wikipedia": "森川俊令",
@@ -43362,20 +41093,6 @@
   "image": null
  },
  {
-  "id": "Q11545660",
-  "name": "正親町三条公治",
-  "wikipedia": "正親町三条公治",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11545674",
   "name": "正親町三条実興",
   "wikipedia": "正親町三条実興",
@@ -43559,25 +41276,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Mouri_Mototoshi.jpg/250px-Mouri_Mototoshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q11547545",
-  "name": "毛利元春",
-  "wikipedia": "毛利元春",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q914637",
-    "name": "毛利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
  },
  {
   "id": "Q11547548",
@@ -43789,25 +41487,6 @@
   "primary_domain": "Q903430",
   "has_tenure": true,
   "gen_label": "長府藩2代",
-  "clans": [
-   {
-    "id": "Q914637",
-    "name": "毛利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11547571",
-  "name": "毛利光房",
-  "wikipedia": "毛利光房",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q914637",
@@ -44065,25 +41744,6 @@
   "image": null
  },
  {
-  "id": "Q11547623",
-  "name": "毛利広房",
-  "wikipedia": "毛利広房",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q914637",
-    "name": "毛利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11547629",
   "name": "毛利広豊",
   "wikipedia": "毛利広豊",
@@ -44250,25 +41910,6 @@
   "primary_domain": "Q876267",
   "has_tenure": true,
   "gen_label": "長州藩8代",
-  "clans": [
-   {
-    "id": "Q914637",
-    "name": "毛利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11547671",
-  "name": "毛利煕元",
-  "wikipedia": "毛利煕元",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q914637",
@@ -46909,20 +44550,6 @@
   "image": null
  },
  {
-  "id": "Q11554274",
-  "name": "河野通春",
-  "wikipedia": "河野通春",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11556252",
   "name": "津田信成",
   "wikipedia": "津田信成",
@@ -47463,8 +45090,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -48776,63 +46403,6 @@
   "image": null
  },
  {
-  "id": "Q11582519",
-  "name": "相馬盛胤",
-  "wikipedia": "相馬盛胤 (十三代当主)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975379",
-    "name": "相馬氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11582547",
-  "name": "相馬顕胤",
-  "wikipedia": "相馬顕胤",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975379",
-    "name": "相馬氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11582548",
-  "name": "相馬高胤 (12代)",
-  "wikipedia": "相馬高胤",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975379",
-    "name": "相馬氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11583359",
   "name": "真田信利",
   "wikipedia": "真田信利",
@@ -49754,25 +47324,6 @@
   "image": null
  },
  {
-  "id": "Q11593158",
-  "name": "福島正成",
-  "wikipedia": "福島正成",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11593161",
-    "name": "福島氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11593772",
   "name": "福島高晴",
   "wikipedia": "福島高晴",
@@ -50004,25 +47555,6 @@
   "primary_domain": "Q3034541",
   "has_tenure": true,
   "gen_label": "高鍋藩2代",
-  "clans": [
-   {
-    "id": "Q2975206",
-    "name": "秋月氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11595124",
-  "name": "秋月種時",
-  "wikipedia": "秋月種時",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q2975206",
@@ -51627,20 +49159,6 @@
   "image": null
  },
  {
-  "id": "Q11604289",
-  "name": "米津政信",
-  "wikipedia": "米津政信",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11604290",
   "name": "米津政崇",
   "wikipedia": "米津政崇",
@@ -51707,25 +49225,6 @@
   "clan_source": null,
   "flags": [
    "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11605848",
-  "name": "細川元有",
-  "wikipedia": "細川元有",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2736120",
-    "name": "細川氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
   ],
   "image": null
  },
@@ -52614,44 +50113,6 @@
   }
  },
  {
-  "id": "Q11606022",
-  "name": "細川頼春",
-  "wikipedia": "細川頼春",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2736120",
-    "name": "細川氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11606025",
-  "name": "細川頼有",
-  "wikipedia": "細川頼有",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2736120",
-    "name": "細川氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11606174",
   "name": "細野藤光",
   "wikipedia": "細野藤光",
@@ -53261,25 +50722,6 @@
   "primary_domain": "Q3034568",
   "has_tenure": true,
   "gen_label": "柳本藩1代",
-  "clans": [
-   {
-    "id": "Q1132077",
-    "name": "織田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11608365",
-  "name": "織田常昌",
-  "wikipedia": "織田常昌",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q1132077",
@@ -54286,52 +51728,6 @@
   "image": null
  },
  {
-  "id": "Q11621359",
-  "name": "蒲生貞秀",
-  "wikipedia": "蒲生貞秀",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975251",
-    "name": "蒲生氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "蒲生貞秀.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:%E8%92%B2%E7%94%9F%E8%B2%9E%E7%A7%80.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%E8%92%B2%E7%94%9F%E8%B2%9E%E7%A7%80.jpg/250px-%E8%92%B2%E7%94%9F%E8%B2%9E%E7%A7%80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q11621369",
-  "name": "蒲生高郷",
-  "wikipedia": "蒲生高郷",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975251",
-    "name": "蒲生氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11623723",
   "name": "藤堂虎高",
   "wikipedia": "藤堂虎高",
@@ -54756,20 +52152,6 @@
   "image": null
  },
  {
-  "id": "Q11625681",
-  "name": "蜂須賀正利",
-  "wikipedia": "蜂須賀正利",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11625693",
   "name": "蜂須賀隆喜",
   "wikipedia": "蜂須賀隆喜",
@@ -54986,20 +52368,6 @@
   "primary_domain": "Q10863452",
   "has_tenure": true,
   "gen_label": "東条藩2代",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11629677",
-  "name": "西郷正勝",
-  "wikipedia": "西郷正勝",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [],
   "clan_source": null,
   "flags": [
@@ -55380,20 +52748,6 @@
   "image": null
  },
  {
-  "id": "Q11635707",
-  "name": "赤松氏満",
-  "wikipedia": "赤松氏満",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11636757",
   "name": "足利国朝",
   "wikipedia": "足利国朝",
@@ -55408,71 +52762,6 @@
   ],
   "clan_source": "wikidata",
   "flags": [],
-  "image": null
- },
- {
-  "id": "Q11636786",
-  "name": "足利政氏",
-  "wikipedia": "足利政氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Masauji.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Masauji.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown (Inscription by Gyokuin Eiyo)",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Ashikaga_Masauji.jpg/250px-Ashikaga_Masauji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q11636787",
-  "name": "足利政知",
-  "wikipedia": "足利政知",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11636790",
-  "name": "足利泰氏",
-  "wikipedia": "足利泰氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
   "image": null
  },
  {
@@ -55493,33 +52782,6 @@
    "clan_inferred_name"
   ],
   "image": null
- },
- {
-  "id": "Q11636814",
-  "name": "足利義氏 (足利家3代目当主)",
-  "wikipedia": "足利義氏 (足利家3代目当主)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Yoshiuji (Kamakura period).jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Yoshiuji_(Kamakura_period).jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown artistUnknown artist",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Ashikaga_Yoshiuji_%28Kamakura_period%29.jpg/250px-Ashikaga_Yoshiuji_%28Kamakura_period%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
  },
  {
   "id": "Q11636838",
@@ -55984,69 +53246,12 @@
   "image": null
  },
  {
-  "id": "Q11642926",
-  "name": "那須政資",
-  "wikipedia": "那須政資",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11642934",
-    "name": "那須氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11642957",
-  "name": "那須資実",
-  "wikipedia": "那須資実",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11642934",
-    "name": "那須氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11642959",
   "name": "那須資弥",
   "wikipedia": "那須資弥",
   "primary_domain": "Q10863467",
   "has_tenure": true,
   "gen_label": "那須藩4代・烏山藩8代",
-  "clans": [
-   {
-    "id": "Q11642934",
-    "name": "那須氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11642960",
-  "name": "那須資房",
-  "wikipedia": "那須資房",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [
    {
     "id": "Q11642934",
@@ -56081,25 +53286,6 @@
   "image": null
  },
  {
-  "id": "Q11642962",
-  "name": "那須資持",
-  "wikipedia": "那須持資",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11642934",
-    "name": "那須氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11642963",
   "name": "那須資景",
   "wikipedia": "那須資景",
@@ -56122,25 +53308,6 @@
   "id": "Q11642967",
   "name": "那須資胤",
   "wikipedia": "那須資胤",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11642934",
-    "name": "那須氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11642971",
-  "name": "那須資重 (下那須家当主)",
-  "wikipedia": "那須資重",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -57383,25 +54550,6 @@
   "image": null
  },
  {
-  "id": "Q11644643",
-  "name": "里見家基",
-  "wikipedia": "里見家基",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975367",
-    "name": "里見氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11644650",
   "name": "里見成義",
   "wikipedia": "里見成義",
@@ -57882,33 +55030,6 @@
   }
  },
  {
-  "id": "Q11650658",
-  "name": "鍋島清久",
-  "wikipedia": "鍋島清久",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q3101516",
-    "name": "鍋島氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Grave of Nabeshima Kiyohisa in Kōden-ji Saga.jpeg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Grave_of_Nabeshima_Kiyohisa_in_K%C5%8Dden-ji_Saga.jpeg",
-   "license": "CC BY-SA 4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-   "author": "Pekachu",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Grave_of_Nabeshima_Kiyohisa_in_K%C5%8Dden-ji_Saga.jpeg/250px-Grave_of_Nabeshima_Kiyohisa_in_K%C5%8Dden-ji_Saga.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q11650659",
   "name": "鍋島清房",
   "wikipedia": "鍋島清房",
@@ -58326,34 +55447,6 @@
   }
  },
  {
-  "id": "Q11651850",
-  "name": "長尾景仲",
-  "wikipedia": "長尾景仲",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11651869",
-  "name": "長尾景隆",
-  "wikipedia": "長尾景隆",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11653789",
   "name": "長谷川守知",
   "wikipedia": "長谷川守知",
@@ -58570,20 +55663,6 @@
   "image": null
  },
  {
-  "id": "Q11655797",
-  "name": "関成重",
-  "wikipedia": "関成重",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q11655813",
   "name": "関政富",
   "wikipedia": "関政富",
@@ -58724,20 +55803,6 @@
   "primary_domain": "Q3034507",
   "has_tenure": true,
   "gen_label": "新見藩8代",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11657994",
-  "name": "阿野実顕",
-  "wikipedia": "阿野実顕",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [],
   "clan_source": null,
   "flags": [
@@ -58944,34 +56009,6 @@
   "primary_domain": "Q1073005",
   "has_tenure": true,
   "gen_label": "麻田藩11代",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11668786",
-  "name": "高倉永家",
-  "wikipedia": "高倉永家",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q11668788",
-  "name": "高倉永慶",
-  "wikipedia": "高倉永慶",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
   "clans": [],
   "clan_source": null,
   "flags": [
@@ -59778,25 +56815,6 @@
   "image": null
  },
  {
-  "id": "Q11678698",
-  "name": "黒田重隆",
-  "wikipedia": "黒田重隆",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975305",
-    "name": "黒田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q11678700",
   "name": "黒田長元",
   "wikipedia": "黒田長元",
@@ -60084,80 +57102,6 @@
   "flags": [
    "clan_inferred_name"
   ],
-  "image": null
- },
- {
-  "id": "Q11679387",
-  "name": "龍造寺周家",
-  "wikipedia": "龍造寺周家",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1440180",
-    "name": "龍造寺氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11679393",
-  "name": "龍造寺家氏",
-  "wikipedia": "龍造寺家氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1440180",
-    "name": "龍造寺氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11679394",
-  "name": "龍造寺家純",
-  "wikipedia": "龍造寺家純",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1440180",
-    "name": "龍造寺氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q11679396",
-  "name": "龍造寺康家",
-  "wikipedia": "龍造寺康家",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1440180",
-    "name": "龍造寺氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
   "image": null
  },
  {
@@ -60519,23 +57463,6 @@
   "image": null
  },
  {
-  "id": "Q12594625",
-  "name": "松平守親",
-  "wikipedia": "松平守親",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q10856413",
-    "name": "竹谷松平家"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q128865368",
   "name": "丹羽氏春",
   "wikipedia": "丹羽氏春",
@@ -60544,8 +57471,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -60615,25 +57542,6 @@
   "id": "Q128865478",
   "name": "松平康詮",
   "wikipedia": "松平康詮",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1141077",
-    "name": "松平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q128865484",
-  "name": "松平康納",
-  "wikipedia": "松平康納",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -60923,51 +57831,6 @@
   "image": null
  },
  {
-  "id": "Q134615750",
-  "name": "奥平貞久",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11445783",
-    "name": "奥平氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q1348386",
-  "name": "北条氏綱",
-  "wikipedia": "北条氏綱",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q431928",
-    "name": "後北条氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Ujituna Hojo.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ujituna_Hojo.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Ujituna_Hojo.jpg/250px-Ujituna_Hojo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q135215895",
   "name": "蒔田定静",
   "wikipedia": null,
@@ -61063,26 +57926,6 @@
   "image": null
  },
  {
-  "id": "Q135409377",
-  "name": "青山長光",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975217",
-    "name": "青山氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q135411402",
   "name": "近藤忠用",
   "wikipedia": null,
@@ -61168,21 +58011,6 @@
   "image": null
  },
  {
-  "id": "Q136433874",
-  "name": "赤松氏貞",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q136533607",
   "name": "石野正直",
   "wikipedia": null,
@@ -61200,36 +58028,6 @@
  {
   "id": "Q136535523",
   "name": "石野則員",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q136749571",
-  "name": "小寺職治",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q136750203",
-  "name": "小寺豊職",
   "wikipedia": null,
   "primary_domain": null,
   "has_tenure": false,
@@ -61608,36 +58406,6 @@
   "image": null
  },
  {
-  "id": "Q141640432",
-  "name": "康雄 松平",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q141640613",
-  "name": "勝久 織田",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
   "id": "Q141640638",
   "name": "father of 松平頼純",
   "wikipedia": null,
@@ -61648,26 +58416,6 @@
   "clan_source": null,
   "flags": [
    "clan_missing",
-   "no_wikipedia"
-  ],
-  "image": null
- },
- {
-  "id": "Q141640671",
-  "name": "金森可重",
-  "wikipedia": null,
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975288",
-    "name": "金森氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name",
    "no_wikipedia"
   ],
   "image": null
@@ -62945,8 +59693,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -62980,8 +59728,8 @@
   "gen_label": "",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -63993,25 +60741,6 @@
   "image": null
  },
  {
-  "id": "Q15839246",
-  "name": "鍋島経房",
-  "wikipedia": "鍋島経房",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q3101516",
-    "name": "鍋島氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q15934258",
   "name": "根津信政",
   "wikipedia": "根津信政",
@@ -64195,23 +60924,6 @@
   }
  },
  {
-  "id": "Q17192646",
-  "name": "安東政季",
-  "wikipedia": "安東政季",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11450838",
-    "name": "安東氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q17192875",
   "name": "池田恒利",
   "wikipedia": "池田恒利",
@@ -64258,47 +60970,9 @@
   "image": null
  },
  {
-  "id": "Q17192965",
-  "name": "石川親康",
-  "wikipedia": "石川親康",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q615039",
-    "name": "石川氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q17192972",
   "name": "石川総恒",
   "wikipedia": "石川総恒",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q615039",
-    "name": "石川氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q17192979",
-  "name": "石川政康",
-  "wikipedia": "石川政康",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -64373,20 +61047,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Matsura_Takanobu%2817th%29.jpg/250px-Matsura_Takanobu%2817th%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q17216220",
-  "name": "小寺則職",
-  "wikipedia": "小寺則職 (戦国時代)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
  },
  {
   "id": "Q17221950",
@@ -64486,61 +61146,6 @@
   "image": null
  },
  {
-  "id": "Q18225905",
-  "name": "小笠原清宗",
-  "wikipedia": "小笠原清宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975340",
-    "name": "小笠原氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q18225912",
-  "name": "小笠原長朝",
-  "wikipedia": "小笠原長朝",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975340",
-    "name": "小笠原氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q18226767",
-  "name": "志佐純元",
-  "wikipedia": "志佐純元",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11531840",
-    "name": "松浦氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q18235826",
   "name": "安井重継",
   "wikipedia": "安井重継",
@@ -64629,25 +61234,6 @@
   "image": null
  },
  {
-  "id": "Q20039854",
-  "name": "黒田高政",
-  "wikipedia": "黒田高政 (戦国時代)",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975305",
-    "name": "黒田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q20040152",
   "name": "近藤重信",
   "wikipedia": "近藤重信",
@@ -64717,33 +61303,6 @@
   }
  },
  {
-  "id": "Q2087778",
-  "name": "足利義兼",
-  "wikipedia": "足利義兼",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Yoshikane.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Yoshikane.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "画：菊池容斎",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Ashikaga_Yoshikane.jpg/250px-Ashikaga_Yoshikane.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q2102247",
   "name": "長尾房長",
   "wikipedia": "長尾房長",
@@ -64754,25 +61313,6 @@
   "clan_source": null,
   "flags": [
    "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q210773",
-  "name": "太田資清",
-  "wikipedia": "太田資清",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1391922",
-    "name": "太田氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
   ],
   "image": null
  },
@@ -64815,25 +61355,6 @@
   "image": null
  },
  {
-  "id": "Q22123202",
-  "name": "井伊直平",
-  "wikipedia": "井伊直平",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2243336",
-    "name": "井伊氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q22124765",
   "name": "金丸筑前守",
   "wikipedia": "金丸筑前守",
@@ -64844,25 +61365,6 @@
   "clan_source": null,
   "flags": [
    "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q22130053",
-  "name": "得川親季",
-  "wikipedia": "得川親季",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2274150",
-    "name": "新田氏"
-   }
-  ],
-  "clan_source": "inherited_father",
-  "flags": [
-   "clan_inherited_father"
   ],
   "image": null
  },
@@ -64891,31 +61393,6 @@
    "author": "Unknown authorUnknown author",
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Shimazu_Takahisa.jpg/250px-Shimazu_Takahisa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q239170",
-  "name": "足利義教",
-  "wikipedia": "足利義教",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q28692536",
-    "name": "足利将軍家"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Ashikaga Yoshinori.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Yoshinori.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "ja: 不詳（瑞渓周鳳賛、足利義政花押） en: Unknown (inscription by Zuikei Shūhō, signature by Ashikaga Yoshimasa)",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Ashikaga_Yoshinori.jpg/250px-Ashikaga_Yoshinori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {
@@ -65004,31 +61481,6 @@
   }
  },
  {
-  "id": "Q248381",
-  "name": "足利義満",
-  "wikipedia": "足利義満",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q28692536",
-    "name": "足利将軍家"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Yoshimitsu Ashikaga cropped.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Yoshimitsu_Ashikaga_cropped.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": null,
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Yoshimitsu_Ashikaga_cropped.jpg/250px-Yoshimitsu_Ashikaga_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q24861352",
   "name": "阿部正晴",
   "wikipedia": "阿部正晴",
@@ -65046,34 +61498,6 @@
   "id": "Q24862744",
   "name": "河野通義",
   "wikipedia": "河野通義",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q24862953",
-  "name": "河野通之",
-  "wikipedia": "河野通之",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q24863298",
-  "name": "河野通朝",
-  "wikipedia": "河野通朝",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -65621,25 +62045,6 @@
   }
  },
  {
-  "id": "Q29410697",
-  "name": "井伊行直",
-  "wikipedia": "井伊行直",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2243336",
-    "name": "井伊氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q29410909",
   "name": "藤堂高清",
   "wikipedia": "藤堂高清",
@@ -65784,20 +62189,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Hachisuka_Narimasa.jpg/250px-Hachisuka_Narimasa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q3072072",
-  "name": "鷹司信尚",
-  "wikipedia": "鷹司信尚",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
  },
  {
   "id": "Q3080602",
@@ -66264,31 +62655,6 @@
   }
  },
  {
-  "id": "Q313808",
-  "name": "霊元天皇",
-  "wikipedia": "霊元天皇",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q909452",
-    "name": "皇室"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Emperor Reigen.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Emperor_Reigen.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Imperial Princess Masako",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Emperor_Reigen.jpg/250px-Emperor_Reigen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q3138980",
   "name": "鍋島勝茂",
   "wikipedia": "鍋島勝茂",
@@ -66695,31 +63061,6 @@
    "author": "Kanō Tadanobu",
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Tokugawa_Yoshimune.jpg/250px-Tokugawa_Yoshimune.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q320229",
-  "name": "後水尾天皇",
-  "wikipedia": "後水尾天皇",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q909452",
-    "name": "皇室"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Emperor Go-Mizunoo3.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Emperor_Go-Mizunoo3.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Ogata Kōrin",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Emperor_Go-Mizunoo3.jpg/250px-Emperor_Go-Mizunoo3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {
@@ -67599,95 +63940,6 @@
   "image": null
  },
  {
-  "id": "Q3341470",
-  "name": "二条尹房",
-  "wikipedia": "二条尹房",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": {
-   "file": "Nijō Tadafusa.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Nij%C5%8D_Tadafusa.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Nij%C5%8D_Tadafusa.jpg/250px-Nij%C5%8D_Tadafusa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q3341472",
-  "name": "二条尚基",
-  "wikipedia": "二条尚基",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": {
-   "file": "Nijō Hisamoto.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Nij%C5%8D_Hisamoto.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Nij%C5%8D_Hisamoto.jpg/250px-Nij%C5%8D_Hisamoto.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q3341474",
-  "name": "二条晴良",
-  "wikipedia": "二条晴良",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q3341475",
-  "name": "二条政嗣",
-  "wikipedia": "二条政嗣",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q3342232",
-  "name": "新田義宗",
-  "wikipedia": "新田義宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2274150",
-    "name": "新田氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q3350116",
   "name": "奥平忠政",
   "wikipedia": "奥平忠政",
@@ -67822,20 +64074,6 @@
   "image": null
  },
  {
-  "id": "Q3390342",
-  "name": "長尾忠景",
-  "wikipedia": "長尾忠景",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q3473967",
   "name": "里見忠義",
   "wikipedia": "里見忠義",
@@ -67881,31 +64119,6 @@
    "author": "Tokugawa Mochinaga",
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Toku14-2.jpg/250px-Toku14-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q349440",
-  "name": "後陽成天皇",
-  "wikipedia": "後陽成天皇",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q909452",
-    "name": "皇室"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Emperor Go-Yozei3.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Emperor_Go-Yozei3.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Kanō Takanobu（1571 - 1618）",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Emperor_Go-Yozei3.jpg/250px-Emperor_Go-Yozei3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {
@@ -68294,23 +64507,6 @@
   }
  },
  {
-  "id": "Q38277718",
-  "name": "藤原信昌",
-  "wikipedia": "藤原信昌",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1132077",
-    "name": "織田氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
- },
- {
   "id": "Q38277719",
   "name": "藤原将広",
   "wikipedia": "藤原将広",
@@ -68328,31 +64524,6 @@
    "clan_inherited_father"
   ],
   "image": null
- },
- {
-  "id": "Q386144",
-  "name": "太田道灌",
-  "wikipedia": "太田道灌",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1391922",
-    "name": "太田氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Outa Doukan.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Outa_Doukan.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Ōta Sukenobu",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Outa_Doukan.jpg/250px-Outa_Doukan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
  },
  {
   "id": "Q390369",
@@ -68394,104 +64565,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Matsudaira_Naonori.jpg/250px-Matsudaira_Naonori.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q4306913",
-  "name": "足利成氏",
-  "wikipedia": "足利成氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Ashikaga Shigeuji Koga Kubo.png",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Shigeuji_Koga_Kubo.png",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Utagawa Kunisada II",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Ashikaga_Shigeuji_Koga_Kubo.png/250px-Ashikaga_Shigeuji_Koga_Kubo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q4306921",
-  "name": "足利基氏",
-  "wikipedia": "足利基氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Motouji.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Motouji.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Kano Doshun",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Ashikaga_Motouji.jpg/250px-Ashikaga_Motouji.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q4306934",
-  "name": "足利氏満",
-  "wikipedia": "足利氏満",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Ujimitsu.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Ujimitsu.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Ashikaga_Ujimitsu.jpg/250px-Ashikaga_Ujimitsu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q4307089",
-  "name": "足利満兼",
-  "wikipedia": "足利満兼",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
  },
  {
   "id": "Q4346047",
@@ -68716,58 +64789,6 @@
    "clan_missing"
   ],
   "image": null
- },
- {
-  "id": "Q466281",
-  "name": "足利義澄",
-  "wikipedia": "足利義澄",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q28692536",
-    "name": "足利将軍家"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Yoshizumi asikaga.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Yoshizumi_asikaga.jpg",
-   "license": "CC BY-SA 3.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "author": "Geneast",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Yoshizumi_asikaga.jpg/250px-Yoshizumi_asikaga.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q466321",
-  "name": "足利義詮",
-  "wikipedia": "足利義詮",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Yoshiakira.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Yoshiakira.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown (Inscriber unknown)",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Ashikaga_Yoshiakira.jpg/250px-Ashikaga_Yoshiakira.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
  },
  {
   "id": "Q4666427",
@@ -69148,33 +65169,6 @@
   }
  },
  {
-  "id": "Q4805073",
-  "name": "足利持氏",
-  "wikipedia": "足利持氏",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Mochijuji color.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Mochijuji_color.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Ashikaga_Mochijuji_color.jpg/250px-Ashikaga_Mochijuji_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q521070",
   "name": "田沼意次",
   "wikipedia": "田沼意次",
@@ -69389,33 +65383,6 @@
   }
  },
  {
-  "id": "Q5227551",
-  "name": "伊達稙宗",
-  "wikipedia": "伊達稙宗",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1151061",
-    "name": "伊達氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Date Tanemune.JPG",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Date_Tanemune.JPG",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "仙台市博物館",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Date_Tanemune.JPG/250px-Date_Tanemune.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q5227557",
   "name": "伊達綱村",
   "wikipedia": "伊達綱村",
@@ -69583,33 +65550,6 @@
   }
  },
  {
-  "id": "Q536313",
-  "name": "足利義晴",
-  "wikipedia": "足利義晴",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q725370",
-    "name": "足利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "Ashikaga Yoshiharu.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Ashikaga_Yoshiharu.jpg",
-   "license": "CC BY-SA 3.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-   "author": "Geneast",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Ashikaga_Yoshiharu.jpg/250px-Ashikaga_Yoshiharu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
   "id": "Q5366204",
   "name": "里見義堯",
   "wikipedia": "里見義堯",
@@ -69653,52 +65593,6 @@
    "author": "Unknown authorUnknown author",
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sakai_Tadakatsu%28%E5%BA%84%E5%86%85%29.jpg/250px-Sakai_Tadakatsu%28%E5%BA%84%E5%86%85%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q5368164",
-  "name": "龍造寺家兼",
-  "wikipedia": "龍造寺家兼",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q1440180",
-    "name": "龍造寺氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q5368466",
-  "name": "蒲生定秀",
-  "wikipedia": "蒲生定秀",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975251",
-    "name": "蒲生氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": {
-   "file": "蒲生定秀.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:%E8%92%B2%E7%94%9F%E5%AE%9A%E7%A7%80.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/%E8%92%B2%E7%94%9F%E5%AE%9A%E7%A7%80.jpg/250px-%E8%92%B2%E7%94%9F%E5%AE%9A%E7%A7%80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {
@@ -70111,25 +66005,6 @@
    {
     "id": "Q10900894",
     "name": "加藤氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
-  "id": "Q56886224",
-  "name": "小笠原安元",
-  "wikipedia": "小笠原安元",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q2975340",
-    "name": "小笠原氏"
    }
   ],
   "clan_source": "inferred_name",
@@ -70815,20 +66690,6 @@
   }
  },
  {
-  "id": "Q60229884",
-  "name": "高木貞利",
-  "wikipedia": "高木貞利",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
   "id": "Q6036674",
   "name": "井上正直",
   "wikipedia": "井上正直",
@@ -71024,37 +66885,6 @@
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/It%C5%8D_Yoshisuke.png/250px-It%C5%8D_Yoshisuke.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
- },
- {
-  "id": "Q60986486",
-  "name": "宇津忠与",
-  "wikipedia": "宇津忠与",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q60989729",
-  "name": "世良田政義",
-  "wikipedia": "世良田政義",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q11362535",
-    "name": "世良田氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": null
  },
  {
   "id": "Q610933",
@@ -72012,20 +67842,6 @@
   "id": "Q6606038",
   "name": "下間真頼",
   "wikipedia": "下間真頼",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q6606060",
-  "name": "下間頼慶",
-  "wikipedia": "下間頼慶",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -74566,25 +70382,6 @@
   "image": null
  },
  {
-  "id": "Q6951120",
-  "name": "毛利豊元",
-  "wikipedia": "毛利豊元",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q914637",
-    "name": "毛利氏"
-   }
-  ],
-  "clan_source": "inferred_name",
-  "flags": [
-   "clan_inferred_name"
-  ],
-  "image": null
- },
- {
   "id": "Q6956818",
   "name": "鍋島元茂",
   "wikipedia": "鍋島元茂",
@@ -75774,8 +71571,8 @@
   "gen_label": "二本松藩13代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -75801,8 +71598,8 @@
   "gen_label": "二本松藩14代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -75828,8 +71625,8 @@
   "gen_label": "二本松藩12代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -77702,8 +73499,8 @@
   "gen_label": "二本松藩11代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -78565,28 +74362,6 @@
    "author": "Unknown authorUnknown author",
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ikeda_Yukisuke%28Motosuke%29.jpg/250px-Ikeda_Yukisuke%28Motosuke%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q837231",
-  "name": "誠仁親王",
-  "wikipedia": "誠仁親王",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": {
-   "file": "Prince Sanehito.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Prince_Sanehito.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Prince_Sanehito.jpg/250px-Prince_Sanehito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {
@@ -80075,8 +75850,8 @@
   "gen_label": "二本松藩5代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -80119,8 +75894,8 @@
   "gen_label": "二本松藩10代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -80146,8 +75921,8 @@
   "gen_label": "二本松藩9代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -80173,8 +75948,8 @@
   "gen_label": "二本松藩8代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -80200,8 +75975,8 @@
   "gen_label": "白河藩2代・二本松藩4代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -80227,8 +76002,8 @@
   "gen_label": "二本松藩7代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -85931,8 +81706,8 @@
   "gen_label": "常陸古渡藩2代・江戸崎藩3代・棚倉藩2代・白河藩1代",
   "clans": [
    {
-    "id": "Q2661652",
-    "name": "丹羽氏"
+    "id": "Q26203255",
+    "name": "丹羽"
    }
   ],
   "clan_source": "inferred_name",
@@ -86030,49 +81805,6 @@
    "author": "投稿者がファイル作成",
    "display": true,
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Kukiyoshitaka2.jpg/250px-Kukiyoshitaka2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-  }
- },
- {
-  "id": "Q923033",
-  "name": "鷹司信房",
-  "wikipedia": "鷹司信房",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [],
-  "clan_source": null,
-  "flags": [
-   "clan_missing"
-  ],
-  "image": null
- },
- {
-  "id": "Q924929",
-  "name": "北条早雲",
-  "wikipedia": "北条早雲",
-  "primary_domain": null,
-  "has_tenure": false,
-  "gen_label": "",
-  "clans": [
-   {
-    "id": "Q431928",
-    "name": "後北条氏"
-   },
-   {
-    "id": "Q16141593",
-    "name": "伊勢氏"
-   }
-  ],
-  "clan_source": "wikidata",
-  "flags": [],
-  "image": {
-   "file": "Soun Hojo portrait.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Soun_Hojo_portrait.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "author": "Unknown authorUnknown author",
-   "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Soun_Hojo_portrait.jpg/250px-Soun_Hojo_portrait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {

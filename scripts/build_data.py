@@ -838,10 +838,50 @@ def build():
         if len(ps) > 1:                  # 実父は1人のはず。2人以上は Wikidata 側の食い違い(または性別未入力の母)
             warn("warn", "multiple_fathers", child,
                  f"{labels_of.get(child)}: 実父が複数あります({'、'.join(str(labels_of.get(x)) for x in sorted(ps))})")
-    # 養子関係の辺を出力に含めるか(config.json の include_adoption)。false のあいだは実父子の辺だけを出す。
+    # 養子関係の辺を出力に含めるか(config.json の include_adoption)。
+    #   false   … 実父子の辺だけを出す。
+    #   true    … 判定できた養子関係をすべて出す。
+    #   "roots" … 実父がデータに無い人(家系図の一番上の人)に限って、養親からの辺を出す。
+    #             実父の線で既につながっている養子にまで足すと線が混み合うので、孤立した系統をつなぐ分だけにする。
+    #             向きの分からない関係(adoption_unknown)は、誤った親子の向きを描かないよう出さない。
     # 判定そのもの(adoption)は続ける: 「養子は実父の氏を継がない」という氏の推定で使うため。
     include_adoption = CONFIG.get("include_adoption", True)
-    if include_adoption:
+    adoption_roots_stats = None
+    if include_adoption == "roots":
+        has_father = {e["target"] for e in relations if e["type"] == "blood"}
+        graph = defaultdict(set)         # 循環の判定用(親 → 子)
+        for e in relations:
+            graph[e["source"]].add(e["target"])
+
+        def reaches(a, b):
+            """a から子の向きにたどって b に着くか(着くなら b → a の辺で循環になる)。"""
+            seen, stack = set(), [a]
+            while stack:
+                x = stack.pop()
+                if x == b:
+                    return True
+                for y in graph.get(x, ()):
+                    if y not in seen:
+                        seen.add(y)
+                        stack.append(y)
+            return False
+
+        picked, cyc = [], 0
+        for e in sorted(adoption.values(), key=lambda e: e["id"]):
+            if e["type"] == "adoption_unknown" or e["target"] in has_father:
+                continue
+            if reaches(e["target"], e["source"]):
+                cyc += 1
+                warn("warn", "adoption_cycle", e["target"],
+                     f"{labels_of.get(e['target'])}: 養親 {labels_of.get(e['source'])} からの線は家系の循環になるため描いていません")
+                continue
+            graph[e["source"]].add(e["target"])
+            picked.append(dict(e, flags=["adoption_root"]))
+        relations += picked
+        roots = {p for p in nodes if p not in has_father}
+        adoption_roots_stats = {"roots": len(roots), "edges": len(picked),
+                                "roots_connected": len({e["target"] for e in picked}), "skipped_cycle": cyc}
+    elif include_adoption:
         relations += sorted(adoption.values(), key=lambda e: e["id"])
     skipped_total = dict(skipped_rel)
     for e in relations:
@@ -858,7 +898,8 @@ def build():
     for p in nodes:
         for c in meta[p]["clans"]:
             by_stem[stem_of[c]][c] += 1
-    stems = sorted((s for s in by_stem if s), key=lambda s: -len(s))
+    # nodes は set で、並び順が実行ごとに変わる。同数・同じ長さのときの選び方を固定し、結果が揺れないようにする。
+    stems = sorted((s for s in by_stem if s), key=lambda s: (-len(s), s))
 
     def infer_by_name(name, exclude=None):
         """名前の先頭が既知の氏の語幹と一致すれば、その氏を返す(最長一致)。
@@ -867,7 +908,7 @@ def build():
         for s in stems:
             cnt = by_stem[s] - own
             if cnt and (name or "").startswith(s):
-                return cnt.most_common(1)[0][0]
+                return min(cnt.items(), key=lambda kv: (-kv[1], kv[0]))[0]   # 最多の氏。同数なら QID の順
         return None
 
     # 推定の精度を、氏が Wikidata にある人物で自己採点する。
@@ -953,6 +994,51 @@ def build():
         dom["first_year"] = min((t["start"] for t in ts if t["start"]), default=None)
         dom["last_year"] = max((t["end"] for t in ts if t["end"]), default=None)
 
+    # ---------------- 祖先の間引き(config.json の ancestor_keep_generations) ----------------
+    # 実父は ANCESTOR_GENS 世代までたどって取得する(ほかの藩主の系統と合流するかを確かめるため)。
+    # ただし合流しない祖先まで全部載せると、家系図の上に藩主と関係の薄い長い列が伸びて見づらい。そこで載せるのは:
+    #   1) 藩主全員
+    #   2) 各藩主から KEEP 世代まで(実父・祖父…)の祖先
+    #   3) 合流点(藩主のいる系統が2つ以上分かれ出る祖先)と、そこから藩主へ下る途中の人。
+    #      藩主から、藩主でない子・孫…を挟んで別の藩主へ下る途中の人も残す(切ると藩主どうしのつながりが途切れる)。
+    # 養子の線(include_adoption)も親子のつながりとして扱う。藩主どうしのつながり(島)は変わらない。
+    KEEP = CONFIG.get("ancestor_keep_generations")
+    pruned = 0
+    if KEEP is not None:
+        kids, pars = defaultdict(set), defaultdict(set)
+        for e in relations:
+            kids[e["source"]].add(e["target"])
+            pars[e["target"]].add(e["source"])
+        rulers = {p for p, l in lords.items() if l["has_tenure"]}
+        reach = {}                       # その人自身か子孫に藩主がいるか
+
+        def reaches_ruler(x, stack=()):
+            if x not in reach:
+                if x in stack:           # 念のため(循環はビルドで除いている)
+                    return False
+                reach[x] = x in rulers or any([reaches_ruler(c, stack + (x,)) for c in kids.get(x, ())])
+            return reach[x]
+
+        connectors = {p for p in lords if p not in rulers and sum(1 for c in kids.get(p, ()) if reaches_ruler(c)) >= 2}
+        keep = set(rulers)
+        for r in rulers:                 # 2) 各藩主から KEEP 世代まで
+            level = {r}
+            for _ in range(KEEP):
+                level = {q for x in level for q in pars.get(x, ())}
+                keep |= level
+        below = set()                    # 3) 合流点・藩主から子孫の向きに、藩主へ続く人
+        stack = list(connectors) + [c for r in rulers for c in kids.get(r, ())]
+        while stack:
+            x = stack.pop()
+            if x in below or not reaches_ruler(x):
+                continue
+            below.add(x)
+            stack.extend(kids.get(x, ()))
+        keep |= below
+        pruned = len(lords) - len(keep & set(lords))
+        lords = {p: l for p, l in lords.items() if p in keep}
+        relations = [e for e in relations if e["source"] in lords and e["target"] in lords]
+
     nclan = Counter(l["clan_source"] or "none" for l in lords.values())
     # 地方別の藩数・藩主数(index.html に載せる数字)。藩主は「その地方の藩に在任したことがある人」で数えるので、
     # 転封で複数の地方に在任した人は、それぞれの地方に数える(地方の合計は全体の人数より多くなる)。
@@ -981,9 +1067,11 @@ def build():
         "p1039_roles": {q: {"label": (labels.get(q) or {}).get("ja"), "role": classify_role(q, labels)} for q in labels},
         "fetched": {"meta": have_meta, "outside_children": have_outside, "gender": have_gender},
         "excluded": {"female": len(female), "parent_gender_unknown": len(gender_unknown),
-                     "adoption_edges": 0 if include_adoption else len(adoption)},
+                     "adoption_edges": len(adoption) - sum(1 for e in relations if e["type"] != "blood")},
         "include_adoption": include_adoption,
+        "adoption_roots": adoption_roots_stats,
         "ancestor_generations": ANCESTOR_GENS,
+        "ancestor_keep_generations": KEEP, "ancestors_pruned": pruned,
     })
     print(f"domains={len(domains)} lords={len(lords)} tenures={len(tenures)} relations={len(relations)}")
     print("氏の出所:", dict(nclan), "/ 名前推定の自己採点:", infer_stats)
