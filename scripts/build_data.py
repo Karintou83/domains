@@ -126,6 +126,24 @@ SELECT ?person ?father ?fatherLabel ?via WHERE {{
 }}"""
 
 
+def q_adopted_by(ids):
+    """ids の人物を親族(P1038)として挙げている項目。関係(P1039)が「養子」などなら、その項目の人物が養親。
+    本人の項目に養親が書かれていない場合(養親の項目にだけ「〇〇を養子にした」と書かれている場合)を拾うため。"""
+    vals = " ".join(f"wd:{i}" for i in ids)
+    return f"""
+SELECT ?person ?other ?otherLabel ?rel WHERE {{
+  VALUES ?person {{ {vals} }}
+  ?other p:P1038 ?st . ?st ps:P1038 ?person . OPTIONAL {{ ?st pq:P1039 ?rel }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
+}}"""
+
+
+def adopted_by_rows(rows):
+    """adopted_by.json の行を family.json と同じ形(養親の項目から見た P1038 の行)に直す。"""
+    return [{"person": r["other"], "kind": "P1038", "other": r["person"], "rel": r.get("rel"),
+             "personLabel": r.get("otherLabel")} for r in rows]
+
+
 def q_meta(ids):
     """日本語版Wikipedia記事名 (sitelink) と氏 (P53)。GROUP BY を使わず行を返し、Python側で畳む
     (ラベルサービスと集約の組み合わせは WDQS で不安定なため)。"""
@@ -272,22 +290,18 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
     # 実父を ANCESTOR_GENS 世代さかのぼる(養子は無視)。世代ごとに「まだ父を問い合わせていない人」だけを問い合わせる。
     # 問い合わせ済みかどうかは ancestors.json の done に人物ごとに控えるので、藩主が増えたときや
     # 世代数を増やしたときも、足りない分だけを取得する(touhoku-domains の ancestors_gens.json の仕組みを置き換えた)。
-    anc, seen, frontier = [], set(persons), set(persons)
-    for g in range(ANCESTOR_GENS):
-        if not frontier:
-            break
-        rows = cached_by_id("ancestors.json", frontier, lambda ch: sparql(q_parents(ch)), 100, key="person")
-        anc += rows
-        frontier = {qid(r["father"]) for r in rows} - seen
-        seen |= frontier
+    anc, seen = [], set(persons)
 
-    fathers = sorted({qid(r["other"]) for r in fam if r["kind"] == "P22"} | {qid(r["father"]) for r in anc})
-    outside = [f for f in fathers if f not in set(persons)]
-    meta_ids = sorted(set(persons) | set(fathers) | set(domains) | {e["domain"] for e in EXTRA_POSITIONS.values()})
-    cached_by_id("meta.json", meta_ids, lambda ch: sparql(q_meta(ch)), 80, key="item")
-    cached_by_id("outside_children.json", outside, lambda ch: sparql(q_children(ch)), 60, key="parent")
-
-    rels = sorted({qid(r["rel"]) for r in fam if r["kind"] == "P1038" and r.get("rel")})
+    def climb(start):
+        frontier = set(start)
+        for g in range(ANCESTOR_GENS):
+            if not frontier:
+                break
+            rows = cached_by_id("ancestors.json", frontier, lambda ch: sparql(q_parents(ch)), 100, key="person")
+            anc.extend(rows)
+            frontier = {qid(r["father"]) for r in rows} - seen
+            seen.update(frontier)
+    climb(persons)
 
     def labels(ch):
         ents = api(action="wbgetentities", ids="|".join(ch), props="labels|descriptions", languages="ja|en")["entities"]
@@ -295,7 +309,31 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
                  "ja": ents.get(i, {}).get("labels", {}).get("ja", {}).get("value"),
                  "en": ents.get(i, {}).get("labels", {}).get("en", {}).get("value"),
                  "desc_ja": ents.get(i, {}).get("descriptions", {}).get("ja", {}).get("value")} for i in ch]
-    cached_by_id("p1039_labels.json", rels, labels, 50, key="id")
+
+    # 養親(include_adoption が true / "roots" のとき): 実父が見つからない藩主について、養親を両方向から探す。
+    #   本人の項目の P1038(family.json)と、ほかの項目から「養子」として挙げられているもの(adopted_by.json)。
+    # データに無い養親は、藩主と同じように実父をさかのぼって取得する(養親の系統で、ほかの藩主とつながるかを確かめるため)。
+    adoptive = set()
+    fam_all = list(fam)
+    if CONFIG.get("include_adoption", True):
+        has_father = {qid(r["person"]) for r in anc} | {qid(r["person"]) for r in fam if r["kind"] == "P22"}
+        roots = sorted(set(persons) - has_father)
+        fam_all += adopted_by_rows(cached_by_id("adopted_by.json", roots, lambda ch: sparql(q_adopted_by(ch)), 100,
+                                                key="person"))
+        rels = sorted({qid(r["rel"]) for r in fam_all if r["kind"] == "P1038" and r.get("rel")})
+        lab = {r["id"]: r for r in cached_by_id("p1039_labels.json", rels, labels, 50, key="id")}
+        adoptive = adoptive_parents_of(fam_all, set(roots), lab) - set(persons)
+        climb(sorted(adoptive - seen))
+        seen |= adoptive
+    else:
+        rels = sorted({qid(r["rel"]) for r in fam if r["kind"] == "P1038" and r.get("rel")})
+        cached_by_id("p1039_labels.json", rels, labels, 50, key="id")
+
+    fathers = sorted({qid(r["other"]) for r in fam if r["kind"] == "P22"} | {qid(r["father"]) for r in anc} | adoptive)
+    outside = [f for f in fathers if f not in set(persons)]
+    meta_ids = sorted(set(persons) | set(fathers) | set(domains) | {e["domain"] for e in EXTRA_POSITIONS.values()})
+    cached_by_id("meta.json", meta_ids, lambda ch: sparql(q_meta(ch)), 80, key="item")
+    cached_by_id("outside_children.json", outside, lambda ch: sparql(q_children(ch)), 60, key="parent")
 
     # 画像: Wikidata の P18 (画像) → Commons のファイル → ライセンス・作者(extmetadata)
     # 画像そのものは保存せず、サイトは Commons のサムネイルを直接参照する。出典・ライセンス表示のため、
@@ -367,6 +405,25 @@ def classify_role(qid_, labels):
     if any(k in text for k in CHILD_KW):
         return "child"
     return "other"
+
+
+def adoptive_parents_of(fam_rows, targets, labels):
+    """targets(実父が分からない藩主)の養親。P1038 の行のうち、関係(P1039)から向きが分かるものだけを使う。"""
+    out = set()
+    for r in fam_rows:
+        if r["kind"] != "P1038" or not r.get("rel"):
+            continue
+        role = classify_role(qid(r["rel"]), labels)
+        person, other = qid(r["person"]), qid(r["other"])
+        if role == "parent":
+            parent, child = other, person
+        elif role == "child":
+            parent, child = person, other
+        else:
+            continue
+        if child in targets:
+            out.add(parent)
+    return out
 
 
 def is_son_in_law(qid_, labels):
@@ -663,6 +720,7 @@ def build():
         else:
             fam.append({"person": r["father"], "kind": "P40", "other": r["person"], "otherLabel": None,
                         "personLabel": r.get("fatherLabel")})
+    fam += adopted_by_rows(load("adopted_by.json", []))   # ほかの項目から「養子」として挙げられている関係
     lords_p39 = {t["lord"] for t in tenures}
     for r in fam:                        # 下で行を除く前にラベルを控える(警告文に名前を出すため)
         labels_of.setdefault(qid(r["other"]), r.get("otherLabel"))
@@ -713,7 +771,12 @@ def build():
         elif r["kind"] == "P40":
             up[qid(r["other"])].add(qid(r["person"]))
     # 藩主から1世代ずつ、ANCESTOR_GENS 世代まで(藩主でない祖先だけを数える。途中に藩主がいれば、そこから数え直しになる)。
-    nodes, level = set(lords_p39), set(lords_p39)
+    # 実父が分からない藩主の養親も起点にする(養親の系統で、ほかの藩主とつながるかを見るため)。
+    # 女性の養親(養母)は、上で行ごと除いてあるので入らない。
+    seeds = set(lords_p39)
+    if CONFIG.get("include_adoption", True):
+        seeds |= adoptive_parents_of(fam, {p for p in lords_p39 if not up.get(p)}, load_labels())
+    nodes, level = set(seeds), set(seeds)
     for _ in range(ANCESTOR_GENS):
         level = {par for c in level for par in up.get(c, ())} - nodes
         nodes |= level

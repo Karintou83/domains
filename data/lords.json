@@ -56549,6 +56549,26 @@
   "image": null
  },
  {
+  "id": "Q11678638",
+  "name": "黒田用綱",
+  "wikipedia": null,
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [
+   {
+    "id": "Q2975305",
+    "name": "黒田氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name",
+   "no_wikipedia"
+  ],
+  "image": null
+ },
+ {
   "id": "Q11678642",
   "name": "黒田直亨",
   "wikipedia": "黒田直亨",

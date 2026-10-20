@@ -143,6 +143,17 @@
   ]
  },
  {
+  "id": "adoption:Q11678638:Q11678653",
+  "source": "Q11678638",
+  "target": "Q11678653",
+  "type": "adoption",
+  "rel": "Q61740757",
+  "rel_label": "養父",
+  "flags": [
+   "adoption_root"
+  ]
+ },
+ {
   "id": "adoption:Q3331279:Q10524711",
   "source": "Q3331279",
   "target": "Q10524711",
