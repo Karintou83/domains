@@ -2857,6 +2857,12 @@
  },
  {
   "level": "warn",
+  "kind": "p1039_unlisted",
+  "subject": "Q180472",
+  "message": "P1039 Q180472(養子縁組)は養子関係らしいラベルですが、config.json の p1039_roles に無いため養子関係として扱っていません(扱うなら p1039_roles に追加)"
+ },
+ {
+  "level": "warn",
   "kind": "p22_without_p40",
   "subject": "Q11397460",
   "message": "前田利昭 の実父が 前田利豁 ですが、父側に P40 がありません"
@@ -4384,6 +4390,12 @@
  {
   "level": "info",
   "kind": "p1039_skipped",
+  "subject": "Q13204680",
+  "message": "P1038の関係 Q13204680(義父) 13件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
   "subject": "Q15224724",
   "message": "P1038の関係 Q15224724(甥) 6件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
@@ -4398,6 +4410,12 @@
   "kind": "p1039_skipped",
   "subject": "Q167918",
   "message": "P1038の関係 Q167918(祖父母) 2件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q180472",
+  "message": "P1038の関係 Q180472(養子縁組) 3件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",
@@ -4440,6 +4458,12 @@
   "kind": "p1039_skipped",
   "subject": "Q3238556",
   "message": "P1038の関係 Q3238556(義姉妹) 1件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
+ },
+ {
+  "level": "info",
+  "kind": "p1039_skipped",
+  "subject": "Q3752578",
+  "message": "P1038の関係 Q3752578(娘婿) 22件は養子関係ではないため辺にしていません(養子関係として扱うなら config.json の p1039_roles で指定)"
  },
  {
   "level": "info",

@@ -382,29 +382,29 @@ def load_labels():
     return {r["id"]: r for r in load("p1039_labels.json", [])}
 
 
-# P1039 (主題から見て P1038 の値が何にあたるか) のラベル → 役割。
-# ラベル文字列で分類する理由: QID を決め打ちすると、記憶違いがそのままデータの誤りになるため。
-# P1038 は「親族 (relative)」全般なので、兄弟・甥・祖父なども入っている。養親/養子に当たらないものは
-# "other"(家系図には描かない)として除外し、warnings(info)に一度だけ列挙する。
-# 判定を変えたいときは config.json の p1039_roles で "parent" / "child" / "other" を指定する。
-PARENT_KW = ("養父", "養母", "義父", "義母", "養親", "adoptive father", "adoptive mother", "adoptive parent",
-             "foster father", "foster mother")
-CHILD_KW = ("養子", "養女", "婿", "養嗣子", "adopted son", "adopted daughter", "adopted child", "son-in-law",
-            "foster son")
+# P1039 (主題から見て P1038 の値が何にあたるか) → 役割。
+# 養子関係として扱う QID は config.json の p1039_roles に明示し、それ以外はすべて "other"(家系図に描かない)にする。
+# 以前はラベルの語(「養」「婿」「父」など)で分類していたが、「娘婿」(son-in-law)を養子、「義父」(father-in-law)を
+# 養親と誤判定していた。明示した QID は、実データに出てくる P1039 の値を Wikidata のラベル・説明で一つずつ確かめたもの。
+# 役割: "parent"(養親側) / "child"(養子側) / "son_in_law"(婿養子。養子側で、線を破線にする) / "other"
+# ラベルの語は、一覧に無い QID に養子関係らしきものが現れたときに知らせる(p1039_unlisted)ためだけに使う。
+ADOPTION_HINT_KW = ("養父", "養母", "養親", "養子", "養女", "養男子", "婿養子", "養嗣子",
+                    "adoptive", "adopted", "foster")
 
 
-def classify_role(qid_, labels):
-    forced = CONFIG["p1039_roles"].get(qid_)
-    if forced:
-        return forced
+def p1039_role(qid_):
+    return CONFIG["p1039_roles"].get(qid_, "other")
+
+
+def classify_role(qid_, labels=None):
+    role = p1039_role(qid_)
+    return "child" if role == "son_in_law" else role
+
+
+def looks_like_adoption(qid_, labels):
     lab = labels.get(qid_) or {}
     text = " ".join(filter(None, [lab.get("ja"), lab.get("en")])).lower()
-    # 「養父」を先に判定: 「養子」を含む語より優先する理由は特になく、短いキーワードの誤爆を避けるため。
-    if any(k in text for k in PARENT_KW):
-        return "parent"
-    if any(k in text for k in CHILD_KW):
-        return "child"
-    return "other"
+    return any(k in text for k in ADOPTION_HINT_KW)
 
 
 def adoptive_parents_of(fam_rows, targets, labels):
@@ -426,10 +426,8 @@ def adoptive_parents_of(fam_rows, targets, labels):
     return out
 
 
-def is_son_in_law(qid_, labels):
-    lab = labels.get(qid_) or {}
-    text = " ".join(filter(None, [lab.get("ja"), lab.get("en")])).lower()
-    return "婿" in text or "son-in-law" in text
+def is_son_in_law(qid_, labels=None):
+    return p1039_role(qid_) == "son_in_law"
 
 
 def build():
@@ -836,6 +834,11 @@ def build():
                                  "rel": rel, "rel_label": (labels.get(rel) or {}).get("ja")}
             if role == "unknown":
                 unclassified[person] += 1
+    for rel in sorted(skipped_rel):
+        if rel and rel not in CONFIG["p1039_roles"] and looks_like_adoption(rel, labels):
+            warn("warn", "p1039_unlisted", rel,
+                 f"P1039 {rel}({(labels.get(rel) or {}).get('ja')})は養子関係らしいラベルですが、config.json の "
+                 "p1039_roles に無いため養子関係として扱っていません(扱うなら p1039_roles に追加)")
     for rel, n in skipped_rel.items():
         warn("info", "p1039_skipped", rel or "-",
              f"P1038の関係 {rel}({(labels.get(rel) or {}).get('ja')}) {n}件は養子関係ではないため辺にしていません"

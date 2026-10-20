@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T13:30:02+00:00",
+ "generated_at": "2026-10-20T13:31:17+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
   "domains": 496,
@@ -8,8 +8,8 @@
   "relations": 3592,
   "rulers": 3416,
   "warnings": {
-   "warn": 538,
-   "info": 215
+   "warn": 539,
+   "info": 218
   }
  },
  "regions": [
@@ -96,7 +96,10 @@
   "Q76557": 4,
   "Q11666901": 14,
   "Q15224724": 6,
+  "Q3752578": 22,
+  "Q13204680": 13,
   "Q3238556": 1,
+  "Q180472": 3,
   "Q10291472": 4,
   "Q3972282": 1,
   "Q15657883": 2,
@@ -135,7 +138,7 @@
   },
   "Q13204680": {
    "label": "義父",
-   "role": "parent"
+   "role": "other"
   },
   "Q15224724": {
    "label": "甥",
@@ -151,7 +154,7 @@
   },
   "Q180472": {
    "label": "養子縁組",
-   "role": "child"
+   "role": "other"
   },
   "Q183905": {
    "label": "子孫",
@@ -199,7 +202,7 @@
   },
   "Q3752578": {
    "label": "娘婿",
-   "role": "child"
+   "role": "other"
   },
   "Q3972282": {
    "label": "兄",
@@ -242,7 +245,7 @@
  "excluded": {
   "female": 0,
   "parent_gender_unknown": 1,
-  "adoption_edges": 969
+  "adoption_edges": 955
  },
  "include_adoption": "roots",
  "adoption_roots": {
