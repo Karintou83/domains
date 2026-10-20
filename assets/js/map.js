@@ -4,7 +4,7 @@
   const $ = (id) => document.getElementById(id);
   const PRECISION_LABEL = {
     exact: "藩の所在地の座標(Wikidata P625 または 城・陣屋)",
-    approx: "概略位置: 藩の所在地(市町村)の座標で、陣屋の位置ではありません",
+    approx: "概略位置: 城・陣屋の座標が無いため、所在地の市町村・郡などの座標で代用しています(陣屋の位置ではありません)",
     branch: "仮置き: 本藩の陣屋の近くに置いています(実際の位置ではありません)",
     seat_override: "所在地を城に固定しています(config.json の seat_overrides)",
   };

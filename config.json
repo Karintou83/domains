@@ -628,6 +628,16 @@
       "note": "徳川将軍。江戸として武蔵国とする(ユーザーの判断)"
     }
   },
+  "_comment_district_to_province": "郡 → 旧国の対応表。藩の所在地(P131)が郡で、Wikidata から旧国が決まらないときに使う(Wikidata の郡の項目は今の都道府県にしかつながっておらず、旧国にたどれないため)。表に無い郡は warnings の province_district_unlisted で知らせる。初期値の7郡は Claude が一般的な対応として記入したもので、出典での確認は未了(各郡の日本語版 Wikipedia などで確認すること)。",
+  "district_to_province": {
+    "Q11431107": {"name": "多賀郡", "province": "Q1055353"},
+    "Q1143717": {"name": "夷隅郡", "province": "Q1055394"},
+    "Q11498435": {"name": "揖東郡", "province": "Q1047523"},
+    "Q11553459": {"name": "河内郡(常陸国)", "province": "Q1055353"},
+    "Q1933120": {"name": "加東郡", "province": "Q1047523"},
+    "Q5617095": {"name": "郡上郡", "province": "Q864156"},
+    "Q5765974": {"name": "新治郡", "province": "Q1055353"}
+  },
   "_comment_province_overrides": "Wikidata から旧国が決まらない藩・旧国が複数ある藩の旧国(藩の QID → 旧国の QID)。Wikidata 側が埋まれば validate/build が「不要」と知らせる。",
   "seat_overrides": {
     "Q205662": {
@@ -657,7 +667,16 @@
   "ancestor_generations": 8,
   "_comment_ancestor_keep_generations": "家系図に載せる祖先。各藩主から何世代(実父=1)までは必ず載せるか。それより上は、ほかの藩主の系統との合流点と、そこから藩主へ下る途中の人だけを載せる(ancestor_generations まで取得して合流を確かめたうえで、合流しない長い祖先の列を省く。ユーザーの判断)。null なら間引かない。",
   "ancestor_keep_generations": 2,
-  "p1039_roles": {},
+  "_comment_p1039_roles": "親族(P1038)の関係(P1039)のうち、養子関係として扱う QID と役割。parent=養親側 / child=養子側 / son_in_law=婿養子(養子側。線は破線)。ここに無い QID は養子関係として扱わない。意図して外しているもの: Q3752578 娘婿(養子とは限らない)、Q13204680 義父(配偶者の父)、Q180472 養子縁組(どちらが親か分からない)、Q11572068 猶子(家督を継がない名目上の親子)、Q11666901 義理の親族関係。ラベルが養子関係らしいのにここに無い QID は、warnings の p1039_unlisted で知らせる。",
+  "p1039_roles": {
+    "Q20746742": "parent",
+    "Q61740757": "parent",
+    "Q61740758": "parent",
+    "Q20746725": "child",
+    "Q20746728": "child",
+    "Q25858158": "child",
+    "Q6933584": "son_in_law"
+  },
   "year_range": [
     1550,
     1880

@@ -1214,7 +1214,14 @@
   "back": [
    "Q141734031"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 35.97,
+   "lon": 136.06806,
+   "source": "P131",
+   "source_item": "Q1204551",
+   "source_label": "丹生郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1047144",
    "name": "越前国"
@@ -1776,7 +1783,14 @@
   "back": [
    "Q141693980"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 36.31136,
+   "lon": 139.19681,
+   "source": "P159/P131",
+   "source_item": "Q328596",
+   "source_label": "伊勢崎市",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1054838",
    "name": "上野国"
@@ -2374,7 +2388,14 @@
   "back": [
    "Q141658031"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 37.132,
+   "lon": 140.556,
+   "source": "P131",
+   "source_item": "Q1155869",
+   "source_label": "石川郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q907389",
    "name": "陸奥国"
@@ -3164,9 +3185,12 @@
    "source_label": "大多喜町",
    "precision": "approx"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q1055394",
+   "name": "上総国"
+  },
+  "province_source": "config_district",
+  "region": "関東",
   "wikipedia": "大多喜新田藩",
   "first_year": 1651,
   "last_year": 1659
@@ -3411,9 +3435,12 @@
    "source_label": "小野市",
    "precision": "approx"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q1047523",
+   "name": "播磨国"
+  },
+  "province_source": "config_district",
+  "region": "近畿",
   "wikipedia": "小野藩",
   "first_year": 1637,
   "last_year": 1871
@@ -3476,7 +3503,7 @@
   "region": "関東",
   "wikipedia": "岡部藩",
   "first_year": 1649,
-  "last_year": 1868
+  "last_year": 1871
  },
  {
   "id": "Q10863333",
@@ -3864,9 +3891,12 @@
    "source_label": "郡上八幡城",
    "precision": "exact"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q864156",
+   "name": "美濃国"
+  },
+  "province_source": "config_district",
+  "region": "東海・甲信",
   "wikipedia": "郡上藩",
   "first_year": 1600,
   "last_year": 1871
@@ -4515,9 +4545,12 @@
    "source_label": "志筑村",
    "precision": "approx"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q1055353",
+   "name": "常陸国"
+  },
+  "province_source": "config_district",
+  "region": "関東",
   "wikipedia": "志筑藩",
   "first_year": 1868,
   "last_year": 1871
@@ -4539,9 +4572,12 @@
    "source_label": "新宮町",
    "precision": "approx"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q1047523",
+   "name": "播磨国"
+  },
+  "province_source": "config_district",
+  "region": "近畿",
   "wikipedia": "播磨新宮藩",
   "first_year": 1617,
   "last_year": 1670
@@ -4837,7 +4873,14 @@
   "back": [
    "Q141733879"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 34.51872,
+   "lon": 135.84322,
+   "source": "P159/P131",
+   "source_item": "Q127026",
+   "source_label": "桜井市",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q907495",
    "name": "大和国"
@@ -5270,11 +5313,11 @@
    "Q141733901"
   ],
   "coord": {
-   "lat": 34.55608,
-   "lon": 135.56164,
-   "source": "P36",
-   "source_item": "Q11368492",
-   "source_label": "丹南村",
+   "lat": 34.57786,
+   "lon": 135.55186,
+   "source": "P159/P131",
+   "source_item": "Q774952",
+   "source_label": "松原市",
    "precision": "approx"
   },
   "province": {
@@ -5327,11 +5370,11 @@
    "Q141733824"
   ],
   "coord": {
-   "lat": 35.00858,
-   "lon": 136.27553,
-   "source": "P36",
-   "source_item": "Q17987748",
-   "source_label": "西大路村",
+   "lat": 35.01797,
+   "lon": 136.246,
+   "source": "P159/P131",
+   "source_item": "Q1208020",
+   "source_label": "日野町",
    "precision": "approx"
   },
   "province": {
@@ -5590,9 +5633,12 @@
    "source_label": "古渡村",
    "precision": "approx"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q1055353",
+   "name": "常陸国"
+  },
+  "province_source": "config_district",
+  "region": "関東",
   "wikipedia": "常陸古渡藩",
   "first_year": 1603,
   "last_year": 1619
@@ -5727,9 +5773,12 @@
    "source_label": "林田町",
    "precision": "approx"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q1047523",
+   "name": "播磨国"
+  },
+  "province_source": "config_district",
+  "region": "近畿",
   "wikipedia": "林田藩",
   "first_year": 1617,
   "last_year": 1871
@@ -6068,7 +6117,14 @@
   "back": [
    "Q141733998"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 36.21,
+   "lon": 136.869,
+   "source": "P131",
+   "source_item": "Q31671",
+   "source_label": "大野郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1056535",
    "name": "飛騨国"
@@ -6089,11 +6145,11 @@
    "Q141734048"
   ],
   "coord": {
-   "lat": 36.68694,
-   "lon": 138.27458,
-   "source": "P36",
-   "source_item": "Q17226618",
-   "source_label": "長沼",
+   "lat": 36.64867,
+   "lon": 138.19469,
+   "source": "P159/P131",
+   "source_item": "Q128849",
+   "source_label": "長野市",
    "precision": "approx"
   },
   "province": {
@@ -6232,11 +6288,11 @@
    "Q141733994"
   ],
   "coord": {
-   "lat": 34.98583,
-   "lon": 134.43667,
-   "source": "P36",
-   "source_item": "Q6845775",
-   "source_label": "三日月町",
+   "lat": 35.00425,
+   "lon": 134.35575,
+   "source": "P159/P131",
+   "source_item": "Q1184480",
+   "source_label": "佐用町",
    "precision": "approx"
   },
   "province": {
@@ -6510,7 +6566,14 @@
   "back": [
    "Q141733756"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 34.69271,
+   "lon": 137.64533,
+   "source": "P159/P131",
+   "source_item": "Q1131075",
+   "source_label": "西区",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1048864",
    "name": "遠江国"
@@ -6564,16 +6627,21 @@
    "Q141694022"
   ],
   "coord": {
-   "lat": 36.74011,
-   "lon": 140.706,
-   "source": "P159",
-   "source_item": "Q11529987",
-   "source_label": "松岡城 (常陸国)",
+   "lat": 36.73086,
+   "lon": 140.70792,
+   "source": "P625",
+   "source_item": "Q10863492",
    "precision": "exact"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q1055353",
+   "name": "常陸国"
+  },
+  "province_source": "wikidata_direct",
+  "province_property": [
+   "P131"
+  ],
+  "region": "関東",
   "wikipedia": "常陸松岡藩",
   "first_year": 1602,
   "last_year": 1871
@@ -6892,11 +6960,11 @@
    "Q141733872"
   ],
   "coord": {
-   "lat": 34.83608,
-   "lon": 137.17825,
-   "source": "P36",
-   "source_item": "Q11560176",
-   "source_label": "深溝",
+   "lat": 34.86447,
+   "lon": 137.16581,
+   "source": "P159/P131",
+   "source_item": "Q1345954",
+   "source_label": "幸田町",
    "precision": "approx"
   },
   "province": {
@@ -7563,7 +7631,14 @@
   "back": [
    "Q141658030"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 39.385,
+   "lon": 140.048,
+   "source": "P131",
+   "source_item": "Q8061492",
+   "source_label": "由利郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q876032",
    "name": "出羽国"
@@ -8269,8 +8344,8 @@
    "Q141732927"
   ],
   "coord": {
-   "lat": 36.56444,
-   "lon": 136.65917,
+   "lat": 33.56111,
+   "lon": 133.53139,
    "source": "P625",
    "source_item": "Q1189704",
    "precision": "exact"
@@ -8358,7 +8433,14 @@
   "back": [
    "Q141680178"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 33.58333,
+   "lon": 131.15,
+   "source": "P131",
+   "source_item": "Q10867537",
+   "source_label": "上毛郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1047134",
    "name": "豊前国"
@@ -9356,7 +9438,14 @@
   "back": [
    "Q141680413"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 33.10583,
+   "lon": 130.49361,
+   "source": "P131",
+   "source_item": "Q909101",
+   "source_label": "三池郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q864159",
    "name": "筑後国"
@@ -9860,9 +9949,12 @@
    "source_label": "大浜町",
    "precision": "approx"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q768158",
+   "name": "三河国"
+  },
+  "province_source": "wikidata_p131",
+  "region": "東海・甲信",
   "wikipedia": "大浜藩",
   "first_year": 1765,
   "last_year": 1777
@@ -9989,7 +10081,14 @@
   "back": [
    "Q141733895"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 34.49542,
+   "lon": 135.43761,
+   "source": "P159/P131",
+   "source_item": "Q11381470",
+   "source_label": "伯太村",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1047117",
    "name": "和泉国"
@@ -10725,16 +10824,22 @@
    "Q141694102"
   ],
   "coord": {
-   "lat": 35.32762,
-   "lon": 139.61522,
-   "source": "P36",
-   "source_item": "Q11392428",
-   "source_label": "六浦",
-   "precision": "approx"
+   "lat": 35.33444,
+   "lon": 139.62389,
+   "source": "P159",
+   "source_item": "Q11392432",
+   "source_label": "六浦陣屋",
+   "precision": "exact"
   },
-  "province": null,
-  "province_source": null,
-  "region": null,
+  "province": {
+   "id": "Q907398",
+   "name": "武蔵国"
+  },
+  "province_source": "wikidata_direct",
+  "province_property": [
+   "P131"
+  ],
+  "region": "関東",
   "wikipedia": "六浦藩",
   "first_year": 1696,
   "last_year": 1871
@@ -10801,7 +10906,14 @@
   "back": [
    "Q141693981"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 36.221,
+   "lon": 138.716,
+   "source": "P131",
+   "source_item": "Q1076986",
+   "source_label": "甘楽郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1054838",
    "name": "上野国"
@@ -10932,7 +11044,14 @@
   "back": [
    "Q141734024"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 35.95647,
+   "lon": 136.18428,
+   "source": "P131",
+   "source_item": "Q847598",
+   "source_label": "鯖江市",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1047144",
    "name": "越前国"
@@ -11045,7 +11164,14 @@
   "back": [
    "Q141678881"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 36.479,
+   "lon": 140.327,
+   "source": "P131",
+   "source_item": "Q11617829",
+   "source_label": "茨城郡",
+   "precision": "approx"
+  },
   "province": {
    "id": "Q1055353",
    "name": "常陸国"
@@ -12642,11 +12768,10 @@
    "Q141733947"
   ],
   "coord": {
-   "lat": 36.56432,
-   "lon": 136.65923,
-   "source": "P159",
-   "source_item": "Q511412",
-   "source_label": "金沢城",
+   "lat": 36.56444,
+   "lon": 136.65917,
+   "source": "P625",
+   "source_item": "Q903448",
    "precision": "exact"
   },
   "province": {
@@ -13410,11 +13535,11 @@
    "Q141733820"
   ],
   "coord": {
-   "lat": 35.30119,
-   "lon": 136.01275,
-   "source": "P36",
-   "source_item": "Q17176594",
-   "source_label": "大溝町",
+   "lat": 35.353,
+   "lon": 136.03572,
+   "source": "P159/P131",
+   "source_item": "Q845794",
+   "source_label": "高島市",
    "precision": "approx"
   },
   "province": {

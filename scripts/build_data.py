@@ -30,6 +30,7 @@ import re
 import urllib.parse
 from html.parser import HTMLParser
 
+import report_issues
 from wdlib import (COMMONS_API, DATA, RAW, ROOT, api, cached, cached_by_id, chunks, dump, parse_point, qid, sparql,
                    year)
 
@@ -64,14 +65,23 @@ SELECT ?pos ?posLabel ?p279 ?domain ?domainLabel ?back ?coord WHERE {{
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""
 
-# 座標の取得元は P159(本拠地=城・陣屋) と P36(首都=市町村) に限る(実データで使われていたのはこの2つ)。
+# 座標の取得元(prop 列で区別する。使う順番と精度は build の SEAT_SOURCES)。
+#   P159       本部所在地(城・陣屋)の項目の座標
+#   P159q      本部所在地の文に付いた座標(修飾子 P625)
+#   P159/P131  本部所在地(城・陣屋)の所在地(市町村など)の座標。城・陣屋の項目に座標が無いときの概略
+#   P36        首都(市町村)の座標
+#   P131       藩の所在地(郡・市町村)の座標。令制国は国の中心で粗すぎ、同じ国の藩が1点に重なるので使わない
 Q_SEATS = f"""
 SELECT ?domain ?prop ?seat ?seatLabel ?coord WHERE {{
   {POS_FILTER}
   ?pos wdt:P2389 ?domain .
-  VALUES ?p {{ wdt:P159 wdt:P36 }}
-  ?domain ?p ?seat . ?seat wdt:P625 ?coord .
-  BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop)
+  {{ VALUES ?p {{ wdt:P159 wdt:P36 }} ?domain ?p ?seat . ?seat wdt:P625 ?coord .
+     BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop) }}
+  UNION {{ ?domain p:P159 ?st . ?st ps:P159 ?seat ; pq:P625 ?coord . BIND("P159q" AS ?prop) }}
+  UNION {{ ?domain wdt:P159 ?hq . ?hq wdt:P131 ?seat . ?seat wdt:P625 ?coord . BIND("P159/P131" AS ?prop) }}
+  UNION {{ ?domain wdt:P131 ?seat . ?seat wdt:P625 ?coord .
+           FILTER NOT EXISTS {{ VALUES ?pc {{ {" ".join(f"wd:{c}" for c in PROVINCE_CLASSES)} }} ?seat wdt:P31 ?pc }}
+           BIND("P131" AS ?prop) }}
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""
 
@@ -124,6 +134,24 @@ SELECT ?person ?father ?fatherLabel ?via WHERE {{
   UNION {{ ?father wdt:P40 ?person . FILTER NOT EXISTS {{ ?father wdt:P21 wd:{FEMALE} }} BIND("P40" AS ?via) }}
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""
+
+
+def q_adopted_by(ids):
+    """ids の人物を親族(P1038)として挙げている項目。関係(P1039)が「養子」などなら、その項目の人物が養親。
+    本人の項目に養親が書かれていない場合(養親の項目にだけ「〇〇を養子にした」と書かれている場合)を拾うため。"""
+    vals = " ".join(f"wd:{i}" for i in ids)
+    return f"""
+SELECT ?person ?other ?otherLabel ?rel WHERE {{
+  VALUES ?person {{ {vals} }}
+  ?other p:P1038 ?st . ?st ps:P1038 ?person . OPTIONAL {{ ?st pq:P1039 ?rel }}
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
+}}"""
+
+
+def adopted_by_rows(rows):
+    """adopted_by.json の行を family.json と同じ形(養親の項目から見た P1038 の行)に直す。"""
+    return [{"person": r["other"], "kind": "P1038", "other": r["person"], "rel": r.get("rel"),
+             "personLabel": r.get("otherLabel")} for r in rows]
 
 
 def q_meta(ids):
@@ -212,9 +240,20 @@ def extra_row_ok(r):
 PROVINCE_PATTERNS = {
     "direct": '''?domain ?p ?prov . FILTER(STRSTARTS(STR(?p), "http://www.wikidata.org/prop/direct/"))
   BIND(REPLACE(STR(?p), "^.*/", "") AS ?prop)''',
-    "p131": '''?domain wdt:P131/wdt:P131* ?prov . BIND("P131+" AS ?prop)''',
-    "seat": '''?domain wdt:P159 ?seat . ?seat wdt:P131/wdt:P131* ?prov . BIND("P159/P131+" AS ?prop)''',
+    # 上へは P131(所在地)と P361(一部)の両方でたどる。郡の項目に「〇〇国の一部」(P361)が入っている場合も拾うため。
+    "p131": '''?domain wdt:P131/(wdt:P131|wdt:P361)* ?prov . BIND("P131+" AS ?prop)''',
+    "seat": '''?domain wdt:P159 ?seat . ?seat (wdt:P131|wdt:P361)+ ?prov . BIND("P159/P131+" AS ?prop)''',
 }
+
+
+def q_locations(ids):
+    """藩の所在地(P131)の値。郡なら config.json の district_to_province で旧国を補うために使う。"""
+    vals = " ".join(f"wd:{i}" for i in ids)
+    return f"""
+SELECT ?domain ?loc ?locLabel WHERE {{
+  VALUES ?domain {{ {vals} }} ?domain wdt:P131 ?loc .
+  SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
+}}"""
 
 
 def domain_provinces(ids):
@@ -262,6 +301,7 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
   SERVICE wikibase:label {{ bd:serviceParam wikibase:language "ja,en". }}
 }}"""))
     cached_by_id("domain_provinces.json", domains, domain_provinces, 100, key="domain")
+    cached_by_id("domain_locations.json", domains, lambda ch: sparql(q_locations(ch)), 100, key="domain")
     seats = sorted({v["seat"] for v in CONFIG.get("seat_overrides", {}).values()})
     cached_by_id("seat_overrides.json", seats, lambda ch: sparql(q_coords(ch)), 200, key="item")
 
@@ -272,22 +312,18 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
     # 実父を ANCESTOR_GENS 世代さかのぼる(養子は無視)。世代ごとに「まだ父を問い合わせていない人」だけを問い合わせる。
     # 問い合わせ済みかどうかは ancestors.json の done に人物ごとに控えるので、藩主が増えたときや
     # 世代数を増やしたときも、足りない分だけを取得する(touhoku-domains の ancestors_gens.json の仕組みを置き換えた)。
-    anc, seen, frontier = [], set(persons), set(persons)
-    for g in range(ANCESTOR_GENS):
-        if not frontier:
-            break
-        rows = cached_by_id("ancestors.json", frontier, lambda ch: sparql(q_parents(ch)), 100, key="person")
-        anc += rows
-        frontier = {qid(r["father"]) for r in rows} - seen
-        seen |= frontier
+    anc, seen = [], set(persons)
 
-    fathers = sorted({qid(r["other"]) for r in fam if r["kind"] == "P22"} | {qid(r["father"]) for r in anc})
-    outside = [f for f in fathers if f not in set(persons)]
-    meta_ids = sorted(set(persons) | set(fathers) | set(domains) | {e["domain"] for e in EXTRA_POSITIONS.values()})
-    cached_by_id("meta.json", meta_ids, lambda ch: sparql(q_meta(ch)), 80, key="item")
-    cached_by_id("outside_children.json", outside, lambda ch: sparql(q_children(ch)), 60, key="parent")
-
-    rels = sorted({qid(r["rel"]) for r in fam if r["kind"] == "P1038" and r.get("rel")})
+    def climb(start):
+        frontier = set(start)
+        for g in range(ANCESTOR_GENS):
+            if not frontier:
+                break
+            rows = cached_by_id("ancestors.json", frontier, lambda ch: sparql(q_parents(ch)), 100, key="person")
+            anc.extend(rows)
+            frontier = {qid(r["father"]) for r in rows} - seen
+            seen.update(frontier)
+    climb(persons)
 
     def labels(ch):
         ents = api(action="wbgetentities", ids="|".join(ch), props="labels|descriptions", languages="ja|en")["entities"]
@@ -295,7 +331,31 @@ SELECT DISTINCT ?prov ?provLabel ?cls WHERE {{
                  "ja": ents.get(i, {}).get("labels", {}).get("ja", {}).get("value"),
                  "en": ents.get(i, {}).get("labels", {}).get("en", {}).get("value"),
                  "desc_ja": ents.get(i, {}).get("descriptions", {}).get("ja", {}).get("value")} for i in ch]
-    cached_by_id("p1039_labels.json", rels, labels, 50, key="id")
+
+    # 養親(include_adoption が true / "roots" のとき): 実父が見つからない藩主について、養親を両方向から探す。
+    #   本人の項目の P1038(family.json)と、ほかの項目から「養子」として挙げられているもの(adopted_by.json)。
+    # データに無い養親は、藩主と同じように実父をさかのぼって取得する(養親の系統で、ほかの藩主とつながるかを確かめるため)。
+    adoptive = set()
+    fam_all = list(fam)
+    if CONFIG.get("include_adoption", True):
+        has_father = {qid(r["person"]) for r in anc} | {qid(r["person"]) for r in fam if r["kind"] == "P22"}
+        roots = sorted(set(persons) - has_father)
+        fam_all += adopted_by_rows(cached_by_id("adopted_by.json", roots, lambda ch: sparql(q_adopted_by(ch)), 100,
+                                                key="person"))
+        rels = sorted({qid(r["rel"]) for r in fam_all if r["kind"] == "P1038" and r.get("rel")})
+        lab = {r["id"]: r for r in cached_by_id("p1039_labels.json", rels, labels, 50, key="id")}
+        adoptive = adoptive_parents_of(fam_all, set(roots), lab) - set(persons)
+        climb(sorted(adoptive - seen))
+        seen |= adoptive
+    else:
+        rels = sorted({qid(r["rel"]) for r in fam if r["kind"] == "P1038" and r.get("rel")})
+        cached_by_id("p1039_labels.json", rels, labels, 50, key="id")
+
+    fathers = sorted({qid(r["other"]) for r in fam if r["kind"] == "P22"} | {qid(r["father"]) for r in anc} | adoptive)
+    outside = [f for f in fathers if f not in set(persons)]
+    meta_ids = sorted(set(persons) | set(fathers) | set(domains) | {e["domain"] for e in EXTRA_POSITIONS.values()})
+    cached_by_id("meta.json", meta_ids, lambda ch: sparql(q_meta(ch)), 80, key="item")
+    cached_by_id("outside_children.json", outside, lambda ch: sparql(q_children(ch)), 60, key="parent")
 
     # 画像: Wikidata の P18 (画像) → Commons のファイル → ライセンス・作者(extmetadata)
     # 画像そのものは保存せず、サイトは Commons のサムネイルを直接参照する。出典・ライセンス表示のため、
@@ -344,35 +404,89 @@ def load_labels():
     return {r["id"]: r for r in load("p1039_labels.json", [])}
 
 
-# P1039 (主題から見て P1038 の値が何にあたるか) のラベル → 役割。
-# ラベル文字列で分類する理由: QID を決め打ちすると、記憶違いがそのままデータの誤りになるため。
-# P1038 は「親族 (relative)」全般なので、兄弟・甥・祖父なども入っている。養親/養子に当たらないものは
-# "other"(家系図には描かない)として除外し、warnings(info)に一度だけ列挙する。
-# 判定を変えたいときは config.json の p1039_roles で "parent" / "child" / "other" を指定する。
-PARENT_KW = ("養父", "養母", "義父", "義母", "養親", "adoptive father", "adoptive mother", "adoptive parent",
-             "foster father", "foster mother")
-CHILD_KW = ("養子", "養女", "婿", "養嗣子", "adopted son", "adopted daughter", "adopted child", "son-in-law",
-            "foster son")
+# P1039 (主題から見て P1038 の値が何にあたるか) → 役割。
+# 養子関係として扱う QID は config.json の p1039_roles に明示し、それ以外はすべて "other"(家系図に描かない)にする。
+# 以前はラベルの語(「養」「婿」「父」など)で分類していたが、「娘婿」(son-in-law)を養子、「義父」(father-in-law)を
+# 養親と誤判定していた。明示した QID は、実データに出てくる P1039 の値を Wikidata のラベル・説明で一つずつ確かめたもの。
+# 役割: "parent"(養親側) / "child"(養子側) / "son_in_law"(婿養子。養子側で、線を破線にする) / "other"
+# ラベルの語は、一覧に無い QID に養子関係らしきものが現れたときに知らせる(p1039_unlisted)ためだけに使う。
+ADOPTION_HINT_KW = ("養父", "養母", "養親", "養子", "養女", "養男子", "婿養子", "養嗣子",
+                    "adoptive", "adopted", "foster")
 
 
-def classify_role(qid_, labels):
-    forced = CONFIG["p1039_roles"].get(qid_)
-    if forced:
-        return forced
+def p1039_role(qid_):
+    return CONFIG["p1039_roles"].get(qid_, "other")
+
+
+def classify_role(qid_, labels=None):
+    role = p1039_role(qid_)
+    return "child" if role == "son_in_law" else role
+
+
+def looks_like_adoption(qid_, labels):
     lab = labels.get(qid_) or {}
     text = " ".join(filter(None, [lab.get("ja"), lab.get("en")])).lower()
-    # 「養父」を先に判定: 「養子」を含む語より優先する理由は特になく、短いキーワードの誤爆を避けるため。
-    if any(k in text for k in PARENT_KW):
-        return "parent"
-    if any(k in text for k in CHILD_KW):
-        return "child"
-    return "other"
+    return any(k in text for k in ADOPTION_HINT_KW)
 
 
-def is_son_in_law(qid_, labels):
-    lab = labels.get(qid_) or {}
-    text = " ".join(filter(None, [lab.get("ja"), lab.get("en")])).lower()
-    return "婿" in text or "son-in-law" in text
+def adoptive_parents_of(fam_rows, targets, labels):
+    """targets(実父が分からない藩主)の養親。P1038 の行のうち、関係(P1039)から向きが分かるものだけを使う。"""
+    out = set()
+    for r in fam_rows:
+        if r["kind"] != "P1038" or not r.get("rel"):
+            continue
+        role = classify_role(qid(r["rel"]), labels)
+        person, other = qid(r["person"]), qid(r["other"])
+        if role == "parent":
+            parent, child = other, person
+        elif role == "child":
+            parent, child = person, other
+        else:
+            continue
+        if child in targets:
+            out.add(parent)
+    return out
+
+
+def is_son_in_law(qid_, labels=None):
+    return p1039_role(qid_) == "son_in_law"
+
+
+# 座標の取得元(Q_SEATS の prop)を使う順番と精度。exact = 城・陣屋そのものの位置 / approx = 所在地の市町村・郡などで代用
+SEAT_SOURCES = (("P159", "exact"), ("P159q", "exact"), ("P159/P131", "approx"), ("P36", "approx"), ("P131", "approx"))
+SEAT_SOURCE_LABEL = {"P159": "本部所在地", "P159q": "本部所在地の文の座標", "P159/P131": "本部所在地(城・陣屋)の所在地",
+                     "P36": "首都", "P131": "藩の所在地"}
+
+README_STATS = re.compile(r"(<!-- stats:start[^>]*-->\n).*?(<!-- stats:end -->)", re.S)
+
+
+def update_readme(meta, n_no_coord, n_multi_father, n_adoption):
+    """README の冒頭の「現在のデータ」(stats:start〜stats:end の間)を、今回の生成結果で書き換える。
+    データを取り直すたびに README の数字が古くなるのを防ぐため。目印が無ければ何もしない。"""
+    path = ROOT / "README.md"
+    if not path.exists():
+        return
+    c, br, cs = meta["counts"], meta["by_region"], meta["clan_source"]
+    sc = meta.get("clan_inference_selfcheck") or {}
+    lines = [f"現在のデータ({meta['generated_at'][:10]} 生成): 藩 {c['domains']}、人物 {c['lords']}(うち藩主 {c['rulers']})、"
+             f"在任 {c['tenures']}、家系の線 {c['relations']}(うち養子の線 {n_adoption})。", "",
+             "| 地方 | 藩 | 藩主 | 在任 |", "|---|---:|---:|---:|"]
+    for r in meta["regions"] + ["unknown"]:
+        v = br.get(r)
+        if v and v["domains"]:
+            lines.append(f"| {'地方不明' if r == 'unknown' else r} | {v['domains']} | {v['lords']} | {v['tenures']} |")
+    lines += ["", f"藩主の数は、その地方の藩に一度でも在任した人数です(転封で複数の地方に数える人がいるので、合計は {c['rulers']} より多くなります)。"
+              "関東には江戸幕府(徳川将軍15代)と御三卿を含みます。", "",
+              f"- 氏の出所: Wikidata {cs.get('wikidata', 0)} 人 / 名前から推定 {cs.get('inferred_name', 0)} 人 / "
+              f"実父から継承 {cs.get('inherited_father', 0)} 人 / 不明 {cs.get('none', 0)} 人"
+              + (f"(名前からの推定を、氏が分かっている人物で試すと {sc['evaluated']} 人中 {sc['correct']} 人が一致)" if sc.get("evaluated") else ""),
+              f"- 座標が無く地図に出ない藩: {n_no_coord}",
+              f"- 実父が2人以上登録されている人物(Wikidata 側の食い違い): {n_multi_father}",
+              f"- 家系図から省いた祖先(どの藩主の系統とも合流しない祖先): {meta.get('ancestors_pruned', 0)} 人", ""]
+    text = path.read_text(encoding="utf-8")
+    new = README_STATS.sub(lambda m: m.group(1) + "\n".join(lines) + "\n" + m.group(2), text, count=1)
+    if new != text:
+        path.write_text(new, encoding="utf-8")
 
 
 def build():
@@ -419,10 +533,11 @@ def build():
         if names[dom["name"]] > 1:
             warn("info", "domain_duplicate_name", d, f"同名の藩項目が複数あります: {dom['name']}")
 
-    # 座標: 藩P625 → 城(P159) → 市町村(P36, 概略)
+    # 座標: 藩P625 → 本部所在地(P159)の城・陣屋 → その文の座標 → 城・陣屋の所在地(概略) → 首都(P36, 概略)
+    #       → 藩の所在地の郡・市町村(P131, 概略)。どこから取ったかは coord.source に残し、画面に出す。
     seats = defaultdict(dict)
     for r in load("domain_seats.json", []):
-        if r["prop"] not in ("P159", "P36"):
+        if r["prop"] not in dict(SEAT_SOURCES):
             continue
         pt = parse_point(r["coord"])
         if pt:
@@ -434,7 +549,7 @@ def build():
             coord = {"lat": dom["p625"][0], "lon": dom["p625"][1], "source": "P625", "source_item": d,
                      "precision": "exact"}
         else:
-            for prop, precision in (("P159", "exact"), ("P36", "approx")):
+            for prop, precision in SEAT_SOURCES:
                 cands = sorted((s for s in seats.get(d, {}).items() if s[0][0] == prop), key=lambda s: s[0][1])
                 if not cands:
                     continue
@@ -446,10 +561,11 @@ def build():
                 coord = {"lat": pt[0], "lon": pt[1], "source": prop, "source_item": sid, "source_label": slabel,
                          "precision": precision}
                 if precision == "approx":
-                    warn("info", "coord_approx", d, f"{dom['name']}: 市町村(P36)の座標で代用した概略位置です")
+                    warn("info", "coord_approx", d, f"{dom['name']}: {SEAT_SOURCE_LABEL[prop]}({slabel})の座標で代用した概略位置です")
                 break
         if coord is None:
-            warn("warn", "coord_missing", d, f"{dom['name']}: 座標を取得できません(藩P625・城P159・P36のいずれも無し)")
+            warn("warn", "coord_missing", d, f"{dom['name']}: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、"
+                 "所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)")
         else:
             coord["lat"], coord["lon"] = round(coord["lat"], 5), round(coord["lon"], 5)
         dom["coord"] = coord
@@ -489,6 +605,12 @@ def build():
         if r["kind"] == "direct":
             props[qid(r["domain"])].add(r["prop"])
     overrides = CONFIG.get("province_overrides", {})
+    districts = CONFIG.get("district_to_province", {})
+    locs, loc_label = defaultdict(set), {}
+    for r in load("domain_locations.json", []):
+        locs[qid(r["domain"])].add(qid(r["loc"]))
+        loc_label[qid(r["loc"])] = r.get("locLabel")
+    unlisted_districts = defaultdict(list)   # 旧国が決まらない藩の所在地(郡など)→ 藩名。まとめて1件の警告にする
 
     def prov_name(q):
         return (p2r.get(q) or {}).get("name") or prov_label.get(q) or q
@@ -524,8 +646,20 @@ def build():
                          f"城のある国を Wikidata から決められないため{prov_name(chosen)}を仮に採っています"
                          "(config.json の province_overrides で指定してください)")
         if chosen is None:
+            # 藩の所在地(P131)が郡なら、config.json の district_to_province(郡 → 旧国)で補う。
+            hits = sorted({districts[g]["province"] for g in locs.get(d, ()) if g in districts})
+            if len(hits) == 1:
+                chosen, source = hits[0], "config_district"
+            elif len(hits) > 1:
+                warn("warn", "province_district_multiple", d, f"{dom['name']}: 所在地の郡が複数の旧国にまたがります"
+                     f"({'・'.join(map(prov_name, hits))})。config.json の province_overrides で指定してください")
+        if chosen is None:
+            unlisted = [g for g in sorted(locs.get(d, ())) if g not in districts and g not in p2r]
+            for g in unlisted:
+                unlisted_districts[g].append(dom["name"])
             warn("warn", "province_missing", d, f"{dom['name']}: 旧国を決められません(Wikidata に旧国が無く、"
-                 "config.json の province_overrides にもありません)。地方不明として表示します")
+                 "config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
+                 + (f"。所在地: {'・'.join(loc_label.get(g) or g for g in unlisted)}" if unlisted else ""))
         dom["province"] = {"id": chosen, "name": prov_name(chosen)} if chosen else None
         dom["province_source"] = source
         if source and source.startswith("wikidata_direct"):
@@ -535,6 +669,13 @@ def build():
             warn("warn", "province_no_region", d, f"{dom['name']}: 旧国 {prov_name(chosen)} ({chosen}) が"
                  " config.json の province_to_region にありません。地方不明として表示します")
         dom["region"] = region
+    for g, names in sorted(unlisted_districts.items()):
+        warn("info", "province_district_unlisted", g, f"所在地 {loc_label.get(g) or g}({g})の旧国を config.json の "
+             f"district_to_province に指定すると、{'・'.join(names)}を地方に振り分けられます")
+    for g, v in districts.items():
+        if v.get("province") not in p2r:
+            warn("warn", "district_bad_province", g, f"config.json の district_to_province: {v.get('name') or g} の旧国 "
+                 f"{v.get('province')} が province_to_region にありません")
 
     # 新田藩(固有の領地・陣屋を持たない分家藩)は、本藩の陣屋の近くに仮置きする(config.json の branch_domains)。
     # 本藩と完全に同じ座標だと地図上でマーカーが重なって見えなくなるので、約1.3km ずつずらす。
@@ -663,6 +804,7 @@ def build():
         else:
             fam.append({"person": r["father"], "kind": "P40", "other": r["person"], "otherLabel": None,
                         "personLabel": r.get("fatherLabel")})
+    fam += adopted_by_rows(load("adopted_by.json", []))   # ほかの項目から「養子」として挙げられている関係
     lords_p39 = {t["lord"] for t in tenures}
     for r in fam:                        # 下で行を除く前にラベルを控える(警告文に名前を出すため)
         labels_of.setdefault(qid(r["other"]), r.get("otherLabel"))
@@ -713,7 +855,12 @@ def build():
         elif r["kind"] == "P40":
             up[qid(r["other"])].add(qid(r["person"]))
     # 藩主から1世代ずつ、ANCESTOR_GENS 世代まで(藩主でない祖先だけを数える。途中に藩主がいれば、そこから数え直しになる)。
-    nodes, level = set(lords_p39), set(lords_p39)
+    # 実父が分からない藩主の養親も起点にする(養親の系統で、ほかの藩主とつながるかを見るため)。
+    # 女性の養親(養母)は、上で行ごと除いてあるので入らない。
+    seeds = set(lords_p39)
+    if CONFIG.get("include_adoption", True):
+        seeds |= adoptive_parents_of(fam, {p for p in lords_p39 if not up.get(p)}, load_labels())
+    nodes, level = set(seeds), set(seeds)
     for _ in range(ANCESTOR_GENS):
         level = {par for c in level for par in up.get(c, ())} - nodes
         nodes |= level
@@ -773,6 +920,11 @@ def build():
                                  "rel": rel, "rel_label": (labels.get(rel) or {}).get("ja")}
             if role == "unknown":
                 unclassified[person] += 1
+    for rel in sorted(skipped_rel):
+        if rel and rel not in CONFIG["p1039_roles"] and looks_like_adoption(rel, labels):
+            warn("warn", "p1039_unlisted", rel,
+                 f"P1039 {rel}({(labels.get(rel) or {}).get('ja')})は養子関係らしいラベルですが、config.json の "
+                 "p1039_roles に無いため養子関係として扱っていません(扱うなら p1039_roles に追加)")
     for rel, n in skipped_rel.items():
         warn("info", "p1039_skipped", rel or "-",
              f"P1038の関係 {rel}({(labels.get(rel) or {}).get('ja')}) {n}件は養子関係ではないため辺にしていません"
@@ -1054,7 +1206,7 @@ def build():
     dump("relations.json", sorted(relations, key=lambda e: e["id"]))
     warnings.sort(key=lambda w: ({"error": 0, "warn": 1, "info": 2}[w["level"]], w["kind"], w["subject"]))
     dump("warnings.json", warnings)
-    dump("meta.json", {
+    meta_out = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
         "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
         "counts": {"domains": len(domains), "lords": len(lords), "tenures": len(tenures), "relations": len(relations),
@@ -1072,7 +1224,12 @@ def build():
         "adoption_roots": adoption_roots_stats,
         "ancestor_generations": ANCESTOR_GENS,
         "ancestor_keep_generations": KEEP, "ancestors_pruned": pruned,
-    })
+    }
+    dump("meta.json", meta_out)
+    update_readme(meta_out, sum(1 for d in domains.values() if not d.get("coord")),
+                  len({w["subject"] for w in warnings if w["kind"] == "multiple_fathers" and w["subject"] in lords}),
+                  sum(1 for e in relations if e["type"] != "blood"))
+    report_issues.main()                 # docs/wikidata_issues.md(Wikidata 側で直すとよい点の一覧)も作り直す
     print(f"domains={len(domains)} lords={len(lords)} tenures={len(tenures)} relations={len(relations)}")
     print("氏の出所:", dict(nclan), "/ 名前推定の自己採点:", infer_stats)
     print("地方別:", {k: v["domains"] for k, v in by_region.items()})
