@@ -202,16 +202,31 @@
       return Math.min(...(tenuresByLord.get(id) || []).map((t) => t.start || 9999), 9999);
     }
 
-    // 島の一覧。代表者 = 家系図の一番上の世代にいる藩主(同じ世代なら在任の始まりが早い人)。
-    // 藩主のいない島は無い(藩主でない人物は、藩主の実父・祖先としてだけ載っているため)が、念のため最上段の人で代える。
+    // 島の中で、その人から実子・孫…とたどれる人数(島の外の人は数えない)。
+    function descendantCount(id, inComp) {
+      const seen = new Set();
+      const stack = [id];
+      while (stack.length) {
+        const x = stack.pop();
+        (children.get(x) || []).forEach((c) => { if (inComp.has(c.id) && !seen.has(c.id)) { seen.add(c.id); stack.push(c.id); } });
+      }
+      return seen.size;
+    }
+
+    // 島の一覧。代表者 = 島の中で子孫が最も多い藩主(その島の本流の祖)。
+    // 同点なら世代が上の人、次に在任の始まりが早い人。
+    // 「家系図の一番上の藩主」で選ぶと、徳川・松平の島で子孫4人の松平信一が選ばれるなど、分家の祖や子孫の少ない兄弟が出やすかったため。
+    // 藩主のいない島は無い(藩主でない人物は、藩主の実父・祖先としてだけ載っているため)が、念のため島の全員から選ぶ。
     // regions: 島の藩主が在任した藩の地方。地方で一覧を絞るときに使う。
     function islands() {
       return components(new Set(data.lords.map((l) => l.id))).map((comp) => {
-        const dep = ranks(comp);
+        const inComp = new Set(comp);
+        const rank = ranks(comp);
         const rulers = comp.filter(isRuler);
         const pool = rulers.length ? rulers : comp;
-        const rep = pool.slice().sort((a, b) => dep.get(a) - dep.get(b) || firstStart(a) - firstStart(b)
-          || lords.get(a).name.localeCompare(lords.get(b).name, "ja"))[0];
+        const desc = new Map(pool.map((id) => [id, descendantCount(id, inComp)]));
+        const rep = pool.slice().sort((a, b) => desc.get(b) - desc.get(a) || rank.get(a) - rank.get(b)
+          || firstStart(a) - firstStart(b) || lords.get(a).name.localeCompare(lords.get(b).name, "ja"))[0];
         const regions = new Set();
         rulers.forEach((id) => (tenuresByLord.get(id) || []).forEach((t) => {
           const d = domains.get(t.domain);
