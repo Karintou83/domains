@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T16:31:30+00:00",
+ "generated_at": "2026-10-21T04:53:33+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
   "domains": 496,
@@ -8,7 +8,7 @@
   "relations": 3765,
   "rulers": 3416,
   "warnings": {
-   "warn": 367,
+   "warn": 365,
    "info": 237
   }
  },
@@ -44,9 +44,9 @@
    "tenures": 554
   },
   "近畿": {
-   "domains": 86,
-   "lords": 740,
-   "tenures": 779
+   "domains": 85,
+   "lords": 726,
+   "tenures": 765
   },
   "中国": {
    "domains": 35,
@@ -54,9 +54,9 @@
    "tenures": 314
   },
   "四国": {
-   "domains": 12,
-   "lords": 120,
-   "tenures": 121
+   "domains": 13,
+   "lords": 133,
+   "tenures": 135
   },
   "九州": {
    "domains": 41,
@@ -70,9 +70,9 @@
   }
  },
  "province_source": {
-  "wikidata_direct": 394,
+  "wikidata_direct": 392,
   "none": 27,
-  "wikidata_p131": 27,
+  "wikidata_p131": 29,
   "config_district": 7,
   "config": 41
  },

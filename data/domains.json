@@ -11463,15 +11463,11 @@
    "precision": "exact"
   },
   "province": {
-   "id": "Q1053717",
-   "name": "淡路国"
+   "id": "Q907457",
+   "name": "阿波国"
   },
-  "province_source": "wikidata_direct",
-  "province_property": [
-   "P1001",
-   "P131"
-  ],
-  "region": "近畿",
+  "province_source": "wikidata_p131",
+  "region": "四国",
   "wikipedia": "徳島藩",
   "first_year": 1601,
   "last_year": 1871
@@ -13045,14 +13041,10 @@
    "precision": "exact"
   },
   "province": {
-   "id": "Q1053703",
-   "name": "伯耆国"
+   "id": "Q1054338",
+   "name": "因幡国"
   },
-  "province_source": "wikidata_direct",
-  "province_property": [
-   "P1001",
-   "P131"
-  ],
+  "province_source": "wikidata_p131",
   "region": "中国",
   "wikipedia": "鳥取藩",
   "first_year": 1600,

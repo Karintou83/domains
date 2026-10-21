@@ -604,6 +604,8 @@ def build():
         found[qid(r["domain"])][r["kind"]].add(qid(r["prov"]))
         if r["kind"] == "direct":
             props[qid(r["domain"])].add(r["prop"])
+            if r["prop"] == "P131":
+                found[qid(r["domain"])]["direct_p131"].add(qid(r["prov"]))
     overrides = CONFIG.get("province_overrides", {})
     districts = CONFIG.get("district_to_province", {})
     locs, loc_label = defaultdict(set), {}
@@ -637,9 +639,15 @@ def build():
             if len(cands) == 1:
                 chosen, source = cands[0], "wikidata_" + kind
             else:
+                # 候補が複数あるとき(例: 徳島藩は管轄 P1001 が阿波国・淡路国)は、「藩がどこにあるか」を表す情報で絞る:
+                #   城(P159)の所在地をたどって届く国 → 藩の所在地(P131)の国(直接の値、または P131 をたどって届く国)
+                # 管轄(P1001)は治めた範囲なので、複数の国にまたがるのが普通で、所在地の決め手にはならない。
                 at_seat = [c for c in cands if c in f.get("seat", set())]
+                located = [c for c in cands if c in (f.get("direct_p131", set()) | f.get("p131", set()))]
                 if len(at_seat) == 1:
                     chosen, source = at_seat[0], "wikidata_seat"
+                elif len(located) == 1:
+                    chosen, source = located[0], "wikidata_p131"
                 else:
                     chosen, source = cands[0], "wikidata_" + kind
                     warn("warn", "province_multiple", d, f"{dom['name']}: 旧国が複数あり({'・'.join(map(prov_name, cands))})、"

@@ -1,12 +1,12 @@
 # Wikidata 側で直すとよい点の一覧
 
-このファイルは `scripts/report_issues.py` が `data/warnings.json` から自動で作ります(手で直さない)。データ生成: 2026-10-20。リンクは Wikidata の項目です。
+このファイルは `scripts/report_issues.py` が `data/warnings.json` から自動で作ります(手で直さない)。データ生成: 2026-10-21。リンクは Wikidata の項目です。
 Wikidata を直したあと、生データ(`data/raw/`)を消して `python scripts/build_data.py` を実行すると反映されます。
 
 ## 目次
 
 - 旧国が決まらない(地方不明として表示)(27件)
-- 旧国が複数あり、城のある国を決められない(3件)
+- 旧国が複数あり、城のある国を決められない(1件)
 - 座標が無く地図に出ない(131件)
 - 実父が2人以上いる(40件)
 - 藩主に実父(P22)が無い(133件)
@@ -56,13 +56,11 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [高島藩](https://www.wikidata.org/wiki/Q16282184) (Q16282184): 所在地 P131 なし
 - [鴨方藩](https://www.wikidata.org/wiki/Q123110960) (Q123110960): 所在地 P131 なし
 
-## 旧国が複数あり、城のある国を決められない(3件)
+## 旧国が複数あり、城のある国を決められない(1件)
 
 本部所在地(P159)の城・陣屋の所在地(P131)をたどって国に届くようにするか、config.json の province_overrides で指定します。
 
 - [奥殿藩](https://www.wikidata.org/wiki/Q3034400) (Q3034400): 旧国が複数あり(信濃国・三河国)、城のある国を Wikidata から決められないため信濃国を仮に採っています(config.json の province_overrides で指定してください)
-- [徳島藩](https://www.wikidata.org/wiki/Q3034557) (Q3034557): 旧国が複数あり(淡路国・阿波国)、城のある国を Wikidata から決められないため淡路国を仮に採っています(config.json の province_overrides で指定してください)
-- [鳥取藩](https://www.wikidata.org/wiki/Q905521) (Q905521): 旧国が複数あり(伯耆国・因幡国)、城のある国を Wikidata から決められないため伯耆国を仮に採っています(config.json の province_overrides で指定してください)
 
 ## 座標が無く地図に出ない(131件)
 

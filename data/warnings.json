@@ -2179,18 +2179,6 @@
  },
  {
   "level": "warn",
-  "kind": "province_multiple",
-  "subject": "Q3034557",
-  "message": "徳島藩: 旧国が複数あり(淡路国・阿波国)、城のある国を Wikidata から決められないため淡路国を仮に採っています(config.json の province_overrides で指定してください)"
- },
- {
-  "level": "warn",
-  "kind": "province_multiple",
-  "subject": "Q905521",
-  "message": "鳥取藩: 旧国が複数あり(伯耆国・因幡国)、城のある国を Wikidata から決められないため伯耆国を仮に採っています(config.json の province_overrides で指定してください)"
- },
- {
-  "level": "warn",
   "kind": "tenure_no_start",
   "subject": "Q11636757",
   "message": "足利国朝: 喜連川藩主 の開始年がありません"
