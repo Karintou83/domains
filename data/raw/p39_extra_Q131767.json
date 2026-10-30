@@ -626,7 +626,19 @@
   "person": "http://www.wikidata.org/entity/Q2288858",
   "start": "1333-01-01T00:00:00Z",
   "end": "1333-01-01T00:00:00Z",
+  "prev": "http://www.wikidata.org/entity/Q552852",
+  "next": "http://www.wikidata.org/entity/Q2722113",
   "personLabel": "護良親王"
+ },
+ {
+  "pos": "http://www.wikidata.org/entity/Q131767",
+  "st": "http://www.wikidata.org/entity/statement/Q2722113-4d34d5ef-49a9-bc72-8551-4266d4610f1c",
+  "person": "http://www.wikidata.org/entity/Q2722113",
+  "start": "1335-01-01T00:00:00Z",
+  "end": "1336-01-01T00:00:00Z",
+  "prev": "http://www.wikidata.org/entity/Q2288858",
+  "next": "http://www.wikidata.org/entity/Q297107",
+  "personLabel": "成良親王"
  },
  {
   "pos": "http://www.wikidata.org/entity/Q131767",

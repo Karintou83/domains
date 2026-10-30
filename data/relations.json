@@ -81,8 +81,8 @@
   "source": "Q11670091",
   "target": "Q11670089",
   "type": "adoption",
-  "rel": "Q20746725",
-  "rel_label": "養男子",
+  "rel": "Q20746742",
+  "rel_label": "養親",
   "flags": [
    "adoption_root"
   ]
@@ -103,8 +103,8 @@
   "source": "Q11670101",
   "target": "Q11670091",
   "type": "adoption",
-  "rel": "Q20746742",
-  "rel_label": "養親",
+  "rel": "Q20746725",
+  "rel_label": "養男子",
   "flags": [
    "adoption_root"
   ]
@@ -1234,6 +1234,13 @@
   "flags": []
  },
  {
+  "id": "blood:Q10565520:Q10565644",
+  "source": "Q10565520",
+  "target": "Q10565644",
+  "type": "blood",
+  "flags": []
+ },
+ {
   "id": "blood:Q10565532:Q10565632",
   "source": "Q10565532",
   "target": "Q10565632",
@@ -1265,6 +1272,13 @@
   "id": "blood:Q10565545:Q10565635",
   "source": "Q10565545",
   "target": "Q10565635",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q10565561:Q10565563",
+  "source": "Q10565561",
+  "target": "Q10565563",
   "type": "blood",
   "flags": []
  },
@@ -1358,6 +1372,13 @@
   "id": "blood:Q10565616:Q10565573",
   "source": "Q10565616",
   "target": "Q10565573",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q10565616:Q10565593",
+  "source": "Q10565616",
+  "target": "Q10565593",
   "type": "blood",
   "flags": []
  },
@@ -1689,6 +1710,13 @@
   "id": "blood:Q10729349:Q11583388",
   "source": "Q10729349",
   "target": "Q11583388",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q10729350:Q10729349",
+  "source": "Q10729350",
+  "target": "Q10729349",
   "type": "blood",
   "flags": []
  },
@@ -5568,6 +5596,20 @@
   "flags": []
  },
  {
+  "id": "blood:Q11364136:Q11364220",
+  "source": "Q11364136",
+  "target": "Q11364220",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q11364220:Q11364232",
+  "source": "Q11364220",
+  "target": "Q11364232",
+  "type": "blood",
+  "flags": []
+ },
+ {
   "id": "blood:Q11364232:Q141794007",
   "source": "Q11364232",
   "target": "Q141794007",
@@ -6761,6 +6803,13 @@
   "id": "blood:Q11394306:Q11394317",
   "source": "Q11394306",
   "target": "Q11394317",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q11394306:Q11483748",
+  "source": "Q11394306",
+  "target": "Q11483748",
   "type": "blood",
   "flags": []
  },
@@ -9845,6 +9894,20 @@
   "id": "blood:Q11482629:Q11482630",
   "source": "Q11482629",
   "target": "Q11482630",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q11483744:Q141734449",
+  "source": "Q11483744",
+  "target": "Q141734449",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q11483748:Q11483744",
+  "source": "Q11483748",
+  "target": "Q11483744",
   "type": "blood",
   "flags": []
  },
@@ -14527,6 +14590,13 @@
   "flags": []
  },
  {
+  "id": "blood:Q11585808:Q17192971",
+  "source": "Q11585808",
+  "target": "Q17192971",
+  "type": "blood",
+  "flags": []
+ },
+ {
   "id": "blood:Q11585822:Q11586339",
   "source": "Q11585822",
   "target": "Q11586339",
@@ -16531,6 +16601,20 @@
   "flags": []
  },
  {
+  "id": "blood:Q11644018:Q141924102",
+  "source": "Q11644018",
+  "target": "Q141924102",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q11644074:Q11644018",
+  "source": "Q11644074",
+  "target": "Q11644018",
+  "type": "blood",
+  "flags": []
+ },
+ {
   "id": "blood:Q11644074:Q5367620",
   "source": "Q11644074",
   "target": "Q5367620",
@@ -17157,6 +17241,13 @@
   "id": "blood:Q11650669:Q11650684",
   "source": "Q11650669",
   "target": "Q11650684",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q11650670:Q11650673",
+  "source": "Q11650670",
+  "target": "Q11650673",
   "type": "blood",
   "flags": []
  },
@@ -19456,6 +19547,20 @@
   "flags": []
  },
  {
+  "id": "blood:Q141924039:Q11644228",
+  "source": "Q141924039",
+  "target": "Q11644228",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q141924102:Q141924039",
+  "source": "Q141924102",
+  "target": "Q141924039",
+  "type": "blood",
+  "flags": []
+ },
+ {
   "id": "blood:Q15934258:Q16482486",
   "source": "Q15934258",
   "target": "Q16482486",
@@ -19547,9 +19652,23 @@
   "flags": []
  },
  {
+  "id": "blood:Q17192971:Q17192976",
+  "source": "Q17192971",
+  "target": "Q17192976",
+  "type": "blood",
+  "flags": []
+ },
+ {
   "id": "blood:Q17192972:Q11586312",
   "source": "Q17192972",
   "target": "Q11586312",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q17192976:Q17230066",
+  "source": "Q17192976",
+  "target": "Q17230066",
   "type": "blood",
   "flags": []
  },
@@ -20548,6 +20667,13 @@
   "id": "blood:Q330211:Q11370487",
   "source": "Q330211",
   "target": "Q11370487",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q3317350:Q10565561",
+  "source": "Q3317350",
+  "target": "Q10565561",
   "type": "blood",
   "flags": []
  },
@@ -23242,6 +23368,13 @@
   "id": "blood:Q7041869:Q7041862",
   "source": "Q7041869",
   "target": "Q7041862",
+  "type": "blood",
+  "flags": []
+ },
+ {
+  "id": "blood:Q7079826:Q128865374",
+  "source": "Q7079826",
+  "target": "Q128865374",
   "type": "blood",
   "flags": []
  },

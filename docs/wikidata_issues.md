@@ -1,15 +1,14 @@
 # Wikidata 側で直すとよい点の一覧
 
-このファイルは `scripts/report_issues.py` が `data/warnings.json` から自動で作ります(手で直さない)。データ生成: 2026-10-20。リンクは Wikidata の項目です。
+このファイルは `scripts/report_issues.py` が `data/warnings.json` から自動で作ります(手で直さない)。データ生成: 2026-10-30。リンクは Wikidata の項目です。
 Wikidata を直したあと、生データ(`data/raw/`)を消して `python scripts/build_data.py` を実行すると反映されます。
 
 ## 目次
 
-- 旧国が決まらない(地方不明として表示)(27件)
-- 旧国が複数あり、城のある国を決められない(3件)
-- 座標が無く地図に出ない(131件)
+- 旧国が決まらない(地方不明として表示)(24件)
+- 座標が無く地図に出ない(117件)
 - 実父が2人以上いる(40件)
-- 藩主に実父(P22)が無い(133件)
+- 藩主に実父(P22)が無い(131件)
 - 父の P40 にあるが、子の側に P22 が無い(8件)
 - 子の P22 にあるが、父の側に P40 が無い(5件)
 - 親族(P1038)に関係(P1039)が無く、向きが分からない(3件)
@@ -17,14 +16,15 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - 在任(P39)に開始年(P580)が無い(5件)
 - 征夷大将軍の在任に開始年が無い(3件)
 - 在任の年が P39 と P1308 で食い違う(9件)
-- P39 と P1308 で在任の数が違う(23件)
-- 役職の P2389 と藩の P2388 が一致しない(4件)
+- P39 と P1308 で在任の数が違う(12件)
+- 役職の P2389 と藩の P2388 が一致しない(3件)
 - 藩主の性別(P21)が女性(2件)
 - 性別(P21)が無い(母の可能性)(1件)
 - 同名の藩項目が複数(4件)
 - 肖像のライセンスを確認できない(2件)
+- その他(2件)
 
-## 旧国が決まらない(地方不明として表示)(27件)
+## 旧国が決まらない(地方不明として表示)(24件)
 
 藩の項目に所在地(P131)の令制国か郡を入れる、または本部所在地(P159)の城・陣屋に所在地を入れると決まります。郡は config.json の district_to_province でも補えます。
 
@@ -33,9 +33,7 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [下総三浦藩](https://www.wikidata.org/wiki/Q10863364) (Q10863364): 所在地 P131 なし
 - [下総飯田藩](https://www.wikidata.org/wiki/Q10863231) (Q10863231): 所在地 P131 なし
 - [中村藩](https://www.wikidata.org/wiki/Q18710354) (Q18710354): 所在地 P131 なし
-- [久居藩](https://www.wikidata.org/wiki/Q109570669) (Q109570669): 所在地 P131 なし
 - [伊予吉田藩](https://www.wikidata.org/wiki/Q114397604) (Q114397604): 所在地 P131 なし
-- [伊勢亀山藩](https://www.wikidata.org/wiki/Q3034389) (Q3034389): 所在地 P131 なし
 - [佐野藩](https://www.wikidata.org/wiki/Q10863374) (Q10863374): 所在地 P131 なし
 - [児島藩](https://www.wikidata.org/wiki/Q109358278) (Q109358278): 所在地 P131 なし
 - [吉永藩](https://www.wikidata.org/wiki/Q109356827) (Q109356827): 所在地 P131 なし
@@ -43,7 +41,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [多度津藩](https://www.wikidata.org/wiki/Q109356835) (Q109356835): 所在地 P131 なし
 - [大聖寺新田藩](https://www.wikidata.org/wiki/Q10863382) (Q10863382): 所在地 P131 なし
 - [山城長岡藩](https://www.wikidata.org/wiki/Q12589487) (Q12589487): 所在地 P131 なし
-- [山崎藩](https://www.wikidata.org/wiki/Q10863539) (Q10863539): 所在地 P131 なし
 - [平福藩](https://www.wikidata.org/wiki/Q10863493) (Q10863493): 所在地 P131 なし
 - [広島新田藩](https://www.wikidata.org/wiki/Q109359721) (Q109359721): 所在地 P131 なし
 - [彦根新田藩](https://www.wikidata.org/wiki/Q12626275) (Q12626275): 所在地 P131 なし
@@ -56,15 +53,7 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [高島藩](https://www.wikidata.org/wiki/Q16282184) (Q16282184): 所在地 P131 なし
 - [鴨方藩](https://www.wikidata.org/wiki/Q123110960) (Q123110960): 所在地 P131 なし
 
-## 旧国が複数あり、城のある国を決められない(3件)
-
-本部所在地(P159)の城・陣屋の所在地(P131)をたどって国に届くようにするか、config.json の province_overrides で指定します。
-
-- [奥殿藩](https://www.wikidata.org/wiki/Q3034400) (Q3034400): 旧国が複数あり(信濃国・三河国)、城のある国を Wikidata から決められないため信濃国を仮に採っています(config.json の province_overrides で指定してください)
-- [徳島藩](https://www.wikidata.org/wiki/Q3034557) (Q3034557): 旧国が複数あり(淡路国・阿波国)、城のある国を Wikidata から決められないため淡路国を仮に採っています(config.json の province_overrides で指定してください)
-- [鳥取藩](https://www.wikidata.org/wiki/Q905521) (Q905521): 旧国が複数あり(伯耆国・因幡国)、城のある国を Wikidata から決められないため伯耆国を仮に採っています(config.json の province_overrides で指定してください)
-
-## 座標が無く地図に出ない(131件)
+## 座標が無く地図に出ない(117件)
 
 本部所在地(P159)に城・陣屋を入れ、その項目に座標(P625)を入れるのが確実です。所在地(P131)が令制国だけの藩は、国の中心では粗すぎるため座標に使っていません。
 
@@ -96,7 +85,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [原市藩](https://www.wikidata.org/wiki/Q10863433) (Q10863433): 今の所在地 P131: 武蔵国
 - [吉永藩](https://www.wikidata.org/wiki/Q109356827) (Q109356827): 所在地 P131 なし
 - [吉江藩](https://www.wikidata.org/wiki/Q10863532) (Q10863532): 今の所在地 P131: 越前国
-- [土佐新田藩](https://www.wikidata.org/wiki/Q12162100) (Q12162100): 所在地 P131 なし
 - [埴科藩](https://www.wikidata.org/wiki/Q10863435) (Q10863435): 今の所在地 P131: 信濃国
 - [多度津藩](https://www.wikidata.org/wiki/Q109356835) (Q109356835): 所在地 P131 なし
 - [大久保藩](https://www.wikidata.org/wiki/Q10863309) (Q10863309): 今の所在地 P131: 陸奥国
@@ -111,17 +99,13 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [小久保藩](https://www.wikidata.org/wiki/Q10863383) (Q10863383): 今の所在地 P131: 上総国
 - [小張藩](https://www.wikidata.org/wiki/Q10855302) (Q10855302): 今の所在地 P131: 常陸国
 - [山城長岡藩](https://www.wikidata.org/wiki/Q12589487) (Q12589487): 所在地 P131 なし
-- [岡田藩](https://www.wikidata.org/wiki/Q1045052) (Q1045052): 今の所在地 P131: 備中国
 - [岩崎藩](https://www.wikidata.org/wiki/Q141654715) (Q141654715): 所在地 P131 なし
 - [岩村田藩](https://www.wikidata.org/wiki/Q10863260) (Q10863260): 今の所在地 P131: 信濃国
 - [岩滝藩](https://www.wikidata.org/wiki/Q10863263) (Q10863263): 今の所在地 P131: 美濃国
 - [川成島藩](https://www.wikidata.org/wiki/Q10855037) (Q10855037): 今の所在地 P131: 駿河国
 - [左沢藩](https://www.wikidata.org/wiki/Q141654806) (Q141654806): 所在地 P131 なし
 - [布市藩](https://www.wikidata.org/wiki/Q10863438) (Q10863438): 今の所在地 P131: 新川郡
-- [平戸新田藩](https://www.wikidata.org/wiki/Q12168152) (Q12168152): 今の所在地 P131: 肥前国
-- [広島新田藩](https://www.wikidata.org/wiki/Q109359721) (Q109359721): 所在地 P131 なし
 - [庭瀬藩](https://www.wikidata.org/wiki/Q3034514) (Q3034514): 今の所在地 P131: 備中国
-- [彦根新田藩](https://www.wikidata.org/wiki/Q12626275) (Q12626275): 所在地 P131 なし
 - [徳美藩](https://www.wikidata.org/wiki/Q10863449) (Q10863449): 今の所在地 P131: 甲斐国
 - [徳野藩](https://www.wikidata.org/wiki/Q11490464) (Q11490464): 今の所在地 P131: 美濃国
 - [揖斐藩](https://www.wikidata.org/wiki/Q10863264) (Q10863264): 今の所在地 P131: 美濃国
@@ -131,10 +115,7 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [木本藩](https://www.wikidata.org/wiki/Q10863393) (Q10863393): 今の所在地 P131: 越前国
 - [村山藩](https://www.wikidata.org/wiki/Q10863541) (Q10863541): 今の所在地 P131: 村山郡
 - [東方藩](https://www.wikidata.org/wiki/Q141732683) (Q141732683): 今の所在地 P131: 武蔵国
-- [松山新田藩](https://www.wikidata.org/wiki/Q141732887) (Q141732887): 今の所在地 P131: 伊予国
 - [松山藩](https://www.wikidata.org/wiki/Q141654775) (Q141654775): 所在地 P131 なし
-- [松崎藩](https://www.wikidata.org/wiki/Q109359686) (Q109359686): 所在地 P131 なし
-- [松江新田藩](https://www.wikidata.org/wiki/Q141733522) (Q141733522): 今の所在地 P131: 出雲国
 - [松長藩](https://www.wikidata.org/wiki/Q10863501) (Q10863501): 今の所在地 P131: 駿河国
 - [板橋藩](https://www.wikidata.org/wiki/Q10863265) (Q10863265): 今の所在地 P131: 下野国
 - [林藩](https://www.wikidata.org/wiki/Q11533304) (Q11533304): 今の所在地 P131: 伊勢国
@@ -142,7 +123,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [櫛羅藩](https://www.wikidata.org/wiki/Q10863339) (Q10863339): 今の所在地 P131: 大和国
 - [武蔵小室藩](https://www.wikidata.org/wiki/Q10863502) (Q10863502): 今の所在地 P131: 武蔵国
 - [泉藩](https://www.wikidata.org/wiki/Q909946) (Q909946): 所在地 P131 なし
-- [浅尾藩](https://www.wikidata.org/wiki/Q11557068) (Q11557068): 今の所在地 P131: 備中国
 - [清富藩](https://www.wikidata.org/wiki/Q30925922) (Q30925922): 今の所在地 P131: 但馬国
 - [湯本藩](https://www.wikidata.org/wiki/Q141661613) (Q141661613): 所在地 P131 なし
 - [湯長谷藩](https://www.wikidata.org/wiki/Q844425) (Q844425): 所在地 P131 なし
@@ -158,12 +138,10 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [美濃脇坂藩](https://www.wikidata.org/wiki/Q10863516) (Q10863516): 今の所在地 P131: 美濃国
 - [美濃長谷川藩](https://www.wikidata.org/wiki/Q10863517) (Q10863517): 今の所在地 P131: 美濃国
 - [美濃高松藩](https://www.wikidata.org/wiki/Q10863523) (Q10863523): 今の所在地 P131: 美濃国
-- [肥後新田藩](https://www.wikidata.org/wiki/Q12168171) (Q12168171): 今の所在地 P131: 肥後国
 - [能登下村藩](https://www.wikidata.org/wiki/Q10863457) (Q10863457): 今の所在地 P131: 能登国
 - [興留藩](https://www.wikidata.org/wiki/Q10863353) (Q10863353): 今の所在地 P131: 大和国
 - [花房藩](https://www.wikidata.org/wiki/Q3034442) (Q3034442): 今の所在地 P131: 安房国
 - [菊間藩](https://www.wikidata.org/wiki/Q10855751) (Q10855751): 今の所在地 P131: 上総国
-- [蓮池藩](https://www.wikidata.org/wiki/Q3034444) (Q3034444): 今の所在地 P131: 肥前国
 - [蔵王堂藩](https://www.wikidata.org/wiki/Q10863403) (Q10863403): 今の所在地 P131: 越後国
 - [西江原藩](https://www.wikidata.org/wiki/Q10856274) (Q10856274): 所在地 P131 なし
 - [西谷藩](https://www.wikidata.org/wiki/Q10863462) (Q10863462): 今の所在地 P131: 能登国
@@ -181,7 +159,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [長尾藩](https://www.wikidata.org/wiki/Q3034503) (Q3034503): 今の所在地 P131: 安房国
 - [長峰藩](https://www.wikidata.org/wiki/Q10855946) (Q10855946): 今の所在地 P131: 越後国
 - [阿保藩](https://www.wikidata.org/wiki/Q10863294) (Q10863294): 所在地 P131 なし
-- [阿波富田藩](https://www.wikidata.org/wiki/Q12161918) (Q12161918): 今の所在地 P131: 阿波国
 - [陶器藩](https://www.wikidata.org/wiki/Q10863472) (Q10863472): 今の所在地 P131: 和泉国
 - [陸奥下村藩](https://www.wikidata.org/wiki/Q10863528) (Q10863528): 今の所在地 P131: 陸奥国
 - [青柳藩](https://www.wikidata.org/wiki/Q10863295) (Q10863295): 今の所在地 P131: 上野国
@@ -192,8 +169,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [高徳藩](https://www.wikidata.org/wiki/Q10863414) (Q10863414): 今の所在地 P131: 下野国
 - [高柳藩](https://www.wikidata.org/wiki/Q10856398) (Q10856398): 今の所在地 P131: 越後国
 - [高森藩](https://www.wikidata.org/wiki/Q10856390) (Q10856390): 今の所在地 P131: 越前国
-- [鳥取新田藩](https://www.wikidata.org/wiki/Q141737782) (Q141737782): 今の所在地 P131: 因幡国
-- [鳥取新田藩](https://www.wikidata.org/wiki/Q141737862) (Q141737862): 今の所在地 P131: 因幡国
 - [鴨方藩](https://www.wikidata.org/wiki/Q123110960) (Q123110960): 所在地 P131 なし
 - [鶴田藩](https://www.wikidata.org/wiki/Q123150770) (Q123150770): 所在地 P131 なし
 - [麻生藩](https://www.wikidata.org/wiki/Q10863296) (Q10863296): 今の所在地 P131: 常陸国
@@ -245,7 +220,7 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [青山成重](https://www.wikidata.org/wiki/Q11069279) (Q11069279): 実父が複数あります(服部正信、青山忠重)
 - [黒田職隆](https://www.wikidata.org/wiki/Q11678682) (Q11678682): 実父が複数あります(黒田重隆、小寺則職)
 
-## 藩主に実父(P22)が無い(133件)
+## 藩主に実父(P22)が無い(131件)
 
 実父が分かれば P22 を入れると、家系図でほかの藩主とつながることがあります。
 
@@ -346,8 +321,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [水野忠昭](https://www.wikidata.org/wiki/Q10565540) (Q10565540): 実父(P22)がありません
 - [水野忠興](https://www.wikidata.org/wiki/Q10565556) (Q10565556): 実父(P22)がありません
 - [水野忠見](https://www.wikidata.org/wiki/Q10565559) (Q10565559): 実父(P22)がありません
-- [水野忠輝](https://www.wikidata.org/wiki/Q10565561) (Q10565561): 実父(P22)がありません
-- [水野忠辰](https://www.wikidata.org/wiki/Q10565563) (Q10565563): 実父(P22)がありません
 - [水野忠韶](https://www.wikidata.org/wiki/Q10565566) (Q10565566): 実父(P22)がありません
 - [水野忠順](https://www.wikidata.org/wiki/Q11549385) (Q11549385): 実父(P22)がありません
 - [水野重上](https://www.wikidata.org/wiki/Q10565571) (Q10565571): 実父(P22)がありません
@@ -440,10 +413,9 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [蒔田広孝](https://www.wikidata.org/wiki/Q11621238) (Q11621238): 浅尾藩主 の在任年が P39=1858–1863 / P1308=1863–1871 で食い違います(要文献確認)
 - [関一政](https://www.wikidata.org/wiki/Q7447188) (Q7447188): 黒坂藩主 の在任年が P39=1610–1618 / P1308=1611–1618 で食い違います(要文献確認)
 
-## P39 と P1308 で在任の数が違う(23件)
+## P39 と P1308 で在任の数が違う(12件)
 
 - [中山信徴](https://www.wikidata.org/wiki/Q11364059) (Q11364059): 常陸松岡藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [久世重之](https://www.wikidata.org/wiki/Q10860008) (Q10860008): 関宿藩主 の在任声明数が P39=1 / P1308=2 で異なります
 - [井伊直定](https://www.wikidata.org/wiki/Q11161221) (Q11161221): 彦根藩主 の在任声明数が P39=2 / P1308=1 で異なります
 - [井伊直幸](https://www.wikidata.org/wiki/Q11161255) (Q11161255): 彦根藩主 の在任声明数が P39=1 / P1308=2 で異なります
 - [吉川経幹](https://www.wikidata.org/wiki/Q11413061) (Q11413061): 岩国藩主 の在任声明数が P39=1 / P1308=2 で異なります
@@ -452,23 +424,12 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [徳川慶喜](https://www.wikidata.org/wiki/Q287657) (Q287657): 一橋徳川家当主 の在任声明数が P39=2 / P1308=1 で異なります
 - [松前章広](https://www.wikidata.org/wiki/Q8514326) (Q8514326): 松前藩主 の在任声明数が P39=1 / P1308=2 で異なります
 - [松平乗真](https://www.wikidata.org/wiki/Q10729485) (Q10729485): 奥殿藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [松平勝成](https://www.wikidata.org/wiki/Q10729337) (Q10729337): 伊予松山藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [松平定昭](https://www.wikidata.org/wiki/Q10729366) (Q10729366): 伊予松山藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [松平康福](https://www.wikidata.org/wiki/Q10791086) (Q10791086): 浜田藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [松平忠弘](https://www.wikidata.org/wiki/Q11239138) (Q11239138): 山形藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [松平昌親](https://www.wikidata.org/wiki/Q6788037) (Q6788037): 福井藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [松平武元](https://www.wikidata.org/wiki/Q11239141) (Q11239141): 館林藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [松平頼位](https://www.wikidata.org/wiki/Q6638162) (Q6638162): 常陸宍戸藩主 の在任声明数が P39=1 / P1308=2 で異なります
 - [細川興元](https://www.wikidata.org/wiki/Q11605976) (Q11605976): 谷田部藩主 の在任声明数が P39=2 / P1308=1 で異なります
 - [細川興貫](https://www.wikidata.org/wiki/Q11605990) (Q11605990): 谷田部藩主 の在任声明数が P39=2 / P1308=1 で異なります
-- [織田信敏](https://www.wikidata.org/wiki/Q5370072) (Q5370072): 天童藩主 の在任声明数が P39=1 / P1308=2 で異なります
 - [蒔田広孝](https://www.wikidata.org/wiki/Q11621238) (Q11621238): 浅尾藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [阿部正静](https://www.wikidata.org/wiki/Q8012981) (Q8012981): 棚倉藩主 の在任声明数が P39=1 / P1308=2 で異なります
-- [阿部正静](https://www.wikidata.org/wiki/Q8012981) (Q8012981): 白河藩主 の在任声明数が P39=1 / P1308=2 で異なります
 
-## 役職の P2389 と藩の P2388 が一致しない(4件)
+## 役職の P2389 と藩の P2388 が一致しない(3件)
 
-- [小城藩](https://www.wikidata.org/wiki/Q3034399) (Q3034399): 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141529979'] / 藩→役職: [])
 - [東方藩](https://www.wikidata.org/wiki/Q141732683) (Q141732683): 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141732700'] / 藩→役職: [])
 - [野本藩](https://www.wikidata.org/wiki/Q141732613) (Q141732613): 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141732701'] / 藩→役職: [])
 - [鹿奴藩](https://www.wikidata.org/wiki/Q123997456) (Q123997456): 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141737845'] / 藩→役職: ['Q141733594'])
@@ -493,3 +454,8 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 
 - [大久保忠真](https://www.wikidata.org/wiki/Q8081583) (Q8081583): 画像 Ōkubo Tadazane.gif はライセンスを確認できないため、画像を表示せずリンクのみにしています
 - [牧野忠雅](https://www.wikidata.org/wiki/Q6739716) (Q6739716): 画像 Toku fig03.jpg はライセンスを確認できないため、画像を表示せずリンクのみにしています
+
+## その他(2件)
+
+- [大垣新田藩](https://www.wikidata.org/wiki/Q10863312) (Q10863312): 本部所在地(P159)に陣屋 大垣新田藩畠村陣屋 があるため、本藩 大垣藩 の座標には合わせていません(合わせるなら config.json の branch_domains に指定)
+- [大聖寺新田藩](https://www.wikidata.org/wiki/Q10863382) (Q10863382): 本藩 大聖寺藩 に座標が無いため、地図に出せません

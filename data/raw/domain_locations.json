@@ -1803,6 +1803,11 @@
    "locLabel": "何鹿郡"
   },
   {
+   "domain": "http://www.wikidata.org/entity/Q10863539",
+   "loc": "http://www.wikidata.org/entity/Q1047523",
+   "locLabel": "播磨国"
+  },
+  {
    "domain": "http://www.wikidata.org/entity/Q10863541",
    "loc": "http://www.wikidata.org/entity/Q11523165",
    "locLabel": "村山郡"
@@ -1851,6 +1856,16 @@
    "domain": "http://www.wikidata.org/entity/Q11449814",
    "loc": "http://www.wikidata.org/entity/Q1053699",
    "locLabel": "下野国"
+  },
+  {
+   "domain": "http://www.wikidata.org/entity/Q109359686",
+   "loc": "http://www.wikidata.org/entity/Q864159",
+   "locLabel": "筑後国"
+  },
+  {
+   "domain": "http://www.wikidata.org/entity/Q109570669",
+   "loc": "http://www.wikidata.org/entity/Q864166",
+   "locLabel": "伊勢国"
   },
   {
    "domain": "http://www.wikidata.org/entity/Q208766",
@@ -1921,6 +1936,11 @@
    "domain": "http://www.wikidata.org/entity/Q3034388",
    "loc": "http://www.wikidata.org/entity/Q11548296",
    "locLabel": "水内郡"
+  },
+  {
+   "domain": "http://www.wikidata.org/entity/Q3034389",
+   "loc": "http://www.wikidata.org/entity/Q864166",
+   "locLabel": "伊勢国"
   },
   {
    "domain": "http://www.wikidata.org/entity/Q3034394",

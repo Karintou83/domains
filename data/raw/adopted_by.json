@@ -11,8 +11,6 @@
   "Q10565540",
   "Q10565556",
   "Q10565559",
-  "Q10565561",
-  "Q10565563",
   "Q10565566",
   "Q10565571",
   "Q10565576",
@@ -166,12 +164,6 @@
    "rel": "http://www.wikidata.org/entity/Q61740757"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q10565563",
-   "other": "http://www.wikidata.org/entity/Q10565488",
-   "otherLabel": "水野忠任",
-   "rel": "http://www.wikidata.org/entity/Q20746742"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q11429189",
    "other": "http://www.wikidata.org/entity/Q11429188",
    "otherLabel": "増山正修",
@@ -311,15 +303,15 @@
   },
   {
    "person": "http://www.wikidata.org/entity/Q11670091",
-   "other": "http://www.wikidata.org/entity/Q11670089",
-   "otherLabel": "高木正善",
-   "rel": "http://www.wikidata.org/entity/Q20746742"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11670091",
    "other": "http://www.wikidata.org/entity/Q11670101",
    "otherLabel": "高木正明",
    "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11670091",
+   "other": "http://www.wikidata.org/entity/Q11670089",
+   "otherLabel": "高木正善",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11670089",
@@ -347,15 +339,15 @@
   },
   {
    "person": "http://www.wikidata.org/entity/Q11549810",
-   "other": "http://www.wikidata.org/entity/Q11549813",
-   "otherLabel": "永井直諒",
-   "rel": "http://www.wikidata.org/entity/Q20746742"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11549810",
    "other": "http://www.wikidata.org/entity/Q11549816",
    "otherLabel": "永井直輝",
    "rel": "http://www.wikidata.org/entity/Q20746725"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11549810",
+   "other": "http://www.wikidata.org/entity/Q11549813",
+   "otherLabel": "永井直諒",
+   "rel": "http://www.wikidata.org/entity/Q20746742"
   }
  ]
 }

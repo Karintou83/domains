@@ -55,7 +55,6 @@
   "Ashikaga Yoshiuji (Kamakura period).jpg",
   "Bakushin.jpg",
   "Bessyo nagaharu.jpg",
-  "Chikasue Andō.jpg",
   "Daimyo Hotta Masayoshi.png",
   "Date Chikamune.jpg",
   "Date Harumune.jpg",
@@ -1024,6 +1023,8 @@
   "大河内正質.jpg",
   "大河内輝声.JPG",
   "大関増勤.jpg",
+  "安東 愛季.jpg",
+  "小笠原長時.jpg",
   "島津重豪.jpg",
   "徳川綱重.jpg",
   "成瀬正住.png",
@@ -1043,6 +1044,8 @@
   "織田宝岩祐居士.jpg",
   "蒲生定秀.jpg",
   "蒲生貞秀.jpg",
+  "里見 忠義.jpg",
+  "里見義堯木像.jpg",
   "間部詮道.jpg",
   "鳥居 元忠.jpg"
  ],
@@ -1760,19 +1763,6 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:Bessyo_nagaharu.jpg",
    "mime": "image/jpeg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Bessyo_nagaharu.jpg/250px-Bessyo_nagaharu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "missing": false
-  },
-  {
-   "file": "Chikasue Andō.jpg",
-   "license": "Public domain",
-   "license_url": null,
-   "artist": "Unknown authorUnknown author",
-   "credit": "東北大学附属図書館蔵",
-   "attribution_required": "false",
-   "copyrighted": "False",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Chikasue_And%C5%8D.jpg",
-   "mime": "image/jpeg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Chikasue_And%C5%8D.jpg/250px-Chikasue_And%C5%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {
@@ -9368,19 +9358,6 @@
    "missing": false
   },
   {
-   "file": "Nanbu-naofusa-zou.jpg",
-   "license": "CC BY 2.5",
-   "license_url": "https://creativecommons.org/licenses/by/2.5",
-   "artist": "house-nasu",
-   "credit": "Self-photographed",
-   "attribution_required": "true",
-   "copyrighted": "True",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Nanbu-naofusa-zou.jpg",
-   "mime": "image/jpeg",
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nanbu-naofusa-zou.jpg/250px-Nanbu-naofusa-zou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-   "missing": false
-  },
-  {
    "file": "Nanbu Nobuyuki.png",
    "license": "Public domain",
    "license_url": null,
@@ -9391,6 +9368,19 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:Nanbu_Nobuyuki.png",
    "mime": "image/png",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Nanbu_Nobuyuki.png/250px-Nanbu_Nobuyuki.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
+   "file": "Nanbu-naofusa-zou.jpg",
+   "license": "CC BY 2.5",
+   "license_url": "https://creativecommons.org/licenses/by/2.5",
+   "artist": "house-nasu",
+   "credit": "Self-photographed",
+   "attribution_required": "true",
+   "copyrighted": "True",
+   "page_url": "https://commons.wikimedia.org/wiki/File:Nanbu-naofusa-zou.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Nanbu-naofusa-zou.jpg/250px-Nanbu-naofusa-zou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {
@@ -12167,7 +12157,7 @@
    "license": "Public domain",
    "license_url": null,
    "artist": "鈴木白華",
-   "credit": "Makinohara Museum of History (牧之原市史料館所蔵), Okitsugu.com",
+   "credit": "Makinohara Museum of History (牧之原市史料館所蔵), Okitsugu.com [1]",
    "attribution_required": "false",
    "copyrighted": "False",
    "page_url": "https://commons.wikimedia.org/wiki/File:Tanuma_Okitsugu2.jpg",
@@ -14360,6 +14350,32 @@
    "missing": false
   },
   {
+   "file": "安東 愛季.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "Unknown authorUnknown author",
+   "credit": "http://sengokujapan.blogspot.com/2024/09/1539-1587.html",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E5%AE%89%E6%9D%B1_%E6%84%9B%E5%AD%A3.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%E5%AE%89%E6%9D%B1_%E6%84%9B%E5%AD%A3.jpg/250px-%E5%AE%89%E6%9D%B1_%E6%84%9B%E5%AD%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
+   "file": "小笠原長時.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "一猛斎芳虎",
+   "credit": "https://www.facebook.com/naganokenriturekisikan/posts/小笠原長時この度の戦国3代の出発点は小笠原長時になります長時は武田信玄により府中松本市を追われ上杉謙信や三好長慶などの有力大名のもとを転々としたことから流浪の信/3267720006573303/",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E7%AC%A0%E5%8E%9F%E9%95%B7%E6%99%82.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/%E5%B0%8F%E7%AC%A0%E5%8E%9F%E9%95%B7%E6%99%82.jpg/250px-%E5%B0%8F%E7%AC%A0%E5%8E%9F%E9%95%B7%E6%99%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
    "file": "島津重豪.jpg",
    "license": "Public domain",
    "license_url": null,
@@ -14604,6 +14620,32 @@
    "page_url": "https://commons.wikimedia.org/wiki/File:%E8%92%B2%E7%94%9F%E8%B2%9E%E7%A7%80.jpg",
    "mime": "image/jpeg",
    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/%E8%92%B2%E7%94%9F%E8%B2%9E%E7%A7%80.jpg/250px-%E8%92%B2%E7%94%9F%E8%B2%9E%E7%A7%80.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "missing": false
+  },
+  {
+   "file": "里見 忠義.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "artist": "曲亭馬琴",
+   "credit": "南総里見八犬伝",
+   "attribution_required": "false",
+   "copyrighted": "False",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E9%87%8C%E8%A6%8B_%E5%BF%A0%E7%BE%A9.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%E9%87%8C%E8%A6%8B_%E5%BF%A0%E7%BE%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "missing": false
+  },
+  {
+   "file": "里見義堯木像.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "artist": "Xwdgtpwga",
+   "credit": "Own work",
+   "attribution_required": "false",
+   "copyrighted": "True",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%A0%AF%E6%9C%A8%E5%83%8F.jpg",
+   "mime": "image/jpeg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%A0%AF%E6%9C%A8%E5%83%8F.jpg/250px-%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%A0%AF%E6%9C%A8%E5%83%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
    "missing": false
   },
   {

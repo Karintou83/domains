@@ -4446,8 +4446,7 @@
   ],
   "clan_source": "inferred_name",
   "flags": [
-   "clan_inferred_name",
-   "no_father"
+   "clan_inferred_name"
   ],
   "image": null
  },
@@ -4466,8 +4465,7 @@
   ],
   "clan_source": "inferred_name",
   "flags": [
-   "clan_inferred_name",
-   "no_father"
+   "clan_inferred_name"
   ],
   "image": null
  },
@@ -5768,7 +5766,7 @@
   "wikipedia": "松平勝成",
   "primary_domain": "Q1042087",
   "has_tenure": true,
-  "gen_label": "伊予松山藩15代",
+  "gen_label": "伊予松山藩15代・伊予松山藩17代",
   "clans": [
    {
     "id": "Q1141077",
@@ -6106,7 +6104,7 @@
   "wikipedia": "松平定昭",
   "primary_domain": "Q1042087",
   "has_tenure": true,
-  "gen_label": "伊予松山藩16代",
+  "gen_label": "伊予松山藩16代・伊予松山藩18代",
   "clans": [
    {
     "id": "Q1141077",
@@ -7807,7 +7805,7 @@
   "wikipedia": "松平康福",
   "primary_domain": "Q3034439",
   "has_tenure": true,
-  "gen_label": "浜田藩7代・古河藩21代・岡崎藩12代",
+  "gen_label": "浜田藩7代・古河藩21代・岡崎藩12代・浜田藩11代",
   "clans": [
    {
     "id": "Q11356220",
@@ -9096,7 +9094,7 @@
   "wikipedia": "久世重之",
   "primary_domain": "Q3034521",
   "has_tenure": true,
-  "gen_label": "関宿藩13代・庭瀬藩5代・丹波亀山藩11代・三河吉田藩11代",
+  "gen_label": "関宿藩13代・庭瀬藩5代・丹波亀山藩11代・三河吉田藩11代・関宿藩16代",
   "clans": [
    {
     "id": "Q11368911",
@@ -15170,7 +15168,7 @@
   "wikipedia": "松平忠弘",
   "primary_domain": "Q1062190",
   "has_tenure": true,
-  "gen_label": "姫路藩8代・山形藩8代・宇都宮藩6代・白河藩6代",
+  "gen_label": "姫路藩8代・山形藩8代・宇都宮藩6代・白河藩6代・山形藩13代",
   "clans": [
    {
     "id": "Q1141077",
@@ -15189,7 +15187,7 @@
   "wikipedia": "松平武元",
   "primary_domain": "Q909259",
   "has_tenure": true,
-  "gen_label": "棚倉藩7代・館林藩10代",
+  "gen_label": "棚倉藩7代・館林藩10代・館林藩13代",
   "clans": [
    {
     "id": "Q11636553",
@@ -17013,6 +17011,25 @@
   "primary_domain": "Q10863492",
   "has_tenure": true,
   "gen_label": "常陸松岡藩11代",
+  "clans": [
+   {
+    "id": "Q11364211",
+    "name": "中山氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name"
+  ],
+  "image": null
+ },
+ {
+  "id": "Q11364220",
+  "name": "中山照守",
+  "wikipedia": "中山照守",
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
   "clans": [
    {
     "id": "Q11364211",
@@ -31381,6 +31398,34 @@
   "primary_domain": "Q11490464",
   "has_tenure": true,
   "gen_label": "徳野藩2代",
+  "clans": [],
+  "clan_source": null,
+  "flags": [
+   "clan_missing"
+  ],
+  "image": null
+ },
+ {
+  "id": "Q11483744",
+  "name": "平野長純",
+  "wikipedia": "平野長純",
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [],
+  "clan_source": null,
+  "flags": [
+   "clan_missing"
+  ],
+  "image": null
+ },
+ {
+  "id": "Q11483748",
+  "name": "平野長里",
+  "wikipedia": "平野長里",
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
   "clans": [],
   "clan_source": null,
   "flags": [
@@ -53461,6 +53506,25 @@
   "image": null
  },
  {
+  "id": "Q11644018",
+  "name": "酒井了次",
+  "wikipedia": "酒井了次",
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [
+   {
+    "id": "Q2975346",
+    "name": "酒井氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name"
+  ],
+  "image": null
+ },
+ {
   "id": "Q11644074",
   "name": "酒井家次",
   "wikipedia": "酒井家次",
@@ -55312,6 +55376,25 @@
   "image": null
  },
  {
+  "id": "Q11650673",
+  "name": "鍋島直晴",
+  "wikipedia": "鍋島直晴",
+  "primary_domain": "Q3034464",
+  "has_tenure": true,
+  "gen_label": "鹿島藩11代",
+  "clans": [
+   {
+    "id": "Q3101516",
+    "name": "鍋島氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name"
+  ],
+  "image": null
+ },
+ {
   "id": "Q11650676",
   "name": "鍋島直朝",
   "wikipedia": "鍋島直朝",
@@ -55482,7 +55565,7 @@
   "wikipedia": "鍋島直賢",
   "primary_domain": "Q3034464",
   "has_tenure": true,
-  "gen_label": "鹿島藩11代",
+  "gen_label": "鹿島藩12代",
   "clans": [
    {
     "id": "Q3101516",
@@ -60441,15 +60524,14 @@
  {
   "id": "Q141734449",
   "name": "平野長興",
-  "wikipedia": null,
+  "wikipedia": "平野長興",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
   "clans": [],
   "clan_source": null,
   "flags": [
-   "clan_missing",
-   "no_wikipedia"
+   "clan_missing"
   ],
   "image": null
  },
@@ -61464,6 +61546,46 @@
   "image": null
  },
  {
+  "id": "Q141924039",
+  "name": "酒井重秋",
+  "wikipedia": null,
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [
+   {
+    "id": "Q2975346",
+    "name": "酒井氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name",
+   "no_wikipedia"
+  ],
+  "image": null
+ },
+ {
+  "id": "Q141924102",
+  "name": "酒井忠崇",
+  "wikipedia": null,
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [
+   {
+    "id": "Q2975346",
+    "name": "酒井氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name",
+   "no_wikipedia"
+  ],
+  "image": null
+ },
+ {
   "id": "Q15934258",
   "name": "根津信政",
   "wikipedia": "根津信政",
@@ -61704,9 +61826,47 @@
   "image": null
  },
  {
+  "id": "Q17192971",
+  "name": "石川総氏",
+  "wikipedia": "石川総氏",
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [
+   {
+    "id": "Q615039",
+    "name": "石川氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name"
+  ],
+  "image": null
+ },
+ {
   "id": "Q17192972",
   "name": "石川総恒",
   "wikipedia": "石川総恒",
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [
+   {
+    "id": "Q615039",
+    "name": "石川氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name"
+  ],
+  "image": null
+ },
+ {
+  "id": "Q17192976",
+  "name": "石川総昌",
+  "wikipedia": "石川総昌",
   "primary_domain": null,
   "has_tenure": false,
   "gen_label": "",
@@ -64852,7 +65012,15 @@
   "flags": [
    "clan_inferred_name"
   ],
-  "image": null
+  "image": {
+   "file": "里見 忠義.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E9%87%8C%E8%A6%8B_%E5%BF%A0%E7%BE%A9.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "曲亭馬琴",
+   "display": true,
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/%E9%87%8C%E8%A6%8B_%E5%BF%A0%E7%BE%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+  }
  },
  {
   "id": "Q348466",
@@ -65730,13 +65898,13 @@
   "clan_source": "wikidata",
   "flags": [],
   "image": {
-   "file": "Chikasue Andō.jpg",
-   "page_url": "https://commons.wikimedia.org/wiki/File:Chikasue_And%C5%8D.jpg",
+   "file": "安東 愛季.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E5%AE%89%E6%9D%B1_%E6%84%9B%E5%AD%A3.jpg",
    "license": "Public domain",
    "license_url": null,
    "author": "Unknown authorUnknown author",
    "display": true,
-   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Chikasue_And%C5%8D.jpg/250px-Chikasue_And%C5%8D.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/%E5%AE%89%E6%9D%B1_%E6%84%9B%E5%AD%A3.jpg/250px-%E5%AE%89%E6%9D%B1_%E6%84%9B%E5%AD%A3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
   }
  },
  {
@@ -66339,7 +66507,15 @@
   "flags": [
    "clan_inferred_name"
   ],
-  "image": null
+  "image": {
+   "file": "里見義堯木像.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%A0%AF%E6%9C%A8%E5%83%8F.jpg",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "author": "Xwdgtpwga",
+   "display": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%A0%AF%E6%9C%A8%E5%83%8F.jpg/250px-%E9%87%8C%E8%A6%8B%E7%BE%A9%E5%A0%AF%E6%9C%A8%E5%83%8F.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
  },
  {
   "id": "Q5367620",
@@ -66570,7 +66746,7 @@
   "wikipedia": "織田信敏",
   "primary_domain": "Q1037917",
   "has_tenure": true,
-  "gen_label": "天童藩3代",
+  "gen_label": "天童藩3代・天童藩5代",
   "clans": [
    {
     "id": "Q1132077",
@@ -69395,7 +69571,7 @@
   "wikipedia": "松平頼位",
   "primary_domain": "Q3034528",
   "has_tenure": true,
-  "gen_label": "常陸宍戸藩10代",
+  "gen_label": "常陸宍戸藩10代・常陸宍戸藩12代",
   "clans": [
    {
     "id": "Q1141077",
@@ -70346,7 +70522,7 @@
   "wikipedia": "松平昌親",
   "primary_domain": "Q10863532",
   "has_tenure": true,
-  "gen_label": "吉江藩1代・福井藩5代",
+  "gen_label": "吉江藩1代・福井藩5代・福井藩7代",
   "clans": [
    {
     "id": "Q1141077",
@@ -72437,7 +72613,7 @@
   "wikipedia": "鍋島直彬",
   "primary_domain": "Q3034464",
   "has_tenure": true,
-  "gen_label": "鹿島藩12代",
+  "gen_label": "鹿島藩13代",
   "clans": [
    {
     "id": "Q3101516",
@@ -72457,6 +72633,25 @@
    "display": true,
    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Nabeshima_Naoyoshi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
   }
+ },
+ {
+  "id": "Q7079826",
+  "name": "小笠原常春",
+  "wikipedia": "小笠原常春",
+  "primary_domain": null,
+  "has_tenure": false,
+  "gen_label": "",
+  "clans": [
+   {
+    "id": "Q2975340",
+    "name": "小笠原氏"
+   }
+  ],
+  "clan_source": "inferred_name",
+  "flags": [
+   "clan_inferred_name"
+  ],
+  "image": null
  },
  {
   "id": "Q7079832",
@@ -74215,7 +74410,7 @@
   "wikipedia": "阿部正静",
   "primary_domain": "Q909259",
   "has_tenure": true,
-  "gen_label": "棚倉藩17代・白河藩21代",
+  "gen_label": "棚倉藩17代・白河藩21代・棚倉藩18代・白河藩22代",
   "clans": [],
   "clan_source": null,
   "flags": [
@@ -82447,7 +82642,15 @@
   "flags": [
    "clan_inferred_name"
   ],
-  "image": null
+  "image": {
+   "file": "小笠原長時.jpg",
+   "page_url": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E7%AC%A0%E5%8E%9F%E9%95%B7%E6%99%82.jpg",
+   "license": "Public domain",
+   "license_url": null,
+   "author": "一猛斎芳虎",
+   "display": true,
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/%E5%B0%8F%E7%AC%A0%E5%8E%9F%E9%95%B7%E6%99%82.jpg/250px-%E5%B0%8F%E7%AC%A0%E5%8E%9F%E9%95%B7%E6%99%82.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+  }
  },
  {
   "id": "Q909029",
