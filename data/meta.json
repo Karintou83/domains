@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-10-21T04:53:33+00:00",
+ "generated_at": "2026-10-30T05:40:32+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
   "domains": 496,
-  "lords": 4246,
-  "tenures": 4048,
-  "relations": 3765,
-  "rulers": 3416,
+  "lords": 4256,
+  "tenures": 4060,
+  "relations": 3784,
+  "rulers": 3417,
   "warnings": {
-   "warn": 365,
-   "info": 237
+   "warn": 354,
+   "info": 236
   }
  },
  "regions": [
@@ -26,17 +26,17 @@
   "北海道・東北": {
    "domains": 53,
    "lords": 407,
-   "tenures": 429
+   "tenures": 433
   },
   "関東": {
    "domains": 132,
    "lords": 836,
-   "tenures": 945
+   "tenures": 948
   },
   "北陸": {
    "domains": 36,
    "lords": 271,
-   "tenures": 285
+   "tenures": 286
   },
   "東海・甲信": {
    "domains": 74,
@@ -44,42 +44,42 @@
    "tenures": 554
   },
   "近畿": {
-   "domains": 85,
-   "lords": 726,
-   "tenures": 765
+   "domains": 88,
+   "lords": 767,
+   "tenures": 818
   },
   "中国": {
    "domains": 35,
    "lords": 300,
-   "tenures": 314
+   "tenures": 315
   },
   "四国": {
    "domains": 13,
    "lords": 133,
-   "tenures": 135
+   "tenures": 137
   },
   "九州": {
    "domains": 41,
-   "lords": 447,
-   "tenures": 457
+   "lords": 448,
+   "tenures": 458
   },
   "unknown": {
-   "domains": 27,
-   "lords": 162,
-   "tenures": 164
+   "domains": 24,
+   "lords": 111,
+   "tenures": 111
   }
  },
  "province_source": {
-  "wikidata_direct": 392,
-  "none": 27,
+  "wikidata_direct": 395,
+  "none": 24,
   "wikidata_p131": 29,
   "config_district": 7,
   "config": 41
  },
  "clan_source": {
-  "inferred_name": 2694,
+  "inferred_name": 2702,
   "wikidata": 429,
-  "none": 1111,
+  "none": 1113,
   "inherited_father": 12
  },
  "clan_inference_selfcheck": {
@@ -104,8 +104,8 @@
   "Q10291472": 4,
   "Q3972282": 1,
   "Q15657883": 2,
-  "Q2096646": 1,
   "Q31819505": 1,
+  "Q2096646": 1,
   "Q402152": 2,
   "Q183905": 1,
   "Q13184390": 1,
@@ -246,16 +246,16 @@
  "excluded": {
   "female": 0,
   "parent_gender_unknown": 1,
-  "adoption_edges": 1051
+  "adoption_edges": 1052
  },
  "include_adoption": "roots",
  "adoption_roots": {
-  "roots": 534,
+  "roots": 525,
   "edges": 11,
   "roots_connected": 11,
   "skipped_cycle": 0
  },
  "ancestor_generations": 8,
  "ancestor_keep_generations": 2,
- "ancestors_pruned": 237
+ "ancestors_pruned": 238
 }

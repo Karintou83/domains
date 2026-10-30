@@ -2,12 +2,6 @@
  {
   "level": "warn",
   "kind": "coord_missing",
-  "subject": "Q1045052",
-  "message": "岡田藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
- },
- {
-  "level": "warn",
-  "kind": "coord_missing",
   "subject": "Q1073005",
   "message": "麻田藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
  },
@@ -494,12 +488,6 @@
  {
   "level": "warn",
   "kind": "coord_missing",
-  "subject": "Q109359686",
-  "message": "松崎藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
- },
- {
-  "level": "warn",
-  "kind": "coord_missing",
   "subject": "Q109359691",
   "message": "三次藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
  },
@@ -532,18 +520,6 @@
   "kind": "coord_missing",
   "subject": "Q11533304",
   "message": "林藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
- },
- {
-  "level": "warn",
-  "kind": "coord_missing",
-  "subject": "Q11557068",
-  "message": "浅尾藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
- },
- {
-  "level": "warn",
-  "kind": "coord_missing",
-  "subject": "Q12161918",
-  "message": "阿波富田藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
  },
  {
   "level": "warn",
@@ -722,12 +698,6 @@
  {
   "level": "warn",
   "kind": "coord_missing",
-  "subject": "Q3034444",
-  "message": "蓮池藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
- },
- {
-  "level": "warn",
-  "kind": "coord_missing",
   "subject": "Q3034458",
   "message": "加納藩: 座標を取得できません(藩の座標 P625、本部所在地 P159、首都 P36、所在地 P131 の郡・市町村のいずれにも座標が無い。所在地が令制国だけの藩は、国の中心では粗すぎるため使っていません)"
  },
@@ -819,16 +789,6 @@
  },
  {
   "level": "warn",
-  "kind": "domain_position_mismatch",
-  "subject": "Q3034399",
-  "message": "小城藩: 役職側P2389と藩側P2388が一致しません (役職→藩: ['Q141529979'] / 藩→役職: [])",
-  "positions": [
-   "Q141529979"
-  ],
-  "back": []
- },
- {
-  "level": "warn",
   "kind": "lord_female",
   "subject": "Q11473877",
   "message": "岡部長住: 藩主ですが性別(P21)が女性です(藩主なので系図には残しています)"
@@ -904,18 +864,6 @@
   "kind": "lord_no_father",
   "subject": "Q10565559",
   "message": "水野忠見: 実父(P22)がありません"
- },
- {
-  "level": "warn",
-  "kind": "lord_no_father",
-  "subject": "Q10565561",
-  "message": "水野忠輝: 実父(P22)がありません"
- },
- {
-  "level": "warn",
-  "kind": "lord_no_father",
-  "subject": "Q10565563",
-  "message": "水野忠辰: 実父(P22)がありません"
  },
  {
   "level": "warn",
@@ -2066,12 +2014,6 @@
  {
   "level": "warn",
   "kind": "province_missing",
-  "subject": "Q10863539",
-  "message": "山崎藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
- },
- {
-  "level": "warn",
-  "kind": "province_missing",
   "subject": "Q109356827",
   "message": "吉永藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
@@ -2104,12 +2046,6 @@
   "kind": "province_missing",
   "subject": "Q109359721",
   "message": "広島新田藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
- },
- {
-  "level": "warn",
-  "kind": "province_missing",
-  "subject": "Q109570669",
-  "message": "久居藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
@@ -2158,12 +2094,6 @@
   "kind": "province_missing",
   "subject": "Q18710354",
   "message": "中村藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
- },
- {
-  "level": "warn",
-  "kind": "province_missing",
-  "subject": "Q3034389",
-  "message": "伊勢亀山藩: 旧国を決められません(Wikidata に旧国が無く、config.json の province_overrides・district_to_province にもありません)。地方不明として表示します"
  },
  {
   "level": "warn",
@@ -2518,12 +2448,6 @@
   "kind": "coord_approx",
   "subject": "Q10863381",
   "message": "坂木藩: 首都(坂城町)の座標で代用した概略位置です"
- },
- {
-  "level": "info",
-  "kind": "coord_approx",
-  "subject": "Q10863386",
-  "message": "小松藩: 首都(小松町)の座標で代用した概略位置です"
  },
  {
   "level": "info",
@@ -3050,12 +2974,6 @@
  {
   "level": "info",
   "kind": "coord_approx",
-  "subject": "Q994102",
-  "message": "宇和島藩: 首都(宇和島市)の座標で代用した概略位置です"
- },
- {
-  "level": "info",
-  "kind": "coord_approx",
   "subject": "Q997403",
   "message": "大溝藩: 本部所在地(城・陣屋)の所在地(高島市)の座標で代用した概略位置です"
  },
@@ -3174,6 +3092,70 @@
  {
   "level": "info",
   "kind": "multiple_stints",
+  "subject": "Q10729337",
+  "message": "松平勝成: 伊予松山藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1856,
+    1867
+   ],
+   [
+    1868,
+    1871
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q10729366",
+  "message": "松平定昭: 伊予松山藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1867,
+    1868
+   ],
+   [
+    1871,
+    1871
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q10791086",
+  "message": "松平康福: 浜田藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1736,
+    1759
+   ],
+   [
+    1769,
+    1789
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q10860008",
+  "message": "久世重之: 関宿藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1679,
+    1683
+   ],
+   [
+    1705,
+    1720
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
   "subject": "Q11161221",
   "message": "井伊直定: 彦根藩主 に在任声明が2件(再任、または重複入力)",
   "spans": [
@@ -3200,6 +3182,38 @@
    [
     1710,
     1714
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11239138",
+  "message": "松平忠弘: 山形藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1648,
+    1668
+   ],
+   [
+    1692,
+    1692
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q11239141",
+  "message": "松平武元: 館林藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1728,
+    1728
+   ],
+   [
+    1746,
+    1779
    ]
   ]
  },
@@ -3430,6 +3444,54 @@
  {
   "level": "info",
   "kind": "multiple_stints",
+  "subject": "Q5370072",
+  "message": "織田信敏: 天童藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1868,
+    1868
+   ],
+   [
+    1869,
+    1871
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q6638162",
+  "message": "松平頼位: 常陸宍戸藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1839,
+    1846
+   ],
+   [
+    1868,
+    1871
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q6788037",
+  "message": "松平昌親: 福井藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1674,
+    1676
+   ],
+   [
+    1686,
+    1710
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
   "subject": "Q6788065",
   "message": "松平資訓: 浜松藩主 に在任声明が2件(再任、または重複入力)",
   "spans": [
@@ -3488,6 +3550,38 @@
    [
     1868,
     1871
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q8012981",
+  "message": "阿部正静: 棚倉藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1866,
+    1868
+   ],
+   [
+    1868,
+    1868
+   ]
+  ]
+ },
+ {
+  "level": "info",
+  "kind": "multiple_stints",
+  "subject": "Q8012981",
+  "message": "阿部正静: 白河藩主 に在任声明が2件(再任、または重複入力)",
+  "spans": [
+   [
+    1866,
+    1866
+   ],
+   [
+    1868,
+    1868
    ]
   ]
  },
@@ -3654,32 +3748,8 @@
  {
   "level": "info",
   "kind": "p1308_count_mismatch",
-  "subject": "Q10729337",
-  "message": "松平勝成: 伊予松山藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q10729366",
-  "message": "松平定昭: 伊予松山藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
   "subject": "Q10729485",
   "message": "松平乗真: 奥殿藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q10791086",
-  "message": "松平康福: 浜田藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q10860008",
-  "message": "久世重之: 関宿藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
  {
   "level": "info",
@@ -3692,18 +3762,6 @@
   "kind": "p1308_count_mismatch",
   "subject": "Q11161255",
   "message": "井伊直幸: 彦根藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q11239138",
-  "message": "松平忠弘: 山形藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q11239141",
-  "message": "松平武元: 館林藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
  {
   "level": "info",
@@ -3750,38 +3808,8 @@
  {
   "level": "info",
   "kind": "p1308_count_mismatch",
-  "subject": "Q5370072",
-  "message": "織田信敏: 天童藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q6638162",
-  "message": "松平頼位: 常陸宍戸藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q6788037",
-  "message": "松平昌親: 福井藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
   "subject": "Q6788054",
   "message": "大給恒: 奥殿藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q8012981",
-  "message": "阿部正静: 棚倉藩主 の在任声明数が P39=1 / P1308=2 で異なります"
- },
- {
-  "level": "info",
-  "kind": "p1308_count_mismatch",
-  "subject": "Q8012981",
-  "message": "阿部正静: 白河藩主 の在任声明数が P39=1 / P1308=2 で異なります"
  },
  {
   "level": "info",
@@ -3830,6 +3858,12 @@
   "kind": "position_no_holders",
   "subject": "Q141732701",
   "message": "野本藩主: P39の在任者がいません(P1308側には在任者あり)"
+ },
+ {
+  "level": "info",
+  "kind": "province_override_redundant",
+  "subject": "Q109359686",
+  "message": "松崎藩: config の province_overrides と同じ旧国が Wikidata にもあります(筑後国)。config の指定は外せます"
  },
  {
   "level": "info",

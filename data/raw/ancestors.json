@@ -959,6 +959,7 @@
   "Q11364069",
   "Q11364136",
   "Q11364183",
+  "Q11364220",
   "Q11364232",
   "Q11364736",
   "Q11364738",
@@ -1764,6 +1765,8 @@
   "Q11480571",
   "Q11482629",
   "Q11482630",
+  "Q11483744",
+  "Q11483748",
   "Q11485462",
   "Q11485463",
   "Q11486850",
@@ -2958,6 +2961,7 @@
   "Q11642963",
   "Q11642967",
   "Q11642971",
+  "Q11644018",
   "Q11644074",
   "Q11644092",
   "Q11644094",
@@ -3051,6 +3055,7 @@
   "Q11650666",
   "Q11650669",
   "Q11650670",
+  "Q11650673",
   "Q11650676",
   "Q11650677",
   "Q11650680",
@@ -3407,6 +3412,8 @@
   "Q141794056",
   "Q141794547",
   "Q141794650",
+  "Q141924039",
+  "Q141924102",
   "Q15839246",
   "Q15934258",
   "Q1616582",
@@ -3421,7 +3428,9 @@
   "Q17192948",
   "Q17192964",
   "Q17192965",
+  "Q17192971",
   "Q17192972",
+  "Q17192976",
   "Q17192979",
   "Q171977",
   "Q17209024",
@@ -3471,6 +3480,7 @@
   "Q2635471",
   "Q2728800",
   "Q2748477",
+  "Q27920574",
   "Q28131624",
   "Q2814515",
   "Q284038",
@@ -3958,6 +3968,7 @@
   "Q7041864",
   "Q7041869",
   "Q705147",
+  "Q7079826",
   "Q7079832",
   "Q7079838",
   "Q7079842",
@@ -6863,6 +6874,18 @@
    "fatherLabel": "水野忠義"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q10565561",
+   "father": "http://www.wikidata.org/entity/Q3317350",
+   "via": "P22",
+   "fatherLabel": "水野忠之"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q10565563",
+   "father": "http://www.wikidata.org/entity/Q10565561",
+   "via": "P22",
+   "fatherLabel": "水野忠輝"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q10565568",
    "father": "http://www.wikidata.org/entity/Q11557349",
    "via": "P22",
@@ -7301,6 +7324,18 @@
    "fatherLabel": "松平定勝"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q10729381",
+   "father": "http://www.wikidata.org/entity/Q128865374",
+   "via": "P40",
+   "fatherLabel": "松平勘敬"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q10729392",
+   "father": "http://www.wikidata.org/entity/Q128865395",
+   "via": "P40",
+   "fatherLabel": "松平伊行"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q10729346",
    "father": "http://www.wikidata.org/entity/Q141679072",
    "via": "P40",
@@ -7397,6 +7432,12 @@
    "fatherLabel": "松平定勝"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q10565561",
+   "father": "http://www.wikidata.org/entity/Q3317350",
+   "via": "P40",
+   "fatherLabel": "水野忠之"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q1065113",
    "father": "http://www.wikidata.org/entity/Q5369481",
    "via": "P40",
@@ -7467,6 +7508,12 @@
    "father": "http://www.wikidata.org/entity/Q10565545",
    "via": "P40",
    "fatherLabel": "水野忠清"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q10565563",
+   "father": "http://www.wikidata.org/entity/Q10565561",
+   "via": "P40",
+   "fatherLabel": "水野忠輝"
   },
   {
    "person": "http://www.wikidata.org/entity/Q10565545",
@@ -7821,18 +7868,6 @@
    "father": "http://www.wikidata.org/entity/Q111143048",
    "via": "P40",
    "fatherLabel": "松平定昌"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q10729381",
-   "father": "http://www.wikidata.org/entity/Q128865374",
-   "via": "P40",
-   "fatherLabel": "松平勘敬"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q10729392",
-   "father": "http://www.wikidata.org/entity/Q128865395",
-   "via": "P40",
-   "fatherLabel": "松平伊行"
   },
   {
    "person": "http://www.wikidata.org/entity/Q107395",
@@ -10811,6 +10846,78 @@
    "fatherLabel": "松平頼誠"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11045153",
+   "father": "http://www.wikidata.org/entity/Q11467811",
+   "via": "P40",
+   "fatherLabel": "山岡景之"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11074588",
+   "father": "http://www.wikidata.org/entity/Q11495559",
+   "via": "P40",
+   "fatherLabel": "成瀬正一"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11075415",
+   "father": "http://www.wikidata.org/entity/Q11496372",
+   "via": "P40",
+   "fatherLabel": "戸川秀安"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11239089",
+   "father": "http://www.wikidata.org/entity/Q11530406",
+   "via": "P40",
+   "fatherLabel": "松平容詮"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11239123",
+   "father": "http://www.wikidata.org/entity/Q11530506",
+   "via": "P40",
+   "fatherLabel": "松平清照"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11069825",
+   "father": "http://www.wikidata.org/entity/Q11644124",
+   "via": "P40",
+   "fatherLabel": "酒井忠実"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11069279",
+   "father": "http://www.wikidata.org/entity/Q57887784",
+   "via": "P40",
+   "fatherLabel": "青山忠重"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11069841",
+   "father": "http://www.wikidata.org/entity/Q111533942",
+   "via": "P40",
+   "fatherLabel": "松平忠明"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11069279",
+   "father": "http://www.wikidata.org/entity/Q135415981",
+   "via": "P40",
+   "fatherLabel": "服部正信"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11070352",
+   "father": "http://www.wikidata.org/entity/Q141734430",
+   "via": "P40",
+   "fatherLabel": "太田直熹"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11161172",
+   "father": "http://www.wikidata.org/entity/Q141783793",
+   "via": "P40",
+   "fatherLabel": "木俣守吉"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11068358",
+   "father": "http://www.wikidata.org/entity/Q141794020",
+   "via": "P40",
+   "fatherLabel": "朝倉宣季"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11239147",
    "father": "http://www.wikidata.org/entity/Q399755",
    "via": "P40",
@@ -11331,78 +11438,6 @@
    "father": "http://www.wikidata.org/entity/Q11457152",
    "via": "P40",
    "fatherLabel": "富田一白"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11045153",
-   "father": "http://www.wikidata.org/entity/Q11467811",
-   "via": "P40",
-   "fatherLabel": "山岡景之"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11074588",
-   "father": "http://www.wikidata.org/entity/Q11495559",
-   "via": "P40",
-   "fatherLabel": "成瀬正一"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11075415",
-   "father": "http://www.wikidata.org/entity/Q11496372",
-   "via": "P40",
-   "fatherLabel": "戸川秀安"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11239089",
-   "father": "http://www.wikidata.org/entity/Q11530406",
-   "via": "P40",
-   "fatherLabel": "松平容詮"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11239123",
-   "father": "http://www.wikidata.org/entity/Q11530506",
-   "via": "P40",
-   "fatherLabel": "松平清照"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11069825",
-   "father": "http://www.wikidata.org/entity/Q11644124",
-   "via": "P40",
-   "fatherLabel": "酒井忠実"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11069279",
-   "father": "http://www.wikidata.org/entity/Q57887784",
-   "via": "P40",
-   "fatherLabel": "青山忠重"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11069841",
-   "father": "http://www.wikidata.org/entity/Q111533942",
-   "via": "P40",
-   "fatherLabel": "松平忠明"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11069279",
-   "father": "http://www.wikidata.org/entity/Q135415981",
-   "via": "P40",
-   "fatherLabel": "服部正信"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11070352",
-   "father": "http://www.wikidata.org/entity/Q141734430",
-   "via": "P40",
-   "fatherLabel": "太田直熹"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11161172",
-   "father": "http://www.wikidata.org/entity/Q141783793",
-   "via": "P40",
-   "fatherLabel": "木俣守吉"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11068358",
-   "father": "http://www.wikidata.org/entity/Q141794020",
-   "via": "P40",
-   "fatherLabel": "朝倉宣季"
   },
   {
    "person": "http://www.wikidata.org/entity/Q1130929",
@@ -15371,6 +15406,30 @@
    "fatherLabel": "加藤泰衑"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11402159",
+   "father": "http://www.wikidata.org/entity/Q141734356",
+   "via": "P40",
+   "fatherLabel": "北条氏利"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11402163",
+   "father": "http://www.wikidata.org/entity/Q141734357",
+   "via": "P40",
+   "fatherLabel": "北条氏迪"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11397444",
+   "father": "http://www.wikidata.org/entity/Q141793980",
+   "via": "P40",
+   "fatherLabel": "前田孝始"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11419250",
+   "father": "http://www.wikidata.org/entity/Q141794024",
+   "via": "P40",
+   "fatherLabel": "細川定良"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11397442",
    "father": "http://www.wikidata.org/entity/Q587204",
    "via": "P40",
@@ -15939,30 +15998,6 @@
    "father": "http://www.wikidata.org/entity/Q141734356",
    "via": "P40",
    "fatherLabel": "北条氏利"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11402159",
-   "father": "http://www.wikidata.org/entity/Q141734356",
-   "via": "P40",
-   "fatherLabel": "北条氏利"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11402163",
-   "father": "http://www.wikidata.org/entity/Q141734357",
-   "via": "P40",
-   "fatherLabel": "北条氏迪"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11397444",
-   "father": "http://www.wikidata.org/entity/Q141793980",
-   "via": "P40",
-   "fatherLabel": "前田孝始"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11419250",
-   "father": "http://www.wikidata.org/entity/Q141794024",
-   "via": "P40",
-   "fatherLabel": "細川定良"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11419254",
@@ -18617,6 +18652,84 @@
    "fatherLabel": "山口弘隆"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11467617",
+   "father": "http://www.wikidata.org/entity/Q141734372",
+   "via": "P22",
+   "fatherLabel": "山名義問"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11466485",
+   "father": "http://www.wikidata.org/entity/Q11678700",
+   "via": "P40",
+   "fatherLabel": "黒田長元"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11452032",
+   "father": "http://www.wikidata.org/entity/Q17230670",
+   "via": "P40",
+   "fatherLabel": "宗義暢"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11452031",
+   "father": "http://www.wikidata.org/entity/Q17230670",
+   "via": "P40",
+   "fatherLabel": "宗義暢"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11463419",
+   "father": "http://www.wikidata.org/entity/Q108456388",
+   "via": "P40",
+   "fatherLabel": "小笠原長丘"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11467507",
+   "father": "http://www.wikidata.org/entity/Q109250469",
+   "via": "P40",
+   "fatherLabel": "山口盛政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11466483",
+   "father": "http://www.wikidata.org/entity/Q141733243",
+   "via": "P40",
+   "fatherLabel": "山内豊成"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11466489",
+   "father": "http://www.wikidata.org/entity/Q141733244",
+   "via": "P40",
+   "fatherLabel": "山内豊充"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11459138",
+   "father": "http://www.wikidata.org/entity/Q141734368",
+   "via": "P40",
+   "fatherLabel": "小出英信"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11467617",
+   "father": "http://www.wikidata.org/entity/Q141734372",
+   "via": "P40",
+   "fatherLabel": "山名義問"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11459515",
+   "father": "http://www.wikidata.org/entity/Q141734442",
+   "via": "P40",
+   "fatherLabel": "垣見正房"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11463335",
+   "father": "http://www.wikidata.org/entity/Q141740102",
+   "via": "P40",
+   "fatherLabel": "酒井忠隆"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11451586",
+   "father": "http://www.wikidata.org/entity/Q141794039",
+   "via": "P40",
+   "fatherLabel": "安部信興"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11459510",
    "father": "http://www.wikidata.org/entity/Q541040",
    "via": "P40",
@@ -19151,84 +19264,6 @@
    "fatherLabel": "溝口直温"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q11467617",
-   "father": "http://www.wikidata.org/entity/Q141734372",
-   "via": "P22",
-   "fatherLabel": "山名義問"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11466485",
-   "father": "http://www.wikidata.org/entity/Q11678700",
-   "via": "P40",
-   "fatherLabel": "黒田長元"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11452032",
-   "father": "http://www.wikidata.org/entity/Q17230670",
-   "via": "P40",
-   "fatherLabel": "宗義暢"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11452031",
-   "father": "http://www.wikidata.org/entity/Q17230670",
-   "via": "P40",
-   "fatherLabel": "宗義暢"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11463419",
-   "father": "http://www.wikidata.org/entity/Q108456388",
-   "via": "P40",
-   "fatherLabel": "小笠原長丘"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11467507",
-   "father": "http://www.wikidata.org/entity/Q109250469",
-   "via": "P40",
-   "fatherLabel": "山口盛政"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11466483",
-   "father": "http://www.wikidata.org/entity/Q141733243",
-   "via": "P40",
-   "fatherLabel": "山内豊成"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11466489",
-   "father": "http://www.wikidata.org/entity/Q141733244",
-   "via": "P40",
-   "fatherLabel": "山内豊充"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11459138",
-   "father": "http://www.wikidata.org/entity/Q141734368",
-   "via": "P40",
-   "fatherLabel": "小出英信"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11467617",
-   "father": "http://www.wikidata.org/entity/Q141734372",
-   "via": "P40",
-   "fatherLabel": "山名義問"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11459515",
-   "father": "http://www.wikidata.org/entity/Q141734442",
-   "via": "P40",
-   "fatherLabel": "垣見正房"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11463335",
-   "father": "http://www.wikidata.org/entity/Q141740102",
-   "via": "P40",
-   "fatherLabel": "酒井忠隆"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11451586",
-   "father": "http://www.wikidata.org/entity/Q141794039",
-   "via": "P40",
-   "fatherLabel": "安部信興"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q1147154",
    "father": "http://www.wikidata.org/entity/Q1207509",
    "via": "P22",
@@ -24401,12 +24436,6 @@
    "fatherLabel": "木下俊敦"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q11539604",
-   "father": "http://www.wikidata.org/entity/Q141794044",
-   "via": "P40",
-   "fatherLabel": "森川俊輝"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q11534415",
    "father": "http://www.wikidata.org/entity/Q846911",
    "via": "P40",
@@ -24953,6 +24982,12 @@
    "fatherLabel": "森川重良"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11539604",
+   "father": "http://www.wikidata.org/entity/Q141794044",
+   "via": "P40",
+   "fatherLabel": "森川俊輝"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11547560",
    "father": "http://www.wikidata.org/entity/Q11547577",
    "via": "P22",
@@ -26669,150 +26704,6 @@
    "fatherLabel": "片桐且元"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q11562042",
-   "father": "http://www.wikidata.org/entity/Q11562067",
-   "via": "P40",
-   "fatherLabel": "渡辺信綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11562405",
-   "father": "http://www.wikidata.org/entity/Q11562098",
-   "via": "P40",
-   "fatherLabel": "渡辺則綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11562425",
-   "father": "http://www.wikidata.org/entity/Q11562165",
-   "via": "P40",
-   "fatherLabel": "渡辺基綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11562463",
-   "father": "http://www.wikidata.org/entity/Q11562405",
-   "via": "P40",
-   "fatherLabel": "渡辺潔綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11562067",
-   "father": "http://www.wikidata.org/entity/Q11562425",
-   "via": "P40",
-   "fatherLabel": "渡辺登綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11562309",
-   "father": "http://www.wikidata.org/entity/Q11562553",
-   "via": "P40",
-   "fatherLabel": "渡辺豪綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11562098",
-   "father": "http://www.wikidata.org/entity/Q11562553",
-   "via": "P40",
-   "fatherLabel": "渡辺豪綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564456",
-   "father": "http://www.wikidata.org/entity/Q11564445",
-   "via": "P40",
-   "fatherLabel": "溝口善勝"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564452",
-   "father": "http://www.wikidata.org/entity/Q11564451",
-   "via": "P40",
-   "fatherLabel": "溝口宣勝"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564486",
-   "father": "http://www.wikidata.org/entity/Q11564452",
-   "via": "P40",
-   "fatherLabel": "溝口宣直"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564457",
-   "father": "http://www.wikidata.org/entity/Q11564456",
-   "via": "P40",
-   "fatherLabel": "溝口政勝"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564471",
-   "father": "http://www.wikidata.org/entity/Q11564475",
-   "via": "P40",
-   "fatherLabel": "溝口直溥"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564476",
-   "father": "http://www.wikidata.org/entity/Q11564473",
-   "via": "P40",
-   "fatherLabel": "溝口直温"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564475",
-   "father": "http://www.wikidata.org/entity/Q11564477",
-   "via": "P40",
-   "fatherLabel": "溝口直諒"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564485",
-   "father": "http://www.wikidata.org/entity/Q11564486",
-   "via": "P40",
-   "fatherLabel": "溝口重雄"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564472",
-   "father": "http://www.wikidata.org/entity/Q11564485",
-   "via": "P40",
-   "fatherLabel": "溝口重元"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11565156",
-   "father": "http://www.wikidata.org/entity/Q11565172",
-   "via": "P40",
-   "fatherLabel": "滝川雄利"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11552088",
-   "father": "http://www.wikidata.org/entity/Q11582393",
-   "via": "P40",
-   "fatherLabel": "相良頼之"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11557360",
-   "father": "http://www.wikidata.org/entity/Q109936718",
-   "via": "P40",
-   "fatherLabel": "浅野長忠"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11552015",
-   "father": "http://www.wikidata.org/entity/Q111097521",
-   "via": "P40",
-   "fatherLabel": "池田仲諟"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11557433",
-   "father": "http://www.wikidata.org/entity/Q140685209",
-   "via": "P40",
-   "fatherLabel": "浅野長懋"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11557423",
-   "father": "http://www.wikidata.org/entity/Q141733714",
-   "via": "P40",
-   "fatherLabel": "浅野懋績"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11562165",
-   "father": "http://www.wikidata.org/entity/Q141734354",
-   "via": "P40",
-   "fatherLabel": "渡辺長綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11564473",
-   "father": "http://www.wikidata.org/entity/Q141740097",
-   "via": "P40",
-   "fatherLabel": "溝口直道"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q11557430",
    "father": "http://www.wikidata.org/entity/Q761596",
    "via": "P40",
@@ -27245,6 +27136,150 @@
    "fatherLabel": "渡辺信綱"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11562042",
+   "father": "http://www.wikidata.org/entity/Q11562067",
+   "via": "P40",
+   "fatherLabel": "渡辺信綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11562405",
+   "father": "http://www.wikidata.org/entity/Q11562098",
+   "via": "P40",
+   "fatherLabel": "渡辺則綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11562425",
+   "father": "http://www.wikidata.org/entity/Q11562165",
+   "via": "P40",
+   "fatherLabel": "渡辺基綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11562463",
+   "father": "http://www.wikidata.org/entity/Q11562405",
+   "via": "P40",
+   "fatherLabel": "渡辺潔綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11562067",
+   "father": "http://www.wikidata.org/entity/Q11562425",
+   "via": "P40",
+   "fatherLabel": "渡辺登綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11562309",
+   "father": "http://www.wikidata.org/entity/Q11562553",
+   "via": "P40",
+   "fatherLabel": "渡辺豪綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11562098",
+   "father": "http://www.wikidata.org/entity/Q11562553",
+   "via": "P40",
+   "fatherLabel": "渡辺豪綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564456",
+   "father": "http://www.wikidata.org/entity/Q11564445",
+   "via": "P40",
+   "fatherLabel": "溝口善勝"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564452",
+   "father": "http://www.wikidata.org/entity/Q11564451",
+   "via": "P40",
+   "fatherLabel": "溝口宣勝"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564486",
+   "father": "http://www.wikidata.org/entity/Q11564452",
+   "via": "P40",
+   "fatherLabel": "溝口宣直"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564457",
+   "father": "http://www.wikidata.org/entity/Q11564456",
+   "via": "P40",
+   "fatherLabel": "溝口政勝"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564471",
+   "father": "http://www.wikidata.org/entity/Q11564475",
+   "via": "P40",
+   "fatherLabel": "溝口直溥"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564476",
+   "father": "http://www.wikidata.org/entity/Q11564473",
+   "via": "P40",
+   "fatherLabel": "溝口直温"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564475",
+   "father": "http://www.wikidata.org/entity/Q11564477",
+   "via": "P40",
+   "fatherLabel": "溝口直諒"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564485",
+   "father": "http://www.wikidata.org/entity/Q11564486",
+   "via": "P40",
+   "fatherLabel": "溝口重雄"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564472",
+   "father": "http://www.wikidata.org/entity/Q11564485",
+   "via": "P40",
+   "fatherLabel": "溝口重元"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11565156",
+   "father": "http://www.wikidata.org/entity/Q11565172",
+   "via": "P40",
+   "fatherLabel": "滝川雄利"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11552088",
+   "father": "http://www.wikidata.org/entity/Q11582393",
+   "via": "P40",
+   "fatherLabel": "相良頼之"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11557360",
+   "father": "http://www.wikidata.org/entity/Q109936718",
+   "via": "P40",
+   "fatherLabel": "浅野長忠"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11552015",
+   "father": "http://www.wikidata.org/entity/Q111097521",
+   "via": "P40",
+   "fatherLabel": "池田仲諟"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11557433",
+   "father": "http://www.wikidata.org/entity/Q140685209",
+   "via": "P40",
+   "fatherLabel": "浅野長懋"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11557423",
+   "father": "http://www.wikidata.org/entity/Q141733714",
+   "via": "P40",
+   "fatherLabel": "浅野懋績"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11562165",
+   "father": "http://www.wikidata.org/entity/Q141734354",
+   "via": "P40",
+   "fatherLabel": "渡辺長綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11564473",
+   "father": "http://www.wikidata.org/entity/Q141740097",
+   "via": "P40",
+   "fatherLabel": "溝口直道"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q115852",
    "father": "http://www.wikidata.org/entity/Q311183",
    "via": "P22",
@@ -27839,54 +27874,6 @@
    "fatherLabel": "稲葉典通"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q11575390",
-   "father": "http://www.wikidata.org/entity/Q141680428",
-   "via": "P40",
-   "fatherLabel": "田中重政"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11582407",
-   "father": "http://www.wikidata.org/entity/Q141680437",
-   "via": "P40",
-   "fatherLabel": "相良長秀"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11586322",
-   "father": "http://www.wikidata.org/entity/Q141734334",
-   "via": "P40",
-   "fatherLabel": "石川総登"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11596497",
-   "father": "http://www.wikidata.org/entity/Q141734343",
-   "via": "P40",
-   "fatherLabel": "稲垣昭辰"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11596524",
-   "father": "http://www.wikidata.org/entity/Q141734344",
-   "via": "P40",
-   "fatherLabel": "稲垣重太"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11569887",
-   "father": "http://www.wikidata.org/entity/Q141734350",
-   "via": "P40",
-   "fatherLabel": "松田貞尚"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11570595",
-   "father": "http://www.wikidata.org/entity/Q141734361",
-   "via": "P40",
-   "fatherLabel": "牧野允成"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11596533",
-   "father": "http://www.wikidata.org/entity/Q141794010",
-   "via": "P40",
-   "fatherLabel": "稲垣重宗"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q115852",
    "father": "http://www.wikidata.org/entity/Q311183",
    "via": "P40",
@@ -28431,6 +28418,54 @@
    "father": "http://www.wikidata.org/entity/Q110713983",
    "via": "P40",
    "fatherLabel": "鷲尾隆熙"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11575390",
+   "father": "http://www.wikidata.org/entity/Q141680428",
+   "via": "P40",
+   "fatherLabel": "田中重政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11582407",
+   "father": "http://www.wikidata.org/entity/Q141680437",
+   "via": "P40",
+   "fatherLabel": "相良長秀"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11586322",
+   "father": "http://www.wikidata.org/entity/Q141734334",
+   "via": "P40",
+   "fatherLabel": "石川総登"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11596497",
+   "father": "http://www.wikidata.org/entity/Q141734343",
+   "via": "P40",
+   "fatherLabel": "稲垣昭辰"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11596524",
+   "father": "http://www.wikidata.org/entity/Q141734344",
+   "via": "P40",
+   "fatherLabel": "稲垣重太"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11569887",
+   "father": "http://www.wikidata.org/entity/Q141734350",
+   "via": "P40",
+   "fatherLabel": "松田貞尚"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11570595",
+   "father": "http://www.wikidata.org/entity/Q141734361",
+   "via": "P40",
+   "fatherLabel": "牧野允成"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11596533",
+   "father": "http://www.wikidata.org/entity/Q141794010",
+   "via": "P40",
+   "fatherLabel": "稲垣重宗"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11596901",
@@ -29033,6 +29068,90 @@
    "fatherLabel": "織田信応"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11605932",
+   "father": "http://www.wikidata.org/entity/Q11606014",
+   "via": "P40",
+   "fatherLabel": "細川重賢"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608267",
+   "father": "http://www.wikidata.org/entity/Q11608265",
+   "via": "P40",
+   "fatherLabel": "織田信則"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608268",
+   "father": "http://www.wikidata.org/entity/Q11608291",
+   "via": "P40",
+   "fatherLabel": "織田信応"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608261",
+   "father": "http://www.wikidata.org/entity/Q11608313",
+   "via": "P40",
+   "fatherLabel": "織田信武"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608266",
+   "father": "http://www.wikidata.org/entity/Q11608344",
+   "via": "P40",
+   "fatherLabel": "織田信陽"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608257",
+   "father": "http://www.wikidata.org/entity/Q11608471",
+   "via": "P40",
+   "fatherLabel": "織田高長"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11598206",
+   "father": "http://www.wikidata.org/entity/Q108916800",
+   "via": "P40",
+   "fatherLabel": "立花茂高"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11605851",
+   "father": "http://www.wikidata.org/entity/Q110955680",
+   "via": "P40",
+   "fatherLabel": "細川利方"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11596949",
+   "father": "http://www.wikidata.org/entity/Q110968151",
+   "via": "P40",
+   "fatherLabel": "稲葉正倚"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11596901",
+   "father": "http://www.wikidata.org/entity/Q141680426",
+   "via": "P40",
+   "fatherLabel": "岡野知英"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11598745",
+   "father": "http://www.wikidata.org/entity/Q141680424",
+   "via": "P40",
+   "fatherLabel": "竹中重光"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11596981",
+   "father": "http://www.wikidata.org/entity/Q141680425",
+   "via": "P40",
+   "fatherLabel": "稲葉通孚"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11596958",
+   "father": "http://www.wikidata.org/entity/Q141734349",
+   "via": "P40",
+   "fatherLabel": "大田原晴川"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11603995",
+   "father": "http://www.wikidata.org/entity/Q141794014",
+   "via": "P40",
+   "fatherLabel": "米倉昌純"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11608265",
    "father": "http://www.wikidata.org/entity/Q1079925",
    "via": "P40",
@@ -29553,90 +29672,6 @@
    "father": "http://www.wikidata.org/entity/Q11606000",
    "via": "P40",
    "fatherLabel": "細川行芬"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11605932",
-   "father": "http://www.wikidata.org/entity/Q11606014",
-   "via": "P40",
-   "fatherLabel": "細川重賢"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608267",
-   "father": "http://www.wikidata.org/entity/Q11608265",
-   "via": "P40",
-   "fatherLabel": "織田信則"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608268",
-   "father": "http://www.wikidata.org/entity/Q11608291",
-   "via": "P40",
-   "fatherLabel": "織田信応"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608261",
-   "father": "http://www.wikidata.org/entity/Q11608313",
-   "via": "P40",
-   "fatherLabel": "織田信武"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608266",
-   "father": "http://www.wikidata.org/entity/Q11608344",
-   "via": "P40",
-   "fatherLabel": "織田信陽"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608257",
-   "father": "http://www.wikidata.org/entity/Q11608471",
-   "via": "P40",
-   "fatherLabel": "織田高長"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11598206",
-   "father": "http://www.wikidata.org/entity/Q108916800",
-   "via": "P40",
-   "fatherLabel": "立花茂高"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11605851",
-   "father": "http://www.wikidata.org/entity/Q110955680",
-   "via": "P40",
-   "fatherLabel": "細川利方"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11596949",
-   "father": "http://www.wikidata.org/entity/Q110968151",
-   "via": "P40",
-   "fatherLabel": "稲葉正倚"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11596901",
-   "father": "http://www.wikidata.org/entity/Q141680426",
-   "via": "P40",
-   "fatherLabel": "岡野知英"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11598745",
-   "father": "http://www.wikidata.org/entity/Q141680424",
-   "via": "P40",
-   "fatherLabel": "竹中重光"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11596981",
-   "father": "http://www.wikidata.org/entity/Q141680425",
-   "via": "P40",
-   "fatherLabel": "稲葉通孚"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11596958",
-   "father": "http://www.wikidata.org/entity/Q141734349",
-   "via": "P40",
-   "fatherLabel": "大田原晴川"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11603995",
-   "father": "http://www.wikidata.org/entity/Q141794014",
-   "via": "P40",
-   "fatherLabel": "米倉昌純"
   },
   {
    "person": "http://www.wikidata.org/entity/Q116151",
@@ -32087,6 +32122,12 @@
    "fatherLabel": "鍋島治茂"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11650673",
+   "father": "http://www.wikidata.org/entity/Q11650670",
+   "via": "P22",
+   "fatherLabel": "鍋島直彜"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11650676",
    "father": "http://www.wikidata.org/entity/Q3138980",
    "via": "P22",
@@ -32573,108 +32614,6 @@
    "fatherLabel": "黒田長邦"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q11678703",
-   "father": "http://www.wikidata.org/entity/Q11678700",
-   "via": "P22",
-   "fatherLabel": "黒田長元"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678648",
-   "father": "http://www.wikidata.org/entity/Q11678642",
-   "via": "P40",
-   "fatherLabel": "黒田直亨"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678645",
-   "father": "http://www.wikidata.org/entity/Q11678643",
-   "via": "P40",
-   "fatherLabel": "黒田直侯"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678650",
-   "father": "http://www.wikidata.org/entity/Q11678651",
-   "via": "P40",
-   "fatherLabel": "黒田直英"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678655",
-   "father": "http://www.wikidata.org/entity/Q11678648",
-   "via": "P40",
-   "fatherLabel": "黒田直方"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678642",
-   "father": "http://www.wikidata.org/entity/Q11678653",
-   "via": "P40",
-   "fatherLabel": "黒田直邦"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678591",
-   "father": "http://www.wikidata.org/entity/Q11678676",
-   "via": "P40",
-   "fatherLabel": "黒田綱政"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678703",
-   "father": "http://www.wikidata.org/entity/Q11678700",
-   "via": "P40",
-   "fatherLabel": "黒田長元"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678674",
-   "father": "http://www.wikidata.org/entity/Q11678705",
-   "via": "P40",
-   "fatherLabel": "黒田長清"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678702",
-   "father": "http://www.wikidata.org/entity/Q11678712",
-   "via": "P40",
-   "fatherLabel": "黒田長邦"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678701",
-   "father": "http://www.wikidata.org/entity/Q108780854",
-   "via": "P40",
-   "fatherLabel": "山崎義俊"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11661883",
-   "father": "http://www.wikidata.org/entity/Q141734359",
-   "via": "P40",
-   "fatherLabel": "青木可直"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11656465",
-   "father": "http://www.wikidata.org/entity/Q141734450",
-   "via": "P40",
-   "fatherLabel": "関長吉"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11655474",
-   "father": "http://www.wikidata.org/entity/Q141740094",
-   "via": "P40",
-   "fatherLabel": "西田清貞"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11655471",
-   "father": "http://www.wikidata.org/entity/Q141740101",
-   "via": "P40",
-   "fatherLabel": "間部詮貞"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678653",
-   "father": "http://www.wikidata.org/entity/Q141794007",
-   "via": "P40",
-   "fatherLabel": "中山直張"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678654",
-   "father": "http://www.wikidata.org/entity/Q141794009",
-   "via": "P40",
-   "fatherLabel": "黒田直古"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q11678600",
    "father": "http://www.wikidata.org/entity/Q950496",
    "via": "P40",
@@ -32901,6 +32840,12 @@
    "father": "http://www.wikidata.org/entity/Q11650665",
    "via": "P40",
    "fatherLabel": "鍋島直堯"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11650673",
+   "father": "http://www.wikidata.org/entity/Q11650670",
+   "via": "P40",
+   "fatherLabel": "鍋島直彜"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11650684",
@@ -33155,6 +33100,96 @@
    "fatherLabel": "黒田直亨"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11678648",
+   "father": "http://www.wikidata.org/entity/Q11678642",
+   "via": "P40",
+   "fatherLabel": "黒田直亨"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678645",
+   "father": "http://www.wikidata.org/entity/Q11678643",
+   "via": "P40",
+   "fatherLabel": "黒田直侯"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678650",
+   "father": "http://www.wikidata.org/entity/Q11678651",
+   "via": "P40",
+   "fatherLabel": "黒田直英"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678655",
+   "father": "http://www.wikidata.org/entity/Q11678648",
+   "via": "P40",
+   "fatherLabel": "黒田直方"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678642",
+   "father": "http://www.wikidata.org/entity/Q11678653",
+   "via": "P40",
+   "fatherLabel": "黒田直邦"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678591",
+   "father": "http://www.wikidata.org/entity/Q11678676",
+   "via": "P40",
+   "fatherLabel": "黒田綱政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678674",
+   "father": "http://www.wikidata.org/entity/Q11678705",
+   "via": "P40",
+   "fatherLabel": "黒田長清"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678702",
+   "father": "http://www.wikidata.org/entity/Q11678712",
+   "via": "P40",
+   "fatherLabel": "黒田長邦"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678701",
+   "father": "http://www.wikidata.org/entity/Q108780854",
+   "via": "P40",
+   "fatherLabel": "山崎義俊"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11661883",
+   "father": "http://www.wikidata.org/entity/Q141734359",
+   "via": "P40",
+   "fatherLabel": "青木可直"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11656465",
+   "father": "http://www.wikidata.org/entity/Q141734450",
+   "via": "P40",
+   "fatherLabel": "関長吉"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11655474",
+   "father": "http://www.wikidata.org/entity/Q141740094",
+   "via": "P40",
+   "fatherLabel": "西田清貞"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11655471",
+   "father": "http://www.wikidata.org/entity/Q141740101",
+   "via": "P40",
+   "fatherLabel": "間部詮貞"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678653",
+   "father": "http://www.wikidata.org/entity/Q141794007",
+   "via": "P40",
+   "fatherLabel": "中山直張"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678654",
+   "father": "http://www.wikidata.org/entity/Q141794009",
+   "via": "P40",
+   "fatherLabel": "黒田直古"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q171977",
    "father": "http://www.wikidata.org/entity/Q1064935",
    "via": "P22",
@@ -33219,12 +33254,6 @@
    "father": "http://www.wikidata.org/entity/Q171977",
    "via": "P22",
    "fatherLabel": "徳川家康"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q314481",
-   "father": "http://www.wikidata.org/entity/Q314464",
-   "via": "P22",
-   "fatherLabel": "徳川秀忠"
   },
   {
    "person": "http://www.wikidata.org/entity/Q1185372",
@@ -33533,6 +33562,12 @@
    "fatherLabel": "細川忠興"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11678703",
+   "father": "http://www.wikidata.org/entity/Q11678700",
+   "via": "P22",
+   "fatherLabel": "黒田長元"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11678705",
    "father": "http://www.wikidata.org/entity/Q11678571",
    "via": "P22",
@@ -33719,6 +33754,180 @@
    "fatherLabel": "稲葉泰通"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q1194899",
+   "father": "http://www.wikidata.org/entity/Q11595125",
+   "via": "P40",
+   "fatherLabel": "秋月種美"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141147439",
+   "father": "http://www.wikidata.org/entity/Q11596959",
+   "via": "P40",
+   "fatherLabel": "稲葉泰通"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q1377984",
+   "father": "http://www.wikidata.org/entity/Q11623723",
+   "via": "P40",
+   "fatherLabel": "藤堂虎高"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q26213745",
+   "father": "http://www.wikidata.org/entity/Q11623752",
+   "via": "P40",
+   "fatherLabel": "藤堂高朗"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q26222264",
+   "father": "http://www.wikidata.org/entity/Q11623753",
+   "via": "P40",
+   "fatherLabel": "藤堂高次"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q26222261",
+   "father": "http://www.wikidata.org/entity/Q11623753",
+   "via": "P40",
+   "fatherLabel": "藤堂高次"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q3125463",
+   "father": "http://www.wikidata.org/entity/Q11625693",
+   "via": "P40",
+   "fatherLabel": "蜂須賀隆喜"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q3125471",
+   "father": "http://www.wikidata.org/entity/Q11625696",
+   "via": "P40",
+   "fatherLabel": "蜂須賀隆矩"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q30252558",
+   "father": "http://www.wikidata.org/entity/Q11631960",
+   "via": "P40",
+   "fatherLabel": "諏訪頼忠"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q28688663",
+   "father": "http://www.wikidata.org/entity/Q11642963",
+   "via": "P40",
+   "fatherLabel": "那須資景"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q3080602",
+   "father": "http://www.wikidata.org/entity/Q11650646",
+   "via": "P40",
+   "fatherLabel": "鍋島忠直"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q251150",
+   "father": "http://www.wikidata.org/entity/Q11650657",
+   "via": "P40",
+   "fatherLabel": "鍋島治茂"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678705",
+   "father": "http://www.wikidata.org/entity/Q11678571",
+   "via": "P40",
+   "fatherLabel": "黒田光之"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678707",
+   "father": "http://www.wikidata.org/entity/Q11678700",
+   "via": "P40",
+   "fatherLabel": "黒田長元"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678703",
+   "father": "http://www.wikidata.org/entity/Q11678700",
+   "via": "P40",
+   "fatherLabel": "黒田長元"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678712",
+   "father": "http://www.wikidata.org/entity/Q11678711",
+   "via": "P40",
+   "fatherLabel": "黒田長貞"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678713",
+   "father": "http://www.wikidata.org/entity/Q11678708",
+   "via": "P40",
+   "fatherLabel": "黒田長興"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678714",
+   "father": "http://www.wikidata.org/entity/Q11678709",
+   "via": "P40",
+   "fatherLabel": "黒田長舒"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678710",
+   "father": "http://www.wikidata.org/entity/Q11678713",
+   "via": "P40",
+   "fatherLabel": "黒田長重"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q16482495",
+   "father": "http://www.wikidata.org/entity/Q15934258",
+   "via": "P40",
+   "fatherLabel": "根津信政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q16482486",
+   "father": "http://www.wikidata.org/entity/Q15934258",
+   "via": "P40",
+   "fatherLabel": "根津信政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678711",
+   "father": "http://www.wikidata.org/entity/Q20042142",
+   "via": "P40",
+   "fatherLabel": "野村祐春"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q26213743",
+   "father": "http://www.wikidata.org/entity/Q26213745",
+   "via": "P40",
+   "fatherLabel": "藤堂高嶷"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q1371657",
+   "father": "http://www.wikidata.org/entity/Q56348388",
+   "via": "P40",
+   "fatherLabel": "加藤教明"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q17223824",
+   "father": "http://www.wikidata.org/entity/Q108486120",
+   "via": "P40",
+   "fatherLabel": "小笠原長保 (大和守)"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q1882775",
+   "father": "http://www.wikidata.org/entity/Q109657357",
+   "via": "P40",
+   "fatherLabel": "片桐直貞"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q1328807",
+   "father": "http://www.wikidata.org/entity/Q141680433",
+   "via": "P40",
+   "fatherLabel": "宗将盛"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q1194978",
+   "father": "http://www.wikidata.org/entity/Q141733246",
+   "via": "P40",
+   "fatherLabel": "脇坂安明"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q2748477",
+   "father": "http://www.wikidata.org/entity/Q141734342",
+   "via": "P40",
+   "fatherLabel": "筒井順国"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q2948444",
    "father": "http://www.wikidata.org/entity/Q115852",
    "via": "P40",
@@ -33741,12 +33950,6 @@
    "father": "http://www.wikidata.org/entity/Q187550",
    "via": "P40",
    "fatherLabel": "豊臣秀吉"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q314481",
-   "father": "http://www.wikidata.org/entity/Q314464",
-   "via": "P40",
-   "fatherLabel": "徳川秀忠"
   },
   {
    "person": "http://www.wikidata.org/entity/Q313745",
@@ -34115,172 +34318,10 @@
    "fatherLabel": "福島正信"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q1194899",
-   "father": "http://www.wikidata.org/entity/Q11595125",
-   "via": "P40",
-   "fatherLabel": "秋月種美"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q141147439",
-   "father": "http://www.wikidata.org/entity/Q11596959",
-   "via": "P40",
-   "fatherLabel": "稲葉泰通"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q1377984",
-   "father": "http://www.wikidata.org/entity/Q11623723",
-   "via": "P40",
-   "fatherLabel": "藤堂虎高"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q26213745",
-   "father": "http://www.wikidata.org/entity/Q11623752",
-   "via": "P40",
-   "fatherLabel": "藤堂高朗"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q26222264",
-   "father": "http://www.wikidata.org/entity/Q11623753",
-   "via": "P40",
-   "fatherLabel": "藤堂高次"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q26222261",
-   "father": "http://www.wikidata.org/entity/Q11623753",
-   "via": "P40",
-   "fatherLabel": "藤堂高次"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q3125463",
-   "father": "http://www.wikidata.org/entity/Q11625693",
-   "via": "P40",
-   "fatherLabel": "蜂須賀隆喜"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q3125471",
-   "father": "http://www.wikidata.org/entity/Q11625696",
-   "via": "P40",
-   "fatherLabel": "蜂須賀隆矩"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q30252558",
-   "father": "http://www.wikidata.org/entity/Q11631960",
-   "via": "P40",
-   "fatherLabel": "諏訪頼忠"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q28688663",
-   "father": "http://www.wikidata.org/entity/Q11642963",
-   "via": "P40",
-   "fatherLabel": "那須資景"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q3080602",
-   "father": "http://www.wikidata.org/entity/Q11650646",
-   "via": "P40",
-   "fatherLabel": "鍋島忠直"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q251150",
-   "father": "http://www.wikidata.org/entity/Q11650657",
-   "via": "P40",
-   "fatherLabel": "鍋島治茂"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678705",
-   "father": "http://www.wikidata.org/entity/Q11678571",
-   "via": "P40",
-   "fatherLabel": "黒田光之"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678707",
-   "father": "http://www.wikidata.org/entity/Q11678700",
-   "via": "P40",
-   "fatherLabel": "黒田長元"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678712",
-   "father": "http://www.wikidata.org/entity/Q11678711",
-   "via": "P40",
-   "fatherLabel": "黒田長貞"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678713",
-   "father": "http://www.wikidata.org/entity/Q11678708",
-   "via": "P40",
-   "fatherLabel": "黒田長興"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678714",
-   "father": "http://www.wikidata.org/entity/Q11678709",
-   "via": "P40",
-   "fatherLabel": "黒田長舒"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678710",
-   "father": "http://www.wikidata.org/entity/Q11678713",
-   "via": "P40",
-   "fatherLabel": "黒田長重"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q16482495",
-   "father": "http://www.wikidata.org/entity/Q15934258",
-   "via": "P40",
-   "fatherLabel": "根津信政"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q16482486",
-   "father": "http://www.wikidata.org/entity/Q15934258",
-   "via": "P40",
-   "fatherLabel": "根津信政"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678711",
-   "father": "http://www.wikidata.org/entity/Q20042142",
-   "via": "P40",
-   "fatherLabel": "野村祐春"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q26213743",
-   "father": "http://www.wikidata.org/entity/Q26213745",
-   "via": "P40",
-   "fatherLabel": "藤堂高嶷"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q1371657",
-   "father": "http://www.wikidata.org/entity/Q56348388",
-   "via": "P40",
-   "fatherLabel": "加藤教明"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q17223824",
-   "father": "http://www.wikidata.org/entity/Q108486120",
-   "via": "P40",
-   "fatherLabel": "小笠原長保 (大和守)"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q1882775",
-   "father": "http://www.wikidata.org/entity/Q109657357",
-   "via": "P40",
-   "fatherLabel": "片桐直貞"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q1328807",
-   "father": "http://www.wikidata.org/entity/Q141680433",
-   "via": "P40",
-   "fatherLabel": "宗将盛"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q1194978",
-   "father": "http://www.wikidata.org/entity/Q141733246",
-   "via": "P40",
-   "fatherLabel": "脇坂安明"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q2748477",
-   "father": "http://www.wikidata.org/entity/Q141734342",
-   "via": "P40",
-   "fatherLabel": "筒井順国"
+   "person": "http://www.wikidata.org/entity/Q314481",
+   "father": "http://www.wikidata.org/entity/Q314464",
+   "via": "P22",
+   "fatherLabel": "徳川秀忠"
   },
   {
    "person": "http://www.wikidata.org/entity/Q318178",
@@ -34865,12 +34906,6 @@
    "fatherLabel": "有馬晴信"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q5227519",
-   "father": "http://www.wikidata.org/entity/Q5227543",
-   "via": "P22",
-   "fatherLabel": "伊達斉村"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q4489936",
    "father": "http://www.wikidata.org/entity/Q171977",
    "via": "P40",
@@ -34881,6 +34916,12 @@
    "father": "http://www.wikidata.org/entity/Q301167",
    "via": "P40",
    "fatherLabel": "板倉勝晙"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q314481",
+   "father": "http://www.wikidata.org/entity/Q314464",
+   "via": "P40",
+   "fatherLabel": "徳川秀忠"
   },
   {
    "person": "http://www.wikidata.org/entity/Q323422",
@@ -35139,12 +35180,6 @@
    "father": "http://www.wikidata.org/entity/Q4778838",
    "via": "P40",
    "fatherLabel": "青山忠俊"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q5227519",
-   "father": "http://www.wikidata.org/entity/Q5227543",
-   "via": "P40",
-   "fatherLabel": "伊達斉村"
   },
   {
    "person": "http://www.wikidata.org/entity/Q399755",
@@ -35517,6 +35552,12 @@
    "father": "http://www.wikidata.org/entity/Q3125466",
    "via": "P22",
    "fatherLabel": "蜂須賀斉裕"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q5227519",
+   "father": "http://www.wikidata.org/entity/Q5227543",
+   "via": "P22",
+   "fatherLabel": "伊達斉村"
   },
   {
    "person": "http://www.wikidata.org/entity/Q5227534",
@@ -36029,12 +36070,6 @@
    "fatherLabel": "田沼意次"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q6636729",
-   "father": "http://www.wikidata.org/entity/Q3327844",
-   "via": "P22",
-   "fatherLabel": "徳川宗勝"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q54292097",
    "father": "http://www.wikidata.org/entity/Q11551917",
    "via": "P22",
@@ -36299,12 +36334,6 @@
    "fatherLabel": "堀尾忠氏"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q6636729",
-   "father": "http://www.wikidata.org/entity/Q3327844",
-   "via": "P40",
-   "fatherLabel": "徳川宗勝"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q5357768",
    "father": "http://www.wikidata.org/entity/Q3334677",
    "via": "P40",
@@ -36330,6 +36359,12 @@
   },
   {
    "person": "http://www.wikidata.org/entity/Q5227540",
+   "father": "http://www.wikidata.org/entity/Q5227543",
+   "via": "P40",
+   "fatherLabel": "伊達斉村"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q5227519",
    "father": "http://www.wikidata.org/entity/Q5227543",
    "via": "P40",
    "fatherLabel": "伊達斉村"
@@ -36659,6 +36694,12 @@
    "fatherLabel": "徳川慶頼"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q6636729",
+   "father": "http://www.wikidata.org/entity/Q3327844",
+   "via": "P22",
+   "fatherLabel": "徳川宗勝"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q6636775",
    "father": "http://www.wikidata.org/entity/Q3327844",
    "via": "P22",
@@ -37223,12 +37264,6 @@
    "fatherLabel": "松平光雄"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q6832474",
-   "father": "http://www.wikidata.org/entity/Q10862141",
-   "via": "P22",
-   "fatherLabel": "松平康長"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q672741",
    "father": "http://www.wikidata.org/entity/Q348466",
    "via": "P40",
@@ -37356,6 +37391,12 @@
   },
   {
    "person": "http://www.wikidata.org/entity/Q6636775",
+   "father": "http://www.wikidata.org/entity/Q3327844",
+   "via": "P40",
+   "fatherLabel": "徳川宗勝"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6636729",
    "father": "http://www.wikidata.org/entity/Q3327844",
    "via": "P40",
    "fatherLabel": "徳川宗勝"
@@ -37655,12 +37696,6 @@
    "fatherLabel": "松平光行"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q6832474",
-   "father": "http://www.wikidata.org/entity/Q10862141",
-   "via": "P40",
-   "fatherLabel": "松平康長"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q6788073",
    "father": "http://www.wikidata.org/entity/Q11069450",
    "via": "P40",
@@ -37857,6 +37892,12 @@
    "father": "http://www.wikidata.org/entity/Q2405649",
    "via": "P22",
    "fatherLabel": "保科正直"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6832474",
+   "father": "http://www.wikidata.org/entity/Q10862141",
+   "via": "P22",
+   "fatherLabel": "松平康長"
   },
   {
    "person": "http://www.wikidata.org/entity/Q6884227",
@@ -38423,6 +38464,168 @@
    "fatherLabel": "宗義質"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q7222592",
+   "father": "http://www.wikidata.org/entity/Q10859981",
+   "via": "P40",
+   "fatherLabel": "小笠原長逵"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7398863",
+   "father": "http://www.wikidata.org/entity/Q10862065",
+   "via": "P40",
+   "fatherLabel": "戸田氏正"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6832474",
+   "father": "http://www.wikidata.org/entity/Q10862141",
+   "via": "P40",
+   "fatherLabel": "松平康長"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q716940",
+   "father": "http://www.wikidata.org/entity/Q10882408",
+   "via": "P40",
+   "fatherLabel": "井伊直中"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7040690",
+   "father": "http://www.wikidata.org/entity/Q11374466",
+   "via": "P40",
+   "fatherLabel": "京極高或"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7402879",
+   "father": "http://www.wikidata.org/entity/Q11449180",
+   "via": "P40",
+   "fatherLabel": "宇喜多忠家"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7667561",
+   "father": "http://www.wikidata.org/entity/Q11452040",
+   "via": "P40",
+   "fatherLabel": "宗義質"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7497613",
+   "father": "http://www.wikidata.org/entity/Q11502218",
+   "via": "P40",
+   "fatherLabel": "新庄直昌"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6993473",
+   "father": "http://www.wikidata.org/entity/Q11530631",
+   "via": "P40",
+   "fatherLabel": "松平頼学"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6998366",
+   "father": "http://www.wikidata.org/entity/Q11530657",
+   "via": "P40",
+   "fatherLabel": "松平頼豊"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7634713",
+   "father": "http://www.wikidata.org/entity/Q11619296",
+   "via": "P40",
+   "fatherLabel": "菅沼定村"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7040689",
+   "father": "http://www.wikidata.org/entity/Q11627749",
+   "via": "P40",
+   "fatherLabel": "西尾忠受"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7402768",
+   "father": "http://www.wikidata.org/entity/Q11644106",
+   "via": "P40",
+   "fatherLabel": "酒井忠利"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7402769",
+   "father": "http://www.wikidata.org/entity/Q11644170",
+   "via": "P40",
+   "fatherLabel": "酒井忠行"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7402766",
+   "father": "http://www.wikidata.org/entity/Q11644178",
+   "via": "P40",
+   "fatherLabel": "酒井忠進"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7402770",
+   "father": "http://www.wikidata.org/entity/Q11644185",
+   "via": "P40",
+   "fatherLabel": "酒井忠音"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6956831",
+   "father": "http://www.wikidata.org/entity/Q11650683",
+   "via": "P40",
+   "fatherLabel": "鍋島直澄"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6956821",
+   "father": "http://www.wikidata.org/entity/Q11650683",
+   "via": "P40",
+   "fatherLabel": "鍋島直澄"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q705147",
+   "father": "http://www.wikidata.org/entity/Q11650680",
+   "via": "P40",
+   "fatherLabel": "鍋島直永"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7447188",
+   "father": "http://www.wikidata.org/entity/Q11656143",
+   "via": "P40",
+   "fatherLabel": "関盛信"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7480624",
+   "father": "http://www.wikidata.org/entity/Q11674904",
+   "via": "P40",
+   "fatherLabel": "鳥居忠挙"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7425575",
+   "father": "http://www.wikidata.org/entity/Q26213743",
+   "via": "P40",
+   "fatherLabel": "藤堂高兌"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6958350",
+   "father": "http://www.wikidata.org/entity/Q52320282",
+   "via": "P40",
+   "fatherLabel": "長田重元"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6959828",
+   "father": "http://www.wikidata.org/entity/Q108453479",
+   "via": "P40",
+   "fatherLabel": "嶋田景信"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q711001",
+   "father": "http://www.wikidata.org/entity/Q109667552",
+   "via": "P40",
+   "fatherLabel": "山内豊著"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7450595",
+   "father": "http://www.wikidata.org/entity/Q141783794",
+   "via": "P40",
+   "fatherLabel": "仙石久盛"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7222435",
+   "father": "http://www.wikidata.org/entity/Q141794019",
+   "via": "P40",
+   "fatherLabel": "大岡忠利"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q6956824",
    "father": "http://www.wikidata.org/entity/Q251150",
    "via": "P40",
@@ -38861,174 +39064,6 @@
    "fatherLabel": "小笠原長矩"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q7701651",
-   "father": "http://www.wikidata.org/entity/Q141406306",
-   "via": "P22",
-   "fatherLabel": "寺沢広政"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7222592",
-   "father": "http://www.wikidata.org/entity/Q10859981",
-   "via": "P40",
-   "fatherLabel": "小笠原長逵"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7398863",
-   "father": "http://www.wikidata.org/entity/Q10862065",
-   "via": "P40",
-   "fatherLabel": "戸田氏正"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q716940",
-   "father": "http://www.wikidata.org/entity/Q10882408",
-   "via": "P40",
-   "fatherLabel": "井伊直中"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7040690",
-   "father": "http://www.wikidata.org/entity/Q11374466",
-   "via": "P40",
-   "fatherLabel": "京極高或"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7402879",
-   "father": "http://www.wikidata.org/entity/Q11449180",
-   "via": "P40",
-   "fatherLabel": "宇喜多忠家"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7667561",
-   "father": "http://www.wikidata.org/entity/Q11452040",
-   "via": "P40",
-   "fatherLabel": "宗義質"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7497613",
-   "father": "http://www.wikidata.org/entity/Q11502218",
-   "via": "P40",
-   "fatherLabel": "新庄直昌"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6993473",
-   "father": "http://www.wikidata.org/entity/Q11530631",
-   "via": "P40",
-   "fatherLabel": "松平頼学"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6998366",
-   "father": "http://www.wikidata.org/entity/Q11530657",
-   "via": "P40",
-   "fatherLabel": "松平頼豊"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7634713",
-   "father": "http://www.wikidata.org/entity/Q11619296",
-   "via": "P40",
-   "fatherLabel": "菅沼定村"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7040689",
-   "father": "http://www.wikidata.org/entity/Q11627749",
-   "via": "P40",
-   "fatherLabel": "西尾忠受"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7402768",
-   "father": "http://www.wikidata.org/entity/Q11644106",
-   "via": "P40",
-   "fatherLabel": "酒井忠利"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7402769",
-   "father": "http://www.wikidata.org/entity/Q11644170",
-   "via": "P40",
-   "fatherLabel": "酒井忠行"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7402766",
-   "father": "http://www.wikidata.org/entity/Q11644178",
-   "via": "P40",
-   "fatherLabel": "酒井忠進"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7402770",
-   "father": "http://www.wikidata.org/entity/Q11644185",
-   "via": "P40",
-   "fatherLabel": "酒井忠音"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6956831",
-   "father": "http://www.wikidata.org/entity/Q11650683",
-   "via": "P40",
-   "fatherLabel": "鍋島直澄"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6956821",
-   "father": "http://www.wikidata.org/entity/Q11650683",
-   "via": "P40",
-   "fatherLabel": "鍋島直澄"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q705147",
-   "father": "http://www.wikidata.org/entity/Q11650680",
-   "via": "P40",
-   "fatherLabel": "鍋島直永"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7447188",
-   "father": "http://www.wikidata.org/entity/Q11656143",
-   "via": "P40",
-   "fatherLabel": "関盛信"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7480624",
-   "father": "http://www.wikidata.org/entity/Q11674904",
-   "via": "P40",
-   "fatherLabel": "鳥居忠挙"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7425575",
-   "father": "http://www.wikidata.org/entity/Q26213743",
-   "via": "P40",
-   "fatherLabel": "藤堂高兌"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6958350",
-   "father": "http://www.wikidata.org/entity/Q52320282",
-   "via": "P40",
-   "fatherLabel": "長田重元"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6959828",
-   "father": "http://www.wikidata.org/entity/Q108453479",
-   "via": "P40",
-   "fatherLabel": "嶋田景信"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q711001",
-   "father": "http://www.wikidata.org/entity/Q109667552",
-   "via": "P40",
-   "fatherLabel": "山内豊著"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7701651",
-   "father": "http://www.wikidata.org/entity/Q141406306",
-   "via": "P40",
-   "fatherLabel": "寺沢広政"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7450595",
-   "father": "http://www.wikidata.org/entity/Q141783794",
-   "via": "P40",
-   "fatherLabel": "仙石久盛"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7222435",
-   "father": "http://www.wikidata.org/entity/Q141794019",
-   "via": "P40",
-   "fatherLabel": "大岡忠利"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q788276",
    "father": "http://www.wikidata.org/entity/Q7813724",
    "via": "P22",
@@ -39207,6 +39242,12 @@
    "father": "http://www.wikidata.org/entity/Q846206",
    "via": "P22",
    "fatherLabel": "鳥居忠政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7701651",
+   "father": "http://www.wikidata.org/entity/Q141406306",
+   "via": "P22",
+   "fatherLabel": "寺沢広政"
   },
   {
    "person": "http://www.wikidata.org/entity/Q7813576",
@@ -39617,18 +39658,6 @@
    "fatherLabel": "蒲生秀行"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8513830",
-   "father": "http://www.wikidata.org/entity/Q1069843",
-   "via": "P22",
-   "fatherLabel": "加藤清正"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7813722",
-   "father": "http://www.wikidata.org/entity/Q11490290",
-   "via": "P40",
-   "fatherLabel": "徳川治済"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q839377",
    "father": "http://www.wikidata.org/entity/Q11515462",
    "via": "P40",
@@ -39717,6 +39746,12 @@
    "father": "http://www.wikidata.org/entity/Q115587306",
    "via": "P40",
    "fatherLabel": "平岩親重"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7701651",
+   "father": "http://www.wikidata.org/entity/Q141406306",
+   "via": "P40",
+   "fatherLabel": "寺沢広政"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8013604",
@@ -39837,12 +39872,6 @@
    "father": "http://www.wikidata.org/entity/Q982743",
    "via": "P40",
    "fatherLabel": "徳川綱誠"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8513830",
-   "father": "http://www.wikidata.org/entity/Q1069843",
-   "via": "P40",
-   "fatherLabel": "加藤清正"
   },
   {
    "person": "http://www.wikidata.org/entity/Q839124",
@@ -40215,6 +40244,18 @@
    "father": "http://www.wikidata.org/entity/Q11476823",
    "via": "P40",
    "fatherLabel": "島津重年"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7813722",
+   "father": "http://www.wikidata.org/entity/Q11490290",
+   "via": "P40",
+   "fatherLabel": "徳川治済"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8513830",
+   "father": "http://www.wikidata.org/entity/Q1069843",
+   "via": "P22",
+   "fatherLabel": "加藤清正"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8513836",
@@ -40811,12 +40852,6 @@
    "fatherLabel": "佐竹義堅"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8514468",
-   "father": "http://www.wikidata.org/entity/Q847002",
-   "via": "P22",
-   "fatherLabel": "佐竹義敦"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q8513952",
    "father": "http://www.wikidata.org/entity/Q141655389",
    "via": "P40",
@@ -40853,16 +40888,16 @@
    "fatherLabel": "伊達綱宗"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8514468",
-   "father": "http://www.wikidata.org/entity/Q847002",
-   "via": "P40",
-   "fatherLabel": "佐竹義敦"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q8514046",
    "father": "http://www.wikidata.org/entity/Q909763",
    "via": "P40",
    "fatherLabel": "丹羽長重"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8513830",
+   "father": "http://www.wikidata.org/entity/Q1069843",
+   "via": "P40",
+   "fatherLabel": "加藤清正"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8514131",
@@ -41417,6 +41452,12 @@
    "fatherLabel": "南部信浄"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q8514468",
+   "father": "http://www.wikidata.org/entity/Q847002",
+   "via": "P22",
+   "fatherLabel": "佐竹義敦"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q8514473",
    "father": "http://www.wikidata.org/entity/Q11383441",
    "via": "P22",
@@ -42011,10 +42052,70 @@
    "fatherLabel": "松平信之"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8515043",
-   "father": "http://www.wikidata.org/entity/Q8515055",
-   "via": "P22",
-   "fatherLabel": "松平信行"
+   "person": "http://www.wikidata.org/entity/Q8514867",
+   "father": "http://www.wikidata.org/entity/Q11423540",
+   "via": "P40",
+   "fatherLabel": "土方雄久"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514861",
+   "father": "http://www.wikidata.org/entity/Q11427645",
+   "via": "P40",
+   "fatherLabel": "堀田正直"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514827",
+   "father": "http://www.wikidata.org/entity/Q11427649",
+   "via": "P40",
+   "fatherLabel": "堀田正誠"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514897",
+   "father": "http://www.wikidata.org/entity/Q11437715",
+   "via": "P40",
+   "fatherLabel": "大炊御門家孝"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514851",
+   "father": "http://www.wikidata.org/entity/Q11474311",
+   "via": "P40",
+   "fatherLabel": "岩城景隆"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514544",
+   "father": "http://www.wikidata.org/entity/Q11474331",
+   "via": "P40",
+   "fatherLabel": "岩城貞隆"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514611",
+   "father": "http://www.wikidata.org/entity/Q11582501",
+   "via": "P40",
+   "fatherLabel": "相馬徳胤"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514715",
+   "father": "http://www.wikidata.org/entity/Q11608311",
+   "via": "P40",
+   "fatherLabel": "織田信栄"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514503",
+   "father": "http://www.wikidata.org/entity/Q109183432",
+   "via": "P40",
+   "fatherLabel": "佐竹義恭"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514697",
+   "father": "http://www.wikidata.org/entity/Q111191156",
+   "via": "P40",
+   "fatherLabel": "荒木高村"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8514468",
+   "father": "http://www.wikidata.org/entity/Q847002",
+   "via": "P40",
+   "fatherLabel": "佐竹義敦"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8514797",
@@ -42425,12 +42526,6 @@
    "fatherLabel": "松平信志"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8515043",
-   "father": "http://www.wikidata.org/entity/Q8515055",
-   "via": "P40",
-   "fatherLabel": "松平信行"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q8515016",
    "father": "http://www.wikidata.org/entity/Q8515086",
    "via": "P40",
@@ -42557,64 +42652,10 @@
    "fatherLabel": "土岐定義"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8514867",
-   "father": "http://www.wikidata.org/entity/Q11423540",
-   "via": "P40",
-   "fatherLabel": "土方雄久"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514861",
-   "father": "http://www.wikidata.org/entity/Q11427645",
-   "via": "P40",
-   "fatherLabel": "堀田正直"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514827",
-   "father": "http://www.wikidata.org/entity/Q11427649",
-   "via": "P40",
-   "fatherLabel": "堀田正誠"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514897",
-   "father": "http://www.wikidata.org/entity/Q11437715",
-   "via": "P40",
-   "fatherLabel": "大炊御門家孝"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514851",
-   "father": "http://www.wikidata.org/entity/Q11474311",
-   "via": "P40",
-   "fatherLabel": "岩城景隆"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514544",
-   "father": "http://www.wikidata.org/entity/Q11474331",
-   "via": "P40",
-   "fatherLabel": "岩城貞隆"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514611",
-   "father": "http://www.wikidata.org/entity/Q11582501",
-   "via": "P40",
-   "fatherLabel": "相馬徳胤"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514715",
-   "father": "http://www.wikidata.org/entity/Q11608311",
-   "via": "P40",
-   "fatherLabel": "織田信栄"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514503",
-   "father": "http://www.wikidata.org/entity/Q109183432",
-   "via": "P40",
-   "fatherLabel": "佐竹義恭"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8514697",
-   "father": "http://www.wikidata.org/entity/Q111191156",
-   "via": "P40",
-   "fatherLabel": "荒木高村"
+   "person": "http://www.wikidata.org/entity/Q8515043",
+   "father": "http://www.wikidata.org/entity/Q8515055",
+   "via": "P22",
+   "fatherLabel": "松平信行"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8515052",
@@ -43211,10 +43252,40 @@
    "fatherLabel": "板倉勝里"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8516025",
-   "father": "http://www.wikidata.org/entity/Q8516028",
-   "via": "P22",
-   "fatherLabel": "本多忠知"
+   "person": "http://www.wikidata.org/entity/Q8515279",
+   "father": "http://www.wikidata.org/entity/Q141655382",
+   "via": "P40",
+   "fatherLabel": "秋元貞朝"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8515285",
+   "father": "http://www.wikidata.org/entity/Q141655383",
+   "via": "P40",
+   "fatherLabel": "上田義当"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8515454",
+   "father": "http://www.wikidata.org/entity/Q141655387",
+   "via": "P40",
+   "fatherLabel": "神保元茂"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8515409",
+   "father": "http://www.wikidata.org/entity/Q141655391",
+   "via": "P40",
+   "fatherLabel": "板倉勝定"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8515956",
+   "father": "http://www.wikidata.org/entity/Q141734374",
+   "via": "P40",
+   "fatherLabel": "松平庸倫"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8515054",
+   "father": "http://www.wikidata.org/entity/Q141734375",
+   "via": "P40",
+   "fatherLabel": "松平庸孝"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8515448",
@@ -43383,6 +43454,12 @@
    "father": "http://www.wikidata.org/entity/Q8515054",
    "via": "P40",
    "fatherLabel": "松平信志"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8515043",
+   "father": "http://www.wikidata.org/entity/Q8515055",
+   "via": "P40",
+   "fatherLabel": "松平信行"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8515079",
@@ -43631,12 +43708,6 @@
    "fatherLabel": "酒井忠温"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q8516025",
-   "father": "http://www.wikidata.org/entity/Q8516028",
-   "via": "P40",
-   "fatherLabel": "本多忠知"
-  },
-  {
    "person": "http://www.wikidata.org/entity/Q8515516",
    "father": "http://www.wikidata.org/entity/Q8516028",
    "via": "P40",
@@ -43779,42 +43850,6 @@
    "father": "http://www.wikidata.org/entity/Q113244841",
    "via": "P40",
    "fatherLabel": "堀直行"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8515279",
-   "father": "http://www.wikidata.org/entity/Q141655382",
-   "via": "P40",
-   "fatherLabel": "秋元貞朝"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8515285",
-   "father": "http://www.wikidata.org/entity/Q141655383",
-   "via": "P40",
-   "fatherLabel": "上田義当"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8515454",
-   "father": "http://www.wikidata.org/entity/Q141655387",
-   "via": "P40",
-   "fatherLabel": "神保元茂"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8515409",
-   "father": "http://www.wikidata.org/entity/Q141655391",
-   "via": "P40",
-   "fatherLabel": "板倉勝定"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8515956",
-   "father": "http://www.wikidata.org/entity/Q141734374",
-   "via": "P40",
-   "fatherLabel": "松平庸倫"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q8515054",
-   "father": "http://www.wikidata.org/entity/Q141734375",
-   "via": "P40",
-   "fatherLabel": "松平庸孝"
   },
   {
    "person": "http://www.wikidata.org/entity/Q851776",
@@ -43893,6 +43928,12 @@
    "father": "http://www.wikidata.org/entity/Q843245",
    "via": "P22",
    "fatherLabel": "徳川光友"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8516025",
+   "father": "http://www.wikidata.org/entity/Q8516028",
+   "via": "P22",
+   "fatherLabel": "本多忠知"
   },
   {
    "person": "http://www.wikidata.org/entity/Q8516028",
@@ -43977,6 +44018,12 @@
    "father": "http://www.wikidata.org/entity/Q8515486",
    "via": "P40",
    "fatherLabel": "本多忠誠"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q8516025",
+   "father": "http://www.wikidata.org/entity/Q8516028",
+   "via": "P40",
+   "fatherLabel": "本多忠知"
   },
   {
    "person": "http://www.wikidata.org/entity/Q910241",
@@ -44105,10 +44152,22 @@
    "fatherLabel": "水野忠政"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q10565644",
+   "father": "http://www.wikidata.org/entity/Q10565520",
+   "via": "P22",
+   "fatherLabel": "水野忠実"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q10729328",
    "father": "http://www.wikidata.org/entity/Q10729360",
    "via": "P22",
    "fatherLabel": "松平好景"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q10729349",
+   "father": "http://www.wikidata.org/entity/Q10729350",
+   "via": "P22",
+   "fatherLabel": "真田幸貫"
   },
   {
    "person": "http://www.wikidata.org/entity/Q10729357",
@@ -44555,10 +44614,22 @@
    "fatherLabel": "阿部定吉"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q10565644",
+   "father": "http://www.wikidata.org/entity/Q10565520",
+   "via": "P40",
+   "fatherLabel": "水野忠実"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q10729357",
    "father": "http://www.wikidata.org/entity/Q10565593",
    "via": "P40",
    "fatherLabel": "松平勝政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q10729349",
+   "father": "http://www.wikidata.org/entity/Q10729350",
+   "via": "P40",
+   "fatherLabel": "真田幸貫"
   },
   {
    "person": "http://www.wikidata.org/entity/Q10729328",
@@ -46421,6 +46492,12 @@
    "fatherLabel": "酒井忠温"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11644228",
+   "father": "http://www.wikidata.org/entity/Q141924039",
+   "via": "P22",
+   "fatherLabel": "酒井重秋"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11644669",
    "father": "http://www.wikidata.org/entity/Q5366204",
    "via": "P22",
@@ -46437,6 +46514,12 @@
    "father": "http://www.wikidata.org/entity/Q11655794",
    "via": "P22",
    "fatherLabel": "関成政"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q128865374",
+   "father": "http://www.wikidata.org/entity/Q7079826",
+   "via": "P22",
+   "fatherLabel": "小笠原常春"
   },
   {
    "person": "http://www.wikidata.org/entity/Q128865475",
@@ -46679,6 +46762,12 @@
    "fatherLabel": "西尾忠善"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q128865374",
+   "father": "http://www.wikidata.org/entity/Q7079826",
+   "via": "P40",
+   "fatherLabel": "小笠原常春"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11644140",
    "father": "http://www.wikidata.org/entity/Q7402768",
    "via": "P40",
@@ -46919,10 +47008,22 @@
    "fatherLabel": "京極高教"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11644228",
+   "father": "http://www.wikidata.org/entity/Q141924039",
+   "via": "P40",
+   "fatherLabel": "酒井重秋"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q141734424",
    "father": "http://www.wikidata.org/entity/Q10565532",
    "via": "P22",
    "fatherLabel": "水野忠成"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141734449",
+   "father": "http://www.wikidata.org/entity/Q11483744",
+   "via": "P22",
+   "fatherLabel": "平野長純"
   },
   {
    "person": "http://www.wikidata.org/entity/Q141740100",
@@ -47037,6 +47138,12 @@
    "father": "http://www.wikidata.org/entity/Q11437892",
    "via": "P40",
    "fatherLabel": "大田原政清"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141734449",
+   "father": "http://www.wikidata.org/entity/Q11483744",
+   "via": "P40",
+   "fatherLabel": "平野長純"
   },
   {
    "person": "http://www.wikidata.org/entity/Q141740100",
@@ -47403,6 +47510,12 @@
    "father": "http://www.wikidata.org/entity/Q8515117",
    "via": "P22",
    "fatherLabel": "松平康信"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q17230066",
+   "father": "http://www.wikidata.org/entity/Q17192976",
+   "via": "P22",
+   "fatherLabel": "石川総昌"
   },
   {
    "person": "http://www.wikidata.org/entity/Q18235826",
@@ -47801,6 +47914,12 @@
    "fatherLabel": "黒田職隆"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q17230066",
+   "father": "http://www.wikidata.org/entity/Q17192976",
+   "via": "P40",
+   "fatherLabel": "石川総昌"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q771609",
    "father": "http://www.wikidata.org/entity/Q55525342",
    "via": "P40",
@@ -47957,6 +48076,12 @@
    "fatherLabel": "阿部定時"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q10565593",
+   "father": "http://www.wikidata.org/entity/Q10565616",
+   "via": "P22",
+   "fatherLabel": "水野忠分"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q10860026",
    "father": "http://www.wikidata.org/entity/Q56886224",
    "via": "P22",
@@ -48021,6 +48146,12 @@
    "father": "http://www.wikidata.org/entity/Q11605848",
    "via": "P22",
    "fatherLabel": "細川元有"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11364232",
+   "father": "http://www.wikidata.org/entity/Q11364220",
+   "via": "P22",
+   "fatherLabel": "中山照守"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11368676",
@@ -48113,6 +48244,12 @@
    "fatherLabel": "岡部親綱"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11483744",
+   "father": "http://www.wikidata.org/entity/Q11483748",
+   "via": "P22",
+   "fatherLabel": "平野長里"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11495733",
    "father": "http://www.wikidata.org/entity/Q11495754",
    "via": "P22",
@@ -48183,12 +48320,6 @@
    "father": "http://www.wikidata.org/entity/Q11595124",
    "via": "P22",
    "fatherLabel": "秋月種時"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11598199",
-   "father": "http://www.wikidata.org/entity/Q11598163",
-   "via": "P22",
-   "fatherLabel": "立花忠茂"
   },
   {
    "person": "http://www.wikidata.org/entity/Q106702997",
@@ -48365,6 +48496,12 @@
    "fatherLabel": "阿部正春"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q10565593",
+   "father": "http://www.wikidata.org/entity/Q10565616",
+   "via": "P40",
+   "fatherLabel": "水野忠分"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q110307965",
    "father": "http://www.wikidata.org/entity/Q10729357",
    "via": "P40",
@@ -48443,6 +48580,12 @@
    "fatherLabel": "一色直氏"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11364232",
+   "father": "http://www.wikidata.org/entity/Q11364220",
+   "via": "P40",
+   "fatherLabel": "中山照守"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11374478",
    "father": "http://www.wikidata.org/entity/Q11374418",
    "via": "P40",
@@ -48515,6 +48658,12 @@
    "fatherLabel": "岡部親綱"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11483744",
+   "father": "http://www.wikidata.org/entity/Q11483748",
+   "via": "P40",
+   "fatherLabel": "平野長里"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11510649",
    "father": "http://www.wikidata.org/entity/Q11485463",
    "via": "P40",
@@ -48567,12 +48716,6 @@
    "father": "http://www.wikidata.org/entity/Q11595124",
    "via": "P40",
    "fatherLabel": "秋月種時"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11598199",
-   "father": "http://www.wikidata.org/entity/Q11598163",
-   "via": "P40",
-   "fatherLabel": "立花忠茂"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11356604",
@@ -48743,6 +48886,324 @@
    "fatherLabel": "金森可重"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q636998",
+   "father": "http://www.wikidata.org/entity/Q11593158",
+   "via": "P22",
+   "fatherLabel": "福島正成"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q842016",
+   "father": "http://www.wikidata.org/entity/Q5368466",
+   "via": "P22",
+   "fatherLabel": "蒲生定秀"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q859795",
+   "father": "http://www.wikidata.org/entity/Q1156545",
+   "via": "P22",
+   "fatherLabel": "毛利元就"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q907127",
+   "father": "http://www.wikidata.org/entity/Q10859957",
+   "via": "P22",
+   "fatherLabel": "小笠原長棟"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q943643",
+   "father": "http://www.wikidata.org/entity/Q1348386",
+   "via": "P22",
+   "fatherLabel": "北条氏綱"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q1188498",
+   "father": "http://www.wikidata.org/entity/Q106680332",
+   "via": "P22",
+   "fatherLabel": "水野清忠"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q1201825",
+   "father": "http://www.wikidata.org/entity/Q11625681",
+   "via": "P22",
+   "fatherLabel": "蜂須賀正利"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q2102247",
+   "father": "http://www.wikidata.org/entity/Q11651869",
+   "via": "P22",
+   "fatherLabel": "長尾景隆"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q2367308",
+   "father": "http://www.wikidata.org/entity/Q7496850",
+   "via": "P22",
+   "fatherLabel": "島津忠良"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q3387863",
+   "father": "http://www.wikidata.org/entity/Q3100078",
+   "via": "P22",
+   "fatherLabel": "今川氏真"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q4761544",
+   "father": "http://www.wikidata.org/entity/Q11450824",
+   "via": "P22",
+   "fatherLabel": "安東尋季"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q5227524",
+   "father": "http://www.wikidata.org/entity/Q5227551",
+   "via": "P22",
+   "fatherLabel": "伊達稙宗"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q5366204",
+   "father": "http://www.wikidata.org/entity/Q11644642",
+   "via": "P22",
+   "fatherLabel": "里見実堯"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6529334",
+   "father": "http://www.wikidata.org/entity/Q6529278",
+   "via": "P22",
+   "fatherLabel": "池田政武 (福本池田家2代)"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q6606038",
+   "father": "http://www.wikidata.org/entity/Q6606060",
+   "via": "P22",
+   "fatherLabel": "下間頼慶"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7079826",
+   "father": "http://www.wikidata.org/entity/Q27920574",
+   "via": "P22",
+   "fatherLabel": "小笠原直経"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7140688",
+   "father": "http://www.wikidata.org/entity/Q3072072",
+   "via": "P22",
+   "fatherLabel": "鷹司信尚"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7496850",
+   "father": "http://www.wikidata.org/entity/Q11246559",
+   "via": "P22",
+   "fatherLabel": "島津善久"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7559099",
+   "father": "http://www.wikidata.org/entity/Q11582547",
+   "via": "P22",
+   "fatherLabel": "相馬顕胤"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11598199",
+   "father": "http://www.wikidata.org/entity/Q11598163",
+   "via": "P22",
+   "fatherLabel": "立花忠茂"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11604298",
+   "father": "http://www.wikidata.org/entity/Q11604289",
+   "via": "P22",
+   "fatherLabel": "米津政信"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608277",
+   "father": "http://www.wikidata.org/entity/Q11608386",
+   "via": "P22",
+   "fatherLabel": "織田敏定"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608277",
+   "father": "http://www.wikidata.org/entity/Q11608420",
+   "via": "P22",
+   "fatherLabel": "織田良信"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11608449",
+   "father": "http://www.wikidata.org/entity/Q11608471",
+   "via": "P22",
+   "fatherLabel": "織田高長"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11619293",
+   "father": "http://www.wikidata.org/entity/Q106680492",
+   "via": "P22",
+   "fatherLabel": "菅沼定忠 (菅沼定信の子)"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11619293",
+   "father": "http://www.wikidata.org/entity/Q106680510",
+   "via": "P22",
+   "fatherLabel": "菅沼定成 (菅沼定忠の子)"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11629683",
+   "father": "http://www.wikidata.org/entity/Q11629677",
+   "via": "P22",
+   "fatherLabel": "西郷正勝"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11636811",
+   "father": "http://www.wikidata.org/entity/Q11636786",
+   "via": "P22",
+   "fatherLabel": "足利政氏"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11642967",
+   "father": "http://www.wikidata.org/entity/Q11642926",
+   "via": "P22",
+   "fatherLabel": "那須政資"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11650659",
+   "father": "http://www.wikidata.org/entity/Q11650658",
+   "via": "P22",
+   "fatherLabel": "鍋島清久"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11655794",
+   "father": "http://www.wikidata.org/entity/Q11655797",
+   "via": "P22",
+   "fatherLabel": "関成重"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678682",
+   "father": "http://www.wikidata.org/entity/Q11678698",
+   "via": "P22",
+   "fatherLabel": "黒田重隆"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11678682",
+   "father": "http://www.wikidata.org/entity/Q17216220",
+   "via": "P22",
+   "fatherLabel": "小寺則職"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q17192964",
+   "father": "http://www.wikidata.org/entity/Q17192965",
+   "via": "P22",
+   "fatherLabel": "石川親康"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q17192976",
+   "father": "http://www.wikidata.org/entity/Q17192971",
+   "via": "P22",
+   "fatherLabel": "石川総氏"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q20042364",
+   "father": "http://www.wikidata.org/entity/Q110069083",
+   "via": "P22",
+   "fatherLabel": "林通忠"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q57887765",
+   "father": "http://www.wikidata.org/entity/Q60986486",
+   "via": "P22",
+   "fatherLabel": "宇津忠与"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q57887779",
+   "father": "http://www.wikidata.org/entity/Q135409377",
+   "via": "P22",
+   "fatherLabel": "青山長光"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q58139879",
+   "father": "http://www.wikidata.org/entity/Q10517111",
+   "via": "P22",
+   "fatherLabel": "内藤義清"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q128865478",
+   "father": "http://www.wikidata.org/entity/Q128865484",
+   "via": "P22",
+   "fatherLabel": "松平康納"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q129424183",
+   "father": "http://www.wikidata.org/entity/Q10791131",
+   "via": "P22",
+   "fatherLabel": "松平康重"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q133807730",
+   "father": "http://www.wikidata.org/entity/Q1133680",
+   "via": "P22",
+   "fatherLabel": "徳川頼房"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q135227855",
+   "father": "http://www.wikidata.org/entity/Q11520007",
+   "via": "P22",
+   "fatherLabel": "本多忠利 (岡崎藩主)"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q135236374",
+   "father": "http://www.wikidata.org/entity/Q11384947",
+   "via": "P22",
+   "fatherLabel": "佐野信吉"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q136533607",
+   "father": "http://www.wikidata.org/entity/Q11635707",
+   "via": "P22",
+   "fatherLabel": "赤松氏満"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q138762701",
+   "father": "http://www.wikidata.org/entity/Q115587141",
+   "via": "P22",
+   "fatherLabel": "松平康親"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q138843834",
+   "father": "http://www.wikidata.org/entity/Q10525069",
+   "via": "P22",
+   "fatherLabel": "三浦正次"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141661268",
+   "father": "http://www.wikidata.org/entity/Q11529311",
+   "via": "P22",
+   "fatherLabel": "松前忠広"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141679137",
+   "father": "http://www.wikidata.org/entity/Q60229884",
+   "via": "P22",
+   "fatherLabel": "高木貞利"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141733259",
+   "father": "http://www.wikidata.org/entity/Q11374483",
+   "via": "P22",
+   "fatherLabel": "京極高矩"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141794547",
+   "father": "http://www.wikidata.org/entity/Q11605979",
+   "via": "P22",
+   "fatherLabel": "細川興文"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141794650",
+   "father": "http://www.wikidata.org/entity/Q11451587",
+   "via": "P22",
+   "fatherLabel": "安部信友"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141924039",
+   "father": "http://www.wikidata.org/entity/Q141924102",
+   "via": "P22",
+   "fatherLabel": "酒井忠崇"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11636811",
    "father": "http://www.wikidata.org/entity/Q536313",
    "via": "P40",
@@ -48887,6 +49348,12 @@
    "fatherLabel": "福島正成"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11598199",
+   "father": "http://www.wikidata.org/entity/Q11598163",
+   "via": "P40",
+   "fatherLabel": "立花忠茂"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11604298",
    "father": "http://www.wikidata.org/entity/Q11604289",
    "via": "P40",
@@ -48983,10 +49450,22 @@
    "fatherLabel": "石川親康"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q17192976",
+   "father": "http://www.wikidata.org/entity/Q17192971",
+   "via": "P40",
+   "fatherLabel": "石川総氏"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11678682",
    "father": "http://www.wikidata.org/entity/Q17216220",
    "via": "P40",
    "fatherLabel": "小寺則職"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q7079826",
+   "father": "http://www.wikidata.org/entity/Q27920574",
+   "via": "P40",
+   "fatherLabel": "小笠原直経"
   },
   {
    "person": "http://www.wikidata.org/entity/Q141679137",
@@ -49049,298 +49528,10 @@
    "fatherLabel": "青山長光"
   },
   {
-   "person": "http://www.wikidata.org/entity/Q636998",
-   "father": "http://www.wikidata.org/entity/Q11593158",
-   "via": "P22",
-   "fatherLabel": "福島正成"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q842016",
-   "father": "http://www.wikidata.org/entity/Q5368466",
-   "via": "P22",
-   "fatherLabel": "蒲生定秀"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q859795",
-   "father": "http://www.wikidata.org/entity/Q1156545",
-   "via": "P22",
-   "fatherLabel": "毛利元就"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q907127",
-   "father": "http://www.wikidata.org/entity/Q10859957",
-   "via": "P22",
-   "fatherLabel": "小笠原長棟"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q943643",
-   "father": "http://www.wikidata.org/entity/Q1348386",
-   "via": "P22",
-   "fatherLabel": "北条氏綱"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q1188498",
-   "father": "http://www.wikidata.org/entity/Q106680332",
-   "via": "P22",
-   "fatherLabel": "水野清忠"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q1201825",
-   "father": "http://www.wikidata.org/entity/Q11625681",
-   "via": "P22",
-   "fatherLabel": "蜂須賀正利"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q2102247",
-   "father": "http://www.wikidata.org/entity/Q11651869",
-   "via": "P22",
-   "fatherLabel": "長尾景隆"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q2367308",
-   "father": "http://www.wikidata.org/entity/Q7496850",
-   "via": "P22",
-   "fatherLabel": "島津忠良"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q3387863",
-   "father": "http://www.wikidata.org/entity/Q3100078",
-   "via": "P22",
-   "fatherLabel": "今川氏真"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q4761544",
-   "father": "http://www.wikidata.org/entity/Q11450824",
-   "via": "P22",
-   "fatherLabel": "安東尋季"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q5227524",
-   "father": "http://www.wikidata.org/entity/Q5227551",
-   "via": "P22",
-   "fatherLabel": "伊達稙宗"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q5366204",
-   "father": "http://www.wikidata.org/entity/Q11644642",
-   "via": "P22",
-   "fatherLabel": "里見実堯"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6529334",
-   "father": "http://www.wikidata.org/entity/Q6529278",
-   "via": "P22",
-   "fatherLabel": "池田政武 (福本池田家2代)"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q6606038",
-   "father": "http://www.wikidata.org/entity/Q6606060",
-   "via": "P22",
-   "fatherLabel": "下間頼慶"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7140688",
-   "father": "http://www.wikidata.org/entity/Q3072072",
-   "via": "P22",
-   "fatherLabel": "鷹司信尚"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7496850",
-   "father": "http://www.wikidata.org/entity/Q11246559",
-   "via": "P22",
-   "fatherLabel": "島津善久"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q7559099",
-   "father": "http://www.wikidata.org/entity/Q11582547",
-   "via": "P22",
-   "fatherLabel": "相馬顕胤"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11604298",
-   "father": "http://www.wikidata.org/entity/Q11604289",
-   "via": "P22",
-   "fatherLabel": "米津政信"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608277",
-   "father": "http://www.wikidata.org/entity/Q11608386",
-   "via": "P22",
-   "fatherLabel": "織田敏定"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608277",
-   "father": "http://www.wikidata.org/entity/Q11608420",
-   "via": "P22",
-   "fatherLabel": "織田良信"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11608449",
-   "father": "http://www.wikidata.org/entity/Q11608471",
-   "via": "P22",
-   "fatherLabel": "織田高長"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11619293",
-   "father": "http://www.wikidata.org/entity/Q106680492",
-   "via": "P22",
-   "fatherLabel": "菅沼定忠 (菅沼定信の子)"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11619293",
-   "father": "http://www.wikidata.org/entity/Q106680510",
-   "via": "P22",
-   "fatherLabel": "菅沼定成 (菅沼定忠の子)"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11629683",
-   "father": "http://www.wikidata.org/entity/Q11629677",
-   "via": "P22",
-   "fatherLabel": "西郷正勝"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11636811",
-   "father": "http://www.wikidata.org/entity/Q11636786",
-   "via": "P22",
-   "fatherLabel": "足利政氏"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11642967",
-   "father": "http://www.wikidata.org/entity/Q11642926",
-   "via": "P22",
-   "fatherLabel": "那須政資"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11650659",
-   "father": "http://www.wikidata.org/entity/Q11650658",
-   "via": "P22",
-   "fatherLabel": "鍋島清久"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11655794",
-   "father": "http://www.wikidata.org/entity/Q11655797",
-   "via": "P22",
-   "fatherLabel": "関成重"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678682",
-   "father": "http://www.wikidata.org/entity/Q11678698",
-   "via": "P22",
-   "fatherLabel": "黒田重隆"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q11678682",
-   "father": "http://www.wikidata.org/entity/Q17216220",
-   "via": "P22",
-   "fatherLabel": "小寺則職"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q17192964",
-   "father": "http://www.wikidata.org/entity/Q17192965",
-   "via": "P22",
-   "fatherLabel": "石川親康"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q20042364",
-   "father": "http://www.wikidata.org/entity/Q110069083",
-   "via": "P22",
-   "fatherLabel": "林通忠"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q57887765",
-   "father": "http://www.wikidata.org/entity/Q60986486",
-   "via": "P22",
-   "fatherLabel": "宇津忠与"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q57887779",
-   "father": "http://www.wikidata.org/entity/Q135409377",
-   "via": "P22",
-   "fatherLabel": "青山長光"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q58139879",
-   "father": "http://www.wikidata.org/entity/Q10517111",
-   "via": "P22",
-   "fatherLabel": "内藤義清"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q128865478",
-   "father": "http://www.wikidata.org/entity/Q128865484",
-   "via": "P22",
-   "fatherLabel": "松平康納"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q129424183",
-   "father": "http://www.wikidata.org/entity/Q10791131",
-   "via": "P22",
-   "fatherLabel": "松平康重"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q133807730",
-   "father": "http://www.wikidata.org/entity/Q1133680",
-   "via": "P22",
-   "fatherLabel": "徳川頼房"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q135227855",
-   "father": "http://www.wikidata.org/entity/Q11520007",
-   "via": "P22",
-   "fatherLabel": "本多忠利 (岡崎藩主)"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q135236374",
-   "father": "http://www.wikidata.org/entity/Q11384947",
-   "via": "P22",
-   "fatherLabel": "佐野信吉"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q136533607",
-   "father": "http://www.wikidata.org/entity/Q11635707",
-   "via": "P22",
-   "fatherLabel": "赤松氏満"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q138762701",
-   "father": "http://www.wikidata.org/entity/Q115587141",
-   "via": "P22",
-   "fatherLabel": "松平康親"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q138843834",
-   "father": "http://www.wikidata.org/entity/Q10525069",
-   "via": "P22",
-   "fatherLabel": "三浦正次"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q141661268",
-   "father": "http://www.wikidata.org/entity/Q11529311",
-   "via": "P22",
-   "fatherLabel": "松前忠広"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q141679137",
-   "father": "http://www.wikidata.org/entity/Q60229884",
-   "via": "P22",
-   "fatherLabel": "高木貞利"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q141733259",
-   "father": "http://www.wikidata.org/entity/Q11374483",
-   "via": "P22",
-   "fatherLabel": "京極高矩"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q141794547",
-   "father": "http://www.wikidata.org/entity/Q11605979",
-   "via": "P22",
-   "fatherLabel": "細川興文"
-  },
-  {
-   "person": "http://www.wikidata.org/entity/Q141794650",
-   "father": "http://www.wikidata.org/entity/Q11451587",
-   "via": "P22",
-   "fatherLabel": "安部信友"
+   "person": "http://www.wikidata.org/entity/Q141924039",
+   "father": "http://www.wikidata.org/entity/Q141924102",
+   "via": "P40",
+   "fatherLabel": "酒井忠崇"
   },
   {
    "person": "http://www.wikidata.org/entity/Q536313",
@@ -49451,6 +49642,12 @@
    "fatherLabel": "一色範氏"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11364220",
+   "father": "http://www.wikidata.org/entity/Q11364136",
+   "via": "P22",
+   "fatherLabel": "中山家範"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11374418",
    "father": "http://www.wikidata.org/entity/Q11374424",
    "via": "P22",
@@ -49491,6 +49688,12 @@
    "father": "http://www.wikidata.org/entity/Q11450828",
    "via": "P22",
    "fatherLabel": "安東忠季"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11483748",
+   "father": "http://www.wikidata.org/entity/Q11394306",
+   "via": "P22",
+   "fatherLabel": "内田正偏"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11485463",
@@ -49617,6 +49820,12 @@
    "father": "http://www.wikidata.org/entity/Q17192979",
    "via": "P22",
    "fatherLabel": "石川政康"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q17192971",
+   "father": "http://www.wikidata.org/entity/Q11585808",
+   "via": "P22",
+   "fatherLabel": "石川忠総"
   },
   {
    "person": "http://www.wikidata.org/entity/Q17216220",
@@ -49769,6 +49978,12 @@
    "fatherLabel": "康雄 松平"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q141924102",
+   "father": "http://www.wikidata.org/entity/Q11644018",
+   "via": "P22",
+   "fatherLabel": "酒井了次"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q536313",
    "father": "http://www.wikidata.org/entity/Q466281",
    "via": "P40",
@@ -49895,6 +50110,12 @@
    "fatherLabel": "三木直頼"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11364220",
+   "father": "http://www.wikidata.org/entity/Q11364136",
+   "via": "P40",
+   "fatherLabel": "中山家範"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11374418",
    "father": "http://www.wikidata.org/entity/Q11374424",
    "via": "P40",
@@ -49905,6 +50126,12 @@
    "father": "http://www.wikidata.org/entity/Q11383467",
    "via": "P40",
    "fatherLabel": "佐竹義舜"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11483748",
+   "father": "http://www.wikidata.org/entity/Q11394306",
+   "via": "P40",
+   "fatherLabel": "内田正偏"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11414262",
@@ -49961,6 +50188,12 @@
    "fatherLabel": "相馬盛胤"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q17192971",
+   "father": "http://www.wikidata.org/entity/Q11585808",
+   "via": "P40",
+   "fatherLabel": "石川忠総"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11608386",
    "father": "http://www.wikidata.org/entity/Q11608249",
    "via": "P40",
@@ -49995,6 +50228,12 @@
    "father": "http://www.wikidata.org/entity/Q11642960",
    "via": "P40",
    "fatherLabel": "那須資房"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q141924102",
+   "father": "http://www.wikidata.org/entity/Q11644018",
+   "via": "P40",
+   "fatherLabel": "酒井了次"
   },
   {
    "person": "http://www.wikidata.org/entity/Q106702943",
@@ -50375,6 +50614,12 @@
    "fatherLabel": "那須資実"
   },
   {
+   "person": "http://www.wikidata.org/entity/Q11644018",
+   "father": "http://www.wikidata.org/entity/Q11644074",
+   "via": "P22",
+   "fatherLabel": "酒井家次"
+  },
+  {
    "person": "http://www.wikidata.org/entity/Q11644108",
    "father": "http://www.wikidata.org/entity/Q11644204",
    "via": "P22",
@@ -50679,6 +50924,12 @@
    "father": "http://www.wikidata.org/entity/Q11642957",
    "via": "P40",
    "fatherLabel": "那須資実"
+  },
+  {
+   "person": "http://www.wikidata.org/entity/Q11644018",
+   "father": "http://www.wikidata.org/entity/Q11644074",
+   "via": "P40",
+   "fatherLabel": "酒井家次"
   },
   {
    "person": "http://www.wikidata.org/entity/Q11644108",
