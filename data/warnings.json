@@ -2103,12 +2103,6 @@
  },
  {
   "level": "warn",
-  "kind": "province_multiple",
-  "subject": "Q3034400",
-  "message": "奥殿藩: 旧国が複数あり(信濃国・三河国)、城のある国を Wikidata から決められないため信濃国を仮に採っています(config.json の province_overrides で指定してください)"
- },
- {
-  "level": "warn",
   "kind": "tenure_no_start",
   "subject": "Q11636757",
   "message": "足利国朝: 喜連川藩主 の開始年がありません"

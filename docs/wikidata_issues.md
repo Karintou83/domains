@@ -6,7 +6,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 ## 目次
 
 - 旧国が決まらない(地方不明として表示)(24件)
-- 旧国が複数あり、城のある国を決められない(1件)
 - 座標が無く地図に出ない(126件)
 - 実父が2人以上いる(40件)
 - 藩主に実父(P22)が無い(131件)
@@ -52,12 +51,6 @@ Wikidata を直したあと、生データ(`data/raw/`)を消して `python scri
 - [阿保藩](https://www.wikidata.org/wiki/Q10863294) (Q10863294): 所在地 P131 なし
 - [高島藩](https://www.wikidata.org/wiki/Q16282184) (Q16282184): 所在地 P131 なし
 - [鴨方藩](https://www.wikidata.org/wiki/Q123110960) (Q123110960): 所在地 P131 なし
-
-## 旧国が複数あり、城のある国を決められない(1件)
-
-本部所在地(P159)の城・陣屋の所在地(P131)をたどって国に届くようにするか、config.json の province_overrides で指定します。
-
-- [奥殿藩](https://www.wikidata.org/wiki/Q3034400) (Q3034400): 旧国が複数あり(信濃国・三河国)、城のある国を Wikidata から決められないため信濃国を仮に採っています(config.json の province_overrides で指定してください)
 
 ## 座標が無く地図に出ない(126件)
 

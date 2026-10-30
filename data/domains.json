@@ -9850,13 +9850,10 @@
    "precision": "exact"
   },
   "province": {
-   "id": "Q289250",
-   "name": "信濃国"
+   "id": "Q768158",
+   "name": "三河国"
   },
-  "province_source": "wikidata_direct",
-  "province_property": [
-   "P131"
-  ],
+  "province_source": "config",
   "region": "東海・甲信",
   "wikipedia": "奥殿藩",
   "first_year": 1684,

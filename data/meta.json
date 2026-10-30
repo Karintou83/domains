@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T05:40:32+00:00",
+ "generated_at": "2026-10-30T05:47:14+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
   "domains": 496,
@@ -8,7 +8,7 @@
   "relations": 3784,
   "rulers": 3417,
   "warnings": {
-   "warn": 354,
+   "warn": 353,
    "info": 236
   }
  },
@@ -70,11 +70,11 @@
   }
  },
  "province_source": {
-  "wikidata_direct": 395,
+  "wikidata_direct": 394,
   "none": 24,
   "wikidata_p131": 29,
-  "config_district": 7,
-  "config": 41
+  "config": 42,
+  "config_district": 7
  },
  "clan_source": {
   "inferred_name": 2702,
