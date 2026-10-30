@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T05:47:14+00:00",
+ "generated_at": "2026-10-30T05:51:44+00:00",
  "source": "Wikidata (CC0). 日本語版Wikipediaへのリンクを出典として残す",
  "counts": {
   "domains": 496,
@@ -8,8 +8,8 @@
   "relations": 3784,
   "rulers": 3417,
   "warnings": {
-   "warn": 353,
-   "info": 236
+   "warn": 345,
+   "info": 246
   }
  },
  "regions": [

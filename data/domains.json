@@ -1374,8 +1374,8 @@
    "Q141657987"
   ],
   "coord": {
-   "lat": 39.7355,
-   "lon": 140.135,
+   "lat": 39.7235,
+   "lon": 140.123,
    "source": "branch_of",
    "source_item": "Q1067720",
    "source_label": "久保田藩",
@@ -3184,12 +3184,12 @@
    "Q141694062"
   ],
   "coord": {
-   "lat": 35.28517,
-   "lon": 140.24542,
-   "source": "P36",
-   "source_item": "Q1346191",
-   "source_label": "大多喜町",
-   "precision": "approx"
+   "lat": 35.2859,
+   "lon": 140.239,
+   "source": "branch_of",
+   "source_item": "Q3034420",
+   "source_label": "大多喜藩",
+   "precision": "branch"
   },
   "province": {
    "id": "Q1055394",
@@ -7813,8 +7813,8 @@
    "Q141663648"
   ],
   "coord": {
-   "lat": 35.68432,
-   "lon": 139.75039,
+   "lat": 35.68832,
+   "lon": 139.75439,
    "source": "seat_override",
    "source_item": "Q865913",
    "source_label": "江戸城",
@@ -8010,7 +8010,14 @@
   "back": [
    "Q141733635"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 34.40275,
+   "lon": 132.45903,
+   "source": "branch_of",
+   "source_item": "Q1141203",
+   "source_label": "広島藩",
+   "precision": "branch"
+  },
   "province": null,
   "province_source": null,
   "region": null,
@@ -8289,8 +8296,8 @@
    "Q141678738"
   ],
   "coord": {
-   "lat": 35.69232,
-   "lon": 139.75839,
+   "lat": 35.68832,
+   "lon": 139.75439,
    "source": "seat_override",
    "source_item": "Q865913",
    "source_label": "江戸城",
@@ -8316,8 +8323,8 @@
    "Q141663579"
   ],
   "coord": {
-   "lat": 35.69232,
-   "lon": 139.75039,
+   "lat": 35.68832,
+   "lon": 139.75439,
    "source": "seat_override",
    "source_item": "Q865913",
    "source_label": "江戸城",
@@ -8463,12 +8470,12 @@
    "Q141680178"
   ],
   "coord": {
-   "lat": 33.58333,
-   "lon": 131.15,
-   "source": "P131",
-   "source_item": "Q10867537",
-   "source_label": "上毛郡",
-   "precision": "approx"
+   "lat": 33.88444,
+   "lon": 130.87426,
+   "source": "branch_of",
+   "source_item": "Q1140943",
+   "source_label": "小倉藩",
+   "precision": "branch"
   },
   "province": {
    "id": "Q1047134",
@@ -8548,7 +8555,14 @@
   "back": [
    "Q141732928"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 33.56111,
+   "lon": 133.53139,
+   "source": "branch_of",
+   "source_item": "Q1189704",
+   "source_label": "土佐藩",
+   "precision": "branch"
+  },
   "province": null,
   "province_source": null,
   "region": null,
@@ -8565,7 +8579,14 @@
   "back": [
    "Q141680212"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 33.36868,
+   "lon": 129.55752,
+   "source": "branch_of",
+   "source_item": "Q3034453",
+   "source_label": "平戸藩",
+   "precision": "branch"
+  },
   "province": {
    "id": "Q906926",
    "name": "肥前国"
@@ -8588,7 +8609,14 @@
   "back": [
    "Q141680226"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 32.80606,
+   "lon": 130.70597,
+   "source": "branch_of",
+   "source_item": "Q1194248",
+   "source_label": "熊本藩",
+   "precision": "branch"
+  },
   "province": {
    "id": "Q259705",
    "name": "肥後国"
@@ -8666,12 +8694,12 @@
    "Q141733594"
   ],
   "coord": {
-   "lat": 35.45868,
-   "lon": 134.06387,
-   "source": "P36",
-   "source_item": "Q11677293",
-   "source_label": "鹿野城",
-   "precision": "approx"
+   "lat": 35.5074,
+   "lon": 134.24,
+   "source": "branch_of",
+   "source_item": "Q905521",
+   "source_label": "鳥取藩",
+   "precision": "branch"
   },
   "province": {
    "id": "Q1054338",
@@ -8713,8 +8741,8 @@
    "Q141661504"
   ],
   "coord": {
-   "lat": 37.14462,
-   "lon": 140.22558,
+   "lat": 37.13262,
+   "lon": 140.21358,
    "source": "branch_of",
    "source_item": "Q1067555",
    "source_label": "白河藩",
@@ -8740,8 +8768,8 @@
    "Q141658039"
   ],
   "coord": {
-   "lat": 37.9216,
-   "lon": 140.117,
+   "lat": 37.9096,
+   "lon": 140.105,
    "source": "branch_of",
    "source_item": "Q1037948",
    "source_label": "米沢藩",
@@ -8766,7 +8794,14 @@
   "back": [
    "Q141733819"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 35.27639,
+   "lon": 136.25167,
+   "source": "branch_of",
+   "source_item": "Q1062225",
+   "source_label": "彦根藩",
+   "precision": "branch"
+  },
   "province": null,
   "province_source": null,
   "region": null,
@@ -9017,7 +9052,14 @@
   "back": [
    "Q141732946"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 33.84554,
+   "lon": 132.76572,
+   "source": "branch_of",
+   "source_item": "Q1042087",
+   "source_label": "伊予松山藩",
+   "precision": "branch"
+  },
   "province": {
    "id": "Q907829",
    "name": "伊予国"
@@ -9040,7 +9082,14 @@
   "back": [
    "Q141733602"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 35.47498,
+   "lon": 133.05056,
+   "source": "branch_of",
+   "source_item": "Q1017072",
+   "source_label": "松江藩",
+   "precision": "branch"
+  },
   "province": {
    "id": "Q582846",
    "name": "出雲国"
@@ -9109,7 +9158,14 @@
   "back": [
    "Q141737726"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 35.5074,
+   "lon": 134.24,
+   "source": "branch_of",
+   "source_item": "Q905521",
+   "source_label": "鳥取藩",
+   "precision": "branch"
+  },
   "province": {
    "id": "Q1054338",
    "name": "因幡国"
@@ -9132,7 +9188,14 @@
   "back": [
    "Q141733594"
   ],
-  "coord": null,
+  "coord": {
+   "lat": 35.5074,
+   "lon": 134.24,
+   "source": "branch_of",
+   "source_item": "Q905521",
+   "source_label": "鳥取藩",
+   "precision": "branch"
+  },
   "province": {
    "id": "Q1054338",
    "name": "因幡国"

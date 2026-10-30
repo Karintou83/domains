@@ -571,19 +571,15 @@ def build():
         dom["coord"] = coord
 
     # config の seat_overrides: 藩としての所在地を持たない御三卿と江戸幕府(将軍)を、江戸城の位置に置く(ユーザーの判断)。
-    # Wikidata に座標があっても上書きする。同じ城に複数を置くとマーカーが完全に重なるので、2つ目以降は約400m ずつずらし、
+    # Wikidata に座標があっても上書きする。同じ城に複数を置くとマーカーが重なるが、地図で描くときに画面上でずらす(map.js)。
     # precision="seat_override" として画面でも「江戸城の位置に置いています」と示す。
     seat_rows = {qid(r["item"]): r for r in load("seat_overrides.json", [])}
-    on_seat = Counter()
     for d, ov in CONFIG.get("seat_overrides", {}).items():
         dom, sr = domains.get(d), seat_rows.get(ov["seat"])
         pt = parse_point((sr or {}).get("coord"))
         if not dom or not pt:
             continue
-        k = on_seat[ov["seat"]]
-        on_seat[ov["seat"]] += 1
-        dlat, dlon = [(0, 0), (0.004, -0.004), (-0.004, -0.004), (0.004, 0.004), (-0.004, 0.004)][k % 5]
-        dom["coord"] = {"lat": round(pt[0] + dlat, 5), "lon": round(pt[1] + dlon, 5), "source": "seat_override",
+        dom["coord"] = {"lat": round(pt[0], 5), "lon": round(pt[1], 5), "source": "seat_override",
                         "source_item": ov["seat"], "source_label": sr.get("itemLabel"), "precision": "seat_override"}
         warnings[:] = [w for w in warnings if not (w["kind"] in ("coord_missing", "coord_approx") and w["subject"] == d)]
         warn("info", "coord_seat_override", d, f"{dom['name']}: config.json の seat_overrides により {sr.get('itemLabel')} の位置に置いています")
@@ -685,22 +681,54 @@ def build():
             warn("warn", "district_bad_province", g, f"config.json の district_to_province: {v.get('name') or g} の旧国 "
                  f"{v.get('province')} が province_to_region にありません")
 
-    # 新田藩(固有の領地・陣屋を持たない分家藩)は、本藩の陣屋の近くに仮置きする(config.json の branch_domains)。
-    # 本藩と完全に同じ座標だと地図上でマーカーが重なって見えなくなるので、約1.3km ずつずらす。
-    # 位置の根拠が弱いので precision="branch" とし、画面上でも「本藩の陣屋付近に仮置き」と示す。
-    placed = Counter()
-    for d, parent in CONFIG.get("branch_domains", {}).items():
-        dom, par = domains.get(d), domains.get(parent)
-        if not dom or not par or not par.get("coord") or dom.get("coord"):
+    # 新田藩(多くは固有の陣屋を持たず、本藩の城下にいた分家藩)の座標は、便宜的に本藩と同じにする(ユーザーの判断)。
+    # 実際に陣屋があった場所ではないので Wikidata には入れず、ここでだけ決める。precision="branch" として画面でも
+    # 「本藩の座標を便宜的に使用」と示し、地図では本藩と重ならないよう、描くときに画面上で少しずらす(map.js)。
+    # 本藩の決め方:
+    #   1. config.json の branch_domains(名前に「新田」が入らない藩や、本藩の名前が違う藩)。Wikidata に座標があっても上書きする
+    #   2. 名前が「〇〇新田藩」なら「〇〇藩」(同名が複数あれば、同じ旧国の藩。伊予の松山新田藩 → 伊予松山藩 など)。
+    #      ただし本部所在地(P159)に陣屋が入っている藩は、陣屋が実在したとみなして合わせない(警告で知らせる)
+    by_stem = defaultdict(list)          # 「〇〇藩」の〇〇 → 藩(「伊予松山藩」は「松山」でも引けるように末尾一致も入れる)
+    for d, dom in domains.items():
+        nm = (dom["name"] or "")
+        if nm.endswith("藩") and "新田" not in nm:
+            by_stem[nm[:-1]].append(d)
+    stems = list(by_stem)
+
+    def find_parent(d, dom):
+        stem = (dom["name"] or "").removesuffix("新田藩")
+        cands = by_stem.get(stem, []) + [x for s_ in stems if s_ != stem and s_.endswith(stem) for x in by_stem[s_]]
+        prov = (dom.get("province") or {}).get("id")
+        same = [x for x in cands if (domains[x].get("province") or {}).get("id") == prov] if prov else []
+        pick = same or cands
+        return pick[0] if len(pick) == 1 else None, pick
+
+    branch_of = dict(CONFIG.get("branch_domains", {}))
+    for d, dom in domains.items():
+        if d in branch_of or not (dom["name"] or "").endswith("新田藩"):
             continue
-        k = placed[parent]
-        placed[parent] += 1
-        dlat, dlon = [(0.012, 0.012), (-0.012, 0.012), (0.012, -0.012), (-0.012, -0.012)][k % 4]
-        dom["coord"] = {"lat": round(par["coord"]["lat"] + dlat, 5), "lon": round(par["coord"]["lon"] + dlon, 5),
-                        "source": "branch_of", "source_item": parent, "source_label": par["name"],
-                        "precision": "branch"}
-        warnings[:] = [w for w in warnings if not (w["kind"] == "coord_missing" and w["subject"] == d)]
-        warn("info", "coord_branch", d, f"{dom['name']}: 固有の陣屋が無いため、本藩 {par['name']} の陣屋付近に仮置きしています")
+        parent, cands = find_parent(d, dom)
+        if not parent:
+            warn("warn", "branch_parent_unknown", d, f"{dom['name']}: 本藩を名前から決められません"
+                 + (f"(候補: {'・'.join(domains[x]['name'] for x in cands)})" if cands else "")
+                 + "。config.json の branch_domains で指定してください")
+            continue
+        if (dom.get("coord") or {}).get("source") in ("P159", "P159q"):
+            warn("info", "branch_own_seat", d, f"{dom['name']}: 本部所在地(P159)に陣屋 {dom['coord'].get('source_label')} があるため、"
+                 f"本藩 {domains[parent]['name']} の座標には合わせていません(合わせるなら config.json の branch_domains に指定)")
+            continue
+        branch_of[d] = parent
+    for d, parent in sorted(branch_of.items()):
+        dom, par = domains.get(d), domains.get(parent)
+        if not dom or not par:
+            continue
+        if not par.get("coord"):
+            warn("warn", "branch_parent_no_coord", d, f"{dom['name']}: 本藩 {par['name']} に座標が無いため、地図に出せません")
+            continue
+        dom["coord"] = {"lat": par["coord"]["lat"], "lon": par["coord"]["lon"], "source": "branch_of", "source_item": parent,
+                        "source_label": par["name"], "precision": "branch"}
+        warnings[:] = [w for w in warnings if not (w["kind"] in ("coord_missing", "coord_approx") and w["subject"] == d)]
+        warn("info", "coord_branch", d, f"{dom['name']}: 本藩 {par['name']} の座標を便宜的に使っています(陣屋の位置ではありません)")
 
     # ---------------- tenures ----------------
     p39 = [r for r in load("p39.json", []) if qid(r["pos"]) in pos_domain]

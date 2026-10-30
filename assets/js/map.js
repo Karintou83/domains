@@ -5,7 +5,7 @@
   const PRECISION_LABEL = {
     exact: "藩の所在地の座標(Wikidata P625 または 城・陣屋)",
     approx: "概略位置: 城・陣屋の座標が無いため、所在地の市町村・郡などの座標で代用しています(陣屋の位置ではありません)",
-    branch: "仮置き: 本藩の陣屋の近くに置いています(実際の位置ではありません)",
+    branch: "仮置き: 新田藩のため、本藩の座標を便宜的に使っています(陣屋の位置ではありません。地図では本藩の横に少しずらして描いています)",
     seat_override: "所在地を城に固定しています(config.json の seat_overrides)",
   };
   // 肖像マーカーの大きさ(px)を縮尺で変える。全国を見渡す縮尺で 44px のままだと重なり合って藩の位置も色も読めないが、
@@ -54,6 +54,42 @@
       m.bindTooltip(d.name, { direction: "top", offset: [0, -6] });
       markers.set(d.id, m);
     });
+
+    // 同じ座標の藩(本藩と新田藩、江戸城に置いた江戸幕府と御三卿)は、描くときに画面上で少しずらして並べる。
+    // データの座標はそのまま(新田藩は本藩と同じ座標)。縮尺によらず同じ見え方にするため、緯度経度ではなく画面のピクセルでずらす。
+    // 本藩(新田藩でない藩)を中心に置き、ほかをその周りの円周に並べる。
+    const shift = new Map();     // 藩ID → [並び順, 同じ座標の藩の数](中心は並び順 0)
+    (function groupSameCoord() {
+      const groups = new Map();
+      placeable.forEach((d) => {
+        const k = d.coord.lat + "," + d.coord.lon;
+        if (!groups.has(k)) groups.set(k, []);
+        groups.get(k).push(d);
+      });
+      groups.forEach((ds) => {
+        if (ds.length < 2) return;
+        // 中心: 新田藩・江戸城に置いた藩でないもの(無ければ先頭)。残りは名前順
+        ds.sort((a, b) => (a.coord.precision === "branch" || a.coord.precision === "seat_override") - (b.coord.precision === "branch" || b.coord.precision === "seat_override")
+                          || a.name.localeCompare(b.name, "ja"));
+        const hasCenter = ds[0].coord.precision !== "branch" && ds[0].coord.precision !== "seat_override";
+        ds.forEach((d, i) => shift.set(d.id, hasCenter ? [i, ds.length - 1] : [i + 1, ds.length]));
+      });
+    })();
+    function posOf(d) {
+      const ll = L.latLng(d.coord.lat, d.coord.lon);
+      const sh = shift.get(d.id);
+      if (!sh || sh[0] === 0) return ll;
+      const r = Math.max(14, faceSize(map.getZoom()) * 0.75);           // 肖像が大きいほど離す
+      const a = -Math.PI / 2 + (sh[0] - 1) * 2 * Math.PI / sh[1];        // 真上から時計回りに並べる
+      return map.layerPointToLatLng(map.latLngToLayerPoint(ll).add([r * Math.cos(a), r * Math.sin(a)]));
+    }
+    function placeShifted() {
+      shift.forEach((_, id) => {
+        const d = M.domains.get(id), m = markers.get(id), f = faces.get(id);
+        if (m) m.setLatLng(posOf(d));
+        if (f) f.setLatLng(posOf(d));
+      });
+    }
 
     function visible(d) { return !state.region || regionOf(d) === state.region; }
     // 表示中の地方の藩がすべて収まるように寄せる(全国なら日本全体)。
@@ -105,7 +141,7 @@
         if (f && map.hasLayer(f)) map.removeLayer(f);
         const icon = L.divIcon({ className: "face-icon", iconSize: [size, size], iconAnchor: [size / 2, size / 2],
           html: '<span style="background-image:url(\'' + thumb(lord) + '\');--c:' + color.border + ";--s:" + size + "px;--b:" + (size < 40 ? 2 : 3) + 'px"></span>' });
-        f = L.marker([d.coord.lat, d.coord.lon], { icon, keyboard: false, zIndexOffset: d.id === state.selected ? 1000 : 0 });
+        f = L.marker(posOf(d), { icon, keyboard: false, zIndexOffset: d.id === state.selected ? 1000 : 0 });
         f.on("click", () => select(d.id));
         f.bindTooltip(d.name + " " + lord.name, { direction: "top", offset: [0, -size / 2 - 2] });
         faces.set(d.id, f); faceKey.set(d.id, key);
@@ -150,7 +186,7 @@
         box.append(el("div", { class: "sub", text: state.year + "年の在任者はデータにありません" }));
       }
       box.append(el("div", {}, [el("a", { href: "tree.html?domain=" + encodeURIComponent(id), text: "家系図" })]));
-      L.popup({ offset: [0, -8], autoPan: true }).setLatLng([d.coord.lat, d.coord.lon]).setContent(box).openOn(map);
+      L.popup({ offset: [0, -8], autoPan: true }).setLatLng(posOf(d)).setContent(box).openOn(map);
     }
 
     function renderDetail(id) {
@@ -238,7 +274,10 @@
     });
     // 肖像の大きさが変わる拡大率をまたいだときだけ描き直す。毎回の zoomend で描き直すと、再生中に重くなるため。
     let lastFaces = null;
-    map.on("zoomend", () => { const k = faceSize(map.getZoom()); if (k !== lastFaces) { lastFaces = k; paint(); } });
+    map.on("zoomend", () => {
+      placeShifted();          // 画面上のずらし幅はピクセルなので、縮尺が変わるたびに置き直す
+      const k = faceSize(map.getZoom()); if (k !== lastFaces) { lastFaces = k; paint(); }
+    });
 
     // ---------- 全画面表示 ----------
     // 地図の枠(#mapWrap)ごと画面いっぱいにする。ブラウザの Fullscreen API を使い、使えない環境(iPhone の Safari など)では
@@ -370,6 +409,7 @@
     slider.value = state.year;
     renderMissing();
     lastFaces = faceSize(map.getZoom());
+    placeShifted();
     paint();
 
     // 肖像の先読み: 再生中に藩主が替わるたび画像を取りに行くと、表示が遅れる。
