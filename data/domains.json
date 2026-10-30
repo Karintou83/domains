@@ -8849,12 +8849,12 @@
    "Q141734612"
   ],
   "coord": {
-   "lat": 35.33658,
-   "lon": 134.39822,
-   "source": "P159",
-   "source_item": "Q11616557",
-   "source_label": "若桜鬼ヶ城",
-   "precision": "exact"
+   "lat": 35.5074,
+   "lon": 134.24,
+   "source": "branch_of",
+   "source_item": "Q905521",
+   "source_label": "鳥取藩",
+   "precision": "branch"
   },
   "province": {
    "id": "Q1054338",

@@ -2980,6 +2980,12 @@
  {
   "level": "info",
   "kind": "coord_branch",
+  "subject": "Q12832700",
+  "message": "若桜藩: 本藩 鳥取藩 の座標を便宜的に使っています(陣屋の位置ではありません)"
+ },
+ {
+  "level": "info",
+  "kind": "coord_branch",
   "subject": "Q141732887",
   "message": "松山新田藩: 本藩 伊予松山藩 の座標を便宜的に使っています(陣屋の位置ではありません)"
  },
